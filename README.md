@@ -105,8 +105,7 @@ Proyek ini dibuat menggunakan standar web modern murni (**HTML5, CSS3, ES Module
 ├── manifest.json            # PWA manifest untuk dukungan aplikasi mobile
 ├── README.md                # Panduan dokumentasi proyek & hosting
 ├── robots.txt               # Aturan pengindeksan mesin pencari (SEO)
-├── sitemap.xml              # Peta situs untuk Google / Bing
-└── vercel.json              # Konfigurasi rewrite & caching aset Vercel
+└── sitemap.xml              # Peta situs untuk Google / Bing
 ```
 
 ---
