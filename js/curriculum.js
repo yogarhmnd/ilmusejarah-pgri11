@@ -5,6 +5,8 @@
 
 import { CURRICULUM_DATA } from './curriculum-data.js';
 import { soundManager } from './audio.js';
+import { firebaseService } from './firebase-service.js';
+import { isFirebaseConfigured } from './firebase-config.js';
 
 export class CurriculumController {
   constructor(containerSelector, tabsContainerSelector, headerSelector) {
@@ -13,12 +15,28 @@ export class CurriculumController {
     this.headerBox = document.querySelector(headerSelector);
     this.currentGrade = 'kelas-x';
     this.activeReaderTab = 'materi';
+    this.curriculumData = { ...CURRICULUM_DATA };
+    this.firebaseSource = isFirebaseConfigured() ? 'connecting' : 'local';
     this.init();
   }
 
-  init() {
+  async init() {
     this.renderTabs();
     this.renderGradeModules();
+    await this.loadFirebaseData();
+  }
+
+  async loadFirebaseData() {
+    try {
+      const result = await firebaseService.getCurriculumData();
+      if (result && result.data) {
+        this.curriculumData = result.data;
+        this.firebaseSource = result.source;
+        this.renderGradeModules();
+      }
+    } catch (err) {
+      console.warn('Firebase data load fallback:', err);
+    }
   }
 
   renderTabs() {
@@ -54,11 +72,50 @@ export class CurriculumController {
   }
 
   renderGradeModules() {
-    const data = CURRICULUM_DATA[this.currentGrade];
+    const data = this.curriculumData[this.currentGrade] || CURRICULUM_DATA[this.currentGrade];
     if (!data) return;
 
-    // Update CP Header
+    // Update CP Header with Firebase Status Indicator
     if (this.headerBox) {
+      const isCloudConnected = this.firebaseSource === 'firebase';
+      const isConfigured = isFirebaseConfigured();
+
+      let firebaseBadgeHtml = '';
+      if (isCloudConnected) {
+        firebaseBadgeHtml = `
+          <div class="firebase-badge-container">
+            <span class="firebase-status-badge connected" title="Materi disajikan langsung secara live dari Firebase Cloud Firestore">
+              🟢 Firebase Firestore: Terhubung
+            </span>
+            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Sinkronkan materi lokal ke Firebase Firestore">
+              ☁️ Sinkronkan Materi
+            </button>
+          </div>
+        `;
+      } else if (isConfigured) {
+        firebaseBadgeHtml = `
+          <div class="firebase-badge-container">
+            <span class="firebase-status-badge local" title="Firebase terkonfigurasi. Siap sinkronkan materi.">
+              🟡 Firebase Siap
+            </span>
+            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Unggah seluruh materi Fase E & F ke database Firestore">
+              ☁️ Unggah ke Firestore
+            </button>
+          </div>
+        `;
+      } else {
+        firebaseBadgeHtml = `
+          <div class="firebase-badge-container">
+            <span class="firebase-status-badge local" title="Silakan lengkapi kunci di js/firebase-config.js untuk menghubungkan Firestore">
+              🔥 Firebase: Siap Dihubungkan
+            </span>
+            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Petunjuk konfigurasi Firebase">
+              ⚙️ Panduan DB
+            </button>
+          </div>
+        `;
+      }
+
       this.headerBox.innerHTML = `
         <div class="cp-header-card">
           <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.6rem; flex-wrap: wrap;">
@@ -67,12 +124,51 @@ export class CurriculumController {
             <span style="font-size: 0.85rem; color: var(--text-gold); background: var(--bg-tertiary); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); border: 1px solid var(--border-gold);">
               Kurikulum Merdeka Kemendikdasmen
             </span>
+            ${firebaseBadgeHtml}
           </div>
           <p style="margin: 0; font-size: 0.98rem; line-height: 1.65; color: var(--text-secondary);">
             ${data.cpHeader}
           </p>
         </div>
       `;
+
+      // Attach Sync / Config Guidance Event
+      const syncBtn = this.headerBox.querySelector('#btn-firebase-sync');
+      if (syncBtn) {
+        syncBtn.addEventListener('click', async () => {
+          soundManager.playClick();
+          if (!isFirebaseConfigured()) {
+            alert(
+              '🔥 CARA MENGHUBUNGKAN DATABASE FIREBASE:\n\n' +
+              '1. Buka file "js/firebase-config.js".\n' +
+              '2. Masukkan konfigurasi Firebase Anda (apiKey, projectId, appId, dll.) yang didapat dari Firebase Console (Project Settings > General > Your apps).\n' +
+              '3. Buat Cloud Firestore Database di Firebase Console dengan aturan baca/tulis.\n' +
+              '4. Setelah itu, klik tombol ini lagi untuk otomatis mengunggah materi ke Firestore!'
+            );
+            return;
+          }
+
+          syncBtn.disabled = true;
+          const originalText = syncBtn.innerHTML;
+          syncBtn.innerHTML = '⏳ Mengunggah...';
+
+          try {
+            await firebaseService.syncLocalToFirestore((msg) => {
+              syncBtn.innerHTML = `⏳ ${msg}`;
+            });
+            alert('🎉 SUKSES!\nSeluruh materi Sejarah SMK (Fase E & Fase F) telah berhasil disimpan ke database Firebase Cloud Firestore.');
+            await this.loadFirebaseData();
+          } catch (error) {
+            alert(
+              '❌ Gagal menyinkronkan ke Firebase:\n' + error.message + '\n\n' +
+              'Tips:\nPastikan di Firebase Console > Firestore Database > Rules, aturannya mengizinkan tulis (misal: allow read, write: if true;).'
+            );
+          } finally {
+            syncBtn.disabled = false;
+            syncBtn.innerHTML = originalText;
+          }
+        });
+      }
     }
 
     // Render Cards
@@ -121,7 +217,7 @@ export class CurriculumController {
       btn.addEventListener('click', () => {
         soundManager.playClick();
         const modId = btn.dataset.id;
-        const currentData = CURRICULUM_DATA[this.currentGrade];
+        const currentData = this.curriculumData[this.currentGrade] || CURRICULUM_DATA[this.currentGrade];
         const moduleObj = currentData.modules.find(m => m.id === modId);
         if (moduleObj) {
           this.openModuleReader(moduleObj);
