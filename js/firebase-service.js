@@ -1,5 +1,17 @@
 /* ==========================================================================
    FIREBASE REALTIME DATABASE SERVICE - KURIKULUM SEJARAH SMK FASE E & FASE F
+   SMK PGRI 11 CILEDUG (Mendukung Realtime Live Synchronization via onValue)
+   ==========================================================================
+   RULES FIREBASE REALTIME DATABASE:
+   Salin dan tempelkan aturan JSON berikut di Firebase Console
+   -> Masuk ke project -> Build -> Realtime Database -> Tab "Rules":
+
+   {
+     "rules": {
+       ".read": true,
+       ".write": true
+     }
+   }
    ========================================================================== */
 
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
@@ -8,7 +20,9 @@ import {
   ref, 
   get, 
   set, 
-  child 
+  child,
+  onValue,
+  off
 } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js';
 
 import { firebaseConfig, isFirebaseConfigured } from './firebase-config.js';
@@ -19,6 +33,7 @@ class FirebaseService {
     this.app = null;
     this.db = null;
     this.isConnected = false;
+    this.activeListeners = [];
     this.init();
   }
 
@@ -34,7 +49,7 @@ class FirebaseService {
         ? getDatabase(this.app, firebaseConfig.databaseURL)
         : getDatabase(this.app);
       this.isConnected = true;
-      console.log('🔥 Firebase Realtime Database initialized successfully for SMK PGRI 11 CILEDUG.');
+      console.log('🔥 Firebase Realtime Database connected successfully for SMK PGRI 11 CILEDUG.');
     } catch (err) {
       console.error('❌ Gagal menginisialisasi Firebase Realtime Database:', err);
       this.isConnected = false;
@@ -42,7 +57,74 @@ class FirebaseService {
   }
 
   /**
-   * Mengambil materi kurikulum dari Realtime Database (Fase E & Fase F)
+   * Berlangganan (Realtime Listener) ke Firebase Realtime Database.
+   * Data materi akan terupdate secara otomatis dan instan setiap kali ada perubahan di Firebase!
+   * @param {Function} callback (result: { source: string, data: object }) => void
+   * @returns {Function} Unsubscribe function untuk mematikan listener saat tidak dibutuhkan
+   */
+  listenCurriculumData(callback) {
+    if (!this.isConnected || !this.db) {
+      if (typeof callback === 'function') {
+        callback({ source: 'local', data: CURRICULUM_DATA });
+      }
+      return () => {};
+    }
+
+    try {
+      const curriculumRef = ref(this.db, 'curriculum_data');
+
+      const unsubscribe = onValue(
+        curriculumRef,
+        (snapshot) => {
+          if (snapshot.exists()) {
+            const val = snapshot.val();
+            const mergedData = { ...CURRICULUM_DATA };
+            let hasCloudData = false;
+
+            if (val['kelas-x']) {
+              mergedData['kelas-x'] = val['kelas-x'];
+              hasCloudData = true;
+            }
+            if (val['kelas-xi']) {
+              mergedData['kelas-xi'] = val['kelas-xi'];
+              hasCloudData = true;
+            }
+
+            if (hasCloudData) {
+              console.log('⚡ [Realtime Database] Data materi terupdate secara live dari Cloud!');
+              if (typeof callback === 'function') {
+                callback({ source: 'firebase', data: mergedData });
+              }
+              return;
+            }
+          }
+
+          console.info('ℹ️ Data di Realtime Database masih kosong, menggunakan data lokal.');
+          if (typeof callback === 'function') {
+            callback({ source: 'local_empty_cloud', data: CURRICULUM_DATA });
+          }
+        },
+        (error) => {
+          console.warn('⚠️ Realtime Database listener error (fallback ke lokal):', error);
+          if (typeof callback === 'function') {
+            callback({ source: 'local_fallback', data: CURRICULUM_DATA });
+          }
+        }
+      );
+
+      this.activeListeners.push(unsubscribe);
+      return unsubscribe;
+    } catch (err) {
+      console.warn('⚠️ Gagal memasang Realtime Database listener:', err);
+      if (typeof callback === 'function') {
+        callback({ source: 'local_fallback', data: CURRICULUM_DATA });
+      }
+      return () => {};
+    }
+  }
+
+  /**
+   * Mengambil materi kurikulum dari Realtime Database (Fase E & Fase F) - One-time fetch
    * Jika gagal atau belum ada data, otomatis fallback ke data lokal
    */
   async getCurriculumData() {
@@ -85,7 +167,7 @@ class FirebaseService {
   /**
    * Menyimpan / Sinkronisasi seluruh materi lokal ke Firebase Realtime Database
    */
-  async syncLocalToFirestore(progressCallback) {
+  async syncLocalToRealtimeDB(progressCallback) {
     if (!this.isConnected || !this.db) {
       throw new Error('Firebase belum terhubung. Harap lengkapi firebase-config.js terlebih dahulu.');
     }
@@ -103,6 +185,13 @@ class FirebaseService {
       console.error('❌ Gagal sinkronisasi materi ke Realtime Database:', err);
       throw err;
     }
+  }
+
+  /**
+   * Alias kompatibilitas
+   */
+  async syncLocalToFirestore(progressCallback) {
+    return this.syncLocalToRealtimeDB(progressCallback);
   }
 
   /**

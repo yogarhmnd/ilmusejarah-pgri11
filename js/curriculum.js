@@ -23,7 +23,21 @@ export class CurriculumController {
   async init() {
     this.renderTabs();
     this.renderGradeModules();
-    await this.loadFirebaseData();
+    this.setupRealtimeListener();
+  }
+
+  setupRealtimeListener() {
+    try {
+      firebaseService.listenCurriculumData((result) => {
+        if (result && result.data) {
+          this.curriculumData = result.data;
+          this.firebaseSource = result.source;
+          this.renderGradeModules();
+        }
+      });
+    } catch (err) {
+      console.warn('Firebase realtime listener fallback:', err);
+    }
   }
 
   async loadFirebaseData() {
@@ -153,7 +167,7 @@ export class CurriculumController {
           syncBtn.innerHTML = '⏳ Mengunggah...';
 
           try {
-            await firebaseService.syncLocalToFirestore((msg) => {
+            await firebaseService.syncLocalToRealtimeDB((msg) => {
               syncBtn.innerHTML = `⏳ ${msg}`;
             });
             alert('🎉 SUKSES!\nSeluruh materi Sejarah SMK (Fase E & Fase F) telah berhasil disimpan ke Firebase Realtime Database.');
