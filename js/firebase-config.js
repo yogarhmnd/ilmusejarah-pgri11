@@ -4,20 +4,22 @@
    ========================================================================== */
 
 /**
- * Konfigurasi Firebase Web App Anda.
+ * Konfigurasi Firebase Web App Anda (Mendukung Realtime Database).
  * 
  * Cara mendapatkan konfigurasi ini:
  * 1. Buka https://console.firebase.google.com
- * 2. Masuk ke Project Firebase Anda (atau buat project baru)
- * 3. Buka Project Settings (ikon gerigi di kiri atas) > tab General
- * 4. Gulir ke bawah ke bagian "Your apps" lalu pilih web app (ikon </>)
- * 5. Salin objek firebaseConfig dan tempelkan nilai kuncinya di bawah ini:
+ * 2. Masuk ke Project Firebase Anda
+ * 3. Buka Project Settings (ikon gerigi) > tab General > bagian "Your apps" (ikon </>)
+ * 4. Salin objek firebaseConfig dan tempelkan nilainya di bawah ini.
+ *    (Jika menggunakan Realtime Database regional seperti asia-southeast1,
+ *    pastikan databaseURL sudah terisi sesuai Firebase Console).
  */
 export const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
+  authDomain: "ilmusejarah-pgri11.firebaseapp.com",
+  databaseURL: "https://ilmusejarah-pgri11-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "ilmusejarah-pgri11",
+  storageBucket: "ilmusejarah-pgri11.appspot.com",
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID"
 };

@@ -84,10 +84,10 @@ export class CurriculumController {
       if (isCloudConnected) {
         firebaseBadgeHtml = `
           <div class="firebase-badge-container">
-            <span class="firebase-status-badge connected" title="Materi disajikan langsung secara live dari Firebase Cloud Firestore">
-              🟢 Firebase Firestore: Terhubung
+            <span class="firebase-status-badge connected" title="Materi disajikan langsung secara live dari Firebase Realtime Database">
+              🟢 Realtime Database: Terhubung
             </span>
-            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Sinkronkan materi lokal ke Firebase Firestore">
+            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Sinkronkan materi lokal ke Firebase Realtime Database">
               ☁️ Sinkronkan Materi
             </button>
           </div>
@@ -96,20 +96,20 @@ export class CurriculumController {
         firebaseBadgeHtml = `
           <div class="firebase-badge-container">
             <span class="firebase-status-badge local" title="Firebase terkonfigurasi. Siap sinkronkan materi.">
-              🟡 Firebase Siap
+              🟡 Realtime DB Siap
             </span>
-            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Unggah seluruh materi Fase E & F ke database Firestore">
-              ☁️ Unggah ke Firestore
+            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Unggah seluruh materi Fase E & F ke Realtime Database">
+              ☁️ Unggah ke Realtime DB
             </button>
           </div>
         `;
       } else {
         firebaseBadgeHtml = `
           <div class="firebase-badge-container">
-            <span class="firebase-status-badge local" title="Silakan lengkapi kunci di js/firebase-config.js untuk menghubungkan Firestore">
-              🔥 Firebase: Siap Dihubungkan
+            <span class="firebase-status-badge local" title="Silakan lengkapi kunci di js/firebase-config.js untuk menghubungkan Realtime Database">
+              🔥 Realtime DB: Siap Dihubungkan
             </span>
-            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Petunjuk konfigurasi Firebase">
+            <button class="firebase-sync-btn" id="btn-firebase-sync" title="Petunjuk konfigurasi Realtime Database">
               ⚙️ Panduan DB
             </button>
           </div>
@@ -139,11 +139,11 @@ export class CurriculumController {
           soundManager.playClick();
           if (!isFirebaseConfigured()) {
             alert(
-              '🔥 CARA MENGHUBUNGKAN DATABASE FIREBASE:\n\n' +
+              '🔥 CARA MENGHUBUNGKAN FIREBASE REALTIME DATABASE:\n\n' +
               '1. Buka file "js/firebase-config.js".\n' +
-              '2. Masukkan konfigurasi Firebase Anda (apiKey, projectId, appId, dll.) yang didapat dari Firebase Console (Project Settings > General > Your apps).\n' +
-              '3. Buat Cloud Firestore Database di Firebase Console dengan aturan baca/tulis.\n' +
-              '4. Setelah itu, klik tombol ini lagi untuk otomatis mengunggah materi ke Firestore!'
+              '2. Masukkan konfigurasi Firebase Anda (apiKey, databaseURL, projectId, appId, dll.) yang didapat dari Firebase Console (Project Settings > General > Your apps).\n' +
+              '3. Buat Realtime Database di Firebase Console (Menu Build > Realtime Database) dan atur Rules menjadi .read: true, .write: true.\n' +
+              '4. Setelah itu, klik tombol ini lagi untuk otomatis mengunggah materi ke Realtime Database!'
             );
             return;
           }
@@ -156,12 +156,12 @@ export class CurriculumController {
             await firebaseService.syncLocalToFirestore((msg) => {
               syncBtn.innerHTML = `⏳ ${msg}`;
             });
-            alert('🎉 SUKSES!\nSeluruh materi Sejarah SMK (Fase E & Fase F) telah berhasil disimpan ke database Firebase Cloud Firestore.');
+            alert('🎉 SUKSES!\nSeluruh materi Sejarah SMK (Fase E & Fase F) telah berhasil disimpan ke Firebase Realtime Database.');
             await this.loadFirebaseData();
           } catch (error) {
             alert(
-              '❌ Gagal menyinkronkan ke Firebase:\n' + error.message + '\n\n' +
-              'Tips:\nPastikan di Firebase Console > Firestore Database > Rules, aturannya mengizinkan tulis (misal: allow read, write: if true;).'
+              '❌ Gagal menyinkronkan ke Realtime Database:\n' + error.message + '\n\n' +
+              'Tips:\nPastikan di Firebase Console > Realtime Database > Rules, aturannya mengizinkan baca & tulis:\n{\n  "rules": {\n    ".read": true,\n    ".write": true\n  }\n}'
             );
           } finally {
             syncBtn.disabled = false;
