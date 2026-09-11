@@ -167,64 +167,143 @@
   box-shadow: 0 4px 18px var(--gold-glow-intense);
 }
 
-/* 5. TIMELINE CARDS */
+/* 5. TIMELINE CARDS - MINIMALIS, APIK & DINAMIS */
 .timeline-event-card {
-  background: var(--gradient-card);
+  background: var(--bg-card);
   border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-lg);
-  padding: 1.75rem;
+  border-radius: var(--radius-md);
+  padding: 1.35rem 1.5rem;
   transition: all var(--transition-normal);
   position: relative;
   box-shadow: var(--shadow-sm);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .timeline-event-card:hover {
   border-color: var(--border-gold-strong);
   transform: translateY(-4px);
-  box-shadow: var(--shadow-md), 0 0 24px var(--gold-glow);
+  box-shadow: var(--shadow-md), 0 8px 24px var(--gold-glow);
 }
 
-.event-year-badge {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
+.timeline-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-phase-pill {
+  font-family: var(--font-display);
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
   border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
+}
+
+.timeline-phase-pill.fase-e {
+  background: rgba(2, 106, 162, 0.1);
+  color: #026aa2;
+  border: 1px solid rgba(2, 106, 162, 0.25);
+}
+
+.timeline-phase-pill.fase-f {
+  background: rgba(180, 83, 9, 0.1);
+  color: #b45309;
+  border: 1px solid rgba(180, 83, 9, 0.25);
+}
+
+.timeline-chapter-pill {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-full);
+}
+
+.timeline-year-chip {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-gold);
   background: var(--gold-glow);
   border: 1px solid var(--border-gold);
-  color: var(--text-gold);
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-  font-weight: 700;
-  margin-bottom: 0.8rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: var(--radius-full);
+  margin-left: auto;
 }
 
 .event-title {
-  font-family: var(--font-serif);
-  font-size: 1.35rem;
-  margin-bottom: 0.6rem;
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
   color: var(--text-main);
+  line-height: 1.35;
 }
 
 .event-desc {
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  margin-bottom: 1.25rem;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  font-weight: 450;
+  margin-bottom: 1rem;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .event-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .event-tag {
-  font-size: 0.75rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-  background: var(--bg-tertiary);
+  font-size: 0.74rem;
+  padding: 0.18rem 0.55rem;
+  border-radius: var(--radius-full);
+  background: var(--bg-secondary);
   color: var(--text-subtle);
   border: 1px solid var(--border-subtle);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.btn-detail-event {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.84rem;
+  font-weight: 600;
+  padding: 0.42rem 0.95rem;
+  border-radius: var(--radius-full);
+  background: var(--bg-secondary);
+  color: var(--text-gold);
+  border: 1px solid var(--border-gold);
+  cursor: pointer;
+  align-self: flex-start;
+  transition: all var(--transition-fast);
+}
+
+.btn-detail-event:hover {
+  background: var(--text-gold);
+  color: #ffffff;
+  border-color: var(--text-gold);
+}
+
+.btn-detail-event .timeline-arrow {
+  transition: transform var(--transition-fast);
+  display: inline-block;
+}
+
+.btn-detail-event:hover .timeline-arrow {
+  transform: translateX(4px);
 }
 
 /* 6. TOKOH BANGSA (FIGURES) CARD */

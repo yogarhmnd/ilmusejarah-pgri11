@@ -6,935 +6,841 @@
 export const ERAS = [
   {
     "id": "all",
-    "name": "Semua Bab (Fase E & F)",
-    "icon": "🏛️",
-    "span": "Praaksara s.d. Masa Kini"
+    "name": "Semua Linimasa (Fase E & F)",
+    "icon": "🌟",
+    "span": "Praaksara s.d. Masa Reformasi"
   },
   {
     "id": "fase-e",
-    "name": "Fase E (Kelas X: Bab 1–4)",
-    "icon": "📜",
-    "span": "Praaksara – Kerajaan Islam"
+    "name": "Fase E (Kelas X: 8 Bab)",
+    "icon": "📘",
+    "span": "Konsep Dasar – Pergerakan Nasional"
   },
   {
     "id": "fase-f",
-    "name": "Fase F (Kelas XI: Bab 1–6)",
-    "icon": "🇮🇩",
+    "name": "Fase F (Kelas XI: 6 Bab)",
+    "icon": "📕",
     "span": "Pendudukan Jepang – Reformasi"
   },
   {
-    "id": "praaksara-rempah",
-    "name": "Praaksara & Jalur Rempah",
-    "icon": "⛵",
-    "span": "Fase E: Bab 1 & 2"
+    "id": "praaksara-riset",
+    "name": "Praaksara & Riset (Bab 1–3)",
+    "icon": "🦴",
+    "span": "Fase E: Bab 1, 2, 3"
   },
   {
-    "id": "hindu-buddha",
-    "name": "Kerajaan Hindu-Buddha",
-    "icon": "👑",
-    "span": "Fase E: Bab 3"
+    "id": "kerajaan",
+    "name": "Hindu-Buddha & Islam (Bab 4–5)",
+    "icon": "🛕",
+    "span": "Fase E: Bab 4 & 5"
   },
   {
-    "id": "islam",
-    "name": "Kesultanan Islam",
-    "icon": "🕌",
-    "span": "Fase E: Bab 4"
-  },
-  {
-    "id": "jepang",
-    "name": "Pendudukan Jepang",
-    "icon": "🪖",
-    "span": "Fase F: Bab 1"
-  },
-  {
-    "id": "kemerdekaan-revolusi",
-    "name": "Proklamasi & Revolusi Fisik",
+    "id": "kolonial-perlawanan",
+    "name": "Kolonial & Perlawanan (Bab 6–7)",
     "icon": "⚔️",
-    "span": "Fase F: Bab 2 & 3"
+    "span": "Fase E: Bab 6 & 7"
   },
   {
-    "id": "sukarno",
-    "name": "Pemerintahan Sukarno",
-    "icon": "📜",
-    "span": "Fase F: Bab 4"
+    "id": "pergerakan",
+    "name": "Pergerakan Nasional (Bab 8)",
+    "icon": "🇮🇩",
+    "span": "Fase E: Bab 8"
   },
   {
-    "id": "soeharto",
-    "name": "Pemerintahan Soeharto (Orba)",
-    "icon": "🏢",
-    "span": "Fase F: Bab 5"
+    "id": "jepang-revolusi",
+    "name": "Jepang & Kemerdekaan (Bab 1–3)",
+    "icon": "🪖",
+    "span": "Fase F: Bab 1, 2, 3"
   },
   {
-    "id": "reformasi",
-    "name": "Masa Reformasi",
-    "icon": "🕊️",
-    "span": "Fase F: Bab 6"
+    "id": "indonesia-modern",
+    "name": "Sukarno, Orba & Reformasi (Bab 4–6)",
+    "icon": "🏛️",
+    "span": "Fase F: Bab 4, 5, 6"
   }
 ];
 
 export const EVENTS = [
   {
     "id": "evt-fe-1",
-    "year": "± 45.500 Tahun Lalu",
+    "year": "± Abad ke-5 SM",
     "phase": "Fase E",
-    "chapter": "Bab I",
-    "era": "praaksara-rempah",
-    "title": "Lukisan Cadas Tertua di Dunia Gua Leang-Leang Maros",
-    "summary": "Penemuan cap stensil tangan dan lukisan babi rusa oker merah di karst Maros-Pangkep membuktikan peradaban seni visual tertua di dunia.",
-    "detail": "Analisis isotop seri uranium membuktikan usia lukisan gua Leang-Leang mencapai minimal 45.500 tahun. Menunjukkan nenek moyang kepulauan Nusantara telah memiliki daya kognitif tinggi, ekspresi spiritual, dan teknik pembuatan pigmen alami dari mineral hematit.",
-    "location": "Maros, Sulawesi Selatan",
+    "chapter": "Bab 1: Konsep Sejarah",
+    "era": "praaksara-riset",
+    "title": "Lahirnya Tradisi Historiografi & Dimensi Waktu Sejarah",
+    "summary": "Herodotus meletakkan dasar kajian sejarah sebagai penyelidikan empiris yang mengikat keterkaitan manusia, ruang, dan waktu secara berkesinambungan.",
+    "detail": "Herodotus menegaskan bahwa sejarah bukan dongeng mitologis melainkan rekaman tindakan manusia (human actions) yang terikat pada dimensi spasial (ruang) dan temporal (waktu). Pemikiran ini menjadi cikal bakal cara berpikir diakronis (kronologis) dan sinkronis yang esensial dalam menganalisis kausalitas sebab-akibat peradaban.",
+    "location": "Yunani Kuno & Dunia Mediterania",
     "figures": [
-      "Homo Sapiens Awal Nusantara",
-      "Komunitas Pemburu-Peramu"
+      "Herodotus (Bapak Sejarah)",
+      "Cendekiawan Klasik"
     ],
-    "significance": "Membuktikan kepulauan Indonesia sebagai salah satu episentrum evolusi kebudayaan dan kecerdasan kognitif manusia tertua di bumi."
+    "significance": "Meletakkan fondasi epistemologi ilmu sejarah modern: pemahaman bahwa manusia adalah subjek sekaligus objek pembentuk peradaban."
   },
   {
     "id": "evt-fe-2",
-    "year": "± 2500 - 500 SM",
+    "year": "1377 M",
     "phase": "Fase E",
-    "chapter": "Bab I",
-    "era": "praaksara-rempah",
-    "title": "Gelombang Migrasi Bangsa Proto Melayu & Deutro Melayu",
-    "summary": "Migrasi penutur Austronesia membawa keahlian bercocok tanam, navigasi perahu cadik, serta kebudayaan perunggu Dong Son.",
-    "detail": "Gelombang Proto Melayu (Melayu Tua) membawa kapak persegi dan lonjong, disusul Deutro Melayu (Melayu Muda) membawa keterampilan metalurgi perunggu dan besi (nekara, moko, candrasa). Mereka menjadi leluhur utama mayoritas suku bangsa di Nusantara.",
-    "location": "Kepulauan Nusantara",
+    "chapter": "Bab 1: Konsep Sejarah",
+    "era": "praaksara-riset",
+    "title": "Konsep Kausalitas & Teori Perubahan Sosial (Ibnu Khaldun)",
+    "summary": "Mahakarya Mukaddimah merumuskan bahwa sejarah bergerak dinamis melalui pola perubahan sosial, keberlanjutan, dan solidaritas sosial (ashabiyah).",
+    "detail": "Ibnu Khaldun membedah hukum internal masyarakat di mana peradaban tumbuh, mengalami masa keemasan, dan mengalami keruntuhan akibat melemahnya etos kerja dan moralitas penguasa. Teori ini menjadi rujukan utama pemahaman siklus perubahan (change) dan kesinambungan (continuity) dalam sejarah.",
+    "location": "Tunisia & Kairo, Mesir",
     "figures": [
-      "Pelaut & Petani Austronesia"
+      "Ibnu Khaldun",
+      "Sejarawan Dunia Islam"
     ],
-    "significance": "Membentuk fondasi etnolinguistik, teknologi maritim, dan tradisi agraris masyarakat kepulauan Nusantara."
+    "significance": "Menjelaskan bahwa peristiwa masa kini merupakan hasil kausalitas logis dari masa lalu, melatih nalar kritis generasi muda dalam memprediksi masa depan."
   },
   {
     "id": "evt-fe-3",
-    "year": "Abad ke-8 M",
+    "year": "± 45.500 SM",
     "phase": "Fase E",
-    "chapter": "Bab II",
-    "era": "praaksara-rempah",
-    "title": "Teknologi Kapal Layar Samudra Borobudur & Jalur Sutra Laut",
-    "summary": "Relief Candi Borobudur merekam armada kapal cadik ganda Nusantara yang melintasi Samudra Hindia menghubungkan perniagaan rempah dari Maluku hingga Afrika.",
-    "detail": "Pelaut Nusantara merintis ekspedisi samudra berbasis navigasi astronomi bintang dan angin muson jauh sebelum bangsa Eropa melakukan penjelajahan. Kapal cadik ganda ini mengangkut kayu manis, cengkeh, dan pala melintasi jaringan jalur rempah maritim internasional.",
-    "location": "Magelang, Jawa Tengah & Samudra Hindia",
+    "chapter": "Bab 2: Masa Praaksara",
+    "era": "praaksara-riset",
+    "title": "Lukisan Cadas Tertua di Dunia Gua Leang-Leang Maros",
+    "summary": "Penemuan cap stensil tangan dan figur babi rusa merah di gua karst Sulawesi Selatan membuktikan kemampuan kognitif dan seni visual tertua manusia.",
+    "detail": "Uji penanggalan isotop uranium membuktikan lukisan cadas karst Maros-Pangkep berusia minimal 45.500 tahun. Ini membuktikan bahwa manusia purba di kepulauan Nusantara telah menguasai teknologi pengolahan pigmen mineral oker dan memiliki sistem spiritual penghormatan terhadap alam.",
+    "location": "Maros-Pangkep, Sulawesi Selatan (Zona Wallacea)",
     "figures": [
-      "Pelaut Maritim Nusantara",
-      "Pedagang Jalur Rempah"
+      "Homo Sapiens Awal Nusantara",
+      "Komunitas Pemburu Karst"
     ],
-    "significance": "Bukti supremasi rekayasa perkapalan pribumi dan dominasi jaringan niaga bahari global."
+    "significance": "Menempatkan kepulauan Indonesia sebagai salah satu pusat peradaban kognitif dan seni rupa tertua dalam sejarah umat manusia."
   },
   {
     "id": "evt-fe-4",
-    "year": "1667 M",
+    "year": "± 2.500 – 500 SM",
     "phase": "Fase E",
-    "chapter": "Bab II",
-    "era": "praaksara-rempah",
-    "title": "Traktat Breda 1667: Tukar Guling Pulau Run & Manhattan New York",
-    "summary": "Perjanjian antara Inggris dan Belanda yang menukar Pulau Run di Kepulauan Banda (Maluku) dengan koloni Manhattan (kini kota New York) demi monopoli perdagangan pala.",
-    "detail": "Pulau Run di Maluku Tengah saat itu merupakan satu-satunya tempat di dunia tempat pohon pala tumbuh subur. Nilai komersial dan geopolitik buah pala yang begitu berharga membuat Inggris bersedia menyerahkan Nieuw Amsterdam (Manhattan, New York) kepada Belanda demi mengakhiri perang dagang.",
-    "location": "Pulau Run, Kepulauan Banda, Maluku & Breda, Belanda",
+    "chapter": "Bab 2: Masa Praaksara",
+    "era": "praaksara-riset",
+    "title": "Revolusi Neolitik & Migrasi Maritim Austronesia",
+    "summary": "Gelombang migrasi penutur Austronesia membawa lompatan peradaban food producing, teknologi perahu cadik, dan beliung persegi.",
+    "detail": "Migrasi maritime berbasis perahu cadik melintasi samudra dari Formosa menuju kepulauan Nusantara. Mereka memperkenalkan sistem pertanian sawah/ladang, penjinakan hewan ternak, pembuatan tembikar, serta perkampungan menetap (sedenter) berprinsip Primus Inter Pares.",
+    "location": "Kepulauan Nusantara (Sumatra, Jawa, Sulawesi, Maluku)",
     "figures": [
-      "Jan Pieterszoon Coen",
-      "Delegasi Kerajaan Inggris & VOC"
+      "Pelaut & Petani Austronesia",
+      "Tetua Adat"
     ],
-    "significance": "Menunjukkan posisi strategis tak tertandingi rempah-rempah Maluku dalam menentukan peta geopolitik ekonomi dunia."
+    "significance": "Membentuk 90% akar bahasa daerah serta fondasi budaya agraris-maritim masyarakat Indonesia modern."
   },
   {
     "id": "evt-fe-5",
-    "year": "± 400 M",
+    "year": "± 500 SM",
     "phase": "Fase E",
-    "chapter": "Bab III",
-    "era": "hindu-buddha",
-    "title": "Prasasti Yupa & Berdirinya Kerajaan Kutai Martadipura",
-    "summary": "Awal mula babak sejarah aksara tertulis di kepulauan Nusantara ditandai dengan ditemukannya tujuh tiang batu Yupa di Muara Kaman, Kalimantan Timur.",
-    "detail": "Dikeluarkan oleh Raja Mulawarman, cucu Kudungga, yang menyedekahkan 20.000 ekor sapi kepada para Brahmana. Beraksara Pallawa dan berbahasa Sanskerta, mengonfirmasi integrasi peradaban Nusantara ke dalam peradaban literasi dunia.",
-    "location": "Muara Kaman, Kalimantan Timur",
+    "chapter": "Bab 2: Masa Praaksara",
+    "era": "praaksara-riset",
+    "title": "Zaman Logam Perundagian: Pengecoran Nekara & Megalitikum",
+    "summary": "Masyarakat Nusantara menguasai ilmu metalurgi canggih (teknik bivalve dan a cire perdue) serta mendirikan monumen batu pemujaan arwah leluhur.",
+    "detail": "Lahirnya golongan undagi (tukang ahli) yang mampu melebur perunggu menjadi nekara genderang hujan, moko, kapak corong, dan perhiasan. Bersamaan dengan itu, dibangun punden berundak, menhir, dan dolmen yang menjadi cikal bakal arsitektur candi bertingkat.",
+    "location": "Jawa, Bali, Alor, Sumatra, dan Minahasa",
     "figures": [
-      "Raja Mulawarman",
-      "Aswawarman",
-      "Kudungga"
+      "Kaum Undagi (Ahli Metalurgi)",
+      "Pemimpin Megalitikum"
     ],
-    "significance": "Titik awal era sejarah tertulis di Indonesia dan bentuk institusi monarki tertua."
+    "significance": "Membuktikan etos kerja gotong royong tinggi dan kemampuan rekayasa manufaktur presisi sejak zaman praaksara."
   },
   {
     "id": "evt-fe-6",
-    "year": "Abad ke-5 M",
+    "year": "1888 M / 1957 M",
     "phase": "Fase E",
-    "chapter": "Bab III",
-    "era": "hindu-buddha",
-    "title": "Prasasti Tugu: Rekayasa Drainase & Kanal Gomati Tarumanegara",
-    "summary": "Raja Purnawarman memimpin proyek teknik sipil hidrologi penggalian kanal sepanjang 11 km untuk mitigasi banjir dan irigasi persawahan.",
-    "detail": "Prasasti Tugu mencatat penggalian Sungai Gomati dan Candrabhaga dalam tempo 21 hari dengan panjang 6.122 busur panah. Memperlihatkan kecanggihan tata kelola tata ruang kota dan sistem pengairan berbasis mitigasi bencana sejak abad ke-5.",
-    "location": "Tugu, Cilincing, Jakarta Utara",
+    "chapter": "Bab 3: Penelitian Sejarah",
+    "era": "praaksara-riset",
+    "title": "Lahirnya Historiografi Kritis & Dekonstruksi Kolonial (Sartono Kartodirdjo)",
+    "summary": "Penerapan metode kritik sumber multidimensional mematahkan sudut pandang kolonial (neerlandosentris) menjadi sejarah nasional yang kritis.",
+    "detail": "Prof. Dr. Sartono Kartodirdjo melalui riset monumentalnya 'Pemberontakan Petani Banten 1888' membuktikan bahwa rakyat jelata adalah penggerak utama sejarah. Metode ini mengajarkan 5 langkah riset ilmiah: pemilihan topik, heuristik sumber, kritik eksternal-internal, interpretasi, dan historiografi.",
+    "location": "Banten, Yogyakarta & Jakarta",
     "figures": [
-      "Maharaja Purnawarman"
+      "Prof. Dr. Sartono Kartodirdjo",
+      "Para Sejarawan Nasional"
     ],
-    "significance": "Karya rekayasa sipil irigasi dan mitigasi banjir pertama yang tercatat dalam sejarah peradaban Indonesia."
+    "significance": "Mengajarkan keterampilan literasi verifikasi sumber untuk membedah hoaks dan disinformasi di era digital modern."
   },
   {
     "id": "evt-fe-7",
-    "year": "Abad ke-7 - 11 M",
+    "year": "± 400 M",
     "phase": "Fase E",
-    "chapter": "Bab III",
-    "era": "hindu-buddha",
-    "title": "Puncak Kejayaan Kemaharajaan Maritim Sriwijaya",
-    "summary": "Sriwijaya menguasai pintu gerbang Selat Malaka, Selat Sunda, serta menjadi pusat studi ajaran Buddha termasyhur di kawasan Asia.",
-    "detail": "Berpusat di Palembang dan Muaro Jambi, Sriwijaya mendominasi pelayaran niaga rempah dan sutra laut dunia. Catatan musafir Tiongkok I-Tsing memuji ribuan biksu yang belajar di Sriwijaya sebelum berlayar ke Nalanda, India.",
-    "location": "Palembang & Muaro Jambi, Sumatra",
+    "chapter": "Bab 4: Hindu-Buddha",
+    "era": "kerajaan",
+    "title": "Prasasti Yupa & Berdirinya Kerajaan Kutai Martapura",
+    "summary": "Penemuan 7 tiang batu Yupa berhuruf Pallawa di tepi Sungai Mahakam menandai fajar dimulainya masa aksara di kepulauan Indonesia.",
+    "detail": "Raja Mulawarman, cucu Maharaja Kudungga, menyedekahkan 20.000 ekor sapi kepada kaum Brahmana di tanah suci Waprakeswara. Prasasti ini membuktikan berlakunya akulturasi budaya India ke dalam tatanan kepemimpinan tradisional lokal.",
+    "location": "Muara Kaman, Kutai, Kalimantan Timur",
     "figures": [
-      "Dapunta Hyang Sri Jayanasa",
-      "Balaputradewa",
-      "I-Tsing"
+      "Raja Mulawarman",
+      "Maharaja Kudungga",
+      "Kaum Brahmana"
     ],
-    "significance": "Peletak doktrin maritim Nusantara pertama yang menghubungkan perdagangan Tiongkok, India, dan Timur Tengah."
+    "significance": "Bukti tertulis tertua tentang eksistensi monarki dan peradaban berperadaban aksara di Indonesia."
   },
   {
     "id": "evt-fe-8",
-    "year": "Abad ke-8 - 9 M",
+    "year": "Abad ke-5 M",
     "phase": "Fase E",
-    "chapter": "Bab III",
-    "era": "hindu-buddha",
-    "title": "Mahakarya Arsitektur Candi Borobudur & Prambanan di Mataram Kuno",
-    "summary": "Puncak pencapaian arsitektur batu andesit dunia melalui pembangunan Candi Borobudur (Buddha) dan Prambanan (Hindu) di lembah Progo-Opak.",
-    "detail": "Dibangun di bawah Dinasti Syailendra dan Dinasti Sanjaya (Rakai Pikatan). Menggabungkan filosofi kosmos sakral mandala dengan teknologi arsitektur sambungan batu interlock tanpa perekat semen, dihiasi ribuan panil relief bernilai artistik tinggi.",
-    "location": "Magelang & Klaten-Yogyakarta",
+    "chapter": "Bab 4: Hindu-Buddha",
+    "era": "kerajaan",
+    "title": "Prasasti Tugu: Rekayasa Drainase Hidrologi Tarumanegara",
+    "summary": "Raja Purnawarman menggali Saluran Gomati sepanjang 11 km untuk mengendalikan banjir Jakarta kuno dan mengairi lahan pertanian rakyat.",
+    "detail": "Prasasti Tugu di Cilincing membuktikan kecanggihan teknik sipil hidrologi Tarumanegara. Dalam tempo 21 hari, saluran Gomati dan Candrabhaga berhasil dialirkan ke laut, disyukuri dengan sedekah 1.000 ekor sapi kepada kaum Brahmana.",
+    "location": "Cilincing, Jakarta Utara / Bekasi, Jawa Barat",
     "figures": [
-      "Samaratungga",
-      "Pramodhawardhani",
-      "Rakai Pikatan"
+      "Raja Purnawarman"
     ],
-    "significance": "Simbol toleransi beragama dan mahakarya peradaban teknik arsitektur batu Nusantara yang diakui UNESCO."
+    "significance": "Karya rekayasa pengairan tertua di Nusantara yang membuktikan kepedulian pemimpin terhadap kesejahteraan agraris rakyat."
   },
   {
     "id": "evt-fe-9",
-    "year": "1275 M",
+    "year": "Abad ke-7 – 11 M",
     "phase": "Fase E",
-    "chapter": "Bab III",
-    "era": "hindu-buddha",
-    "title": "Ekspedisi Pamalayu & Gagasan Nusantara Raja Kertanegara Singasari",
-    "summary": "Raja Kertanegara mengutus armada militer persahabatan ke Sumatra (Melayu) untuk membendung ekspansi imperium Mongol pimpinan Kubilai Khan.",
-    "detail": "Kertanegara menolak tunduk pada utusan kaisar Mongol Meng Qi dan mencanangkan doktrin pertahanan cakrawala mandala Nusantara. Ekspedisi Pamalayu mempererat aliansi Singasari dengan Kerajaan Dharmasraya, dihadiahi Arca Amoghapasa.",
-    "location": "Singasari (Malang) & Jambi/Dharmasraya",
+    "chapter": "Bab 4: Hindu-Buddha",
+    "era": "kerajaan",
+    "title": "Puncak Kemaharajaan Bahari Sriwijaya & Pusat Studi Buddha Dunia",
+    "summary": "Sriwijaya menguasai Selat Malaka sebagai episentrum perdagangan rempah maritim dan universitas pembelajaran Dharma internasional.",
+    "detail": "Biksu Tiongkok I-Tsing mencatat lebih dari 1.000 pelajar internasional mendalami bahasa Sanskerta di Sriwijaya di bawah bimbingan guru Sakyakirti. Raja Balaputradewa memperkokoh armada laut dan mendirikan asrama pelajar Sriwijaya di Universitas Nalanda, India.",
+    "location": "Palembang, Sumatra Selatan & Selat Malaka",
     "figures": [
-      "Prabu Kertanegara",
-      "Raden Wijaya"
+      "Dapunta Hyang Sri Jayanasa",
+      "Raja Balaputradewa",
+      "I-Tsing"
     ],
-    "significance": "Cikal bakal wawasan geopolitik persatuan antarpulau menghadapi ancaman hegemoni asing."
+    "significance": "Menempatkan Indonesia sebagai adidaya maritim dunia dan pusat keunggulan ilmu pengetahuan kawasan Asia."
   },
   {
     "id": "evt-fe-10",
-    "year": "1336 M",
+    "year": "Abad ke-8 – 9 M",
     "phase": "Fase E",
-    "chapter": "Bab III",
-    "era": "hindu-buddha",
-    "title": "Ikrar Sumpah Palapa Gajah Mada & Zaman Keemasan Majapahit",
-    "summary": "Mahapatih Gajah Mada bersumpah menyatukan seluruh kepulauan Nusantara di bawah naungan panji kebesaran Kemaharajaan Majapahit.",
-    "detail": "Di hadapan Ratu Tribhuwana Tunggadewi dan Raja Hayam Wuruk, Gajah Mada menegaskan visi persatuan wilayah Nusantara: \"Lamun huwus kalah Nusantara isun amukti palapa...\". Kitab Nagarakretagama karya Mpu Prapanca mencatat jaringan persahabatan Mitreka Satata membentang dari Sumatra hingga Maluku dan Papua.",
-    "location": "Trowulan, Mojokerto, Jawa Timur",
+    "chapter": "Bab 4: Hindu-Buddha",
+    "era": "kerajaan",
+    "title": "Mahakarya Candi Borobudur & Prambanan di Mataram Kuno",
+    "summary": "Pembangunan candi megah membuktikan puncak kemajuan arsitektur dan toleransi damai antara Dinasti Syailendra dan Sanjaya.",
+    "detail": "Candi Borobudur didirikan oleh Dinasti Syailendra penganut Buddha Mahayana dengan 2.672 panel relief dan 504 arca Buddha. Berdampingan secara damai, Dinasti Sanjaya membangun mahakarya Candi Prambanan setinggi 47 meter untuk memuliakan Trimurti Hindu.",
+    "location": "Magelang & Sleman, Jawa Tengah / DI Yogyakarta",
     "figures": [
-      "Gajah Mada",
-      "Hayam Wuruk",
-      "Tribhuwana Tunggadewi",
-      "Mpu Prapanca"
+      "Raja Samaratungga",
+      "Rakai Pikatan",
+      "Pramodhawardhani"
     ],
-    "significance": "Fondasi historis integrasi wilayah kepulauan yang menjadi inspirasi lahirnya konsep NKRI modern."
+    "significance": "Monumen warisan dunia UNESCO yang menjadi bukti abadi keharmonisan toleransi dan kejeniusan rancang bangun lokal Nusantara."
   },
   {
     "id": "evt-fe-11",
-    "year": "1267 M",
+    "year": "1336 M",
     "phase": "Fase E",
-    "chapter": "Bab IV",
-    "era": "islam",
-    "title": "Berdirinya Kesultanan Samudera Pasai",
-    "summary": "Kerajaan maritim Islam pertama di Nusantara yang menjadi episentrum penyebaran dakwah dan perdagangan internasional berbasis mata uang dirham emas.",
-    "detail": "Didirikan oleh Meurah Silu bergelar Sultan Malik As-Saleh di pantai utara Aceh. Menjadi pusat kajian naskah Melayu dan persinggahan para musafir dunia ternama seperti Ibnu Batutah dan Marco Polo.",
-    "location": "Lhokseumawe, Aceh Utara",
+    "chapter": "Bab 4: Hindu-Buddha",
+    "era": "kerajaan",
+    "title": "Sumpah Palapa Gajah Mada & Lahirnya Falsafah Bhinneka Tunggal Ika",
+    "summary": "Mahapatih Gajah Mada mengikrarkan persatuan kepulauan Nusantara, sementara Mpu Tantular melahirkan semboyan Bhinneka Tunggal Ika.",
+    "detail": "Di bawah Raja Hayam Wuruk dan Mahapatih Gajah Mada, Majapahit mengintegrasikan kepulauan Nusantara dengan armada kapal jung raksasa pimpinan Laksamana Mpu Nala. Kitab Kakawin Sutasoma menegaskan prinsip toleransi: Bhinneka Tunggal Ika Tan Hana Dharma Mangrwa.",
+    "location": "Trowulan, Mojokerto, Jawa Timur",
     "figures": [
-      "Sultan Malik As-Saleh",
-      "Ibnu Batutah"
+      "Prabu Hayam Wuruk",
+      "Mahapatih Gajah Mada",
+      "Mpu Tantular",
+      "Laksamana Mpu Nala"
     ],
-    "significance": "Pintu gerbang utama islamisasi kepulauan Nusantara dan standardisasi mata uang emas internasional."
+    "significance": "Menjadi fondasi historis dan falsafah integrasi wilayah Negara Kesatuan Republik Indonesia."
   },
   {
     "id": "evt-fe-12",
-    "year": "1527 M",
+    "year": "1267 M",
     "phase": "Fase E",
-    "chapter": "Bab IV",
-    "era": "islam",
-    "title": "Pembebasan Sunda Kelapa (Jayakarta) oleh Fatahillah",
-    "summary": "Panglima Fatahillah memimpin pasukan gabungan Demak-Cirebon memukul mundur armada Portugis pada 22 Juni 1527 dan mendirikan Jayakarta.",
-    "detail": "Menyusul jatuhnya Malaka ke tangan Portugis 1511, Portugis berupaya mendirikan benteng di muara Ciliwung melalui perjanjian Padrao dengan Pajajaran. Sultan Trenggana dari Demak memerintahkan Fatahillah merebut bandar tersebut, yang kemudian diberi nama Jayakarta (kemenangan yang jaya).",
-    "location": "Sunda Kelapa / Jayakarta (Jakarta)",
+    "chapter": "Bab 5: Kerajaan Islam",
+    "era": "kerajaan",
+    "title": "Berdirinya Kesultanan Samudera Pasai & Koin Emas Dirham",
+    "summary": "Meurah Silu bergelar Sultan Malik al-Saleh mendirikan kesultanan Islam maritim pertama dan menerbitkan mata uang emas Deureuham.",
+    "detail": "Pasai menjadi gerbang perdagangan internasional Selat Malaka, dikunjungi oleh Marco Polo (1292) dan Ibnu Battuta (1345). Koin emas Deureuham Pasai diakui sebagai alat transaksi internasional berdaya tukar tinggi di seluruh Asia Tenggara.",
+    "location": "Lhokseumawe, Aceh Utara",
     "figures": [
-      "Fatahillah (Faletehan)",
-      "Sultan Trenggana",
-      "Sunan Gunung Jati"
+      "Sultan Malik al-Saleh",
+      "Ibnu Battuta"
     ],
-    "significance": "Mencegah Portugis menguasai pulau Jawa serta menjadi tonggak kelahiran kota Jakarta."
+    "significance": "Menandai permulaan babak peradaban monarki Islam di Nusantara dengan stabilitas ekonomi moneter emas."
   },
   {
     "id": "evt-fe-13",
-    "year": "1575 M",
+    "year": "22 Juni 1527 M",
     "phase": "Fase E",
-    "chapter": "Bab IV",
-    "era": "islam",
-    "title": "Perjuangan Sultan Baabullah Mengusir Penjajah Portugis dari Ternate",
-    "summary": "Sultan Baabullah dari Kesultanan Ternate berhasil mengepung benteng Nostra Senhora de Rosario selama 5 tahun hingga Portugis terusir tanpa syarat.",
-    "detail": "Kekejaman Portugis yang membunuh Sultan Khairun memicu perang total rakyat Maluku. Sultan Baabullah, yang dijuluki Penguasa 72 Pulau, berhasil membebaskan tanah Maluku pada 1575 tanpa membantai warga Portugis sipil.",
-    "location": "Ternate, Maluku Utara",
+    "chapter": "Bab 5: Kerajaan Islam",
+    "era": "kerajaan",
+    "title": "Pembebasan Sunda Kelapa Menjadi Jayakarta oleh Fatahillah",
+    "summary": "Panglima Demak-Cirebon Fatahillah memukul mundur armada militer Portugis dan mengubah nama pelabuhan menjadi Jayakarta (Kemenangan Sempurna).",
+    "detail": "Portugis berupaya mendirikan benteng di Sunda Kelapa melalui perjanjian Padrao dengan Pajajaran. Pasukan gabungan Demak pimpinan Fatahillah melancarkan serangan kilat dan membebaskan pelabuhan pada 22 Juni 1527, yang diabadikan sebagai hari lahir Kota Jakarta.",
+    "location": "Sunda Kelapa / Jayakarta (Jakarta)",
     "figures": [
-      "Sultan Baabullah",
-      "Sultan Khairun"
+      "Fatahillah",
+      "Sultan Trenggono Demak",
+      "Sunan Gunung Jati"
     ],
-    "significance": "Kemenangan militer gemilang pertama bangsa pribumi Nusantara yang mengusir kekuatan kolonial Eropa."
+    "significance": "Menggagalkan kolonisasi awal Portugis di Pulau Jawa dan mengamankan kedaulatan maritim Selat Sunda."
   },
   {
     "id": "evt-fe-14",
-    "year": "1607 - 1636 M",
+    "year": "1575 M",
     "phase": "Fase E",
-    "chapter": "Bab IV",
-    "era": "islam",
-    "title": "Zaman Keemasan Kesultanan Aceh Masa Sultan Iskandar Muda",
-    "summary": "Kesultanan Aceh Darussalam mencapai puncak kejayaan militer, diplomasi internasional, perniagaan lada, dan pusat hukum Islam.",
-    "detail": "Aceh menguasai jalur pelayaran Selat Malaka, menjalin hubungan diplomatik dengan Kekhalifahan Utsmaniyah (Turki), Inggris, dan Prancis. Menyusun kitab hukum adat Adat Meukuta Alam dan melahirkan ulama besar dunia seperti Hamzah Fansuri dan Syamsuddin as-Sumatrani.",
-    "location": "Banda Aceh Darussalam",
+    "chapter": "Bab 5: Kerajaan Islam",
+    "era": "kerajaan",
+    "title": "Sultan Baabullah Mengusir Penjajah Portugis dari Maluku",
+    "summary": "Setelah mengepung Benteng Sao Paulo selama 5 tahun, Sultan Baabullah membebaskan Ternate dan menyatukan 72 pulau berdaulat.",
+    "detail": "Pembunuhan licik terhadap ayahnya (Sultan Khairun) menyulut perang semesta rakyat Maluku. Baabullah menerapkan taktik pengepungan tanpa kekerasan berlebihan hingga garnisun Portugis kelaparan dan diusir secara terhormat keluar dari Maluku.",
+    "location": "Ternate, Maluku Utara",
     "figures": [
-      "Sultan Iskandar Muda",
-      "Syamsuddin as-Sumatrani"
+      "Sultan Baabullah",
+      "Prajurit Armada Kora-Kora"
     ],
-    "significance": "Salah satu dari lima kekuatan imperium Islam terbesar di dunia pada awal abad ke-17."
+    "significance": "Kemenangan pribumi paling gemilang atas bangsa Barat pada abad ke-16, menegakkan kedaulatan rempah Nusantara."
   },
   {
     "id": "evt-fe-15",
-    "year": "1613 - 1645 M",
+    "year": "1628 & 1629 M",
     "phase": "Fase E",
-    "chapter": "Bab IV",
-    "era": "islam",
-    "title": "Puncak Kejayaan Sultan Agung Hanyokrokusumo & Penyerbuan Batavia",
-    "summary": "Sultan Agung menyatukan tanah Jawa di bawah Kesultanan Mataram Islam dan memimpin dua kali ekspedisi militer menggempur markas VOC di Batavia.",
-    "detail": "Sultan Agung memadukan kalender Saka dan Hijriah menjadi Kalender Jawa, menulis serat Sastra Gendhing, serta mengirim puluhan ribu prajurit Mataram mengepung benteng Batavia pada tahun 1628 dan 1629 untuk menentang monopoli Jan Pieterszoon Coen.",
-    "location": "Karta (Yogyakarta) & Benteng Batavia",
+    "chapter": "Bab 5: Kerajaan Islam",
+    "era": "kerajaan",
+    "title": "Sultan Agung Mataram Menggempur Markas Besar VOC di Batavia",
+    "summary": "Mataram Islam mengerahkan puluhan ribu prajurit mengepung benteng VOC di Batavia demi membendung imperialisme dagang asing di Pulau Jawa.",
+    "detail": "Serangan kedua tahun 1629 berhasil membendung Sungai Ciliwung dan menewaskan Gubernur Jenderal VOC J.P. Coen. Meskipun terhambat karena lumbung beras dibakar Belanda, Sultan Agung menunjukkan wawasan geopolitik luas bahwa monopoli asing adalah ancaman kedaulatan bersama.",
+    "location": "Batavia (Jakarta) & Karawang",
     "figures": [
       "Sultan Agung Hanyokrokusumo",
-      "Jan Pieterszoon Coen",
       "Tumenggung Bahurekso"
     ],
-    "significance": "Perlawanan terorganisasi berskala besar pertama terhadap kolonialisme korporasi VOC di Pulau Jawa."
+    "significance": "Simbol keteguhan pemimpin berdaulat menolak tunduk pada kongsi dagang penjajah asing."
   },
   {
     "id": "evt-fe-16",
-    "year": "1667 M",
+    "year": "1511 & 1512 M",
     "phase": "Fase E",
-    "chapter": "Bab IV",
-    "era": "islam",
-    "title": "Keteguhan Sultan Hasanuddin & Perang Makassar",
-    "summary": "Sultan Hasanuddin \"Ayam Jantan dari Timur\" memimpin pertahanan gigih Kesultanan Gowa-Tallo melawan agresi militer armada gabungan VOC dan Aru Palakka.",
-    "detail": "Perang laut sengit di Benteng Somba Opu berlangsung bertahun-tahun demi mempertahankan kedaulatan laut bebas (*mare liberum*). Meskipun terpaksa menandatangani Perjanjian Bongaya pada 1667, jiwa juang pelaut Makassar Bugis terus mengobarkan perlawanan di berbagai kepulauan.",
-    "location": "Benteng Somba Opu, Makassar, Sulawesi Selatan",
+    "chapter": "Bab 6: Kedatangan Barat",
+    "era": "kolonial-perlawanan",
+    "title": "Albuquerque Menaklukkan Malaka & Tiba di Kepulauan Rempah Maluku",
+    "summary": "Jatuhnya Konstantinopel (1453) memicu armada Portugis menaklukkan Malaka dan mengawali era penetrasi kolonial bangsa Barat di Indonesia.",
+    "detail": "Dipicu semboyan 3G (Gold, Glory, Gospel), Portugis di bawah Afonso de Albuquerque merebut pelabuhan Malaka tahun 1511, lalu mengutus Francisco Serrao berlayar langsung ke Hitu dan Ternate tahun 1512 untuk memonopoli komoditas pala dan cengkeh.",
+    "location": "Selat Malaka & Kepulauan Banda/Ternate",
     "figures": [
-      "Sultan Hasanuddin",
-      "Aru Palakka",
-      "Cornelis Speelman"
+      "Afonso de Albuquerque",
+      "Francisco Serrao"
     ],
-    "significance": "Simbol pantang menyerah menegakkan hukum kebebasan pelayaran dan perniagaan maritim di kepulauan timur."
+    "significance": "Awal pergeseran jalur perdagangan maritim damai Nusantara menuju era perebutan monopoli oleh bangsa Eropa."
   },
   {
-    "id": "evt-ff-17",
-    "year": "8 Maret 1942",
-    "phase": "Fase F",
-    "chapter": "Bab I",
-    "era": "jepang",
-    "title": "Kapitulasi Kalijati: Runtuhnya Hindia Belanda & Awal Pendudukan Jepang",
-    "summary": "Panglima Hindia Belanda Letnan Jenderal Ter Poorten menandatangani penyerahan tanpa syarat kepada Jenderal Hitoshi Imamura di Kalijati, Subang.",
-    "detail": "Hanya dalam hitungan pekan setelah pendaratan di Tarakan, Balikpapan, dan Jawa, tentara Dai Nippon berhasil melumpuhkan kekuatan KNIL. Peristiwa Kalijati resmi mengakhiri lebih dari tiga abad penjajahan kolonial Belanda dan memulai fase pendudukan militer Jepang.",
-    "location": "Kalijati, Subang, Jawa Barat",
+    "id": "evt-fe-17",
+    "year": "20 Maret 1602 M",
+    "phase": "Fase E",
+    "chapter": "Bab 6: Kedatangan Barat",
+    "era": "kolonial-perlawanan",
+    "title": "Pembentukan Kongsi Dagang VOC & Hak Istimewa Oktroi",
+    "summary": "Pemerintah Belanda menyatukan maskapai niaga menjadi VOC dengan hak oktroi setara negara: hak perang, monopoli, dan cetak uang.",
+    "detail": "Gubernur Jenderal J.P. Coen merebut Jayakarta tahun 1619 dan mendirikan Batavia. VOC menerapkan monopoli kejam: Pelayaran Hongi, hak ekstirpasi penebangan rempah rakyat, pembantaian massal Pulau Banda (1621), serta politik adu domba (devide et impera).",
+    "location": "Batavia, Banten, & Kepulauan Maluku",
     "figures": [
-      "Letjen Hein Ter Poorten",
-      "Letjen Hitoshi Imamura",
-      "Tjarda van Starkenborgh"
+      "Jan Pieterszoon Coen",
+      "Johan van Oldenbarnevelt"
     ],
-    "significance": "Titik balik berakhirnya imperium kolonial Belanda dan terbukanya babak baru kesadaran nasional rakyat Indonesia."
+    "significance": "Lahirnya korporasi multinasional pertama di dunia yang melakukan penjajahan bersenjata atas tanah Nusantara."
   },
   {
-    "id": "evt-ff-18",
-    "year": "1942 - 1943",
-    "phase": "Fase F",
-    "chapter": "Bab I",
-    "era": "jepang",
-    "title": "Propaganda Gerakan Tiga A & Lahirnya Putera Empat Serangkai",
-    "summary": "Jepang melancarkan propaganda \"Nippon Cahaya Asia\" dan membentuk Pusat Tenaga Rakyat (Putera) pimpinan Empat Serangkai.",
-    "detail": "Meskipun Jepang merancang Putera untuk memobilisasi rakyat bagi kepentingan perang Pasifik, Empat Serangkai (Soekarno, Hatta, Ki Hadjar Dewantara, K.H. Mas Mansyur) secara cerdik memanfaatkan rapat umum Putera untuk menyuntikkan semangat kemerdekaan dan nasionalisme.",
-    "location": "Jakarta & Seluruh Pulau Jawa",
+    "id": "evt-fe-18",
+    "year": "1830 – 1870 M",
+    "phase": "Fase E",
+    "chapter": "Bab 6: Kedatangan Barat",
+    "era": "kolonial-perlawanan",
+    "title": "Penerapan Sistem Tanam Paksa (Cultuurstelsel) Johannes van den Bosch",
+    "summary": "Petani Jawa diwajibkan menanam tanaman ekspor komersial demi menutup kas Belanda yang bangkrut, memicu bencana kelaparan hebat.",
+    "detail": "Rakyat dipaksa menanam tebu, nila, dan kopi yang menyita tanah dan tenaga tanpa bayaran layak. Keuntungan Batig Slot melunasi hutang Belanda, namun menyebabkan penderitaan hebat di Demak dan Grobogan, hingga dikritik novel Max Havelaar karya Multatuli.",
+    "location": "Pulau Jawa (Cirebon, Demak, Grobogan, Lebak)",
     "figures": [
-      "Ir. Soekarno",
-      "Drs. Mohammad Hatta",
-      "Ki Hadjar Dewantara",
-      "K.H. Mas Mansyur"
+      "Johannes van den Bosch",
+      "Eduard Douwes Dekker (Multatuli)"
     ],
-    "significance": "Kerja sama taktis kaum pergerakan nasional dalam memanfaatkan struktur resmi pendudukan militer demi kepentingan revolusi bangsa."
+    "significance": "Eksploitasi ekonomi paling parah yang memicu kritik humanis dan mendorong perubahan sistem kolonial menuju Politik Etis."
   },
   {
-    "id": "evt-ff-19",
-    "year": "3 Oktober 1943",
-    "phase": "Fase F",
-    "chapter": "Bab I",
-    "era": "jepang",
-    "title": "Pembentukan Korps Sukarela Pembela Tanah Air (PETA)",
-    "summary": "Pemerintah militer Jepang membentuk tentara sukarela bumiputera PETA atas usulan tokoh pergerakan Gatot Mangkoepradja.",
-    "detail": "Puluhan ribu pemuda Indonesia dilatih disiplin militer modern, taktik tempur, dan kepemimpinan perwira di Bogor. Di kemudian hari, para perwira alumni PETA seperti Jenderal Soedirman, Supriyadi, dan Ahmad Yani menjadi tulang punggung pembentukan Tentara Nasional Indonesia (TNI).",
-    "location": "Ksatrian PETA, Bogor, Jawa Barat",
+    "id": "evt-fe-19",
+    "year": "1817 M",
+    "phase": "Fase E",
+    "chapter": "Bab 7: Perlawanan Rakyat",
+    "era": "kolonial-perlawanan",
+    "title": "Perang Saparua: Kepahlawanan Kapitan Pattimura & Christina Martha Tiahahu",
+    "summary": "Rakyat Maluku merebut Benteng Duurstede menentang kembalinya penindasan kolonial Belanda dan kerja paksa pasca-penjajahan Inggris.",
+    "detail": "Thomas Matulessy (Kapitan Pattimura) bersama pahlawan wanita Christina Martha Tiahahu melancarkan serangan berani menewaskan Residen Van den Berg. Pattimura gugur di tiang gantungan di Benteng Victoria Ambon dengan pesan legendaris: 'Pattimura-Pattimura tua boleh dihancurkan, tetapi kelak Pattimura-Pattimura muda akan bangkit!'",
+    "location": "Saparua & Ambon, Maluku",
     "figures": [
-      "Gatot Mangkoepradja",
-      "Jenderal Soedirman",
-      "Supriyadi"
+      "Thomas Matulessy (Kapitan Pattimura)",
+      "Christina Martha Tiahahu"
     ],
-    "significance": "Kaderisasi kepemimpinan perwira militer modern bumiputera yang menjadi modal utama mempertahankan Republik dalam Revolusi Fisik."
+    "significance": "Simbol keteguhan pantang menyerah rakyat kepulauan dalam menentang kembalinya tirani kolonialisme Belanda."
   },
   {
-    "id": "evt-ff-20",
-    "year": "1 Maret - 1 Juni 1945",
-    "phase": "Fase F",
-    "chapter": "Bab I",
-    "era": "jepang",
-    "title": "Sidang BPUPKI & Pidato Lahirnya Falsafah Dasar Negara Pancasila",
-    "summary": "Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan Indonesia (BPUPKI) menggelar sidang bersejarah merumuskan pondasi filosofis bangsa.",
-    "detail": "Dipimpin dr. K.R.T. Radjiman Wedyodiningrat di Gedung Chuo Sangi In (kini Gedung Pancasila). Pada 1 Juni 1945, Ir. Soekarno menyampaikan pidato monumental tanpa teks yang mencetuskan lima sila dasar negara merdeka yang diberi nama Pancasila.",
-    "location": "Gedung Pancasila, Pejambon, Jakarta",
+    "id": "evt-fe-20",
+    "year": "1825 – 1830 M",
+    "phase": "Fase E",
+    "chapter": "Bab 7: Perlawanan Rakyat",
+    "era": "kolonial-perlawanan",
+    "title": "Perang Jawa: Strategi Gerilya Semesta Pangeran Diponegoro",
+    "summary": "Perang perlawanan terbesar di tanah Jawa melumpuhkan militer Belanda, menguras kas 20 juta gulden dan memicu diterapkannya Benteng Stelsel.",
+    "detail": "Dipicu oleh patok jalan rel Belanda melintasi makam leluhur di Tegalrejo. Pangeran Diponegoro didampingi Sentot Prawirodirjo dan Kyai Mojo mengobarkan perang gerilya yang didukung para bupati, ulama, dan petani Jawa. Belanda akhirnya menangkap Diponegoro secara licik saat perundingan damai di Magelang.",
+    "location": "Yogyakarta, Surakarta, Kedu, Banyumas (Jawa Tengah)",
     "figures": [
-      "dr. Radjiman Wedyodiningrat",
-      "Ir. Soekarno",
+      "Pangeran Diponegoro",
+      "Sentot Alibasya Prawirodirjo",
+      "Kyai Mojo",
+      "Jenderal De Kock"
+    ],
+    "significance": "Guncangan militer terbesar yang mengubah total kebijakan politik dan finansial pemerintah kolonial Belanda di Hindia Timur."
+  },
+  {
+    "id": "evt-fe-21",
+    "year": "1873 – 1904 M",
+    "phase": "Fase E",
+    "chapter": "Bab 7: Perlawanan Rakyat",
+    "era": "kolonial-perlawanan",
+    "title": "Perang Aceh Terpanjang: Keteguhan Teuku Umar & Cut Nyak Dien",
+    "summary": "Perang paling berdarah menewaskan Jenderal Kohler di depan Masjid Raya Baiturrahman; perlawanan gerilya terus berkobar di bawah Cut Nyak Dien.",
+    "detail": "Rakyat Aceh menolak tunduk pada agresi Belanda. Teuku Umar menerapkan taktik berpura-pura kooperasi untuk merebut persenjataan musuh. Setelah Teuku Umar syahid di Meulaboh, Cut Nyak Dien yang telah renta dan buta tetap memimpin gerilya di belantara rimba hingga akhirnya ditawan.",
+    "location": "Banda Aceh, Meulaboh, & Hutan Pedalaman Aceh",
+    "figures": [
+      "Cut Nyak Dien",
+      "Teuku Umar",
+      "Panglima Polem",
+      "Jenderal J.H.R. Kohler"
+    ],
+    "significance": "Bukti heroisme sejati rakyat Indonesia yang rela berkorban demi mempertahankan kedaulatan tanah air dan keyakinan spiritual."
+  },
+  {
+    "id": "evt-fe-22",
+    "year": "20 Mei 1908 M",
+    "phase": "Fase E",
+    "chapter": "Bab 8: Pergerakan Nasional",
+    "era": "pergerakan",
+    "title": "Kelahiran Budi Utomo & Fajar Hari Kebangkitan Nasional",
+    "summary": "Para pelajar STOVIA mendirikan organisasi pergerakan modern pertama, memicu era baru perjuangan diplomasi berbasis intelektual.",
+    "detail": "Dipelopori gagasan dana pendidikan dr. Wahidin Soedirohoesodo, dr. Soetomo dan mahasiswa kedokteran Jawa mendirikan Budi Utomo di Gedung STOVIA Batavia. Titik balik dari perjuangan senjata tradisional menuju persatuan terorganisir, diabadikan sebagai Hari Kebangkitan Nasional.",
+    "location": "Gedung STOVIA, Jakarta",
+    "figures": [
+      "dr. Soetomo",
+      "dr. Wahidin Soedirohoesodo",
+      "Gunawan Mangunkusumo"
+    ],
+    "significance": "Tonggak awal kesadaran berorganisasi modern yang membangkitkan kesadaran identitas nasional bangsa Indonesia."
+  },
+  {
+    "id": "evt-fe-23",
+    "year": "28 Oktober 1928 M",
+    "phase": "Fase E",
+    "chapter": "Bab 8: Pergerakan Nasional",
+    "era": "pergerakan",
+    "title": "Kongres Pemuda II & Ikrar Bersejarah Sumpah Pemuda",
+    "summary": "Pemuda lintas suku dan agama bersatu mengikrarkan Satu Tanah Air, Satu Bangsa, dan Satu Bahasa Persatuan: Bahasa Indonesia.",
+    "detail": "Diselenggarakan di Gedung Kramat 106 Jakarta dipimpin Soegondo Djojopoespito. Lagu kebangsaan Indonesia Raya ciptaan W.R. Soepratman pertama kali diperdengarkan dengan gesekan biola, dan Sang Merah Putih dikibarkan sebagai simbol integrasi bangsa menuju kemerdekaan.",
+    "location": "Gedung Indonesische Clubgebouw (Jalan Kramat 106, Jakarta)",
+    "figures": [
+      "Soegondo Djojopoespito",
+      "Wage Rudolf Soepratman",
       "Mohammad Yamin",
-      "Prof. Soepomo"
+      "Amir Sjarifuddin"
     ],
-    "significance": "Lahirnya kesepakatan konsensus dasar falsafah ideologi pemersatu bangsa Indonesia: Pancasila."
+    "significance": "Kelahiran jati diri kebangsaan Indonesia; mematahkan sekat kedaerahan primordial menuju cita-cita kemerdekaan tunggal."
   },
   {
-    "id": "evt-ff-21",
-    "year": "22 Juni 1945",
-    "phase": "Fase F",
-    "chapter": "Bab II",
-    "era": "kemerdekaan-revolusi",
-    "title": "Perumusan Piagam Jakarta (Jakarta Charter) oleh Panitia Sembilan",
-    "summary": "Panitia Sembilan menyepakati rancangan Pembukaan Undang-Undang Dasar yang memuat rumusan kompromi kebangsaan dasar negara.",
-    "detail": "Sembilan tokoh perwakilan golongan kebangsaan dan Islam merumuskan konsensus agung di kediaman Bung Karno. Naskah Piagam Jakarta ini menjadi landasan konstitusional Pembukaan UUD 1945 yang memuat lima sila Pancasila.",
-    "location": "Pegangsaan Timur 56, Jakarta",
+    "id": "evt-fe-24",
+    "year": "1930 M",
+    "phase": "Fase E",
+    "chapter": "Bab 8: Pergerakan Nasional",
+    "era": "pergerakan",
+    "title": "Pledoi 'Indonesia Menggugat' Ir. Soekarno di Pengadilan Kolonial",
+    "summary": "Bung Karno membacakan pidato pembelaan monumental di Landraad Bandung membongkar kejahatan imperialisme dan memprediksi runtuhnya penjajahan.",
+    "detail": "Ditangkap karena memimpin Partai Nasional Indonesia (PNI) dengan asas non-kooperasi radikal. Di hadapan majelis hakim kolonial, Soekarno membela hak kemerdekaan bangsa dengan analisis ekonomi politik Marhaenisme yang membakar semangat rakyat di seluruh kepulauan.",
+    "location": "Pengadilan Landraad, Bandung, Jawa Barat",
     "figures": [
       "Ir. Soekarno",
-      "Drs. Mohammad Hatta",
-      "K.H. A. Wahid Hasjim",
-      "Mohammad Yamin",
-      "H. Agus Salim"
+      "Mr. Sartono",
+      "Mr. Iskaq Tjokrohadisurjo"
     ],
-    "significance": "Kompromi luhur kebangsaan yang menyatukan visi negara modern yang religius dan inklusif bagi seluruh tumpah darah Indonesia."
-  },
-  {
-    "id": "evt-ff-22",
-    "year": "16 Agustus 1945",
-    "phase": "Fase F",
-    "chapter": "Bab II",
-    "era": "kemerdekaan-revolusi",
-    "title": "Peristiwa Rengasdengklok: Tekad Bulat Kaum Muda Menjemput Kemerdekaan",
-    "summary": "Para pemuda pejuang membawa Soekarno dan Hatta ke Rengasdengklok guna menjauhkan dari intervensi Jepang dan mendesak proklamasi segera.",
-    "detail": "Mengetahui Jepang menyerah kepada Sekutu pasca bom Hiroshima-Nagasaki, Sukarni, Chaerul Saleh, dan Wikana mendesak dwitunggal segera memproklamasikan kemerdekaan. Melalui jaminan Achmad Soebardjo, Soekarno-Hatta kembali ke Jakarta malam itu untuk merumuskan naskah proklamasi di rumah Laksamana Maeda.",
-    "location": "Rengasdengklok, Karawang & Jalan Imam Bonjol No. 1, Jakarta",
-    "figures": [
-      "Sukarni",
-      "Wikana",
-      "Chaerul Saleh",
-      "Achmad Soebardjo",
-      "Laksamana Maeda"
-    ],
-    "significance": "Menegaskan bahwa kemerdekaan Indonesia adalah hasil murni perjuangan bangsa sendiri, bukan hadiah dari penguasa asing."
-  },
-  {
-    "id": "evt-ff-23",
-    "year": "17 Agustus 1945",
-    "phase": "Fase F",
-    "chapter": "Bab II",
-    "era": "kemerdekaan-revolusi",
-    "title": "Detik-Detik Sakral Proklamasi Kemerdekaan Republik Indonesia",
-    "summary": "Ir. Soekarno didampingi Drs. Mohammad Hatta membacakan naskah otentik Proklamasi Kemerdekaan di Jalan Pegangsaan Timur No. 56 Jakarta.",
-    "detail": "Pukul 10.00 pagi di hari Jumat bulan Ramadan, naskah yang diketik Sayuti Melik dibacakan dengan khidmat. Sang Saka Merah Putih yang dijahit tangan oleh Ibu Fatmawati dikibarkan oleh Latief Hendraningrat dan Suhud diiringi kumandang lagu kebangsaan Indonesia Raya.",
-    "location": "Pegangsaan Timur 56, Cikini, Jakarta Pusat",
-    "figures": [
-      "Ir. Soekarno",
-      "Drs. Mohammad Hatta",
-      "Fatmawati",
-      "Sayuti Melik",
-      "Latief Hendraningrat"
-    ],
-    "significance": "Kelahiran Negara Kesatuan Republik Indonesia yang berdaulat, merdeka, dan berdiri sejajar dengan bangsa-bangsa merdeka di dunia."
-  },
-  {
-    "id": "evt-ff-24",
-    "year": "18 - 19 Agustus 1945",
-    "phase": "Fase F",
-    "chapter": "Bab II",
-    "era": "kemerdekaan-revolusi",
-    "title": "Sidang PPKI: Pengesahan UUD 1945 & Kelengkapan Lembaga Negara",
-    "summary": "PPKI menetapkan Undang-Undang Dasar 1945, memilih Soekarno dan Hatta sebagai Presiden dan Wakil Presiden, serta membagi wilayah menjadi 8 provinsi.",
-    "detail": "Dengan keteladanan kenegarawanan luar biasa, sila pertama disepakati menjadi \"Ketuhanan Yang Maha Esa\". Sidang berlanjut menetapkan Komite Nasional Indonesia Pusat (KNIP), membentuk 12 kementerian kabinet pertama, dan mengangkat delapan gubernur provinsi pertama.",
-    "location": "Gedung Kesenian Jakarta (Gedung Tyuuoo Sangi-In)",
-    "figures": [
-      "Ir. Soekarno",
-      "Drs. Mohammad Hatta",
-      "Otto Iskandardinata",
-      "Ki Bagoes Hadikoesoemo"
-    ],
-    "significance": "Peletakan kerangka dasar hukum konstitusi, struktur pemerintahan, dan administrasi kedaulatan negara hukum Republik Indonesia."
+    "significance": "Dokumen politik paling berpengaruh yang meyakinkan rakyat bahwa kemerdekaan adalah hak mutlak setiap bangsa yang terjajah."
   },
   {
     "id": "evt-ff-25",
-    "year": "10 November 1945",
+    "year": "8 Maret 1942",
     "phase": "Fase F",
-    "chapter": "Bab III",
-    "era": "kemerdekaan-revolusi",
-    "title": "Pertempuran Surabaya: Gelora Takbir Bung Tomo & Hari Pahlawan",
-    "summary": "Pertempuran kota terdahsyat pasca tewasnya Brigjen Mallaby, saat arek-arek Suroboyo dan laskar rakyat melawan armada Sekutu Inggris.",
-    "detail": "Melalui siaran radio pemancar, Bung Tomo mengumandangkan pidato legendaris \"Merdeka atau Mati!\" yang mengobarkan semangat puluhan ribu pemuda dan santri (Resolusi Jihad KH Hasyim Asy'ari). Pertahanan heroik ini mengejutkan dunia dan kini diperingati sebagai Hari Pahlawan Nasional.",
-    "location": "Surabaya, Jawa Timur",
+    "chapter": "Bab 1: Pendudukan Jepang",
+    "era": "jepang-revolusi",
+    "title": "Kapitulasi Kalijati: Runtuhnya Hindia Belanda & Awal Pendudukan Jepang",
+    "summary": "Pemerintah kolonial Belanda menyerah tanpa syarat kepada balatentara Kekaisaran Jepang di Subang, mengakhiri 350 tahun hegemoni Belanda.",
+    "detail": "Gubernur Jenderal Tjarda van Starkenborgh Stachouwer dan Letnan Jenderal Hein ter Poorten menandatangani dokumen penyerahan kepada Letnan Jenderal Hitoshi Imamura di Kalijati. Peristiwa ini membuka era pendudukan militer Jepang yang memobilisasi rakyat untuk Perang Asia Pasifik.",
+    "location": "Kalijati, Subang, Jawa Barat",
     "figures": [
-      "Bung Tomo",
-      "Gubernur Suryo",
-      "K.H. Hasyim Asy'ari",
-      "Mayjen Mansergh"
+      "Letjen Hitoshi Imamura",
+      "Letjen Hein ter Poorten",
+      "Tjarda van Starkenborgh"
     ],
-    "significance": "Bukti pengorbanan darah tak kenal takut seluruh rakyat mempertahankan kedaulatan republik yang memaksa PBB turun tangan."
+    "significance": "Runtuhnya mitos superioritas bangsa kulit putih di Asia dan bermulanya gemblengan fisik-militer pemuda Indonesia."
   },
   {
     "id": "evt-ff-26",
+    "year": "3 Oktober 1943",
+    "phase": "Fase F",
+    "chapter": "Bab 1: Pendudukan Jepang",
+    "era": "jepang-revolusi",
+    "title": "Pembentukan Korps Sukarela Pembela Tanah Air (PETA)",
+    "summary": "Jepang melatih puluhan ribu pemuda Indonesia dalam barisan militer sukarela yang kelak menjadi tulang punggung TNI.",
+    "detail": "Diusulkan oleh Gatot Mangkoepradja dan didirikan melalui maklumat Osamu Seirei No. 44. Perwira dididik di Bojongkokosan dan Bogor, melahirkan tokoh militer legendaris seperti Soedirman, Soeharto, Gatot Soebroto, dan Supriyadi yang kelak memimpin pemberontakan PETA di Blitar (Februari 1945).",
+    "location": "Bogor, Jawa Barat & Seluruh Jawa-Bali",
+    "figures": [
+      "Gatot Mangkoepradja",
+      "Soedirman",
+      "Supriyadi",
+      "Letjen Kumakichi Harada"
+    ],
+    "significance": "Kawah candradimuka keterampilan taktik militer modern yang menjadi modal utama mempertahankan proklamasi kemerdekaan."
+  },
+  {
+    "id": "evt-ff-27",
+    "year": "1 Juni 1945",
+    "phase": "Fase F",
+    "chapter": "Bab 1: Pendudukan Jepang",
+    "era": "jepang-revolusi",
+    "title": "Sidang BPUPKI & Pidato Lahirnya Falsafah Dasar Negara Pancasila",
+    "summary": "Ir. Soekarno menyampaikan pidato monumental di hadapan sidang BPUPKI merumuskan lima dasar falsafah hidup bangsa: Pancasila.",
+    "detail": "Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia (BPUPKI) menggelar sidang perdana di Gedung Chuo Sangi In. Soekarno menggali nilai luhur kepribadian Nusantara menjadi lima sila: Kebangsaan, Internasionalisme/Kemanusiaan, Mufakat/Demokrasi, Kesejahteraan Sosial, dan Ketuhanan yang Berkebudayaan.",
+    "location": "Gedung Chuo Sangi In (Gedung Pancasila), Jakarta",
+    "figures": [
+      "Ir. Soekarno",
+      "Dr. K.R.T. Radjiman Wedyodiningrat",
+      "Mohammad Yamin",
+      "Prof. Dr. Mr. Soepomo"
+    ],
+    "significance": "Peletakan fondasi filosofis weltanschauung Negara Kesatuan Republik Indonesia yang abadi."
+  },
+  {
+    "id": "evt-ff-28",
+    "year": "16 Agustus 1945",
+    "phase": "Fase F",
+    "chapter": "Bab 2: Proklamasi RI",
+    "era": "jepang-revolusi",
+    "title": "Peristiwa Rengasdengklok: Tekad Kaum Muda Menjemput Kemerdekaan",
+    "summary": "Golongan muda mengamankan Soekarno dan Hatta ke Rengasdengklok untuk memastikan Proklamasi terbebas dari campur tangan Jepang.",
+    "detail": "Mendengar berita penyerahan Jepang kepada Sekutu lewat siaran radio gelap, Chairul Saleh, Sukarni, Wikana, dan Singgih mendesak proklamasi segera diumumkan tanpa izin Gunseikanbu. Kesepakatan dicapai setelah Mr. Ahmad Soebardjo memberi jaminan proklamasi dilaksanakan paling lambat esok siang.",
+    "location": "Rengasdengklok, Karawang & Rumah Laksamana Maeda, Jakarta",
+    "figures": [
+      "Ir. Soekarno",
+      "Drs. Mohammad Hatta",
+      "Sukarni",
+      "Wikana",
+      "Mr. Ahmad Soebardjo"
+    ],
+    "significance": "Menegaskan bahwa kemerdekaan Indonesia adalah perjuangan murni bangsa sendiri, bukan hadiah dari Kekaisaran Jepang."
+  },
+  {
+    "id": "evt-ff-29",
+    "year": "17 Agustus 1945",
+    "phase": "Fase F",
+    "chapter": "Bab 2: Proklamasi RI",
+    "era": "jepang-revolusi",
+    "title": "Detik-Detik Sakral Proklamasi Kemerdekaan Republik Indonesia",
+    "summary": "Tepat pukul 10.00 WIB di Pegangsaan Timur 56, Soekarno-Hatta memproklamasikan kemerdekaan Indonesia di hadapan rakyat.",
+    "detail": "Naskah proklamasi diketik oleh Sayuti Melik dengan perubahan redaksi. Upacara berlangsung khidmat di halaman rumah Bung Karno dengan pengibaran Sang Saka Merah Putih yang dijahit tangan oleh Fatmawati oleh Latief Hendraningrat dan Suhud, diiringi lagu Indonesia Raya secara spontan.",
+    "location": "Jalan Pegangsaan Timur 56, Cikini, Jakarta Pusat",
+    "figures": [
+      "Ir. Soekarno",
+      "Drs. Mohammad Hatta",
+      "Sayuti Melik",
+      "Fatmawati",
+      "Latief Hendraningrat"
+    ],
+    "significance": "Titik kulminasi perjuangan berabad-abad: lahirnya negara merdeka berdaulat Republik Indonesia di panggung dunia."
+  },
+  {
+    "id": "evt-ff-30",
+    "year": "18 – 19 Agustus 1945",
+    "phase": "Fase F",
+    "chapter": "Bab 2: Proklamasi RI",
+    "era": "jepang-revolusi",
+    "title": "Sidang PPKI: Pengesahan UUD 1945 & Kelengkapan Negara",
+    "summary": "PPKI mengesahkan UUD 1945, memilih Soekarno-Hatta sebagai Presiden dan Wakil Presiden, serta membagi wilayah menjadi 8 provinsi.",
+    "detail": "Melalui musyawarah penuh kearifan demi keutuhan persatuan bangsa, kalimat 'Piagam Jakarta' disempurnakan menjadi 'Ketuhanan Yang Maha Esa'. Dibentuk Komite Nasional Indonesia Pusat (KNIP), kabinet pertama, dan 8 provinsi awal RI.",
+    "location": "Gedung Tyuuoo Sangi-in (Gedung Kesenian Jakarta)",
+    "figures": [
+      "Ir. Soekarno",
+      "Drs. Mohammad Hatta",
+      "Ki Bagoes Hadikoesoemo",
+      "Mr. Kasman Singodimedjo"
+    ],
+    "significance": "Peletakan dasar konstitusi hukum, sistem pemerintahan presidensial, dan tata kelola teritorial NKRI."
+  },
+  {
+    "id": "evt-ff-31",
+    "year": "10 November 1945",
+    "phase": "Fase F",
+    "chapter": "Bab 3: Mempertahankan Kemerdekaan",
+    "era": "jepang-revolusi",
+    "title": "Pertempuran Surabaya: Gelora Takbir Bung Tomo & Hari Pahlawan",
+    "summary": "Rakyat Surabaya dan santri menolak ultimatum Sekutu, mempertahankan kedaulatan kota dalam pertempuran darat terbesar revolusi kemerdekaan.",
+    "detail": "Tewasnya Brigadir Jenderal A.W.S. Mallaby memicu Sekutu mengeluarkan ultimatum menyerah. Lewat siaran radio, Bung Tomo mengobarkan semboyan 'Merdeka atau Mati!'. Ribuan pejuang dan laskar santri (Resolusi Jihad KH Hasyim Asy'ari) bertempur heroik selama tiga pekan, diperingati sebagai Hari Pahlawan.",
+    "location": "Surabaya, Jawa Timur",
+    "figures": [
+      "Sutomo (Bung Tomo)",
+      "Gubernur Soerjo",
+      "K.H. Hasyim Asy'ari",
+      "Moestopo"
+    ],
+    "significance": "Menunjukkan kepada dunia internasional bahwa kemerdekaan Indonesia dipertahankan dengan jiwa dan raga rakyat semesta."
+  },
+  {
+    "id": "evt-ff-32",
     "year": "23 Maret 1946",
     "phase": "Fase F",
-    "chapter": "Bab III",
-    "era": "kemerdekaan-revolusi",
+    "chapter": "Bab 3: Mempertahankan Kemerdekaan",
+    "era": "jepang-revolusi",
     "title": "Bandung Lautan Api: Pengorbanan Pembumihangusan Kota demi Republik",
-    "summary": "Sebanyak 200.000 warga dan pejuang membakar rumah serta bangunan di Bandung Selatan sebelum mundur guna menggagalkan markas Sekutu dan NICA.",
-    "detail": "Menghadapi ultimatum Sekutu untuk mengosongkan kota, pejuang TRI bersama rakyat memilih membumihanguskan Bandung agar tidak menjadi pangkalan militer musuh. Mohammad Toha dan Ramdan gugur meledakkan gudang amunisi Sekutu di Dayeuhkolot.",
+    "summary": "200.000 warga membakar rumah dan gudang amunisi Bandung Selatan agar tidak dapat dijadikan pangkalan militer oleh tentara Sekutu dan NICA.",
+    "detail": "Menolak ultimatum Sekutu untuk mengosongkan kota, TRI pimpinan Kolonel A.H. Nasution bersama rakyat membakar gedung-gedung penting. Pejuang muda Mohammad Toha gugur heroik meledakkan gudang mesiu Sekutu di Dayeuhkolot, melahirkan lagu legendaris Halo-Halo Bandung.",
     "location": "Bandung, Jawa Barat",
     "figures": [
       "Mohammad Toha",
       "Kolonel A.H. Nasution",
       "Sutan Sjahrir"
     ],
-    "significance": "Taktik bumi hangus heroik yang mengabadikan lagu nasional Halo, Halo Bandung sebagai simbol patriotisme tiada tara."
+    "significance": "Taktik bumi hangus revolusioner yang membuktikan pengorbanan harta benda rakyat demi kedaulatan negara."
   },
   {
-    "id": "evt-ff-27",
-    "year": "1946 - 1948",
-    "phase": "Fase F",
-    "chapter": "Bab III",
-    "era": "kemerdekaan-revolusi",
-    "title": "Diplomasi Perjuangan: Linggarjati, Renville, & Peran Komisi Tiga Negara PBB",
-    "summary": "Perjuangan ganda senjata dan diplomasi internasional lewat meja perundingan Linggarjati dan Renville untuk mempertahankan wilayah republik.",
-    "detail": "Perdana Menteri Sutan Sjahrir dan Amir Sjarifuddin memimpin delegasi diplomasi menghadapi manuver militer Belanda (Agresi Militer I 1947). Keterlibatan Dewan Keamanan PBB dan Komisi Tiga Negara (KTN) menginternasionalkan status kedaulatan Indonesia di mata dunia.",
-    "location": "Linggarjati (Kuningan), Kapal Perang USS Renville (Teluk Jakarta)",
-    "figures": [
-      "Sutan Sjahrir",
-      "Amir Sjarifuddin",
-      "Haji Agus Salim",
-      "Richard Kirby"
-    ],
-    "significance": "Pengakuan de facto pertama oleh komunitas internasional dan pembuktian kecakapan diplomasi intelektual para pendiri bangsa."
-  },
-  {
-    "id": "evt-ff-28",
+    "id": "evt-ff-33",
     "year": "19 Desember 1948",
     "phase": "Fase F",
-    "chapter": "Bab III",
-    "era": "kemerdekaan-revolusi",
-    "title": "Agresi Militer Belanda II & Penyelamatan Republik oleh PDRI",
-    "summary": "Belanda menawan Presiden Soekarno di Yogyakarta, namun mandat darurat dialihkan kepada Mr. Sjafruddin Prawiranegara membentuk PDRI di Bukittinggi.",
-    "detail": "Penerjunan pasukan baret merah Belanda di Pangkalan Udara Maguwo menggugurkan klaim Belanda bahwa RI telah lenyap. Sjafruddin Prawiranegara memimpin Pemerintah Darurat Republik Indonesia (PDRI) dari pedalaman rimba Sumatra, sementara Jenderal Soedirman memimpin perang gerilya semesta.",
+    "chapter": "Bab 3: Mempertahankan Kemerdekaan",
+    "era": "jepang-revolusi",
+    "title": "Agresi Militer Belanda II & Penyelamatan RI oleh PDRI Bukittinggi",
+    "summary": "Ibu kota Yogyakarta diserbu dan Soekarno-Hatta ditawan, namun pemerintahan darurat PDRI di Bukittinggi menjaga kelangsungan kedaulatan RI.",
+    "detail": "Belanda menerjunkan pasukan baret merah di Lanud Maguwo dan menduduki Gedung Agung Yogya. Sebelum ditawan, Presiden Soekarno mengirim mandat radiogram darurat kepada Mr. Sjafruddin Prawiranegara di Sumatra untuk mendirikan Pemerintah Darurat Republik Indonesia (PDRI). Sementara Jenderal Soedirman memimpin perang gerilya gerilya semesta dari atas tandu.",
     "location": "Yogyakarta & Bukittinggi/Halaban, Sumatra Barat",
     "figures": [
       "Mr. Sjafruddin Prawiranegara",
-      "Jenderal Soedirman",
-      "Ir. Soekarno"
+      "Panglima Besar Soedirman",
+      "Mr. A.A. Maramis"
     ],
-    "significance": "Menyelamatkan kontinuitas hukum tata negara Republik Indonesia dari kehancuran total akibat agresi militer kolonial."
+    "significance": "Menyelamatkan nyawa kedaulatan diplomasi RI di mata Dewan Keamanan PBB dan menggagalkan klaim Belanda bahwa RI telah musnah."
   },
   {
-    "id": "evt-ff-29",
-    "year": "1 Maret - 27 Desember 1949",
+    "id": "evt-ff-34",
+    "year": "27 Desember 1949",
     "phase": "Fase F",
-    "chapter": "Bab III",
-    "era": "kemerdekaan-revolusi",
-    "title": "Serangan Umum 1 Maret & Konferensi Meja Bundar (KMB) Den Haag",
-    "summary": "Serangan kilat menduduki Yogyakarta selama 6 jam mematahkan propaganda Belanda dan berujung pengakuan kedaulatan penuh pada KMB 1949.",
-    "detail": "Diprakarsai Sultan Hamengkubuwono IX dan dipimpin Letkol Soeharto, serangan ini menyiarkan ke seluruh dunia bahwa TNI dan Republik masih berdiri kokoh. Di Konferensi Meja Bundar Den Haag, delegasi RI dipimpin Drs. Mohammad Hatta berhasil memperoleh pengakuan kedaulatan penuh tanpa syarat.",
-    "location": "Yogyakarta & Ridderzaal, Den Haag, Belanda",
+    "chapter": "Bab 3: Mempertahankan Kemerdekaan",
+    "era": "jepang-revolusi",
+    "title": "Konferensi Meja Bundar (KMB) & Pengakuan Kedaulatan Resmi RI",
+    "summary": "Diplomasi delegasi RI pimpinan Mohammad Hatta di Den Haag berhasil memaksa Belanda menyerahkan dan mengakui kedaulatan Indonesia.",
+    "detail": "Didukung keberhasilan militer Serangan Umum 1 Maret 1949, KMB menghasilkan pengakuan kedaulatan tanpa syarat kepada Republik Indonesia Serikat (RIS), penarikan mundur tentara KNIL/KL, dan penyelesaian masalah Irian Barat dalam waktu satu tahun. Upacara penandatanganan dilakukan serentak di Den Haag dan Jakarta.",
+    "location": "Ridderzaal, Den Haag, Belanda & Istana Merdeka, Jakarta",
     "figures": [
-      "Sultan Hamengkubuwono IX",
       "Drs. Mohammad Hatta",
-      "Letkol Soeharto",
+      "Sri Sultan Hamengkubuwono IX",
       "Ratu Juliana"
     ],
-    "significance": "Pengakuan resmi kedaulatan penuh Indonesia oleh Kerajaan Belanda dan seluruh komunitas masyarakat dunia internasional."
+    "significance": "Berakhirnya era revolusi fisik kemerdekaan dan pengakuan de jure kedaulatan penuh bangsa Indonesia oleh dunia internasional."
   },
   {
-    "id": "evt-ff-30",
+    "id": "evt-ff-35",
     "year": "17 Agustus 1950",
     "phase": "Fase F",
-    "chapter": "Bab IV",
-    "era": "sukarno",
+    "chapter": "Bab 4: Masa Sukarno",
+    "era": "indonesia-modern",
     "title": "Mosi Integral Natsir & Pembubaran RIS Kembali ke NKRI",
-    "summary": "Negara-negara bagian bentukan Belanda membubarkan diri dan bergabung kembali menjadi Negara Kesatuan Republik Indonesia (NKRI).",
-    "detail": "Lewat pidato Mosi Integral bersejarah yang dipimpin Mohammad Natsir di parlemen RIS, seluruh fraksi menyepakati pembubaran sistem federal warisan KMB. Presiden Soekarno secara resmi mengumumkan berlakunya kembali NKRI berdasarkan Undang-Undang Dasar Sementara (UUDS 1950).",
-    "location": "Gedung Parlemen Jakarta",
+    "summary": "Negara-negara bagian bentukan Belanda membubarkan diri secara sukarela dan kembali bersatu ke dalam Negara Kesatuan Republik Indonesia.",
+    "detail": "Mosi Integral yang dipelopori Mohammad Natsir di parlemen RIS menyatukan kembali 16 negara federal ciptaan Van Mook. Pada peringatan HUT RI ke-5, Presiden Soekarno resmi menandatangani deklarasi pembubaran RIS dan memberlakukan UUDS 1950.",
+    "location": "Gedung Parlemen RIS, Jakarta",
     "figures": [
       "Mohammad Natsir",
       "Ir. Soekarno",
       "Drs. Mohammad Hatta"
     ],
-    "significance": "Kemenangan konstitusional menjaga keutuhan persatuan sabang sampai merauke dalam wadah negara kesatuan."
-  },
-  {
-    "id": "evt-ff-31",
-    "year": "18 - 24 April 1955",
-    "phase": "Fase F",
-    "chapter": "Bab IV",
-    "era": "sukarno",
-    "title": "Konferensi Asia-Afrika (KAA) di Bandung & Dasasila Bandung",
-    "summary": "Indonesia memprakarsai konferensi bangsa-bangsa Asia dan Afrika untuk menentang imperialisme dan merintis Gerakan Non-Blok.",
-    "detail": "Dihadiri 29 negara yang mewakili separuh populasi bumi di Gedung Merdeka Bandung. Diprakarsai Perdana Menteri Ali Sastroamidjojo dan dibuka Presiden Soekarno, KAA menghasilkan Dasasila Bandung yang menjadi pedoman koeksistensi damai dunia ketiga di era Perang Dingin.",
-    "location": "Gedung Merdeka, Bandung, Jawa Barat",
-    "figures": [
-      "Ir. Soekarno",
-      "Ali Sastroamidjojo",
-      "Jawaharlal Nehru",
-      "Zhou Enlai",
-      "Gamal Abdel Nasser"
-    ],
-    "significance": "Meningkatkan posisi tawar Indonesia di kancah internasional dan memicu gelombang dekolonisasi kemerdekaan negara-negara di benua Afrika."
-  },
-  {
-    "id": "evt-ff-32",
-    "year": "29 September & 15 Desember 1955",
-    "phase": "Fase F",
-    "chapter": "Bab IV",
-    "era": "sukarno",
-    "title": "Pemilihan Umum Pertama Indonesia Tahun 1955",
-    "summary": "Penyelenggaraan pemilu paling demokratis dan tertib dalam sejarah Indonesia untuk memilih anggota DPR dan Konstituante.",
-    "detail": "Diikuti oleh lebih dari 80 partai politik, organisasi, dan calon perorangan di bawah Kabinet Burhanuddin Harahap. Menghasilkan empat partai pemenang utama: PNI, Masyumi, Nahdlatul Ulama (NU), dan PKI tanpa insiden kekerasan politik.",
-    "location": "Seluruh Wilayah Republik Indonesia",
-    "figures": [
-      "Burhanuddin Harahap",
-      "S. Hadikusumo",
-      "Mohammad Roem"
-    ],
-    "significance": "Tonggak pencapaian demokrasi elektoral tertinggi yang mencerminkan partisipasi sipil matang rakyat Indonesia."
-  },
-  {
-    "id": "evt-ff-33",
-    "year": "5 Juli 1959",
-    "phase": "Fase F",
-    "chapter": "Bab IV",
-    "era": "sukarno",
-    "title": "Dekret Presiden 5 Juli 1959: Kembali ke UUD 1945 & Demokrasi Terpimpin",
-    "summary": "Presiden Soekarno membubarkan Konstituante dan menetapkan berlakunya kembali UUD 1945 guna mengatasi krisis politik berkepanjangan.",
-    "detail": "Akibat kebuntuan sidang Konstituante menyepakati naskah dasar negara serta instabilitas kabinet parlementer yang silih berganti jatuh, Soekarno didukung pimpinan TNI AD mengeluarkan dekret membubarkan Konstituante, memberlakukan kembali UUD 1945, dan membentuk MPRS serta DPAS.",
-    "location": "Istana Merdeka, Jakarta",
-    "figures": [
-      "Ir. Soekarno",
-      "Jenderal A.H. Nasution",
-      "Djuanda Kartawidjaja"
-    ],
-    "significance": "Peralihan sistem ketatanegaraan dari Demokrasi Parlementer Liberal menuju era Demokrasi Terpimpin dan presidensial."
-  },
-  {
-    "id": "evt-ff-34",
-    "year": "19 Desember 1961 - 1963",
-    "phase": "Fase F",
-    "chapter": "Bab IV",
-    "era": "sukarno",
-    "title": "Komando Tri Rakyat (Trikora) & Pembebasan Irian Barat",
-    "summary": "Presiden Soekarno mengumandangkan Trikora di alun-alun Yogyakarta untuk menggagalkan negara boneka Papua dan menyatukan Irian Barat ke pangkuan Ibu Pertiwi.",
-    "detail": "Dibentuk Komando Mandala pimpinan Mayor Jenderal Soeharto yang melancarkan operasi infiltrasi laut dan udara (termasuk gugurnya Komodor Yos Sudarso di Laut Aru). Melalui Perjanjian New York 1962 dan masa transisi UNTEA, Irian Barat resmi kembali ke wilayah kedaulatan RI pada 1 Mei 1963.",
-    "location": "Yogyakarta, Laut Aru, & Jayapura (Papua)",
-    "figures": [
-      "Ir. Soekarno",
-      "Mayjen Soeharto",
-      "Komodor Yos Sudarso",
-      "Subandrio"
-    ],
-    "significance": "Penggenapan kedaulatan teritorial Republik Indonesia dari Sabang sampai Merauke sesuai amanat Proklamasi 1945."
-  },
-  {
-    "id": "evt-ff-35",
-    "year": "1 Oktober 1965",
-    "phase": "Fase F",
-    "chapter": "Bab IV",
-    "era": "sukarno",
-    "title": "Tragedi G30S 1965 & Titik Balik Transisi Kekuasaan Nasional",
-    "summary": "Penculikan dan gugurnya para jenderal pimpinan TNI AD di Lubang Buaya yang memicu krisis politik terbesar dan mengakhiri era kepemimpinan Sukarno.",
-    "detail": "Dipimpin Letkol Untung, gerakan ini menculik enam jenderal dan satu perwira TNI AD (Pahlawan Revolusi). Mayor Jenderal Soeharto mengambil alih komando pemulihan keamanan, membubarkan PKI, yang kemudian memicu pergolakan sosial-politik drastis dan mengantarkan Indonesia menuju babak Orde Baru.",
-    "location": "Lubang Buaya, Halim Perdanakusuma, & Jakarta",
-    "figures": [
-      "Jenderal Ahmad Yani",
-      "Jenderal A.H. Nasution",
-      "Mayjen Soeharto",
-      "Ir. Soekarno"
-    ],
-    "significance": "Peristiwa paling menentukan yang mengubah drastis konfigurasi politik, ekonomi, dan hubungan luar negeri Indonesia modern."
+    "significance": "Menyelamatkan keutuhan integrasi wilayah dari strategi pecah belah federalisme kolonial Belanda."
   },
   {
     "id": "evt-ff-36",
-    "year": "10 Januari 1966",
+    "year": "18 – 24 April 1955",
     "phase": "Fase F",
-    "chapter": "Bab V",
-    "era": "soeharto",
-    "title": "Aksi Demonstrasi Tritura (Tri Tuntutan Rakyat)",
-    "summary": "Kesatuan Aksi Mahasiswa Indonesia (KAMI) dan pelajar menggelar unjuk rasa massal menuntut pembubaran PKI, pembersihan kabinet, dan penurunan harga.",
-    "detail": "Didorong oleh hiperinflasi yang menembus 600% dan kelangkaan bahan pokok pasca peristiwa 1965, ribuan mahasiswa turun ke jalan. Gugurnya mahasiswa Arif Rahman Hakim menjadi simbol perjuangan Angkatan 66 yang menuntut perbaikan kondisi sosial-politik nasional.",
-    "location": "Salemba & Halaman Istana Negara, Jakarta",
+    "chapter": "Bab 4: Masa Sukarno",
+    "era": "indonesia-modern",
+    "title": "Konferensi Asia-Afrika (KAA) di Bandung & Dasasila Bandung",
+    "summary": "Indonesia memimpin 29 negara Asia dan Afrika menentang kolonialisme, melahirkan Dasasila Bandung dan cikal bakal Gerakan Non-Blok.",
+    "detail": "Diselenggarakan di Gedung Merdeka Bandung diprakarsai oleh Perdana Menteri Ali Sastroamidjojo. KAA membakar semangat dekolonisasi di Benua Afrika dan Asia, menghasilkan deklarasi Dasasila Bandung yang menjunjung tinggi piagam PBB, kedaulatan teritorial, dan perdamaian dunia.",
+    "location": "Gedung Merdeka, Bandung, Jawa Barat",
     "figures": [
-      "Arif Rahman Hakim",
-      "Cosmas Batubara",
-      "Subhan Z.E."
+      "Ali Sastroamidjojo",
+      "Ir. Soekarno",
+      "Jawaharlal Nehru",
+      "Zhou Enlai"
     ],
-    "significance": "Katalisator gerakan mahasiswa yang menuntut perubahan menyeluruh arah kebijakan ekonomi dan pemerintahan."
+    "significance": "Kiprah diplomasi emas Indonesia di panggung dunia yang menginspirasi kemerdekaan puluhan negara dunia ketiga."
   },
   {
     "id": "evt-ff-37",
-    "year": "11 Maret 1966",
+    "year": "13 Desember 1957",
     "phase": "Fase F",
-    "chapter": "Bab V",
-    "era": "soeharto",
-    "title": "Surat Perintah Sebelas Maret (Supersemar 1966)",
-    "summary": "Presiden Soekarno menandatangani surat perintah kepada Letjen Soeharto untuk mengambil segala tindakan yang dianggap perlu demi pemulihan keamanan negara.",
-    "detail": "Tiga jenderal (Basuki Rahmat, M. Jusuf, dan Amir Machmud) menemui Soekarno di Istana Bogor. Berbekal mandat Supersemar, Letjen Soeharto membubarkan PKI keesokan harinya dan menata ulang stabilitas pemerintahan yang menandai awal transisi menuju Orde Baru.",
-    "location": "Istana Bogor, Jawa Barat",
+    "chapter": "Bab 4: Masa Sukarno",
+    "era": "indonesia-modern",
+    "title": "Deklarasi Djuanda: Kedaulatan Wilayah Maritim Nusantara",
+    "summary": "Pemerintah RI mendeklarasikan bahwa laut antarpulau bukan pemisah melainkan pemersatu kedaulatan teritorial Republik Indonesia.",
+    "detail": "Perdana Menteri Djuanda Kartawidjaja membatalkan batas laut kolonial 3 mil laut dan menetapkan batas teritorial 12 mil dari garis pangkal pulau-pulau terluar. Deklarasi ini diperjuangkan secara gigih hingga diakui dunia internasional dalam Konvensi Hukum Laut PBB (UNCLOS 1982).",
+    "location": "Jakarta & Markas Besar PBB",
     "figures": [
-      "Ir. Soekarno",
-      "Letjen Soeharto",
-      "Basuki Rahmat",
-      "M. Jusuf",
-      "Amir Machmud"
+      "Ir. H. Djuanda Kartawidjaja",
+      "Prof. Dr. Mochtar Kusumaatmadja"
     ],
-    "significance": "Instrumen politik dan hukum peralihan kekuasaan eksekutif terpenting dari Orde Lama ke Orde Baru."
+    "significance": "Melipatgandakan wilayah kedaulatan laut Indonesia dan meletakkan dasar konsep geopolitik Wawasan Nusantara."
   },
   {
     "id": "evt-ff-38",
-    "year": "27 Maret 1968",
+    "year": "19 Desember 1961",
     "phase": "Fase F",
-    "chapter": "Bab V",
-    "era": "soeharto",
-    "title": "Pelantikan Jenderal Soeharto Sebagai Presiden RI Ke-2",
-    "summary": "Sidang Umum V MPRS secara resmi menetapkan dan melantik Jenderal Soeharto sebagai Presiden Republik Indonesia.",
-    "detail": "Menyusul penolakan pidato Nawaksara Soekarno oleh MPRS pada 1967, Sidang Istimewa MPRS mencabut mandat presiden dari Soekarno dan mengangkat Soeharto sebagai Pejabat Presiden, yang kemudian dikukuhkan menjadi Presiden definitif pada 27 Maret 1968 dengan program Pembangunan Lima Tahun (Pelita).",
-    "location": "Gedung DPR/MPR Senayan, Jakarta",
+    "chapter": "Bab 4: Masa Sukarno",
+    "era": "indonesia-modern",
+    "title": "Komando Tri Rakyat (Trikora) & Pembebasan Irian Barat",
+    "summary": "Presiden Soekarno mengobarkan Trikora di Alun-Alun Utara Yogyakarta untuk membebaskan Irian Barat dari cengkeraman penjajahan Belanda.",
+    "detail": "Menerapkan operasi militer dan diplomasi terpadu pimpinan Mayor Jenderal Soeharto dalam Komando Mandala. Melalui Pertempuran Laut Aru (gugurnya Komodor Yos Sudarso), infiltrasi pasukan parasut, dan Perjanjian New York 1962, Irian Barat resmi kembali ke pangkuan Ibu Pertiwi.",
+    "location": "Yogyakarta, Laut Aru, & Jayapura, Papua",
     "figures": [
-      "Jenderal Soeharto",
-      "Jenderal A.H. Nasution (Ketua MPRS)"
+      "Ir. Soekarno",
+      "Komodor Yos Sudarso",
+      "Mayjen Soeharto"
     ],
-    "significance": "Permulaan resmi era pemerintahan Orde Baru yang memfokuskan orientasi negara pada stabilitas politik dan pembangunan ekonomi."
+    "significance": "Menyempurnakan wilayah kedaulatan NKRI dari Sabang sampai Merauke sesuai mandat Proklamasi 1945."
   },
   {
     "id": "evt-ff-39",
-    "year": "1973 M",
+    "year": "11 Maret 1966",
     "phase": "Fase F",
-    "chapter": "Bab V",
-    "era": "soeharto",
-    "title": "Kebijakan Fusi Partai Politik: Penataan Sistem Tiga Kontestan",
-    "summary": "Pemerintah Orde Baru menyederhanakan sistem multipartai menjadi tiga kekuatan politik: PPP, PDI, dan Golongan Karya.",
-    "detail": "Partai-partai berbasis Islam (NU, Parmusi, PSII, Perti) difusikan ke dalam Partai Persatuan Pembangunan (PPP), sedangkan partai nasionalis dan Kristen (PNI, Murba, IPKI, Parkindo, Partai Katolik) digabungkan menjadi Partai Demokrasi Indonesia (PDI), bersanding dengan Golkar.",
-    "location": "Jakarta",
+    "chapter": "Bab 5: Masa Soeharto",
+    "era": "indonesia-modern",
+    "title": "Surat Perintah Sebelas Maret (Supersemar) & Transisi Orde Baru",
+    "summary": "Presiden Soekarno menandatangani surat mandat kepada Jenderal Soeharto untuk mengamankan stabilitas negara pasca-peristiwa G30S.",
+    "detail": "Krisis politik ekonomi dan aksi demonstrasi mahasiswa Tritura (Bubarkan PKI, Bersihkan Kabinet, Turunkan Harga) mendorong terbitnya Supersemar di Istana Bogor. Soeharto membubarkan PKI dan memulai era pemerintahan Orde Baru yang berfokus pada stabilitas dan pembangunan ekonomi bertahap.",
+    "location": "Istana Bogor & Jakarta",
     "figures": [
-      "Soeharto",
-      "Ali Murtopo",
-      "Idham Chalid",
-      "Isnaeni"
+      "Jenderal Soeharto",
+      "Ir. Soekarno",
+      "Presidium KAMI/KAPPI"
     ],
-    "significance": "Menciptakan stabilitas hegemoni politik masa Orde Baru yang bertahan selama lima periode pemilihan umum berikutnya."
+    "significance": "Titik tolak peralihan kekuasaan politik dari masa Orde Lama menuju era pembangunan nasional Orde Baru."
   },
   {
     "id": "evt-ff-40",
-    "year": "15 Januari 1974",
+    "year": "1984 M",
     "phase": "Fase F",
-    "chapter": "Bab V",
-    "era": "soeharto",
-    "title": "Peristiwa Malari (Malapetaka Lima Belas Januari 1974)",
-    "summary": "Gelombang unjuk rasa mahasiswa menolak dominasi modal asing bertepatan dengan kunjungan Perdana Menteri Jepang Kakuei Tanaka.",
-    "detail": "Aksi damai mahasiswa pimpinan Ketua DEMA UI Hariman Siregar memprotes ketergantungan utang dan investasi asing serta peran asisten pribadi presiden (Aspri). Demonstrasi berujung kerusuhan pembakaran toko dan mobil di Pasar Senen, memicu pengetatan kontrol politik dan pers oleh pemerintah.",
-    "location": "Kawasan Senen & Jalan Thamrin, Jakarta",
+    "chapter": "Bab 5: Masa Soeharto",
+    "era": "indonesia-modern",
+    "title": "Pencapaian Swasembada Beras Nasional & Penghargaan FAO di Roma",
+    "summary": "Indonesia yang sebelumnya pengimpor beras terbesar di dunia berhasil mencapai kemandirian pangan nasional lewat Revolusi Hijau.",
+    "detail": "Melalui program Panca Usaha Tani, bibit unggul IR, intensifikasi massal (Inmas), dan pembangunan irigasi waduk raksasa, produksi beras melonjak dari 12 juta ton menjadi 27 juta ton. Presiden Soeharto diundang berpidato di hadapan sidang umum FAO di Roma untuk menerima medali emas penghargaan pangan dunia.",
+    "location": "Kantor Pusat FAO, Roma, Italia & Pedesaan Indonesia",
     "figures": [
-      "Hariman Siregar",
-      "PM Kakuei Tanaka",
-      "Jenderal Soemitro",
-      "Ali Murtopo"
+      "Presiden Soeharto",
+      "Prof. Dr. Emil Salim",
+      "Para Petani Indonesia"
     ],
-    "significance": "Kritik terbuka pertama terhadap model pembangunan ekonomi kapitalistik Orde Baru dan awal pembatasan kebebasan pers."
+    "significance": "Prestasi monumental ketahanan pangan agraris yang mengangkat martabat bangsa di mata masyarakat dunia."
   },
   {
     "id": "evt-ff-41",
-    "year": "1984 - 1985 M",
+    "year": "10 Agustus 1995",
     "phase": "Fase F",
-    "chapter": "Bab V",
-    "era": "soeharto",
-    "title": "Pencapaian Swasembada Beras Nasional & Penghargaan FAO di Roma",
-    "summary": "Indonesia berhasil mengubah status dari negara pengimpor beras terbesar di dunia menjadi negara yang mampu berswasembada pangan.",
-    "detail": "Melalui program Revolusi Hijau, Panca Usaha Tani, pembangunan irigasi bendungan massal, intensifikasi pertanian, dan penyuluhan PPL. Pada November 1985, Presiden Soeharto diundang berpidato di markas badan pangan dunia PBB (FAO) di Roma dan menerima medali emas \"From Rice Importer to Self-Sufficiency\".",
-    "location": "Markas Besar FAO, Roma, Italia & Lumbung Padi Nasional",
+    "chapter": "Bab 5: Masa Soeharto",
+    "era": "indonesia-modern",
+    "title": "Penerbangan Perdana Pesawat N-250 Gatotkaca (Karya Industri Dirgantara)",
+    "summary": "Mahakarya pesawat terbang turboprop modern berteknologi fly-by-wire rancangan B.J. Habibie sukses terbang perdana di langit Bandung.",
+    "detail": "PT Industri Pesawat Terbang Nusantara (IPTN) membuktikan anak bangsa mampu menguasai teknologi kedirgantaraan tingkat tinggi. Keberhasilan terbang perdana N-250 disaksikan jutaan rakyat dan diabadikan pemerintah sebagai Hari Kebangkitan Teknologi Nasional (Hakteknas).",
+    "location": "Bandara Husein Sastranegara, Bandung, Jawa Barat",
     "figures": [
-      "Presiden Soeharto",
-      "Prof. Widjojo Nitisastro",
-      "Ir. Achmad Affandi"
+      "Prof. Dr. Ing. B.J. Habibie",
+      "Insinyur & Teknisi Dirgantara Indonesia"
     ],
-    "significance": "Puncak keberhasilan modernisasi pertanian dan stabilitas pemenuhan kebutuhan pangan pokok rakyat Indonesia."
+    "significance": "Inspirasi keunggulan sains dan vokasi teknologi tingkat tinggi bagi putra-putri bangsa dan siswa SMK teknik."
   },
   {
     "id": "evt-ff-42",
-    "year": "1997 - Mei 1998",
-    "phase": "Fase F",
-    "chapter": "Bab V",
-    "era": "soeharto",
-    "title": "Krisis Moneter Asia & Puncak Keruntuhan Rezim Orde Baru",
-    "summary": "Anjloknya nilai tukar rupiah dan krisis ekonomi parah memicu gelombang demonstrasi mahasiswa menuntut pengunduran diri Soeharto.",
-    "detail": "Nilai rupiah terdepresiasi tajam dari Rp2.500 menjadi Rp16.000 per dolar AS, memicu inflasi, penutupan bank, dan PHK massal. Penembakan empat mahasiswa Trisakti pada 12 Mei 1998 menyulut kerusuhan massal di Jakarta dan kota-kota besar lainnya, mendorong pendudukan Gedung DPR/MPR oleh puluhan ribu mahasiswa.",
-    "location": "Kampus Trisakti, Gedung DPR/MPR Senayan, Jakarta",
-    "figures": [
-      "Pahlawan Reformasi Trisakti",
-      "Amien Rais",
-      "Jenderal Wiranto"
-    ],
-    "significance": "Akhir dari hegemoni politik 32 tahun kekuasaan rezim Orde Baru dan terbukanya pintu gerbang Reformasi."
-  },
-  {
-    "id": "evt-ff-43",
     "year": "21 Mei 1998",
     "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
-    "title": "Pidato Berhenti Presiden Soeharto & Pelantikan B.J. Habibie",
-    "summary": "Presiden Soeharto menyatakan berhenti dari jabatannya di Istana Merdeka dan mandat kepresidenan dialihkan kepada Wakil Presiden B.J. Habibie.",
-    "detail": "Pukul 09.00 pagi di Credential Room Istana Merdeka, Soeharto membacakan naskah pernyataan berhenti sesuai Pasal 8 UUD 1945. Mahkamah Agung langsung melantik Prof. B.J. Habibie sebagai Presiden RI ke-3. Habibie segera membuka keran kebebasan pers, mencabut SIUPP, membebaskan tahanan politik, dan merancang undang-undang otonomi daerah.",
-    "location": "Istana Merdeka, Jakarta",
+    "chapter": "Bab 5: Masa Soeharto",
+    "era": "indonesia-modern",
+    "title": "Pengunduran Diri Presiden Soeharto & Fajar Lahirnya Era Reformasi",
+    "summary": "Dihantam krisis moneter dan gelombang demonstrasi mahasiswa reformasi, Presiden Soeharto menyatakan berhenti setelah 32 tahun memimpin.",
+    "detail": "Krisis moneter 1997 memicu hiperinflasi dan kerusuhan sosial. Gerakan reformasi mahasiswa menduduki Gedung DPR/MPR menuntut demokratisasi dan pemberantasan KKN. Di Istana Merdeka, Soeharto mengumumkan pengunduran dirinya dan menyerahkan jabatan kepresidenan kepada Wakil Presiden B.J. Habibie.",
+    "location": "Istana Merdeka & Gedung DPR/MPR Senayan, Jakarta",
     "figures": [
       "Presiden Soeharto",
       "Prof. Dr. Ing. B.J. Habibie",
-      "Sarwata (Ketua MA)"
+      "Amien Rais",
+      "Aktivis Mahasiswa 1998"
     ],
-    "significance": "Tonggak sejarah formal peralihan kekuasaan dan kelahiran Era Reformasi Indonesia."
+    "significance": "Berakhirnya era otoritarianisme Orde Baru dan terbukanya pintu gerbang demokrasi keterbukaan politik di Indonesia."
+  },
+  {
+    "id": "evt-ff-43",
+    "year": "1999 – 2002",
+    "phase": "Fase F",
+    "chapter": "Bab 6: Masa Reformasi",
+    "era": "indonesia-modern",
+    "title": "Empat Tahap Amandemen UUD 1945 & Desentralisasi Otonomi Daerah",
+    "summary": "MPR mengesahkan amandemen UUD 1945 yang membatasi masa jabatan presiden, menjamin kebebasan pers, HAM, dan mendirikan Mahkamah Konstitusi.",
+    "detail": "Reformasi konstitusi secara mendasar menata checks and balances kelembagaan negara. Masa jabatan presiden dibatasi maksimal 2 periode, dibentuk DPD, Komisi Yudisial, KPK, dan Mahkamah Konstitusi, serta diberlakukan undang-undang otonomi daerah yang menyebarkan pembangunan ke seluruh pelosok provinsi.",
+    "location": "Gedung MPR/DPR Senayan, Jakarta",
+    "figures": [
+      "Amien Rais (Ketua MPR)",
+      "Abdurrahman Wahid (Gus Dur)",
+      "Megawati Soekarnoputri"
+    ],
+    "significance": "Transformasi Indonesia menjadi negara demokrasi konstitusional terbesar ketiga di dunia dengan penghormatan tinggi pada HAM."
   },
   {
     "id": "evt-ff-44",
-    "year": "7 Juni 1999",
-    "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
-    "title": "Pemilu Demokratis Multipartai Pertama Pasca-Orde Baru",
-    "summary": "Sebanyak 48 partai politik berkompetisi dalam pemilihan umum paling bebas, jujur, dan adil sejak pemilu 1955.",
-    "detail": "Diselenggarakan oleh Komisi Pemilihan Umum (KPU) independen di bawah pimpinan Rudini. PDI Perjuangan meraih suara terbanyak, disusul Golkar, PPP, PKB, dan PAN. Sidang Umum MPR Oktober 1999 kemudian memilih K.H. Abdurrahman Wahid (Gus Dur) sebagai Presiden dan Megawati Soekarnoputri sebagai Wakil Presiden.",
-    "location": "Seluruh Indonesia & Gedung MPR Senayan",
-    "figures": [
-      "K.H. Abdurrahman Wahid (Gus Dur)",
-      "Megawati Soekarnoputri",
-      "Amien Rais",
-      "Rudini"
-    ],
-    "significance": "Pemulihan legitimasi kedaulatan rakyat melalui pemilu multipartai yang transparan dan damai."
-  },
-  {
-    "id": "evt-ff-45",
-    "year": "30 Agustus 1999",
-    "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
-    "title": "Jajak Pendapat / Referendum Timor Timur",
-    "summary": "Rakyat Timor Timur menentukan pilihan masa depannya melalui referendum yang diselenggarakan PBB (UNAMET).",
-    "detail": "Presiden Habibie menawarkan opsi otonomi luas atau pemisahan diri. Sebanyak 78,5% pemilih menolak opsi otonomi, yang berarti memilih kemerdekaan. MPR RI pada Oktober 1999 mencabut Ketetapan MPRS mengenai integrasi Timor Timur, yang kemudian melahirkan negara merdeka Republik Demokratik Timor-Leste.",
-    "location": "Dili, Timor Timur (Timor-Leste)",
-    "figures": [
-      "B.J. Habibie",
-      "Kofi Annan",
-      "Xanana Gusmao",
-      "Ian Martin"
-    ],
-    "significance": "Penyelesaian tuntas sengketa wilayah internasional warisan dekolonisasi secara terhormat di bawah hukum internasional."
-  },
-  {
-    "id": "evt-ff-46",
-    "year": "1999 - 2002",
-    "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
-    "title": "Empat Tahap Amandemen UUD 1945 & Arsitektur Lembaga Negara Baru",
-    "summary": "MPR melakukan empat kali perubahan komprehensif terhadap Undang-Undang Dasar 1945 guna membatasi kekuasaan eksekutif dan memperkuat HAM.",
-    "detail": "Amandemen membatasi masa jabatan presiden maksimal dua periode, menjamin pemilihan presiden langsung, memasukkan pasal-pasal perlindungan Hak Asasi Manusia (Pasal 28A-28J), membentuk Mahkamah Konstitusi (MK), Dewan Perwakilan Daerah (DPD), dan Komisi Yudisial (KY).",
-    "location": "Gedung DPR/MPR RI Senayan, Jakarta",
-    "figures": [
-      "Amien Rais",
-      "Hamdan Zoelva",
-      "Jakob Tobing"
-    ],
-    "significance": "Restrukturisasi fundamental konstitusi Indonesia menuju supremasi hukum, pemisahan kekuasaan (checks and balances), dan demokrasi modern."
-  },
-  {
-    "id": "evt-ff-47",
-    "year": "2002 M",
-    "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
-    "title": "Pembentukan Komisi Pemberantasan Tindak Pidana Korupsi (KPK)",
-    "summary": "Pemerintahan Presiden Megawati Soekarnoputri mengesahkan Undang-Undang No. 30 Tahun 2002 tentang pendirian KPK.",
-    "detail": "Lahir sebagai amanat TAP MPR XI/MPR/1998 untuk mewujudkan pemerintahan yang bersih dari KKN. KPK dirancang sebagai lembaga independen dengan wewenang penyelidikan, penyidikan, dan penuntutan korupsi yang menjadi ujung tombak penegakan integritas birokrasi.",
-    "location": "Jakarta",
-    "figures": [
-      "Presiden Megawati Soekarnoputri",
-      "Taufiequrachman Ruki"
-    ],
-    "significance": "Lembaga penegak hukum antirasuah independen yang menjadi pilar akuntabilitas tata kelola pemerintahan era Reformasi."
-  },
-  {
-    "id": "evt-ff-48",
     "year": "5 Juli & 20 September 2004",
     "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
+    "chapter": "Bab 6: Masa Reformasi",
+    "era": "indonesia-modern",
     "title": "Pemilihan Presiden & Wakil Presiden Secara Langsung Pertama Kali",
-    "summary": "Rakyat Indonesia untuk pertama kalinya dalam sejarah menggunakan hak pilihnya mencoblos langsung pasangan Presiden dan Wakil Presiden.",
-    "detail": "Diikuti oleh lima pasangan calon dalam putaran pertama, putaran kedua mempertemukan Megawati-Hasyim Muzadi dengan Susilo Bambang Yudhoyono (SBY)-Jusuf Kalla. Pasangan SBY-JK terpilih sebagai pemenang dan dilantik secara damai pada 20 Oktober 2004.",
-    "location": "Seluruh Wilayah Republik Indonesia",
+    "summary": "Rakyat Indonesia untuk pertama kalinya dalam sejarah menggunakan hak pilih secara langsung memilih pemimpin negara secara damai.",
+    "detail": "Diikuti oleh 150 juta pemilih di 33 provinsi tanpa kerusuhan berarti. Pasangan Susilo Bambang Yudhoyono dan Jusuf Kalla memenangkan mandat rakyat putaran kedua, menandai kematangan berdemokrasi bangsa Indonesia yang menuai pujian luas dari para pemimpin dunia.",
+    "location": "Seluruh Wilayah Tempat Pemungutan Suara (TPS) Indonesia",
     "figures": [
       "Susilo Bambang Yudhoyono (SBY)",
       "Jusuf Kalla",
       "Megawati Soekarnoputri",
-      "Prof. Nazaruddin Sjamsuddin"
+      "KPU RI"
     ],
-    "significance": "Puncak transisi demokrasi elektoral langsung yang membuktikan kematangan politik bangsa Indonesia tanpa gejolak kekerasan."
+    "significance": "Membuktikan kedewasaan berdemokrasi dan transisi kepemimpinan nasional yang tertib, damai, dan beradab."
   },
   {
-    "id": "evt-ff-49",
+    "id": "evt-ff-45",
     "year": "15 Agustus 2005",
     "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
-    "title": "Penandatanganan Nota Kesepahaman Damai Aceh (MoU Helsinki)",
-    "summary": "Pemerintah Republik Indonesia dan Gerakan Aceh Merdeka (GAM) menandatangani kesepakatan damai abadi di Helsinki, Finlandia.",
-    "detail": "Pasca bencana gempa dan tsunami dahsyat 26 Desember 2004, Wakil Presiden Jusuf Kalla memprakarsai perundingan damai difasilitasi mantan Presiden Finlandia Martti Ahtisaari. GAM menyerahkan senjata dan membubarkan sayap militer, sementara pemerintah memberikan Otonomi Khusus melalui UU Pemerintahan Aceh.",
-    "location": "Helsinki, Finlandia & Banda Aceh",
+    "chapter": "Bab 6: Masa Reformasi",
+    "era": "indonesia-modern",
+    "title": "Perdamaian MoU Helsinki: Rekonsiliasi Damai Abadi Konflik Aceh",
+    "summary": "Pemerintah RI dan Gerakan Aceh Merdeka (GAM) menandatangani nota kesepahaman damai di Finlandia, mengakhiri konflik bersenjata 29 tahun.",
+    "detail": "Difasilitasi oleh mantan Presiden Finlandia Martti Ahtisaari dan inisiatif Wapres Jusuf Kalla pasca-bencana tsunami dahsyat 2004. GAM menyerahkan senjata dan membubarkan sayap militer, sementara pemerintah memberikan otonomi khusus, dana otonomi, dan hak pendirian partai politik lokal di Aceh.",
+    "location": "Smolna, Helsinki, Finlandia & Banda Aceh",
     "figures": [
       "Jusuf Kalla",
-      "Hamid Awaludin",
+      "Hamid Awaluddin",
       "Malik Mahmud",
       "Martti Ahtisaari"
     ],
-    "significance": "Penyelesaian konflik bersenjata berkepanjangan selama hampir tiga dekade secara damai dan bermartabat dalam bingkai NKRI."
+    "significance": "Model diplomasi perdamaian dan rekonsiliasi kebangsaan kelas dunia yang membuktikan kekuatan dialog di atas kekerasan."
   },
   {
-    "id": "evt-ff-50",
-    "year": "14 Februari & 20 Oktober 2024",
+    "id": "evt-ff-46",
+    "year": "2024 – Menuju 2045",
     "phase": "Fase F",
-    "chapter": "Bab VI",
-    "era": "reformasi",
-    "title": "Pemilu Serentak 2024 & Transisi Konstitusional Kepemimpinan Nasional",
-    "summary": "Penyelenggaraan pemilu presiden dan legislatif serentak terbesar dalam satu hari di dunia serta transisi kepemimpinan nasional secara konstitusional.",
-    "detail": "Lebih dari 204 juta pemilih terdaftar menyalurkan suaranya di lebih dari 820.000 TPS. Menghasilkan terpilihnya Presiden dan Wakil Presiden baru secara demokratis, mengukuhkan tradisi suksesi kepemimpinan damai dan konsolidasi demokrasi Indonesia di panggung global abad ke-21.",
-    "location": "Seluruh Wilayah Indonesia & Gedung DPR/MPR RI Jakarta",
+    "chapter": "Bab 6: Masa Reformasi",
+    "era": "indonesia-modern",
+    "title": "Pembangunan IKN Nusantara & Visi Transformasi Menuju Indonesia Emas 2045",
+    "summary": "Pemerataan pembangunan melalui pemindahan Ibu Kota Nusantara (IKN) di Kalimantan Timur dan percepatan industrialisasi menyongsong 100 tahun RI.",
+    "detail": "Indonesia mengakselerasi transformasi digital, hilirisasi industri mineral bernilai tambah tinggi, penguatan poros maritim, dan pembangunan kota cerdas hijau IKN Nusantara. Menjadi momentum generasi emas siswa SMK untuk memimpin kemajuan sains, teknologi terapan, dan ekonomi kreatif mandiri.",
+    "location": "Nusantara (Penajam Paser Utara, Kaltim) & Seluruh Indonesia",
     "figures": [
-      "Joko Widodo",
-      "Prabowo Subianto",
-      "Gibran Rakabuming Raka",
-      "Hasyim Asy'ari"
+      "Presiden RI Joko Widodo",
+      "Presiden Terpilih Prabowo Subianto",
+      "Generasi Muda & Siswa SMK"
     ],
-    "significance": "Konsolidasi kedewasaan demokrasi konstitusional Indonesia sebagai negara demokrasi terbesar ketiga di dunia."
+    "significance": "Visi masa depan kedaulatan peradaban Indonesia yang merata, berkelanjutan, berdaya saing global, dan berakar pada jati diri bangsa."
   }
 ];
 
