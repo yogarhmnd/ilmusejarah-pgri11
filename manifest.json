@@ -1,0 +1,21 @@
+{
+  "name": "SMK PGRI 11 CILEDUG - Pembelajaran Sejarah Indonesia Terpadu",
+  "short_name": "Sejarah SMK PGRI 11",
+  "description": "Platform Pembelajaran Interaktif Sejarah Indonesia Kurikulum Merdeka Fase E & F",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#8B1E1E",
+  "icons": [
+    {
+      "src": "assets/logo-smk-pgri-11.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo-smk-pgri-11.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

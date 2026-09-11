@@ -1,0 +1,776 @@
+/* ==========================================================================
+   KRONIK NUSANTARA - LAYOUT & SECTIONS STYLES
+   ========================================================================== */
+
+/* 1. NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 900;
+  background: var(--bg-surface-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid var(--border-subtle);
+  transition: all var(--transition-normal);
+  padding: 0.65rem 0;
+}
+
+.navbar.scrolled {
+  border-bottom-color: var(--border-gold);
+  box-shadow: var(--shadow-sm);
+  padding: 0.5rem 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--font-display);
+  font-size: 1.16rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  transition: all var(--transition-normal);
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.brand-text {
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  transition: color var(--transition-normal);
+}
+
+/* Penyesuaian Warna Teks SMK PGRI 11 CILEDUG pada Pergantian Tema */
+[data-theme="light"] .brand-text {
+  color: #132438; /* Navy pekat elegan & tajam di mode terang */
+}
+
+[data-theme="dark"] .brand-text {
+  color: #ffffff; /* Putih murni di mode gelap */
+}
+
+/* Penyesuaian Efek Logo pada Pergantian Tema */
+.brand-logo-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  transition: transform var(--transition-normal), filter var(--transition-normal);
+  flex-shrink: 0;
+}
+
+/* Di Mode Terang: bayangan natural berdimensi halus */
+[data-theme="light"] .brand-logo-img {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.16));
+}
+
+/* Di Mode Gelap: pendaran kontur halus agar garis luar dan pita logo tampil kontras di latar pekat */
+[data-theme="dark"] .brand-logo-img {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.55)) drop-shadow(0 3px 8px rgba(0, 0, 0, 0.75));
+}
+
+.brand-logo:hover .brand-logo-img {
+  transform: scale(1.08) rotate(-2deg);
+}
+
+.brand-emblem {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--gradient-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-on-accent);
+  font-weight: 900;
+  font-size: 1.18rem;
+  box-shadow: 0 0 14px var(--gold-glow);
+}
+
+/* Pusat Navigasi Desktop (Pills Group) */
+.navbar-center-nav {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .navbar-center-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+    margin: 0 0.65rem;
+  }
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-shrink: 0;
+}
+
+.theme-toggle-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.15rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-menu-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  padding: 0;
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.55rem 0;
+  }
+  .nav-container {
+    padding: 0 1rem;
+    gap: 0.5rem;
+  }
+  .brand-logo-img {
+    width: 36px;
+    height: 36px;
+  }
+  .brand-text {
+    font-size: 1.02rem;
+  }
+  .theme-toggle-btn, .mobile-menu-btn {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Nav Drawer */
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  max-width: 360px;
+  height: 100vh;
+  background: var(--bg-primary);
+  border-left: 1px solid var(--border-gold);
+  z-index: 1001;
+  padding: 2.5rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: right var(--transition-smooth);
+  box-shadow: var(--shadow-lg);
+}
+
+.mobile-drawer.open {
+  right: 0;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.mobile-nav-link {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.mobile-nav-link:hover {
+  color: var(--text-gold);
+}
+
+/* 2. HERO SECTION (DASHBOARD SLIDESHOW) */
+.hero-section {
+  position: relative;
+  padding-top: 5.8rem;
+  padding-bottom: 2.8rem;
+  overflow: hidden;
+  transition: background var(--transition-normal);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 5.2rem;
+  }
+}
+
+[data-theme="light"] .hero-section {
+  background: linear-gradient(180deg, #ebf5fe 0%, #dff0fc 50%, #d2ebfc 100%);
+}
+
+[data-theme="dark"] .hero-section {
+  background: linear-gradient(180deg, #070e17 0%, #0b1625 50%, #0f1d32 100%);
+}
+
+/* Pembatas Warna Gradien Megamendung Terang & Gelap */
+[data-theme="light"] .hero-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #186382 0%, #228aa4 25%, #38bdf8 50%, #228aa4 75%, #186382 100%);
+  box-shadow: 0 3px 15px rgba(34, 138, 164, 0.45);
+  z-index: 10;
+}
+
+[data-theme="dark"] .hero-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #101628 0%, #d4b277 25%, #f5db99 50%, #d4b277 75%, #101628 100%);
+  box-shadow: 0 3px 15px rgba(226, 188, 104, 0.48);
+  z-index: 10;
+}
+
+.hero-slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.hero-slide {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.hero-slide.active {
+  display: block;
+  opacity: 1;
+  animation: heroSlideFadeIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes heroSlideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hero Landscape Slideshow Layout */
+.hero-landscape-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* 1. ATAS: Gambar Slideshow Landscape Simpel & Elegan */
+.hero-landscape-visual {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto 1.25rem auto;
+  position: relative;
+}
+
+.hero-landscape-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 230px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-gold);
+  box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.45), 0 0 20px var(--gold-glow);
+  background: #080a0e;
+}
+
+@media (max-width: 768px) {
+  .hero-landscape-visual {
+    max-width: 100%;
+    margin-bottom: 0.95rem;
+  }
+  .hero-landscape-frame {
+    max-height: 185px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-landscape-frame {
+    max-height: 160px;
+  }
+}
+
+.hero-landscape-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-landscape-frame:hover .hero-landscape-img {
+  transform: scale(1.025);
+}
+
+/* Micro-capsule Label Elegan di Sudut Gambar */
+.hero-photo-capsule {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  padding: 0.28rem 0.75rem;
+  background: rgba(8, 12, 18, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  z-index: 3;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 480px) {
+  .hero-photo-capsule {
+    font-size: 0.68rem;
+    padding: 0.2rem 0.55rem;
+    bottom: 6px;
+    right: 8px;
+  }
+}
+
+/* 2. BAWAH: Judul Dashboard & Abstrak Terlihat Nyaman di Web & Mobile */
+.hero-center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.28rem 0.9rem;
+  border-radius: var(--radius-full);
+  background: var(--gold-glow);
+  border: 1px solid var(--border-gold);
+  color: var(--text-gold);
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.65rem;
+}
+
+.hero-center-title {
+  font-size: 1.85rem;
+  line-height: 1.22;
+  margin-bottom: 0.65rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-center-title {
+    font-size: 2.15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-center-title {
+    font-size: 1.4rem;
+  }
+}
+
+.hero-center-desc {
+  font-size: 0.96rem;
+  line-height: 1.62;
+  color: var(--text-muted);
+  margin-bottom: 1.2rem;
+  max-width: 820px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (max-width: 768px) {
+  .hero-center-desc {
+    font-size: 0.88rem;
+    line-height: 1.52;
+    margin-bottom: 1rem;
+  }
+}
+
+.hero-center-ctas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigasi Panah Slideshow Minimalis & Elegan */
+.hero-slide-nav {
+  position: absolute;
+  top: 115px;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(12, 16, 24, 0.78);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--border-gold);
+  color: #ffffff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 25;
+  transition: all var(--transition-normal);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  user-select: none;
+  line-height: 1;
+}
+
+.hero-slide-prev {
+  left: calc(50% - 320px - 22px);
+}
+
+.hero-slide-next {
+  right: calc(50% - 320px - 22px);
+}
+
+@media (max-width: 768px) {
+  .hero-slide-nav {
+    top: 92px;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+  }
+  .hero-slide-prev {
+    left: 8px;
+  }
+  .hero-slide-next {
+    right: 8px;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-slide-prev {
+    left: 8px;
+  }
+  .hero-slide-next {
+    right: 8px;
+  }
+}
+
+.hero-slide-nav:hover {
+  background: var(--gradient-gold);
+  color: var(--text-on-accent);
+  border-color: transparent;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 15px var(--gold-glow);
+}
+
+/* Indikator Titik (Dots) Slideshow */
+.hero-slide-indicators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  margin-top: 1.3rem;
+  z-index: 25;
+}
+
+.slide-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-full);
+  background: var(--gold-glow);
+  border: 1px solid var(--border-gold);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  padding: 0;
+}
+
+.slide-dot:hover {
+  background: var(--gold-glow-intense);
+  transform: scale(1.2);
+}
+
+.slide-dot.active {
+  width: 32px;
+  border-radius: 6px;
+  background: var(--gradient-gold);
+  box-shadow: 0 2px 8px var(--gold-glow);
+  border-color: transparent;
+}
+
+.hero-badge-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--gradient-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  color: var(--text-on-accent);
+}
+
+/* 3. SECTION COMMON */
+section {
+  padding: 5.5rem 0;
+  position: relative;
+}
+
+/* 3.1 CURRICULUM SMK SECTION (MATERI / ISI) */
+.curriculum-section {
+  position: relative;
+  border-bottom: 1px solid var(--border-subtle);
+  transition: background var(--transition-normal);
+  padding-top: 5rem;
+}
+
+[data-theme="light"] .curriculum-section {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 250, 255, 0.94) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .curriculum-section {
+  background: rgba(11, 20, 34, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+
+/* 4. TIMELINE SECTION */
+.timeline-section {
+  background: var(--bg-primary);
+}
+
+.timeline-controls {
+  margin-bottom: 3.5rem;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--gold-500) 0%, transparent 100%);
+}
+
+@media (min-width: 768px) {
+  .timeline-line {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  width: 100%;
+  padding-left: 50px;
+}
+
+@media (min-width: 768px) {
+  .timeline-item {
+    width: 50%;
+    padding-left: 0;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+    padding-right: 45px;
+    text-align: right;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+    padding-left: 45px;
+    text-align: left;
+  }
+
+  .timeline-item.left .event-tags {
+    justify-content: flex-end;
+  }
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 24px;
+  left: 11px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--bg-app);
+  border: 4px solid var(--gold-500);
+  box-shadow: 0 0 14px var(--gold-glow);
+  z-index: 2;
+  transition: all var(--transition-fast);
+}
+
+@media (min-width: 768px) {
+  .timeline-item.left .timeline-dot {
+    right: -10px;
+    left: auto;
+  }
+  
+  .timeline-item.right .timeline-dot {
+    left: -10px;
+  }
+}
+
+.timeline-item:hover .timeline-dot {
+  background: var(--gold-400);
+  border-color: #ffffff;
+  transform: scale(1.25);
+}
+
+/* 5. ARCHIPELAGO MAP SECTION */
+.map-section {
+  background: var(--bg-app);
+}
+
+/* 6. TOKOH BANGSA SECTION */
+.tokoh-section {
+  background: var(--bg-primary);
+}
+
+.tokoh-filter-bar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+/* 7. DOKUMEN BERSEJARAH */
+.doc-section {
+  background: var(--bg-app);
+}
+
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* 8. QUIZ SECTION */
+.quiz-section {
+  background: var(--bg-primary);
+}
+
+/* 9. FOOTER */
+.footer {
+  background: linear-gradient(180deg, var(--bg-app) 0%, var(--bg-secondary) 100%);
+  border-top: 1px solid var(--border-gold);
+  padding: 4.5rem 0 2rem 0;
+  position: relative;
+}
+
+.footer-quote-box {
+  max-width: 800px;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+  padding: 2.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.footer-quote {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--text-gold);
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.footer-author {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-subtle);
+}
