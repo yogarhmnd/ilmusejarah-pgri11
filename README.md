@@ -73,30 +73,14 @@ Proyek ini dibuat menggunakan standar web modern murni (**HTML5, CSS3, ES Module
 ---
 
 ### Opsi 2: Vercel (Paling Cepat & Otomatis)
-1. Masuk atau daftar akun di [Vercel](https://vercel.com).
-2. Klik **Add New...** > **Project**.
-3. Hubungkan akun GitHub Anda dan pilih repositori proyek ini (atau gunakan [Vercel CLI](https://vercel.com/cli) dengan mengetik perintah `npx vercel` langsung di terminal).
-4. Pada bagian **Build and Output Settings**, konfigurasi sudah diatur otomatis oleh `vercel.json` (`outputDirectory: "."` dan rewrite ke `index.html`). Pastikan **Framework Preset** terdeteksi sebagai **Other**.
-5. Klik **Deploy**.
-6. Website akan langsung aktif dalam hitungan detik dengan domain HTTPS gratis (contoh: `sejarah-smk.vercel.app`).
-
-> **Catatan jika pernah mengalami 404 di Vercel:**  
-> Buka proyek di Vercel Dashboard > **Settings** > **General** > **Build & Development Settings**:
-> - **Framework Preset**: Pilih `Other`
-> - **Build Command**: Kosongkan atau biarkan default
-> - **Output Directory**: Ketik `.` (titik/root) jika di-override, atau biarkan `vercel.json` yang mengaturnya secara otomatis.
-> Lalu lakukan **Redeploy**.
+1. Masuk ke [Vercel](https://vercel.com).
+2. Klik **Add New...** > **Project** lalu impor repositori GitHub Anda.
+3. Vercel akan otomatis mengenali proyek ini sebagai **Website Statis Murni (Zero Configuration)** karena tidak ada file backend `package.json` yang memicu deteksi Node.js.
+4. Klik **Deploy**. Website langsung aktif seketika tanpa error 404!
 
 ---
 
-### Opsi 3: Netlify (Deploy via Drag & Drop atau Git)
-1. Masuk ke [Netlify](https://app.netlify.com).
-2. Anda cukup melakukan **Drag & Drop** folder proyek ini ke dashboard Netlify, atau menghubungkannya dengan repositori GitHub.
-3. Website langsung online seketika dengan SSL/HTTPS gratis.
-
----
-
-## 📁 Struktur Direktori Bersih
+## 📁 Struktur Direktori Bersih Siap Deploy
 
 ```text
 ├── assets/                  # Logo sekolah, foto tokoh bangsa & gambar ilustrasi
@@ -116,18 +100,17 @@ Proyek ini dibuat menggunakan standar web modern murni (**HTML5, CSS3, ES Module
 │   ├── quiz.js              # Controller kuis interaktif
 │   └── timeline.js          # Controller linimasa sejarah
 ├── .gitignore               # Konfigurasi file yang diabaikan git
-├── _redirects               # Routing rule untuk Netlify / Cloudflare
+├── .nojekyll                # Menonaktifkan mesin Jekyll di GitHub Pages
 ├── index.html               # File utama halaman web
 ├── manifest.json            # PWA manifest untuk dukungan aplikasi mobile
-├── package.json             # Konfigurasi proyek Node.js
 ├── README.md                # Panduan dokumentasi proyek & hosting
 ├── robots.txt               # Aturan pengindeksan mesin pencari (SEO)
-├── server.js                # Server statis lokal berbasis Node.js
 ├── sitemap.xml              # Peta situs untuk Google / Bing
-└── vercel.json              # Konfigurasi deployment Vercel
+└── vercel.json              # Konfigurasi rewrite & caching aset Vercel
 ```
 
 ---
 
 ## 📜 Lisensi & Hak Cipta
 Hak Cipta © 2026 **SMK PGRI 11 CILEDUG**. Seluruh materi sejarah disusun sesuai acuan Kurikulum Merdeka Kemendikdasmen RI untuk keperluan edukasi dan literasi sejarah nasional.
+
