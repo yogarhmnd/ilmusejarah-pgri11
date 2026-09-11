@@ -15,13 +15,13 @@
  *    pastikan databaseURL sudah terisi sesuai Firebase Console).
  */
 export const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyB-z48tatTOw_89V_so2FcA7ni9I1_UxeE",
   authDomain: "ilmusejarah-pgri11.firebaseapp.com",
   databaseURL: "https://ilmusejarah-pgri11-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "ilmusejarah-pgri11",
   storageBucket: "ilmusejarah-pgri11.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  messagingSenderId: "605323241634",
+  appId: "1:605323241634:web:3a851cf9ad1aa042efcffb"
 };
 
 /**

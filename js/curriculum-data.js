@@ -6,403 +6,688 @@
 
 export const CURRICULUM_DATA = {
   'kelas-x': {
-    grade: 'Kelas X SMK',
-    phase: 'Fase E',
-    cpHeader: 'Capaian Pembelajaran (CP) Fase E: Peserta didik mampu memahami konsep dasar ilmu sejarah, menganalisis asal-usul nenek moyang bangsa Indonesia, jalur perdagangan rempah Nusantara, corak peradaban kerajaan Hindu-Buddha dan Islam; menghubungkannya secara spasial dan temporal; serta menumbuhkan kesadaran sejarah dan nilai-nilai kebanggaan maritim yang relevan dengan profil lulusan SMK.',
-    modules: [
-      {
-        id: 'smk-x-1',
-        title: 'Konsep Asal-Usul Nenek Moyang Bangsa Indonesia & Budaya Praaksara',
-        phase: 'Fase E',
-        grade: 'Kelas X',
-        icon: '🦴',
-        period: 'Zaman Praaksara - Holosen (± 4.500 SM - Abad 4 M)',
-        cpSummary: 'Menganalisis teori-teori migrasi nenek moyang, pembentukan geologis kepulauan, corak kehidupan berburu hingga perundagian, serta kearifan lokal tradisi megalitikum.',
-        syllabus: {
-          atp: [
-            '10.1.1 Mengidentifikasi dan membandingkan 4 teori utama asal-usul nenek moyang bangsa Indonesia berdasarkan bukti linguistik, arkeologis, dan genetika.',
-            '10.1.2 Menganalisis pengaruh perubahan geologis (Paparan Sunda & Sahul) terhadap pola migrasi fauna, flora, dan kelompok manusia purba di Nusantara.',
-            '10.1.3 Menguraikan proses evolusi sosial-ekonomi dari food gathering (nomaden) menuju food producing (sedenter) dan spesialisasi kerja masa perundagian.',
-            '10.1.4 Mengevaluasi teknologi metalurgi purba (bivalve & a cire perdue) serta nilai-nilai gotong royong dalam kebudayaan megalitikum.'
-          ],
-          meaningfulUnderstanding: 'Keberagaman suku bangsa dan budaya di Indonesia bukanlah pemisah, melainkan hasil dari gelombang migrasi maritim ribuan tahun yang beradaptasi dengan bentang alam kepulauan dan melahirkan kearifan lokal yang tangguh.',
-          essentialQuestions: [
-            'Mengapa teori Out of Taiwan dianggap memiliki bukti paling kokoh dibandingkan teori lainnya?',
-            'Bagaimana penemuan teknologi pengolahan logam pada masa perundagian mengubah struktur sosial masyarakat praaksara?'
-          ]
-        },
-        subtopics: [
-          {
-            heading: '1. Historiografi & 4 Teori Utama Migrasi Nenek Moyang',
-            content: `Kajian ilmiah modern mengenai asal-usul manusia di kepulauan Indonesia didasarkan pada perpaduan tiga disiplin ilmu: arkeologi (temuan fosil dan artefak), linguistik historis komparatif (rumpun bahasa), dan genetika molekuler (analisis DNA mitokondria dan kromosom Y). Terdapat empat teori utama yang mendasari pemahaman sejarah ini:
-
-1. **Teori Out of Taiwan (Didukung Riset Linguistik Robert Blust & Genetika Peter Bellwood)**:
-Menyatakan bahwa nenek moyang penutur rumpun bahasa Austronesia bermigrasi dari Formosa (Taiwan) sekitar 4.500–3.000 SM. Migrasi maritim menggunakan perahu cadik ini bergerak ke selatan menuju Filipina, lalu bercabang dua:
-- Jalur barat: Menuju Kalimantan, Sumatra, Jawa, hingga ke Semenanjung Malaya dan menyeberangi Samudra Hindia ke Pulau Madagaskar di lepas pantai timur Afrika.
-- Jalur timur: Menuju Sulawesi, Maluku, Nusa Tenggara, Papua bagian pesisir, hingga menyebar ke Kepulauan Oseania (Mikronesia, Melanesia, dan Polinesia).
-Bukti terkuat teori ini adalah 90% bahasa daerah di Indonesia berakar dari rumpun Austronesia dan adanya kesamaan teknik pertanian menanam padi, jelai, serta pembiakan babi dan anjing.
-
-2. **Teori Out of Africa (Didukung Riset Genetika Modern)**:
-Menyatakan bahwa seluruh manusia modern (*Homo sapiens*) berakar dari satu populasi di Afrika Timur sekitar 100.000–150.000 tahun lalu. Sekitar 60.000–70.000 tahun lalu, gelombang manusia bermigrasi menyusuri pesisir Samudra Hindia (*Coastal Migration Route*) menuju Asia Selatan, Asia Tenggara, dan tiba di Paparan Sahul (kawasan timur Indonesia dan Australia), yang menjadi leluhur kelompok ras Australomelanesoid/Papuan.
-
-3. **Teori Yunnan (Gelombang Proto Melayu & Deutro Melayu)**:
-Menyatakan bahwa gelombang manusia purba datang dari lembah Sungai Mekong dan Sungai Salween di Yunnan, Tiongkok Selatan. Teori ini membagi migrasi ke dalam dua gelombang:
-- *Proto Melayu (Melayu Tua, ± 1.500 SM)*: Datang membawa kebudayaan Neolitikum tingkat tinggi berupa beliung persegi (jalur barat) dan kapak lonjong (jalur timur). Keturunannya saat ini antara lain suku Batak, Dayak, Toraja, Nias, dan Sasak.
-- *Deutro Melayu (Melayu Muda, ± 500 SM)*: Datang membawa kebudayaan logam perunggu dari peradaban Dongson (Vietnam Utara). Keturunannya antara lain suku Jawa, Melayu, Sunda, Bugis, Bali, dan Minangkabau.
-
-4. **Teori Nusantara (Prof. Mohammad Yamin, J. Crawford, & Sutan Takdir Alisjahbana)**:
-Menyatakan bahwa bangsa Indonesia tidak bermigrasi dari wilayah luar, melainkan berkembang secara mandiri di wilayah kepulauan Indonesia sendiri. Teori ini didukung oleh banyaknya temuan fosil manusia purba tertua di dunia di lembah Sungai Bengawan Solo, seperti *Meganthropus palaeojavanicus*, *Pithecanthropus erectus* (Trinil, Ngawi), serta *Homo soloensis* dan *Homo wajakensis* yang menunjukkan kesinambungan biologis di tanah Jawa.`
-          },
-          {
-            heading: '2. Paleogeografi Kepulauan Nusantara: Paparan Sunda & Paparan Sahul',
-            content: `Kondisi geologis Indonesia pada masa Glasial (Zaman Es) sekitar 20.000 tahun lalu sangat berbeda dengan kondisi saat ini. Penurunan permukaan air laut global hingga 120 meter di bawah permukaan laut modern menyebabkan terbentuknya dua daratan benua raksasa:
-
-• **Paparan Sunda (Sunda Shelf)**: Wilayah barat Indonesia (Sumatra, Jawa, Kalimantan, Semenanjung Malaya, dan Laut Jawa) menyatu menjadi satu daratan besar yang terhubung langsung dengan daratan utama Benua Asia (*Asia Daratan*). Hal ini menjelaskan mengapa fauna di wilayah barat Indonesia bersifat Asiatis (gajah, harimau, badak, orangutan).
-• **Paparan Sahul (Sahul Shelf)**: Wilayah timur Indonesia (Papua dan Laut Arafura) menyatu langsung dengan Benua Australia. Hal ini menjelaskan mengapa fauna di wilayah timur bersifat Australis (kanguru pohon, burung cendrawasih, kasuari).
-• **Zona Peralihan Wallacea**: Wilayah kepulauan di antara kedua paparan tersebut (Sulawesi, Maluku, Nusa Tenggara) terpisahkan oleh palung laut dalam yang tidak pernah surut meskipun pada puncak Zaman Es. Dibatasi oleh *Garis Wallace* dan *Garis Weber*, kawasan Wallacea ini menjadi surga endemisme satwa unik (anoa, babirusa, komodo) dan menuntut manusia purba memiliki keahlian navigasi maritim tingkat lanjut untuk menyeberanginya menggunakan rakit bambu atau perahu kayu purba.`
-          },
-          {
-            heading: '3. Evolusi Corak Kehidupan Sosial-Ekonomi & Kebudayaan',
-            content: `Perkembangan corak hidup masyarakat praaksara mengalami evolusi revolusioner dari ketergantungan pasif pada alam menuju pencipta peradaban mandiri:
-
-1. **Masa Berburu dan Mengumpulkan Makanan Tingkat Sederhana (Paleolitikum)**:
-- Pola Hidup: Nomaden (berpindah-pindah mengikuti kawanan hewan buruan dan sumber air) dalam kelompok kecil 10–15 orang.
-- Teknologi: Perkakas batu kasar tanpa diasah, seperti kapak perimbas (*chopper*) dan kapak genggam dari tradisi Pacitan, serta alat serpih (*flakes*) dan sudip tulang dari tradisi Ngandong.
-
-2. **Masa Berburu dan Mengumpulkan Makanan Tingkat Lanjut (Mesolitikum)**:
-- Pola Hidup: Semisedenter (mulai tinggal sementara di gua-gua karang atau pesisir pantai).
-- Bukti Arkeologis Monumental:
-  * *Kjokkenmoddinger*: Timbunan fosil sampah dapur berupa cangkang kerang dan siput yang mengeras dan menggunung hingga ketinggian 7 meter di sepanjang pesisir timur Sumatra (Medan hingga Aceh). Di dalamnya ditemukan kapak genggam Sumatra (*pebble*).
-  * *Abris Sous Roche*: Ceruk payung batu karang tempat tinggal manusia purba. Ditemukan lukisan dinding gua (*rock art*) tertua di dunia di Leang-Leang (Maros-Pangkep, Sulawesi Selatan) dan Sangkulirang (Kalimantan Timur) berupa cap telapak tangan stensil merah dan lukisan babi rusa yang berkaitan erat dengan upacara ritual perburuan dan penghormatan arwah leluhur.
-
-3. **Masa Bercocok Tanam (Neolitikum - Revolusi Peradaban)**:
-- Terjadi lompatan peradaban (*Neolithic Revolution*): beralih dari *food gathering* (konsumen pasif) menjadi *food producing* (produsen aktif melalui budidaya tanaman padi gaga, keladi, dan sukun).
-- Pola Hidup: Menetap (*sedenter*) dalam perkampungan permanen yang dipimpin seorang kepala suku dengan sistem pemilihan *Primus Inter Pares* (yang terkemuka di antara sesamanya).
-- Teknologi: Perkakas batu telah diasah halus sempurna di kedua sisinya, seperti beliung persegi (*square adze*) untuk mencangkul tanah dan membuat perahu lesung, serta kapak lonjong (*oval adze*). Mulai berkembang teknologi pembuatan tembikar (gerabah) dan anyaman serat kayu.`
-          },
-          {
-            heading: '4. Metalurgi Masa Perundagian & Tradisi Megalitikum',
-            content: `Puncak pencapaian teknologi praaksara tercermin pada penguasaan ilmu metalurgi (teknik pengecoran logam) dan arsitektur batu besar:
-
-1. **Teknologi Metalurgi Perundagian**:
-Istilah *undagi* berarti golongan masyarakat yang memiliki keterampilan kerja pertukangan khusus. Logam perunggu (campuran tembaga 80% dan timah 20%) dibuat menggunakan dua teknik cetak canggih:
-- *Teknik Bivalve (Setangkup)*: Menggunakan dua keping cetakan batu yang diukir negatif di bagian dalam, kemudian ditangkupkan dan diikat. Logam cair dituangkan melalui lubang atas. Keunggulannya: cetakan batu ini dapat digunakan berulang-ulang untuk memproduksi alat kerja massal (seperti kapak corong/kapak sepatu).
-- *Teknik A Cire Perdue (Lilin Terbuang)*: Membuat model benda kerja dari lilin lebah, dilapisi tanah liat tahan panas, dipanaskan hingga lilin meleleh keluar meninggalkan rongga cetak, lalu diisi logam perunggu cair. Cetakan tanah liat harus dipecahkan untuk mengambil hasilnya. Teknik ini digunakan untuk menghasilkan karya seni bernilai tinggi dengan ornamen detail yang rumit, seperti Nekara Perunggu (genderang perang dan pemanggil hujan bermotif bintang dan katak) serta Moko di Pulau Alor.
-
-2. **Tradisi Megalitikum (Batu Besar) & Sistem Nilai**:
-Struktur megalitikum dibangun sebagai wujud penghormatan sakral kepada arwah leluhur yang diyakini tetap memengaruhi keselamatan masyarakat:
-- *Menhir*: Tugu batu tunggal yang ditegakkan untuk memuja roh nenek moyang atau tempat mengikat hewan kurban.
-- *Dolmen*: Meja batu berkaki batu tegak yang berfungsi sebagai altar sesaji atau penutup kubur batu.
-- *Sarkofagus*: Keranda atau peti mati batu berbentuk lesung bertangkup penutup, banyak ditemukan di Bali dan Sumatra.
-- *Waruga*: Kubur batu khas Minahasa berbentuk kubus dengan penutup menyerupai atap rumah adat, di mana jenazah diposisikan meringkuk seperti bayi dalam rahim.
-- *Punden Berundak*: Struktur batu bertingkat yang berfungsi sebagai tempat pemujaan roh leluhur di dataran tinggi. Konsep arsitektur bertingkat ini merupakan cikal bakal asli arsitektur candi Hindu-Buddha di Indonesia (seperti Candi Borobudur dan Candi Sukuh).`
-          }
+  "grade": "Kelas X SMK",
+  "phase": "Fase E",
+  "cpHeader": "Capaian Pembelajaran (CP) Fase E: Peserta didik mampu memahami konsep dasar ilmu sejarah, menganalisis masa praaksara, menerapkan metodologi penelitian sejarah, menganalisis corak peradaban kerajaan Hindu-Buddha dan Islam, dinamika kedatangan bangsa Barat, perlawanan rakyat nusantara, serta pergerakan nasional Indonesia; menghubungkannya secara spasial dan temporal; serta menumbuhkan kesadaran sejarah, nalar kritis, dan nilai-nilai kebangsaan yang relevan bagi peserta didik SMK.",
+  "modules": [
+    {
+      "id": "smk-x-1",
+      "title": "BAB 1: Konsep Dasar Sejarah",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "⏳",
+      "period": "Fondasi Epistemologi Ilmu Sejarah",
+      "cpSummary": "Memahami hakikat ilmu sejarah, unsur manusia, ruang, dan waktu, cara berpikir diakronis dan sinkronis, konsep perubahan dan keberlanjutan, serta manfaat belajar sejarah dalam membangun nalar kritis bagi siswa SMK.",
+      "syllabus": {
+        "atp": [
+          "10.1.1 Menjelaskan pengertian sejarah secara etimologis (syajaratun, historia, geschichte) dan terminologis menurut para sejarawan (Herodotus, Ibnu Khaldun, R.G. Collingwood, Sartono Kartodirdjo).",
+          "10.1.2 Menganalisis kedudukan manusia sebagai subjek dan objek sejarah, serta interaksi peristiwa masa lalu dalam dimensi ruang (spasial) dan waktu (temporal).",
+          "10.1.3 Membandingkan dan menerapkan cara berpikir diakronis (kronologis) dan sinkronis dalam merekonstruksi peristiwa masa lampau secara komprehensif.",
+          "10.1.4 Mengevaluasi konsep perubahan (change), keberlanjutan (continuity), pengulangan, serta menerapkan nilai-nilai sejarah dalam pemecahan masalah dan etos kerja profesional SMK."
         ],
-        glossary: [
-          { term: 'Austronesia', def: 'Rumpun keluarga bahasa kepulauan terbesar di dunia yang mencakup wilayah dari Madagaskar di barat hingga Pulau Paskah di timur.' },
-          { term: 'Paparan Sunda', def: 'Daratan benua pada Zaman Es yang menyatukan Pulau Sumatra, Jawa, Kalimantan, dan Semenanjung Malaya dengan Asia Daratan.' },
-          { term: 'Kjokkenmoddinger', def: 'Fosil bukit sampah dapur sisa konsumsi kerang dan siput laut setinggi 7 meter yang menjadi ciri khas kebudayaan Mesolitikum pesisir.' },
-          { term: 'Abris Sous Roche', def: 'Gua ceruk payung batu karang yang dijadikan tempat tinggal dan tempat melukis dinding oleh manusia praaksara.' },
-          { term: 'A Cire Perdue', def: 'Metode pengecoran logam menggunakan model lilin lebah yang meleleh saat dipanaskan (Lost Wax Casting).' },
-          { term: 'Bivalve', def: 'Metode pengecoran logam menggunakan dua bilah cetakan batu setangkup yang dapat dipakai berulang-ulang.' },
-          { term: 'Primus Inter Pares', def: 'Sistem suksesi kepemimpinan tradisional berdasarkan keunggulan fisik, kewibawaan spiritual, dan kecakapan berburu.' },
-          { term: 'Punden Berundak', def: 'Bangunan megalitikum bertingkat-tingkat yang menjadi basis arsitektur lokal asli candi di Indonesia.' }
-        ],
-        reflectionQuestions: [
-          'Bagaimana bukti bahwa nenek moyang bangsa Indonesia adalah pelaut-pelaut ulung yang memiliki jiwa inovasi teknologi tinggi?',
-          'Nilai gotong royong dan penghormatan kepada orang tua/leluhur sangat kental dalam budaya praaksara. Bagaimana nilai tersebut relevan untuk membentuk etos kerja profesional di industri modern?'
+        "meaningfulUnderstanding": "Sejarah bukan sekadar kumpulan angka tahun dan kisah masa lalu yang mati, melainkan peta perjalanan peradaban manusia. Dengan memahami pola perubahan dan keberlanjutan, peserta didik SMK memiliki nalar kritis dan daya antisipasi strategis dalam menghadapi disrupsi zaman.",
+        "essentialQuestions": [
+          "Mengapa manusia ditempatkan sekaligus sebagai subjek pembuat sejarah dan objek kajian sejarah?",
+          "Bagaimana cara berpikir diakronis dan sinkronis membantu peserta didik SMK dalam menganalisis masalah teknis maupun sosial secara terstruktur?"
         ]
       },
-      {
-        id: 'smk-x-2',
-        title: 'Jalur Rempah di Indonesia (The Global Spice Route)',
-        phase: 'Fase E',
-        grade: 'Kelas X',
-        icon: '🌿',
-        period: 'Abad ke-1 M - Abad ke-18 M',
-        cpSummary: 'Menganalisis peranan strategis Nusantara sebagai episentrum jalur maritim rempah dunia, diplomasi maritim, komoditas unggulan endemik, dan teknologi perkapalan tradisional.',
-        syllabus: {
-          atp: [
-            '10.2.1 Menganalisis letak geografis silang Nusantara dan sistem sirkulasi angin muson dalam pembentukan jalur pelayaran niaga maritim internasional.',
-            '10.2.2 Mengidentifikasi sebaran biogeografis rempah endemik (pala, fuli, cengkeh, lada, kapur barus) dan signifikansi ekonominya dalam perdagangan global kuno.',
-            '10.2.3 Mengevaluasi keunggulan teknologi rancang bangun kapal tradisional pribumi (perahu cadik, jung Jawa, Phinisi) dalam melintasi samudra bebas.',
-            '10.2.4 Menghubungkan jalur rempah masa lampau dengan visi poros maritim dan ketahanan logistik Indonesia pada abad ke-21.'
-          ],
-          meaningfulUnderstanding: 'Jalur Rempah bukan sekadar rute dagang komoditas bumbu, melainkan jalur pertukaran ilmu pengetahuan, teknologi perkapalan, asimilasi budaya, dan diplomasi antarbangsa yang menempatkan Nusantara sebagai pemain kunci peradaban dunia.',
-          essentialQuestions: [
-            'Mengapa rempah-rempah Maluku memiliki nilai setara emas batangan di pasar Eropa pada abad pertengahan?',
-            'Apa keunggulan teknologi kapal layar tradisional Nusantara sehingga mampu berlayar melintasi Samudra Hindia hingga pesisir Afrika Timur?'
-          ]
+      "subtopics": [
+        {
+          "heading": "1. Hakikat dan Pengertian Ilmu Sejarah",
+          "content": "Kajian sejarah merupakan fondasi dalam memahami identitas dan peradaban manusia. Secara etimologis, istilah sejarah berakar dari beberapa bahasa dunia:\n\n1. **Bahasa Arab (*Syajaratun*)**: Berarti \"pohon\". Pengibaratan pohon melambangkan adanya pertumbuhan, percabangan silsilah, akar keturunan, ranting peristiwa, dan kontinuitas generasi yang saling bertaut dari masa lalu ke masa depan.\n2. **Bahasa Yunani (*Historia*)**: Berarti penyelidikan, penelitian, atau pengetahuan yang diperoleh melalui pengkajian mendalam. Istilah ini dipopulerkan oleh Herodotus (484–425 SM) yang digelari sebagai *Bapak Sejarah Dunia*.\n3. **Bahasa Jerman (*Geschichte*)**: Sesuatu yang telah terjadi (*geschehen*), menekankan pada dimensi realitas objektif dari peristiwa lampau.\n4. **Bahasa Belanda (*Geschiedenis*)** dan **Bahasa Inggris (*History*)**: Cerita sistematis tentang masa lalu manusia yang disusun berdasarkan bukti-bukti empiris.\n\nMenurut **Ibnu Khaldun** dalam mahakaryanya *Mukaddimah*, sejarah adalah catatan tentang masyarakat umat manusia atau peradaban dunia; tentang perubahan-perubahan yang terjadi pada watak masyarakat tersebut. Sementara itu, **Prof. Dr. Sartono Kartodirdjo** membagi sejarah menjadi dua dimensi:\n- *Sejarah dalam arti objektif*: Menunjuk pada peristiwa itu sendiri yang terjadi satu kali dan tidak dapat diulang (*einmalig*).\n- *Sejarah dalam arti subjektif*: Konstruksi narasi atau kisah yang disusun oleh sejarawan berdasarkan penafsiran atas jejak-jejak masa lalu."
         },
-        subtopics: [
-          {
-            heading: '1. Oseanografi Nusantara & Dinamika Sirkulasi Angin Muson',
-            content: `Posisi geografis kepulauan Indonesia berada tepat di titik temu dua benua (Asia dan Australia) serta dua samudra (Hindia dan Pasifik). Letak ini melahirkan fenomena klimatologi musiman yang dikenal sebagai sistem **Angin Muson (Monsoon)**:
-
-• **Angin Muson Barat (Oktober – April)**:
-Massa udara bertekanan tinggi di Benua Asia bergerak menuju Benua Australia yang bertekanan rendah. Angin ini berhembus melintasi Laut Tiongkok Selatan membawa curah hujan tinggi dan mendorong kapal-kapal layar saudagar dari Tiongkok, India, dan Timur Tengah meluncur cepat menuju pelabuhan-pelabuhan Nusantara (seperti Barus, Sriwijaya di Palembang, Sunda Kelapa, dan Tuban).
-• **Angin Muson Timur (April – Oktober)**:
-Massa udara bertekanan tinggi di Benua Australia yang kering bergerak menuju Benua Asia. Angin ini dimanfaatkan oleh para pelaut untuk kembali pulang ke India, Tiongkok, dan Jazirah Arab dengan membawa muatan penuh rempah-rempah, emas, dan kayu gaharu dari Nusantara.
-
-Dua selat utama di Indonesia berfungsi sebagai gerbang leher botol (*choke points*) perdagangan dunia:
-- *Selat Malaka*: Jalur terpendek yang menghubungkan Samudra Hindia dengan Laut Tiongkok Selatan.
-- *Selat Sunda*: Jalur alternatif penghubung Samudra Hindia menuju Laut Jawa dan Kepulauan Rempah di Indonesia Timur.`
-          },
-          {
-            heading: '2. Emas Hijau: Biogeografi Komoditas Rempah Endemik',
-            content: `Pada masa sebelum revolusi industri, rempah-rempah adalah komoditas termahal di dunia karena mutlak dibutuhkan masyarakat Eropa untuk: (1) Mengawetkan daging ternak yang disembelih massal menjelang musim dingin, (2) Memberi cita rasa hangat dan menutupi bau anyir makanan, (3) Bahan baku obat farmasi, antiseptik, parfum keagamaan, dan upacara pembalseman jenazah bangsawan.
-
-Nusantara dianugerahi tanah vulkanik subur yang melahirkan tanaman endemik bernilai tinggi:
-1. **Pala dan Fuli (Myristica fragrans)**:
-Hanya tumbuh alami di gugusan kepulauan kecil **Banda** (Neira, Run, Ai, Lontor, Gunung Api) di Maluku Tengah. Tanaman pala menghasilkan dua produk sekaligus: biji bagian dalam (*nutmeg*) dan selaput renda merah menyala pembungkus biji (*mace* atau fuli). Nilai ekonomis pala Banda sangat dahsyat hingga pada abad ke-17 Belanda rela menukar Pulau Manhattan (New York, AS) kepada Inggris demi menguasai Pulau Run di Banda (Perjanjian Breda 1667).
-2. **Cengkeh (Syzygium aromaticum)**:
-Tumbuh endemik asli hanya di lima pulau vulkanik kecil di Maluku Utara: **Ternate, Tidore, Motir, Makian, dan Bacan**. Bunga kuncup cengkeh kering memiliki kandungan minyak asiri *eugenol* yang sangat tinggi, berfungsi sebagai pereda nyeri dan pengawet alami.
-3. **Lada Hitam & Putih (Piper nigrum)**:
-Dibudidayakan secara masif di pesisir Sumatra (Aceh, Minangkabau, Lampung) dan Banten. Lada menjadi komoditas volume terbesar dalam pelayaran niaga Selat Malaka.
-4. **Kapur Barus (Camphor) & Kemenyan**:
-Dihasilkan dari pohon kamper pedalaman Barus (Tapanuli, Sumatra Utara). Catatan Mesir Kuno, Yunani (Ptolemaeus), dan naskah medis Arab mencatat kapur barus dari pelabuhan *Fansur/Barus* sebagai bahan pengawet mumi dan obat terapeutik terbaik di dunia.`
-          },
-          {
-            heading: '3. Jalur Maritim Global & Poros Pelabuhan Transito Internasional',
-            content: `Jalur Rempah Nusantara terhubung ke dalam jejaring perdagangan maritim lintas benua yang membentang lebih dari 15.000 kilometer:
-
-• **Segmen Timur (Nusantara Timur - Jawa/Sumatra)**:
-Rempah-rempah dari Maluku dan Banda diangkut oleh pelaut Bugis, Makassar, Maluku, dan Jawa menggunakan kapal jung melintasi Laut Flores dan Laut Jawa menuju pelabuhan transito (*entrepôt*) di Gresik, Tuban, Jepara, Sunda Kelapa, Banten, dan Palembang.
-• **Segmen Barat (Selat Malaka - Samudra Hindia - Timur Tengah & Eropa)**:
-Dari pelabuhan di Selat Malaka (Sriwijaya/Kesultanan Malaka), kapal-kapal saudagar melintasi Teluk Benggala menuju pelabuhan Calicut di India Selatan. Dari sana, muatan rempah diteruskan ke Teluk Persia (menuju Basra dan Baghdad) atau melintasi Laut Merah menuju Aleksandria (Mesir). Saudagar Venesia dan Genoa (Italia) kemudian membeli rempah tersebut di Aleksandria untuk didistribusikan ke seluruh istana dan kota di benua Eropa dengan harga melambung hingga 1.000 kali lipat dari harga aslinya di Maluku.`
-          },
-          {
-            heading: '4. Mahakarya Rancang Bangun Kapal Tradisional Pribumi',
-            content: `Keberhasilan menaklukkan samudra luas dimungkinkan oleh kemajuan teknologi perkapalan nenek moyang bangsa Indonesia:
-
-1. **Perahu Bercadik Samudra**:
-Memanfaatkan batang bambu penyeimbang di sisi lambung kanan dan kiri kapal. Cadik berfungsi mencegah kapal terbalik saat dihantam ombak besar samudra terbuka. Bukti ketangguhan perahu cadik terpahat jelas pada relief Candi Borobudur (abad ke-8 Masehi). Pelaut Nusantara tercatat telah mencapai Pulau Madagaskar (Afrika Timur) pada abad ke-7 Masehi, terbukti dari kesamaan bahasa Malagasi yang serumpun dengan bahasa Ma'anyan di Barito, Kalimantan.
-
-2. **Kapal Jung Jawa (Javanese Jong)**:
-Kapal layar niaga raksasa yang dibuat dari kayu jati dan ulin solid berbobot mati 400 hingga 1.000 ton. Kapal jung Jawa memiliki ciri khas unik:
-- Dibuat tanpa menggunakan satu pun paku besi. Seluruh papan lambung dihubungkan menggunakan pasak kayu (*wooden dowels*) dengan teknik sambungan pasak (*mortise-and-tenon*).
-- Lambung kapal dibuat berlapis ganda (hingga 3–4 lapis papan) sehingga sangat kuat menahan benturan karang laut dan tembakan meriam Portugis pada pertempuran Malaka 1513.
-
-3. **Perahu Phinisi Nusantara**:
-Mahakarya perkapalan suku Bugis-Makassar-Konjo dari Bulukumba, Sulawesi Selatan, yang kini diakui UNESCO sebagai Warisan Budaya Takbenda Dunia. Phinisi menggunakan sistem layar sekunar (*ketch-rigged*) dengan dua tiang utama dan tujuh helai layar yang melambangkan filosofi kesiapan mengarungi tujuh samudra besar dunia.`
-          }
+        {
+          "heading": "2. Tiga Pilar Utama Sejarah: Manusia, Ruang, dan Waktu",
+          "content": "Peristiwa sejarah hanya dapat terjadi jika memenuhi interaksi antara tiga pilar fundamental:\n\n• **Manusia (Aktor & Pencipta Sejarah)**:\nManusia adalah penggerak utama (*prime mover*) sejarah. Tanpa manusia, peristiwa alam hanyalah dinamika geologis atau biologis biasa. Manusia berperan ganda:\n- Sebagai *Subjek Sejarah*: Pelaku yang membuat keputusan, bertindak, dan menciptakan peristiwa.\n- Sebagai *Objek Sejarah*: Manusia beserta perilakunya di masa lalu menjadi sasaran penelitian ilmu sejarah.\n\n• **Ruang (Dimensi Spasial)**:\nRuang adalah wadah geografis atau bentang alam tempat terjadinya peristiwa. Dimensi ruang menunjukkan bahwa fenomena sejarah bersifat kontekstual secara lokal dan teritorial. Karakteristik ruang (misalnya wilayah kepulauan maritim versus pedalaman agraris) secara langsung membentuk kebudayaan, jalur perniagaan, serta strategi pertahanan masyarakat.\n\n• **Waktu (Dimensi Temporal)**:\nWaktu adalah penanda kapan peristiwa itu terjadi. Dalam pandangan sejarah, waktu bergerak secara linear dan progresif (tidak melingkar tanpa akhir). Waktu membagi batas masa lalu, masa kini, dan masa depan, sehingga setiap tindakan manusia hari ini merupakan buah dari masa lalu sekaligus penentu masa depan."
+        },
+        {
+          "heading": "3. Cara Berpikir Sejarah: Diakronis (Kronologis) vs Sinkronis",
+          "content": "Untuk memahami dinamika masa lalu secara ilmiah, sejarawan menggunakan dua cara berpikir utama:\n\n### A. Cara Berpikir Diakronis (Kronologis)\nBerasal dari bahasa Yunani *dia* (melintasi/melalui) dan *chronos* (waktu). Berpikir diakronis berarti memanjang dalam waktu, namun menyempit dalam ruang.\n- **Karakteristik**: Mengkaji proses perubahan, sebab-akibat (kausalitas), dan kesinambungan dari waktu ke waktu secara bertahap.\n- **Contoh**: Melacak kronologi peristiwa kemerdekaan Indonesia dari kekalahan Jepang (15 Agustus 1945), Peristiwa Rengasdengklok (16 Agustus 1945), hingga Pembacaan Proklamasi (17 Agustus 1945).\n- **Kronologi & Periodisasi**: Membantu menyusun peristiwa secara urut agar tidak terjadi **anakronisme sejarah** (kerancuan penempatan waktu atau tokoh di luar zamannya).\n\n### B. Cara Berpikir Sinkronis\nBerasal dari bahasa Yunani *syn* (bersama) dan *chronos* (waktu). Berpikir sinkronis berarti meluas dalam ruang, tetapi terbatas dalam kurun waktu tertentu.\n- **Karakteristik**: Mengkaji struktur masyarakat, sistem ekonomi, politik, dan kebudayaan secara mendalam pada satu masa tertentu dengan memanfaatkan konsep ilmu-ilmu sosial (sosiologi, ekonomi, antropologi).\n- **Contoh**: Menganalisis kondisi perekonomian, stratifikasi sosial, dan kehidupan petani di Pulau Jawa pada puncak penerapan sistem Tanam Paksa tahun 1830–1850.\n\n| Dimensi Analisis | Cara Berpikir Diakronis | Cara Berpikir Sinkronis |\n| :--- | :--- | :--- |\n| **Fokus Waktu** | Memanjang dalam waktu | Terbatas pada satu kurun waktu |\n| **Fokus Ruang** | Menyempit dalam ruang | Meluas dan mendalam secara spasial |\n| **Pendekatan** | Naratif, kronologis, dinamis | Deskriptif, struktural, analitis |\n| **Disiplin Terkait** | Ilmu Sejarah murni | Sejarah Terapan & Ilmu-Ilmu Sosial |"
+        },
+        {
+          "heading": "4. Konsep Perubahan (Change) dan Keberlanjutan (Continuity)",
+          "content": "Dalam membedah perjalanan sejarah, terdapat empat fenomena pokok yang selalu dialami setiap masyarakat:\n\n1. **Perkembangan (*Development*)**: Terjadi ketika masyarakat bergerak dari bentuk sederhana menuju bentuk yang lebih kompleks (misalnya peralihan dari perkampungan praaksara menjadi imperium kerajaan bercorak maritim).\n2. **Kesinambungan (*Continuity*)**: Kondisi di mana masyarakat melanjutkan nilai, adat, atau lembaga lama yang diadaptasi ke situasi baru (misalnya konsep kepemimpinan berwibawa pada masa kerajaan yang terus diwarisi dalam tradisi birokrasi nusantara).\n3. **Pengulangan (*Repetition*)**: Fenomena di mana pola atau esensi peristiwa di masa lalu terulang kembali di masa depan, meskipun pelaku, waktu, dan tempatnya berbeda (misalnya kejatuhan rezim kekuasaan akibat krisis ekonomi dan hilangnya legitimasi moral rakyat).\n4. **Perubahan (*Change*)**: Terjadinya pergeseran mendasar dalam struktur masyarakat dalam tempo singkat (*revolusi*) maupun bertahap (*evolusi*).\n\n### Faktor-Faktor Pendorong Perubahan\n- **Faktor Internal**: Dinamika pertambahan penduduk, penemuan teknologi baru (*discovery* dan *invention*), konflik sosial antargolongan, dan revolusi internal.\n- **Faktor Eksternal**: Perubahan lingkungan alam/bencana, peperangan antarbangsa, serta kontak kebudayaan asing (*akulturasi* dan *asimilasi*)."
+        },
+        {
+          "heading": "5. Nilai Edukatif & Relevansi Belajar Sejarah bagi Peserta Didik SMK",
+          "content": "Sejarah bukan sekadar pelajaran teoritis, melainkan memiliki empat fungsi strategis bagi kehidupan nyata:\n1. **Fungsi Edukatif**: Memberikan kearifan dan hikmah agar manusia belajar dari keberhasilan serta tidak mengulangi kesalahan fatal di masa lampau.\n2. **Fungsi Inspiratif**: Menumbuhkan semangat patriotisme, daya juang, dan keteladanan dari dedikasi para pahlawan dan perintis peradaban.\n3. **Fungsi Rekreatif**: Menawarkan keindahan imajinasi dan penjelajahan budaya melintasi ruang dan waktu.\n4. **Fungsi Instruktif**: Memberikan panduan teknis dan pengetahuan metodologis bagi pemecahan masalah masa kini.\n\n**Korelasi bagi Peserta Didik SMK & Profil Pelajar Pancasila:**\nDi era Industri 4.0 dan Society 5.0, siswa SMK dituntut tidak hanya memiliki kompetensi teknis (*hard skills*), tetapi juga kecakapan berpikir tingkat tinggi (*higher-order thinking skills*). Melalui konsep dasar sejarah, siswa dilatih untuk:\n- *Berpikir Kritis & Berbasis Bukti*: Tidak mudah percaya pada kabar bohong (hoaks) sebelum memverifikasi keabsahan data.\n- *Problem Solving Sistematis*: Menemukan akar permasalahan melalui analisis sebab-akibat (kausalitas) yang runtut.\n- *Integritas & Etos Kerja*: Menghargai proses, berdisiplin tinggi, dan memiliki kebanggaan kebangsaan dalam berkarya di dunia industri."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Diakronis",
+          "def": "Pendekatan analisis sejarah yang memanjang dalam waktu dan berfokus pada urutan kronologis peristiwa serta proses perubahannya."
+        },
+        {
+          "term": "Sinkronis",
+          "def": "Pendekatan analisis sejarah yang meluas dalam ruang dengan mengkaji berbagai aspek (sosial, ekonomi, politik) secara mendalam pada kurun waktu tertentu."
+        },
+        {
+          "term": "Anakronisme",
+          "def": "Kesalahan penempatan kronologis suatu peristiwa, tokoh, pakaian, atau istilah yang tidak sesuai dengan zaman berlangsungnya."
+        },
+        {
+          "term": "Kausalitas",
+          "def": "Hubungan sebab-akibat yang menjelaskan keterkaitan runtut mengapa suatu peristiwa sejarah dapat terjadi."
+        },
+        {
+          "term": "Einmalig",
+          "def": "Karakteristik unik peristiwa sejarah yang hanya terjadi sekali dalam ruang dan waktu tertentu serta tidak dapat terulang persis sama."
+        },
+        {
+          "term": "Periodisasi",
+          "def": "Pembabakan masa dalam sejarah berdasarkan ciri-ciri dan karakteristik tertentu untuk mempermudah pemahaman kronologis."
+        },
+        {
+          "term": "Syajaratun",
+          "def": "Kata dalam bahasa Arab yang berarti pohon, merupakan asal mula etimologis kata sejarah dalam bahasa Indonesia."
+        },
+        {
+          "term": "Kontinuitas",
+          "def": "Keberlanjutan atau kesinambungan nilai, pranata, dan kebiasaan sosial dari masa lalu yang tetap dipertahankan hingga masa kini."
+        }
+      ],
+      "reflectionQuestions": [
+        "Bagaimana cara berpikir diakronis dan sinkronis dapat diterapkan saat Anda melakukan pemeliharaan (maintenance) atau menyelesaikan kerusakan sistem kerja di bidang kejuruan Anda?",
+        "Di tengah derasnya arus informasi digital dan hoaks saat ini, mengapa pemahaman mengenai kausalitas dan verifikasi bukti sejarah menjadi sangat krusial bagi generasi muda?"
+      ]
+    },
+    {
+      "id": "smk-x-2",
+      "title": "BAB 2: Masa Praaksara",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "🦴",
+      "period": "Kala Pleistosen – Holosen (± 3 Juta Tahun Lalu – Abad ke-4 M)",
+      "cpSummary": "Menganalisis proses pembentukan bentang geologis kepulauan Indonesia, 4 teori migrasi nenek moyang bangsa Indonesia, evolusi corak kehidupan berburu hingga revolusi neolitik, teknologi metalurgi perundagian, serta kearifan lokal tradisi megalitikum.",
+      "syllabus": {
+        "atp": [
+          "10.2.1 Menganalisis pengaruh dinamika geologis Zaman Es (Paparan Sunda, Paparan Sahul, dan Zona Wallacea) terhadap persebaran flora, fauna, dan migrasi manusia purba.",
+          "10.2.2 Membandingkan 4 teori utama asal-usul nenek moyang bangsa Indonesia (Out of Taiwan, Out of Africa, Yunnan, dan Nusantara) berdasarkan bukti arkeologi, linguistik, dan genetika.",
+          "10.2.3 Menguraikan evolusi corak kehidupan sosial-ekonomi dari berburu-meramu (food gathering) menuju masyarakat menetap dan bercocok tanam (food producing / Revolusi Neolitik).",
+          "10.2.4 Mengevaluasi teknologi perundagian (bivalve dan a cire perdue) serta nilai-nilai kearifan lokal dalam tradisi megalitikum bagi penguatan etos gotong royong masa kini."
         ],
-        glossary: [
-          { term: 'Angin Muson', def: 'Pola sirkulasi angin musiman yang berganti arah setiap enam bulan sekali akibat perbedaan tekanan udara antara Benua Asia dan Benua Australia.' },
-          { term: 'Entrepôt', def: 'Kota pelabuhan bebas tempat barang dagangan dari berbagai penjuru dikumpulkan, ditimbun di gudang, dan diperdagangkan kembali tanpa dikenakan bea impor penuh.' },
-          { term: 'Fuli (Mace)', def: 'Selaput merah beraroma tajam yang menyelimuti cangkang keras biji buah pala, bernilai sangat tinggi sebagai bahan obat dan bumbu.' },
-          { term: 'Choke Point', def: 'Jalur perairan sempit strategis yang mengendalikan kelancaran arus transportasi laut dan pelayaran niaga internasional.' },
-          { term: 'Jung Jawa', def: 'Kapal layar niaga berukuran raksasa buatan galangan kapal pesisir Jawa yang mendominasi pelayaran samudra sebelum abad ke-17.' },
-          { term: 'Mortise-and-Tenon', def: 'Teknik sambungan pertukangan kayu sistem lubang dan lidah pasak yang digunakan dalam pembuatan kapal tradisional tanpa paku besi.' },
-          { term: 'Phinisi', def: 'Perahu layar tradisional kebanggaan suku Bugis-Makassar berlayar tujuh helai yang diakui UNESCO sebagai Warisan Budaya Dunia.' }
-        ],
-        reflectionQuestions: [
-          'Bagaimana posisi geografis Indonesia sebagai poros maritim dunia masa lampau dapat menjadi modal geopolitik bangsa dalam persaingan ekonomi global saat ini?',
-          'Mengapa penguasaan jalur rempah oleh bangsa Eropa menjadi awal mula lahirnya praktik kolonialisme dan imperialisme yang menindas di Nusantara?'
+        "meaningfulUnderstanding": "Keberagaman suku bangsa Indonesia berakar dari perjalanan migrasi maritim yang tangguh dan adaptif melintasi samudra. Nenek moyang kita mewariskan inovasi teknologi metalurgi, ketangguhan navigasi bahari, dan nilai gotong royong luhur yang menjadi modal sosial bangsa.",
+        "essentialQuestions": [
+          "Mengapa revolusi Neolitikum (bercocok tanam) dianggap sebagai titik balik paling radikal dalam sejarah kebudayaan manusia purba?",
+          "Bagaimana bukti arkeologis tradisi megalitikum dan teknologi perundagian membuktikan bahwa nenek moyang bangsa Indonesia memiliki kecerdasan teknik dan etos gotong royong yang tinggi?"
         ]
       },
-      {
-        id: 'smk-x-3',
-        title: 'Kerajaan-Kerajaan Hindu-Buddha di Indonesia',
-        phase: 'Fase E',
-        grade: 'Kelas X',
-        icon: '👑',
-        period: 'Abad ke-4 M - Abad ke-15 M',
-        cpSummary: 'Menganalisis teori masuknya Hindu-Buddha, kerajaan maritim dan agraris, sistem kenegaraan mandala, akulturasi arsitektur candi, serta warisan nilai Bhinneka Tunggal Ika.',
-        syllabus: {
-          atp: [
-            '10.3.1 Menganalisis perdebatan ilmiah 5 teori masuknya agama dan kebudayaan Hindu-Buddha ke Nusantara secara kritis.',
-            '10.3.2 Membandingkan karakteristik sosio-ekonomi dan politik antara kerajaan berbasis maritim (Sriwijaya, Majapahit) dengan kerajaan agraris (Tarumanegara, Mataram Kuno).',
-            '10.3.3 Mengevaluasi mahakarya arsitektur candi (Borobudur, Prambanan) dari perspektif teknik rekayasa sipil kuncian batu interlock kuno.',
-            '10.3.4 Mengaitkan konsep geopolitik Sumpah Palapa dan falsafah Bhinneka Tunggal Ika dengan integrasi Negara Kesatuan Republik Indonesia modern.'
-          ],
-          meaningfulUnderstanding: 'Proses masuknya pengaruh Hindu-Buddha ke Indonesia membuktikan kecerdasan lokal (*Local Genius*) bangsa Indonesia yang mampu menyaring, memodifikasi, dan memadukan kebudayaan asing tanpa menghilangkan kepribadian asli bangsa.',
-          essentialQuestions: [
-            'Mengapa teori Arus Balik dianggap paling menghargai peran aktif masyarakat pribumi dalam proses indianisasi Nusantara?',
-            'Bagaimana kerajaan Majapahit dapat mengelola wilayah kekuasaan yang sedemikian luas dengan teknologi komunikasi abad ke-14?'
-          ]
+      "subtopics": [
+        {
+          "heading": "1. Paleogeografi Kepulauan Nusantara: Paparan Sunda, Sahul, & Garis Wallace",
+          "content": "Bentuk kepulauan Indonesia saat ini adalah hasil dari proses geologis jutaan tahun yang dipengaruhi oleh pergerakan lempeng tektonik dunia (Lempeng Indo-Australia, Eurasia, dan Pasifik) serta fenomena Zaman Es (*Zaman Glasial*):\n\n• **Paparan Sunda (*Sunda Shelf*)**:\nPada kala Pleistosen saat terjadi zaman es sekitar 20.000 tahun lalu, permukaan air laut dunia menyusut hingga 120 meter di bawah permukaan laut modern. Wilayah barat Nusantara (Sumatra, Jawa, Kalimantan, Semenanjung Malaya) bersatu dengan daratan Asia (*Asia Kontinental*). Fenomena ini menjelaskan mengapa wilayah barat memiliki keanekaragaman hayati bertipe Asiatis (harimau, gajah, badak, orangutan).\n\n• **Paparan Sahul (*Sahul Shelf*)**:\nPada saat yang sama, wilayah timur Nusantara (Papua dan Kepulauan Aru) menyatu langsung dengan Benua Australia. Hal ini menyebabkan fauna di kawasan timur bertipe Australis (burung cendrawasih, kasuari, kanguru pohon).\n\n• **Zona Peralihan Wallacea**:\nDi antara kedua paparan tersebut (meliputi Sulawesi, Nusa Tenggara, dan Maluku), terdapat palung laut dalam yang tidak pernah surut. Dibatasi oleh *Garis Wallace* di sebelah barat dan *Garis Weber* di sebelah timur, wilayah ini memiliki satwa endemik unik (anoa, babirusa, komodo). Manusia purba yang ingin menyeberangi kawasan ini dituntut untuk mengembangkan perahu purba dan kemampuan navigasi maritim dasar."
         },
-        subtopics: [
-          {
-            heading: '1. Historiografi Kritis: Lima Teori Masuknya Hindu-Buddha',
-            content: `Masuknya kebudayaan Hindu-Buddha ke Nusantara merupakan proses akulturasi damai yang berlangsung selama berabad-abad. Sejarawan mengemukakan lima teori utama:
-
-1. **Teori Brahmana (J.C. van Leur)**:
-Menyatakan bahwa kaum pendeta Brahmana diundang langsung oleh para kepala suku lokal Nusantara. Para kepala suku yang telah makmur dari perdagangan maritim membutuhkan legitimasi keagamaan untuk mengubah status kesukuan mereka menjadi monarki setingkat maharaja. Kaum Brahmana datang memimpin upacara *Vratyastoma* (penyucian kasta) dan merintis penulisan prasasti berbahasa Sanskerta dengan aksara Pallawa. Kelemahan teori ini: ajaran Hindu kuno melarang kaum Brahmana menyeberangi samudra (*pantangan laut*).
-
-2. **Teori Ksatria (F.D.K. Bosch, C.C. Berg, & Mookerji)**:
-Menyatakan bahwa prajurit atau bangsawan kasta Ksatria yang kalah dalam perang perebutan tahta di India melarikan diri ke Nusantara, menaklukkan penguasa lokal secara militer, dan mendirikan dinasti baru. Kelemahannya: tidak pernah ditemukan bukti prasasti atau catatan militer di Indonesia yang mencatat adanya invasi penaklukan bersenjata oleh kerajaan India.
-
-3. **Teori Waisya (N.J. Krom)**:
-Menyatakan bahwa para pedagang India berkasta Waisya menetap di pesisir Nusantara mengikuti arah angin muson. Selama berbulan-bulan menunggu angin muson berganti arah, mereka berbaur, menikah dengan wanita bangsawan lokal, dan menyebarkan ajaran agama Hindu-Buddha.
-
-4. **Teori Sudra (van Faber)**:
-Menyatakan bahwa kaum kasta terendah (Sudra) dan kaum buangan yang tertindas di India mencari kehidupan yang lebih merdeka dan layak dengan cara bermigrasi ke kepulauan Nusantara.
-
-5. **Teori Arus Balik (Nationalistic Theory - F.D.K. Bosch)**:
-Teori yang paling logis dan menjunjung peran aktif bangsa Indonesia. Bosch menegaskan bahwa pemuda dan intelektual pribumi Nusantara berlayar langsung ke India untuk belajar di pusat universitas agama Buddha Nalanda dan kuil-kuil Hindu. Setelah bertahun-tahun menguasai kitab suci, filsafat, dan tata hukum kenegaraan, mereka kembali ke tanah air sebagai biksu dan cendekiawan untuk menyebarkan ilmu tersebut kepada kaum bangsawan lokal. Bukti otentiknya adalah *Prasasti Nalanda (860 M)* di India yang mencatat bahwa Raja Balaputradewa dari Sriwijaya membangun asrama dan biara megah khusus bagi para pelajar asal Sriwijaya yang menuntut ilmu di Nalanda.`
-          },
-          {
-            heading: '2. Kerajaan Pionir: Kutai Martadipura & Tarumanegara',
-            content: `Babak awal sejarah tertulis kepulauan Indonesia ditandai oleh dua kerajaan agraris dan maritim pionir:
-
-• **Kerajaan Kutai Martadipura (Kalimantan Timur, Abad 4 M)**:
-Terletak di hulu Sungai Mahakam (Muara Kaman). Bukti sejarahnya berupa tujuh buah tiang batu bertulis (*Yupa*) beraksara Pallawa dan berbahasa Sanskerta. Yupa mencatat silsilah dinasti: pendiri keluarga adalah Kudungga (nama asli Nusantara yang belum terpengaruh India), putranya bernama Aswawarman (*Dewa Matahari*), dan cucunya adalah **Maharaja Mulawarman**. Mulawarman tercatat sebagai raja yang sangat berwibawa, adil, dan dermawan yang mempersembahkan 20.000 ekor sapi kepada para Brahmana di tanah suci *Waprakeswara* (tempat suci pemujaan Dewa Siwa).
-
-• **Kerajaan Tarumanegara (Jawa Barat, Abad 5 M)**:
-Berpusat di wilayah antara Sungai Citarum dan Cisadane di bawah pemerintahan **Raja Purnawarman**. Purnawarman meninggalkan tujuh buah prasasti batu andesit (Prasasti Ciaruteun, Kebon Kopi, Tugu, Jambu, Cidanghiang, Muara Cianten, dan Pasir Awi).
-Mahakarya terbesarnya tercatat dalam **Prasasti Tugu**: Purnawarman memimpin proyek teknik rekayasa hidrologi raksasa berupa penggalian kanal *Sungai Candrabhaga* (Bekasi) dan *Sungai Gomati* sepanjang 6.122 busur panah (± 11 kilometer) yang diselesaikan hanya dalam waktu 21 hari. Kanal Gomati ini berfungsi ganda: menampung banjir bandang luapan sungai saat musim hujan dan mengairi lahan pertanian sawah ribuan hektar saat musim kemarau.`
-          },
-          {
-            heading: '3. Kemaharajaan Maritim Sriwijaya: Mercusuar Bahari & Pusat Studi Buddha',
-            content: `Berpusat di tepian Sungai Musi, Palembang (Sumatra Selatan), Sriwijaya (abad ke-7 hingga ke-11 M) tumbuh menjadi imperium maritim terbesar di Asia Tenggara:
-
-1. **Hegemoni Pengendalian Selat Malaka**:
-Sriwijaya menerapkan doktrin maritim yang tegas. Prasasti Kedukan Bukit (682 M) mencatat perjalanan suci *Siddhayatra* Dapunta Hyang memimpin 20.000 tentara dengan 200 perahu menaklukkan wilayah-wilayah strategis. Sriwijaya menempatkan pos-pos armada laut bersenjata panah api di muara sungai untuk menumpas bajak laut dan mewajibkan setiap kapal asing yang melintasi Selat Malaka untuk singgah, membayar cukai, dan menggunakan jasa syahbandar Sriwijaya.
-
-2. **Pusat Pendidikan Buddha Mahayana Internasional**:
-Pendeta Tiongkok **I-Tsing (I-Ching)** yang tinggal di Sriwijaya selama bertahun-tahun mencatat bahwa terdapat lebih dari seribu biksu yang belajar di Sriwijaya di bawah bimbingan guru agung dunia **Sakyakirti**. I-Tsing menganjurkan para biksu dari Tiongkok yang hendak pergi ke Nalanda di India untuk singgah dan belajar tata bahasa Sanskerta terlebih dahulu di Sriwijaya selama satu hingga dua tahun. Kompleks percandian bata merah **Muaro Jambi** seluas 3.988 hektar di tepi Sungai Batanghari membuktikan keberadaan universitas kampus biara terbesar di Asia Tenggara pada zamannya.`
-          },
-          {
-            heading: '4. Mataram Kuno & Kemaharajaan Majapahit',
-            content: `Dinamika politik di Pulau Jawa melahirkan kerajaan agraris-maritim dengan peradaban kebudayaan paling megah:
-
-1. **Kerajaan Mataram Kuno (Abad 8–10 M)**:
-Diperintah oleh dua wangsa besar yang hidup berdampingan secara toleran: Dinasti Sanjaya (beragama Hindu Siwa) dan Dinasti Syailendra (beragama Buddha Mahayana). Toleransi ini terbukti dari pernikahan politik antara Rakai Pikatan (Sanjaya) dan Pramodawardhani (Syailendra), serta berdirinya dua mahakarya arsitektur dunia secara berdampingan:
-- *Candi Borobudur (Wangsa Syailendra)*: Stupa Buddha terbesar di dunia yang dibangun dari 55.000 meter kubik batu andesit dengan sistem kuncian interlock tanpa semen perekat. Reliefnya menggambarkan perjalanan hidup Buddha Gautama melalui tiga tingkatan spiritual: Kamadhatu (dunia nafsu), Rupadhatu (dunia berwujud), dan Arupadhatu (dunia tanpa wujud).
-- *Candi Prambanan (Wangsa Sanjaya)*: Candi Trimurti Hindu tercantik di Asia Tenggara yang menjulang setinggi 47 meter untuk memuliakan Dewa Siwa, Wisnu, dan Brahma.
-
-2. **Kemaharajaan Majapahit (1293–1527 M)**:
-Didirikan oleh **Raden Wijaya** setelah dengan cerdik memanfaatkan pasukan tentara Mongol Tartar kiriman Kubilai Khan untuk menghancurkan Jayakatwang di Kediri, lalu berbalik memukul mundur tentara Mongol kembali ke laut.
-Majapahit mencapai puncak kejayaan keemasannya pada masa pemerintahan **Prabu Hayam Wuruk** (1350–1389) didampingi **Mahapatih Gajah Mada**:
-- *Ikrar Sumpah Palapa (1336 M)*: Diikrarkan oleh Gajah Mada di depan Ratu Tribhuwana Tunggadewi, bersumpah pantang menikmati kesenangan duniawi (*amukti palapa*) sebelum berhasil menyatukan pulau-pulau di Nusantara (dari Gurun, Seram, Tanjungpura, Haru, Pahang, Dompo, Bali, Sunda, Palembang, hingga Tumasik/Singapura).
-- *Konsep Kenegaraan Mitreka Satata*: Majapahit membagi hubungan luar negeri menjadi dua: wilayah kedaulatan Nusantara yang dipersatukan di bawah panji Majapahit, dan negara-negara sahabat (*Mitreka Satata*) seperti Siam (Thailand), Kamboja, Champa, dan Tiongkok yang kedudukannya setara.
-- *Kitab Sutasoma & Nagarakretagama*: Mpu Tantular menuliskan mahakarya kalimat suci: *"Rwaneka dhatu winuwus Buddha Wiswa, bhinneki rakwa ring apan kena parwanosen, mangka ng Jinatwa kalawan Siwatatwa tunggal, bhinneka tunggal ika tan hana dharma mangrwa"* yang menjadi sumber semboyan resmi Republik Indonesia: **Bhinneka Tunggal Ika**.`
-          }
+        {
+          "heading": "2. Fosil Manusia Purba & 4 Teori Asal-Usul Nenek Moyang Bangsa Indonesia",
+          "content": "Indonesia merupakan salah satu surga paleoantropologi dunia dengan ditemukannya berbagai fosil manusia purba di lembah Sungai Bengawan Solo (Sangiran, Trinil, Ngandong, Perning):\n- *Meganthropus palaeojavanicus* (manusia raksasa Jawa, ditemukan von Koenigswald).\n- *Pithecanthropus erectus* / *Homo erectus* (manusia kera berjalan tegak, ditemukan Eugene Dubois di Trinil).\n- *Homo soloensis*, *Homo wajakensis*, dan *Homo floresiensis* (manusia kerdil Liang Bua Flores).\n\nTerkait asal-usul nenek moyang bangsa Indonesia modern (*Homo sapiens*), terdapat empat teori ilmiah:\n1. **Teori Out of Taiwan (Bukti Paling Kuat)**: Didukung oleh linguis Robert Blust dan arkeolog Peter Bellwood. Menyatakan nenek moyang penutur rumpun bahasa Austronesia bermigrasi dari Formosa (Taiwan) sekitar 4.500 SM menggunakan perahu cadik menuju Filipina, lalu menyebar ke seluruh kepulauan Nusantara hingga Madagaskar dan Polinesia. Buktinya: 90% bahasa daerah di Indonesia berakar dari keluarga Austronesia.\n2. **Teori Out of Africa**: Menyatakan manusia modern bermigrasi dari Afrika sekitar 60.000 tahun lalu menyusuri jalur pantai Samudra Hindia hingga tiba di Paparan Sahul (leluhur ras Australomelanesoid).\n3. **Teori Yunnan**: Menyatakan gelombang migrasi dari lembah Sungai Mekong melalui dua gelombang: *Proto Melayu* (Melayu Tua, ±1500 SM, membawa budaya Neolitikum kapak persegi/lonjong) dan *Deutro Melayu* (Melayu Muda, ±500 SM, membawa budaya logam Dongson).\n4. **Teori Nusantara**: Didukung oleh Prof. Moh. Yamin dan J. Crawford, menyatakan bangsa Indonesia berasal dan berevolusi mandiri di kepulauan Indonesia sendiri berdasarkan kesinambungan fosil lokal."
+        },
+        {
+          "heading": "3. Evolusi Corak Hidup: Dari Berburu-Meramu Menuju Revolusi Neolitik",
+          "content": "Perkembangan sosial-ekonomi manusia praaksara berlangsung melalui tahapan revolusioner:\n\n### 1. Masa Berburu dan Mengumpulkan Makanan Tingkat Sederhana (Paleolitikum)\n- **Pola Hidup**: Nomaden (berpindah-pindah dalam kelompok kecil 10–15 orang) mengikuti ketersediaan hewan buruan dan air.\n- **Teknologi**: Alat batu kasar yang belum diasah. Tradisi Pacitan menghasilkan *kapak perimbas (chopper)* dan tradisi Ngandong menghasilkan alat serpih (*flakes*) serta belati dari tanduk rusa.\n\n### 2. Masa Berburu dan Mengumpulkan Makanan Tingkat Lanjut (Mesolitikum)\n- **Pola Hidup**: Semisedenter (mulai bertempat tinggal sementara di gua-gua payung karang/*abris sous roche*).\n- **Bukti Arkeologi**:\n  * *Kjokkenmoddinger*: Timbunan fosil sampah dapur berupa cangkang kerang dan siput laut setinggi 7 meter di pesisir timur Sumatra (Medan–Aceh).\n  * *Lukisan Dinding Gua*: Lukisan cap tangan stensil merah dan babi rusa di Leang-Leang (Maros, Sulsel) sebagai wujud ritual spiritual perburuan.\n\n### 3. Masa Bercocok Tanam (Neolitikum – The Neolithic Revolution)\n- Merupakan lompatan peradaban terbesar: manusia beralih dari sekadar konsumen pasif (*food gathering*) menjadi produsen mandiri (*food producing*).\n- **Pola Hidup**: Menetap permanen (*sedenter*) dalam perkampungan teratur dengan kepemimpinan *Primus Inter Pares* (tokoh utama yang disegani).\n- **Teknologi**: Alat batu diasah halus di kedua sisinya, seperti *beliung persegi* dan *kapak lonjong*. Mulai memproduksi tembikar (gerabah) dan kain tenun dari serat kulit kayu."
+        },
+        {
+          "heading": "4. Zaman Logam (Perundagian): Penguasaan Metalurgi Canggih",
+          "content": "Zaman Perundagian (dari kata *undagi* = ahli terampil) menandai lahirnya spesialisasi keahlian kerja dalam masyarakat. Logam perunggu (campuran tembaga dan timah) dicetak menggunakan dua teknik presisi tinggi:\n\n1. **Teknik Bivalve (Setangkup)**:\n- Menggunakan dua keping cetakan batu yang ditangkupkan dan diikat kencang. Logam cair dituangkan melalui lubang cetakan.\n- *Kelebihan*: Cetakan batu dapat digunakan berulang-ulang untuk memproduksi alat-alat perkakas massal (kapak corong/kapak sepatu, mata tombak, arit).\n\n2. **Teknik A Cire Perdue (Lilin Terbuang / Lost Wax)**:\n- Benda kerja dibuat dari lilin lebah, dilapisi tanah liat tahan panas, dibakar hingga lilin meleleh keluar, lalu rongganya diisi cairan logam perunggu. Setelah dingin, cetakan tanah liat dipecahkan.\n- *Kelebihan*: Mampu menghasilkan karya seni berornamen rumit dan berukuran besar, seperti:\n  * *Nekara Perunggu*: Genderang perunggu besar bermotif bintang dan katak yang difungsikan untuk upacara pemanggil hujan dan genderang perang.\n  * *Moko*: Nekara perunggu ramping bertelinga empat yang ditemukan di Pulau Alor sebagai mas kawin (belis) dan simbol status sosial."
+        },
+        {
+          "heading": "5. Tradisi Megalitikum & Kearifan Spiritual Nenek Moyang",
+          "content": "Tradisi Megalitikum (kebudayaan batu besar) berkembang sejak akhir masa Neolitikum hingga zaman Perundagian, berakar pada sistem kepercayaan penghormatan kepada arwah leluhur (*animisme*) dan pemujaan kekuatan gaib pada benda keramat (*dinamisme*):\n\n• **Menhir**: Tugu batu tegak tunggal sebagai monumen peringatan dan pemujaan arwah leluhur atau tempat mengikat hewan kurban.\n• **Dolmen**: Meja batu berkaki batu besar yang berfungsi sebagai altar meletakkan sesaji atau penutup kubur batu.\n• **Sarkofagus**: Peti mati batu bertutup menyerupai bentuk lesung (banyak ditemukan di Bali dan Sumatra).\n• **Waruga**: Kubur batu khas Minahasa berbentuk kubus dengan penutup menyerupai atap rumah adat, di mana jenazah diletakkan dalam posisi meringkuk seperti bayi dalam kandungan.\n• **Punden Berundak**: Bangunan batu bertingkat-tingkat di tempat tinggi untuk pemujaan roh nenek moyang. Struktur arsitektur asli nusantara ini kelak menjadi inspirasi dasar rancang bangun candi-candi megah Hindu-Buddha (seperti Candi Borobudur dan Candi Sukuh).\n\n**Nilai Karakter untuk Siswa SMK**:\nKarya-karya megalitikum yang berbobot puluhan ton hanya dapat dipindahkan dan didirikan dengan prinsip kerja gotong royong, kepemimpinan yang solid, dan ketelitian teknik sipil dasar yang membanggakan."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Paparan Sunda",
+          "def": "Daratan luas pada Zaman Es yang menyatukan Pulau Sumatra, Jawa, dan Kalimantan dengan benua Asia daratan."
+        },
+        {
+          "term": "Paparan Sahul",
+          "def": "Daratan pada Zaman Es yang menyatukan wilayah Papua dan Kepulauan Aru dengan benua Australia."
+        },
+        {
+          "term": "Kjokkenmoddinger",
+          "def": "Fosil bukit sampah dapur sisa cangkang kerang dan siput laut yang menggunung setinggi 7 meter ciri masa Mesolitikum."
+        },
+        {
+          "term": "Abris Sous Roche",
+          "def": "Gua karang tempat tinggal sementara manusia purba yang dindingnya dihiasi lukisan cap tangan dan hewan buruan."
+        },
+        {
+          "term": "Bivalve",
+          "def": "Teknik pengecoran logam dengan cetakan batu setangkup yang dapat digunakan berulang kali."
+        },
+        {
+          "term": "A Cire Perdue",
+          "def": "Teknik cetak logam menggunakan model lilin yang meleleh saat dipanaskan untuk membuat benda berornamen rumit."
+        },
+        {
+          "term": "Primus Inter Pares",
+          "def": "Sistem pemilihan pemimpin tradisional berdasarkan keunggulan fisik, kewibawaan spiritual, dan kecakapan berburu."
+        },
+        {
+          "term": "Punden Berundak",
+          "def": "Bangunan megalitikum bertingkat-tingkat sebagai tempat pemujaan roh nenek moyang yang menjadi cikal bakal arsitektur candi di Indonesia."
+        }
+      ],
+      "reflectionQuestions": [
+        "Bagaimana teknologi metalurgi masa perundagian (bivalve dan a cire perdue) mencerminkan awal mula lahirnya keahlian manufaktur dan rekayasa teknik di Indonesia?",
+        "Struktur megalitikum seberat berton-ton berhasil dibangun tanpa mesin modern. Nilai etos kerja dan gotong royong apa yang patut kita teladani dalam lingkungan kerja industri saat ini?"
+      ]
+    },
+    {
+      "id": "smk-x-3",
+      "title": "BAB 3: Penelitian Sejarah",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "🔍",
+      "period": "Metodologi Riset & Historiografi Kritis",
+      "cpSummary": "Memahami hakikat sejarah sebagai ilmu berbasis metode ilmiah, menguasai 5 langkah tahapan penelitian sejarah (pemilihan topik, heuristik, kritik sumber, interpretasi, dan historiografi), serta menerapkan literasi kritis dalam memverifikasi kebenaran informasi masa kini.",
+      "syllabus": {
+        "atp": [
+          "10.3.1 Menjelaskan ciri-ciri sejarah sebagai ilmu (bersifat empiris, memiliki objek, memiliki teori, memiliki metode ilmiah, dan menghasilkan generalisasi).",
+          "10.3.2 Mengidentifikasi jenis-jenis sumber sejarah (primer, sekunder, tersier; sumber lisan, tertulis, benda) serta teknik pengumpulannya pada tahap heuristik.",
+          "10.3.3 Melakukan kritik sumber (kritik eksternal untuk otentisitas fisik dan kritik internal untuk kredibilitas isi informasi).",
+          "10.3.4 Menganalisis tahap interpretasi dan perkembangan historiografi (tradisional, kolonial, nasional, modern) serta mengaplikasikan nalar kritis verifikasi sumber dalam menangkal hoaks digital."
         ],
-        glossary: [
-          { term: 'Vratyastoma', def: 'Upacara penyucian diri dalam agama Hindu kuno untuk mengangkat status seseorang menjadi anggota kasta tertentu.' },
-          { term: 'Yupa', def: 'Prasasti berbentuk tiang batu bersegi tujuh peninggalan Kerajaan Kutai yang berfungsi sebagai tugu peringatan korban persembahan raja.' },
-          { term: 'Local Genius', def: 'Kemampuan kepribadian budaya suatu bangsa untuk menyaring, mengolah, dan memodifikasi kebudayaan asing sesuai watak asli bangsa.' },
-          { term: 'Mitreka Satata', def: 'Doktrin politik luar negeri Majapahit yang menganggap negara-negara tetangga sebagai sahabat yang berkedudukan setara.' },
-          { term: 'Sumpah Palapa', def: 'Ikrar geopolitik Mahapatih Gajah Mada tahun 1336 untuk mempersatukan kepulauan Nusantara di bawah naungan Majapahit.' },
-          { term: 'Interlock Joint', def: 'Teknik penyambungan balok batu pahat menggunakan pola kuncian pasak lidah tanpa adukan semen perekat.' },
-          { term: 'Kamadhatu', def: 'Tingkatan relief terbawah pada Candi Borobudur yang menggambarkan alam kehidupan manusia yang masih dikuasai oleh hawa nafsu rendah.' }
-        ],
-        reflectionQuestions: [
-          'Bagaimana pelajaran dari toleransi beragama antara Wangsa Sanjaya dan Wangsa Syailendra di Mataram Kuno dapat kita terapkan dalam menjaga kerukunan antarumat beragama di Indonesia masa kini?',
-          'Mengapa keruntuhan imperium sebesar Majapahit dapat terjadi akibat perang saudara (Perang Paregreg)? Apa bahaya polarisasi internal bagi masa depan sebuah bangsa?'
+        "meaningfulUnderstanding": "Metodologi penelitian sejarah melatih pikiran manusia untuk tidak bersikap naif terhadap informasi. Dengan menguasai verifikasi sumber dan pembuktian data faktual, siswa SMK memiliki kecakapan literasi digital tingkat tinggi yang esensial dalam era banjir informasi.",
+        "essentialQuestions": [
+          "Mengapa sejarawan dilarang langsung mempercayai isi dokumen kuno sebelum melakukan kritik eksternal dan kritik internal?",
+          "Bagaimana keterampilan verifikasi metode sejarah dapat diterapkan secara praktis untuk mendeteksi informasi bohong (hoaks) dan manipulasi digital saat ini?"
         ]
       },
-      {
-        id: 'smk-x-4',
-        title: 'Kerajaan-Kerajaan Islam di Indonesia',
-        phase: 'Fase E',
-        grade: 'Kelas X',
-        icon: '🕌',
-        period: 'Abad ke-13 M - Abad ke-18 M',
-        cpSummary: 'Menganalisis saluran islamisasi Nusantara, peranan kesultanan maritim dari Aceh hingga Maluku, akulturasi arsitektur masjid kuno, serta transformasi hukum dan aksara.',
-        syllabus: {
-          atp: [
-            '10.4.1 Mengidentifikasi dan menganalisis 4 teori masuknya agama Islam ke kepulauan Nusantara beserta bukti-bukti prasasti dan catatan sejarah asing.',
-            '10.4.2 Menganalisis 5 saluran islamisasi kultural dan damai (perdagangan, perkawinan, tasawuf, pendidikan pesantren, dan kesenian dakwah).',
-            '10.4.3 Mengevaluasi peran geopolitik dan maritim kesultanan-kesultanan Islam utama (Samudera Pasai, Demak, Mataram Islam, Aceh, Banten, Ternate-Tidore, Gowa-Tallo).',
-            '10.4.4 Mengidentifikasi wujud akulturasi seni arsitektur masjid atap tumpang, aksara Pegon, dan tradisi sosial perayaan Maulid/Sekaten.'
-          ],
-          meaningfulUnderstanding: 'Penyebaran Islam di Indonesia berlangsung secara damai melalui akulturasi budaya yang luwes (*Islam Nusantara*), menghargai kearifan tradisi lokal, serta menumbuhkan etos perlawanan maritim terhadap monopoli kolonial Barat.',
-          essentialQuestions: [
-            'Mengapa pendekatan kultural yang diterapkan Wali Songo (seperti wayang kulit dan tembang) sangat efektif dalam proses islamisasi di Pulau Jawa?',
-            'Bagaimana Kesultanan Gowa-Tallo mempertahankan prinsip kebebasan bernavigasi di laut (Mare Liberum) melawan hegemoni monopoli VOC?'
-          ]
+      "subtopics": [
+        {
+          "heading": "1. Hakikat Sejarah sebagai Ilmu & Prinsip Penelitian Ilmiah",
+          "content": "Sejarah bukanlah sekadar dongeng atau mitos pengantar tidur, melainkan sebuah disiplin ilmu mandiri. Sebagai ilmu, sejarah memiliki lima karakteristik fundamental:\n1. **Bersifat Empiris**: Berpijak pada pengalaman nyata manusia di masa lalu yang terekam dalam peninggalan jejak, dokumen, artefak, dan kesaksian empiris.\n2. **Memiliki Objek Kajian**: Objek kajian sejarah adalah seluruh aktivitas, peristiwa, dan keputusan manusia yang terikat dalam ruang dan waktu.\n3. **Memiliki Teori**: Menggunakan kerangka konseptual untuk menjelaskan kausalitas peristiwa (misalnya teori tantangan dan respon oleh Arnold Toynbee, atau teori revolusi sosial).\n4. **Memiliki Metode Ilmiah**: Memiliki seperangkat langkah kerja sistematis yang dapat diuji keabsahannya untuk merekonstruksi masa lalu.\n5. **Menghasilkan Generalisasi**: Mampu menarik kesimpulan umum atau hukum kecenderungan dari pola-pola peristiwa sejarah yang berulang."
         },
-        subtopics: [
-          {
-            heading: '1. Historiografi Teori Masuknya Islam & Saluran Islamisasi',
-            content: `Masuknya Islam ke Nusantara tidak melalui ekspansi militer, melainkan melalui penetrasi kultural damai (*penetration pacifique*). Para pakar mengemukakan empat teori utama:
-
-1. **Teori Gujarat/India (Snouck Hurgronje, J. Pijnappel, W.F. Stutterheim)**:
-Menyatakan bahwa Islam masuk ke Indonesia pada abad ke-13 Masehi dibawa oleh para pedagang muslim dari Gujarat dan Cambay, India Barat. Bukti utamanya adalah batu nisan makam Sultan Malik As-Saleh (raja pertama Samudera Pasai wafat 1297 M) dan makam Maulana Malik Ibrahim di Gresik (wafat 1419 M) yang bentuk ornamen pahatannya memiliki kemiripan identik dengan batu nisan di Cambay, Gujarat.
-
-2. **Teori Makkah/Arab (Prof. Dr. Buya Hamka, J.C. van Leur, T.W. Arnold)**:
-Menyatakan bahwa Islam masuk ke Indonesia langsung dari jazirah Arab (Makkah dan Madinah) sejak abad ke-7 Masehi (abad ke-1 Hijriah) pada masa pemerintahan Khalifah Rasyidin dan Bani Umayyah. Bukti historisnya:
-- Catatan Dinasti Tang di Tiongkok mencatat keberadaan perkampungan saudagar Arab muslim (*Po-ssu/Ta-shih*) di pesisir barat Sumatra (Barus) pada tahun 674 Masehi.
-- Gelar penguasa Samudera Pasai menggunakan gelar kebangsawanan Arab (*Al-Malik*) mengikuti tradisi kesultanan di Mesir, bukan gelar kebangsawanan India.
-
-3. **Teori Persia/Iran (Prof. Dr. Hoesein Djajadiningrat & Umar Amir Husen)**:
-Menyoroti kesamaan kebudayaan dan tradisi sufi Islam di Indonesia dengan tradisi Syiah/Persia:
-- Peringatan 10 Muharram (Hari Asyura) atas gugurnya Sayyidina Husein bin Ali yang dirayakan melalui upacara *Tabuik* di Pariaman (Sumatra Barat) dan *Tabot* di Bengkulu.
-- Kesamaan sistem tanda harakat fonem Arab dalam pembelajaran mengeja membaca Al-Qur'an (istilah *jabar* untuk fathah, *jer* untuk kasrah, *pes* untuk dhammah).
-- Ajaran mistik tasawuf manunggaling kawula gusti Syekh Siti Jenar yang memiliki kemiripan dengan ajaran sufi Al-Hallaj dari Persia.
-
-4. **Teori Tiongkok (Slamet Muljana, Denys Lombard, H.J. de Graaf)**:
-Menyatakan bahwa komunitas muslim Tionghoa memiliki peranan besar dalam penyebaran Islam di pesisir utara Jawa. Laksamana Cheng Ho (seorang kasim muslim utusan Kaisar Dinasti Ming) memimpin ekspedisi armada raksasa ke Nusantara pada awal abad ke-15 M dan mendirikan pangkalan serta komunitas muslim Tionghoa di Palembang, Tuban, Gresik, dan Semarang. Catatan *Kronik Klenteng Sam Po Kong* mencatat tokoh-tokoh awal Wali Songo memiliki nama Tionghoa (misal: Raden Patah disebut Jin Bun).
-
-**Enam Saluran Utama Islamisasi**:
-- *Saluran Perdagangan*: Interaksi langsung pedagang muslim di pelabuhan pesisir.
-- *Saluran Perkawinan*: Pernikahan pedagang/saudagar muslim kaya dengan putri bangsawan dan adipati lokal.
-- *Saluran Pendidikan Pesantren*: Sistem asrama mandiri tempat santri dari berbagai pulau belajar kitab kuning, lalu pulang ke kampung halaman mendirikan pesantren baru.
-- *Saluran Tasawuf*: Pendekatan mistik ketuhanan yang mudah dipahami oleh masyarakat yang sebelumnya akrab dengan dunia kebatinan Hindu-Buddha.
-- *Saluran Kesenian*: Penggunaan wayang kulit, gending gamelan (Gamelan Sekaten), dan tembang dolanan (seperti *Lir-Ilir* dan *Gundul Pacul* oleh Sunan Kalijaga).
-- *Saluran Politik*: Ketika seorang raja/sultan memeluk Islam, seluruh rakyat jelata secara sukarela ikut memeluk agama Islam demi loyalitas kepada pemimpinnya.`
-          },
-          {
-            heading: '2. Poros Kesultanan Maritim: Samudera Pasai, Demak, & Mataram Islam',
-            content: `Kesultanan Islam tumbuh menjadi benteng kedaulatan maritim dan ekonomi moneter yang kuat:
-
-• **Kesultanan Samudera Pasai (Aceh Utara, Abad 13–16 M)**:
-Didirikan oleh Meurah Silu yang bergelar **Sultan Malik As-Saleh**. Pasai menjadi pusat pelabuhan internasional dan kerajaan Islam pertama yang mencetak mata uang koin emas murni bernama **Deureuham (Dirham Pasai)** dengan kadar emas 70% berukir kaligrafi nama sultan. Penjelajah dunia Ibnu Batutah (1345 M) mencatat kekagumannya terhadap kemakmuran Pasai, armada lautnya yang kuat, serta kerendahan hati rajanya yang alim.
-
-• **Kesultanan Demak Bintoro (Pesisir Jawa Tengah, Abad 15–16 M)**:
-Didirikan oleh **Raden Patah** dengan dukungan Dewan Wali Songo sebagai kesultanan Islam pertama di Pulau Jawa. Demak menjadi pusat jihad maritim menentang kolonialisme Portugis:
-- *Pati Unus (Pangeran Sabrang Lor)*: Pada tahun 1513 memimpin armada laut gabungan 100 kapal perang membawa 10.000 laskar menyerang markas benteng Portugis di Malaka. Keberaniannya menyeberangi Laut Jawa membuatnya digelari "Pangeran yang menyeberang ke utara".
-- *Panglima Fatahillah (Faletehan)*: Pada tahun 1527 diutus Sultan Trenggana memimpin ekspedisi militer gabungan Demak-Cirebon merebut pelabuhan Sunda Kelapa dari Portugis dan Kerajaan Pajajaran. Kemenangan mutlak pada 22 Juni 1527 dirayakan dengan mengganti nama pelabuhan menjadi **Jayakarta** (*Kemenangan Gemilang*), yang kini diperingati sebagai hari lahir Jakarta.
-
-• **Kesultanan Mataram Islam (Yogyakarta, Abad 16–18 M)**:
-Mencapai masa keemasan di bawah **Sultan Agung Hanyokrokusumo** (1613–1645):
-- Mengobarkan perlawanan militer total terhadap markas besar kongsi dagang VOC di Batavia melalui dua kali ekspedisi pengepungan akbar pada tahun 1628 dan 1629.
-- Menciptakan karya akulturasi monumental berupa **Kalender Jawa Islam (Tahun Saka Jawa)** pada tahun 1633 M yang memadukan perhitungan kalender lunar Hijriah (peredaran bulan) dengan tahun Saka Hindu Jawa.`
-          },
-          {
-            heading: '3. Kesultanan Luar Jawa: Aceh Darussalam & Gowa-Tallo Makassar',
-            content: `Kekuatan maritim kesultanan di luar Jawa menunjukkan ketangguhan geopolitik yang disegani bangsa-bangsa Eropa:
-
-• **Kesultanan Aceh Darussalam (Abad 16–17 M)**:
-Mencapai puncak kejayaan di bawah **Sultan Iskandar Muda** (1607–1636). Aceh membangun armada laut perkasa berisikan kapal perang raksasa *Espelho do Mundo* (Cermin Dunia) yang mampu mengangkut 800 prajurit bersenjatakan meriam perunggu. Aceh menjalin hubungan diplomatik langsung dengan Kekhalifahan Turki Utsmani (Khilafah Ottoman), Dinasti Safawi di Persia, serta Kerajaan Inggris di bawah Ratu Elizabeth I. Aceh diakui sebagai *Serambi Makkah* karena menjadi pelabuhan embarkasi utama jemaah haji dari seluruh kepulauan Nusantara.
-
-• **Kesultanan Gowa-Tallo (Makassar, Sulawesi Selatan, Abad 16–17 M)**:
-Berpusat di Benteng Somba Opu. Di bawah kepemimpinan **Sultan Hasanuddin**, Kesultanan Gowa-Tallo menjadi penguasa jalur perdagangan maritim di kawasan Indonesia Timur. Sultan Hasanuddin dijuluki oleh penjajah Belanda sebagai *"De Haantjes van Het Oosten"* (Ayam Jantan dari Timur) karena keberanian dan keteguhan sikapnya. Gowa-Tallo menolak monopoli rempah-rempah yang dipaksakan oleh VOC dan dengan tegas memegang doktrin hukum laut internasional **Mare Liberum** (Lautan adalah milik bersama anugerah Tuhan, setiap kapal berhak berlayar dan berniaga dengan bebas).`
-          },
-          {
-            heading: '4. Akulturasi Budaya & Transformasi Sosial Kultural',
-            content: `Kehadiran Islam tidak memusnahkan kebudayaan masa lalu, melainkan melahirkan akulturasi budaya yang sangat kaya dan harmonis:
-
-1. **Arsitektur Masjid Kuno Nusantara**:
-- *Atap Tumpang Bersusun*: Atap masjid kuno (seperti Masjid Agung Demak, Masjid Banten, Masjid Jepara) tidak menggunakan kubah bulat gaya Timur Tengah, melainkan menggunakan konstruksi atap tumpang bersusun ganjil tiga tingkatan. Secara filosofis, tiga tingkatan atap ini melambangkan trilogi ajaran Islam: *Iman, Islam, dan Ihsan*.
-- *Menara Masjid Kudus*: Dibangun oleh Sunan Kudus dengan bentuk arsitektur menyerupai candi langgam Jawa Timur yang terbuat dari susunan batu bata merah tanpa semen, mencerminkan kearifan dakwah yang menghormati umat Hindu-Buddha di sekitarnya.
-
-2. **Aksara Pegon & Tradisi Literasi**:
-Penggunaan huruf Arab yang dimodifikasi dengan menambahkan tanda titik untuk melafalkan fonem-fonem asli bahasa Nusantara yang tidak ada dalam bahasa Arab (seperti huruf *ca, nga, ga, pa, nya*). Aksara Pegon digunakan untuk menuliskan kitab-kitab fikih, tasawuf, babad sejarah, naskah sastra Melayu, serta surat-surat diplomatik para sultan kepada raja-raja Eropa.
-
-3. **Perayaan Kultural Sekaten**:
-Upacara peringatan hari kelahiran Nabi Muhammad SAW (Maulid) yang diinisiasi oleh para wali di Alun-Alun Keraton Surakarta dan Yogyakarta. Masyarakat ditarik berkumpul mendengarkan alunan gamelan pusaka Kyai Gunturmadu dan Kyai Nagawilaga, lalu diajak mengucapkan kalimat *Syahadatain* (dua kalimat syahadat, yang dilafalkan lidah Jawa menjadi istilah *Sekaten*).`
-          }
+        {
+          "heading": "2. Tahap 1: Pemilihan Topik & Tahap 2: Heuristik (Pengumpulan Sumber)",
+          "content": "Langkah kerja penelitian sejarah dimulai dari perencanaan yang matang:\n\n### Tahap 1: Pemilihan Topik Penelitian\nPemilihan topik harus memenuhi dua syarat utama:\n- **Kedekatan Emosional**: Peneliti memiliki minat, rasa penasaran, dan ketertarikan mendalam terhadap topik yang dikaji.\n- **Kedekatan Intelektual**: Peneliti memiliki bekal pengetahuan, penguasaan bahasa naskah, serta ketersediaan sumber yang memadai untuk diteliti. Topik harus memiliki nilai orisinalitas, kepraktisan, dan signifikansi historis.\n\n### Tahap 2: Heuristik (Pencarian & Pengumpulan Sumber)\nBerasal dari bahasa Yunani *heuriskein* yang berarti \"menemukan\". Heuristik adalah kegiatan mencari, melacak, dan menghimpun jejak-jejak masa lalu.\n\n**Klasifikasi Sumber Sejarah Berdasarkan Bentuknya:**\n1. *Sumber Tertulis*: Arsip kolonial, prasasti batu, naskah kuno (babad, kronik), koran sezaman, surat pribadi, buku harian, dan notulen rapat.\n2. *Sumber Benda (Artefak)*: Candi, senjata keris, benteng, mata uang kuno, gerabah, dan fosil.\n3. *Sumber Lisan*: Kesaksian langsung dari pelaku sejarah (*oral history*) atau cerita rakyat lisan yang diwariskan turun-temurun (*oral tradition*).\n\n**Klasifikasi Berdasarkan Sifat / Kedudukannya:**\n- **Sumber Primer (*Primary Source*)**: Keterangan langsung dari pelaku atau saksi mata yang sezaman dengan peristiwa (misalnya naskah teks Proklamasi asli yang diketik Sayuti Melik dan ditandatangani Soekarno-Hatta, atau wawancara langsung veteran pejuang 1945).\n- **Sumber Sekunder (*Secondary Source*)**: Karya atau tulisan yang disusun oleh orang yang tidak hadir langsung pada peristiwa tersebut, melainkan menganalisis sumber primer (misalnya buku teks sejarah terbitan akademisi).\n- **Sumber Tersier**: Buku rujukan kompilasi seperti ensiklopedia, katalog bibliografi, dan indeks arsip."
+        },
+        {
+          "heading": "3. Tahap 3: Kritik Sumber / Verifikasi (Eksternal & Internal)",
+          "content": "Tidak semua dokumen atau artefak kuno dapat langsung dipercaya sebagai fakta sejarah. Tahap kritik sumber (verifikasi) bertujuan menguji keabsahan sumber melalui dua tahapan ketat:\n\n### A. Kritik Eksternal (Uji Otentisitas Fisik Sumber)\nKritik eksternal bertujuan menguji apakah fisik sumber tersebut asli atau palsu:\n- Meneliti jenis kertas, tinta, jenis huruf mesin ketik, gaya bahasa, cap stempel, dan usia bahan fisik (misalnya melalui uji radiokarbon C-14 untuk fosil atau kayu).\n- Memastikan bahwa dokumen tersebut benar-benar diterbitkan pada waktu dan oleh institusi yang diklaim, bukan hasil pemalsuan dokumen modern.\n\n### B. Kritik Internal (Uji Kredibilitas Isi Informasi)\nSetelah fisik dokumen terbukti asli, kritik internal menguji apakah isi pernyataan dalam dokumen tersebut dapat dipercaya (*credible*):\n- Meneliti objektivitas saksi mata: Apakah saksi berada dalam tekanan politik? Apakah terdapat bias kepentingan pribadi atau propaganda kekuasaan?\n- Melakukan komparasi (*cross-check*) dengan sumber-sumber pembanding independen lainnya untuk menemukan kesesuaian fakta."
+        },
+        {
+          "heading": "4. Tahap 4: Interpretasi (Penafsiran Fakta Sejarah)",
+          "content": "Setelah data diverifikasi dan diuji, serpihan data tersebut menjadi **fakta sejarah**. Tahap interpretasi adalah menafsirkan dan merangkai fakta-fakta sejarah yang terpisah agar membentuk gambaran peristiwa yang utuh dan bermakna.\n\nTahap interpretasi terdiri dari dua langkah berkesinambungan:\n1. **Analisis**: Menguraikan data ke dalam bagian-bagian terkecil untuk membedah motif, latar belakang, dan peran masing-masing aktor sejarah.\n2. **Sintesis**: Menggabungkan kembali fakta-fakta yang telah dianalisis menjadi satu kesatuan kronologis dan kausalitas yang logis.\n\nDalam interpretasi, sejarawan dituntut untuk bersikap objektif dan menghindari subjektivitas liar yang didorong oleh prasangka pribadi atau sentimen kelompok."
+        },
+        {
+          "heading": "5. Tahap 5: Historiografi (Penulisan Rekonstruksi Sejarah)",
+          "content": "Historiografi adalah tahap akhir penelitian berupa penulisan laporan ilmiah sejarah yang sistematis, runtut, dan komunikatif. Di Indonesia, corak historiografi mengalami empat babak perkembangan penting:\n\n1. **Historiografi Tradisional (Masa Kerajaan Hindu-Buddha & Islam)**:\n- Bersifat *Istanasentris* (hanya menceritakan kehidupan raja dan bangsawan).\n- Bersifat *Regiocentris* (kedaerahan sempit).\n- Kental dengan unsur mitos, magis, dan legitimasi kekuasaan adikodrati (contoh: Kitab Pararaton, Babad Tanah Jawi).\n\n2. **Historiografi Kolonial (Masa Penjajahan Belanda)**:\n- Bersifat *Neerlandosentris* / *Eropasentris*: Ditulis dari sudut pandang kepentingan penjajah Belanda. Bangsa pribumi digambarkan sebagai kaum pemberontak, perompak, atau pemalas (contoh: tulisan-tulisan pejabat VOC dan sejarawan kolonial tentang \"Pemberontakan Diponegoro\").\n\n3. **Historiografi Nasional (Pasca Kemerdekaan 1945)**:\n- Bersifat *Indonesiasentris*: Menempatkan bangsa Indonesia sebagai pelaku utama dalam panggung sejarahnya sendiri. Menekankan perjuangan heroik pahlawan bangsa untuk memupuk persatuan nasional.\n\n4. **Historiografi Modern / Kritis (Sejak Seminar Sejarah Nasional 1957)**:\n- Dipelopori oleh **Prof. Dr. Sartono Kartodirdjo** melalui pendekatan *Multidimensional*.\n- Menggunakan konsep ilmu-ilmu sosial untuk meneliti sejarah rakyat jelata (*history from below*), seperti sejarah petani (*The Peasants' Revolt of Banten 1888*), buruh, dan sejarah maritim secara kritis dan metodologis."
+        },
+        {
+          "heading": "6. Literasi Kritis Masa Kini: Memerangi Hoaks dengan Metode Sejarah",
+          "content": "Langkah-langkah metodologi sejarah memiliki nilai praktis yang sangat luar biasa bagi siswa SMK dalam mengarungi era digital saat ini. Maraknya berita palsu (*fake news*), hoaks media sosial, dan video manipulatif (*deepfake*) dapat diatasi jika kita membiasakan diri menerapkan prinsip kritik sumber:\n- **Heuristik Digital**: Selalu mengecek dari mana asal mula berita tersebut dibagikan dan mencari tautan primer aslinya.\n- **Kritik Eksternal**: Memeriksa kredibilitas situs web, reputasi domain, tanggal publikasi, dan keaslian foto/video menggunakan fitur *Google Reverse Image Search*.\n- **Kritik Internal**: Memeriksa apakah judul berita bersifat umpan klik (*clickbait*), apakah informasinya mengandung ujaran kebencian yang berat sebelah, serta membandingkannya dengan media resmi terverifikasi Dewan Pers.\n\nDengan menguasai metode sejarah, siswa SMK menjadi pribadi yang bernalar kritis, cerdas digital, dan tidak mudah terprovokasi isu adu domba."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Heuristik",
+          "def": "Tahap pencarian, pelacakan, dan penghimpunan sumber-sumber sejarah yang relevan dengan topik kajian."
+        },
+        {
+          "term": "Verifikasi",
+          "def": "Tahap pengujian keaslian fisik (kritik eksternal) dan kebenaran isi (kritik internal) suatu sumber sejarah."
+        },
+        {
+          "term": "Sumber Primer",
+          "def": "Bukti sejarah yang berasal langsung dari pelaku atau saksi mata yang hidup sezaman dengan peristiwa."
+        },
+        {
+          "term": "Sumber Sekunder",
+          "def": "Karya sejarah yang disusun oleh peneliti dengan memanfaatkan analisis atas sumber-sumber primer."
+        },
+        {
+          "term": "Interpretasi",
+          "def": "Penafsiran dan perangkaian fakta-fakta sejarah melalui analisis dan sintesis yang logis dan objektif."
+        },
+        {
+          "term": "Historiografi",
+          "def": "Tahap penulisan dan penyusunan kisah sejarah dalam bentuk karya ilmiah yang dapat dipertanggungjawabkan."
+        },
+        {
+          "term": "Istanasentris",
+          "def": "Ciri penulisan sejarah tradisional yang hanya berfokus pada kehidupan raja, istana, dan keluarga bangsawan."
+        },
+        {
+          "term": "Multidimensional",
+          "def": "Pendekatan penulisan sejarah kritis modern yang memadukan berbagai konsep ilmu sosial (sosiologi, ekonomi, antropologi)."
+        }
+      ],
+      "reflectionQuestions": [
+        "Mengapa tahapan kritik eksternal dan kritik internal dalam metode sejarah sangat relevan dipraktikkan saat kita menyaring informasi di media sosial agar terhindar dari hoaks?",
+        "Bagaimana pendekatan penulisan sejarah kritis modern ala Sartono Kartodirdjo (meneliti sejarah rakyat jelata dan petani) membuka wawasan baru tentang peran penting masyarakat biasa dalam membangun bangsa?"
+      ]
+    },
+    {
+      "id": "smk-x-4",
+      "title": "BAB 4: Kerajaan Hindu-Buddha",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "🛕",
+      "period": "Abad ke-4 M – Abad ke-15 M",
+      "cpSummary": "Menganalisis teori masuknya pengaruh Hindu-Buddha, proses akulturasi kebudayaan, dinamika kerajaan-kerajaan maritim dan agraris (Kutai, Tarumanegara, Sriwijaya, Mataram Kuno, Kediri, Singasari, Majapahit), serta warisan nilai kebangsaan Bhinneka Tunggal Ika.",
+      "syllabus": {
+        "atp": [
+          "10.4.1 Menganalisis dan membandingkan teori-teori masuknya agama dan kebudayaan Hindu-Buddha ke Nusantara (Brahmana, Ksatria, Waisya, Sudra, dan Arus Balik).",
+          "10.4.2 Mengidentifikasi bukti prasasti kerajaan tertua (Prasasti Yupa Kutai dan 7 Prasasti Tarumanegara) serta corak kepemimpinannya.",
+          "10.4.3 Mengevaluasi kemaharajaan maritim Sriwijaya sebagai poros perdagangan Selat Malaka dan pusat studi internasional agama Buddha.",
+          "10.4.4 Menganalisis kejayaan Majapahit, visi integrasi Nusantara melalui Sumpah Palapa Gajah Mada, serta akulturasi seni arsitektur dan falsafah Bhinneka Tunggal Ika."
         ],
-        glossary: [
-          { term: 'Penetration Pacifique', def: 'Proses masuk dan tersebarnya kebudayaan asing secara damai tanpa paksaan militer.' },
-          { term: 'Aksara Pegon', def: 'Abjad Arab yang dimodifikasi dengan penambahan tanda baca vokal untuk menuliskan bahasa Jawa, Sunda, dan Madura.' },
-          { term: 'Deureuham', def: 'Mata uang koin emas murni dengan tulisan kaligrafi Arab yang diterbitkan oleh Kesultanan Samudera Pasai.' },
-          { term: 'Atap Tumpang', def: 'Atap bersusun bertingkat ganjil pada arsitektur masjid tradisional Nusantara yang mengadopsi struktur Meru pra-Islam.' },
-          { term: 'Mare Liberum', def: 'Prinsip hukum laut internasional yang menyatakan bahwa laut terbuka untuk pelayaran bebas bagi semua bangsa.' },
-          { term: 'Sekaten', def: 'Tradisi perayaan Maulid Nabi Muhammad SAW di keraton Jawa yang menggunakan media gamelan untuk syiar syahadatain.' },
-          { term: 'Wali Songo', def: 'Sembilan ulama penyebar agama Islam terkemuka di Pulau Jawa pada abad ke-15 hingga ke-16 Masehi.' }
-        ],
-        reflectionQuestions: [
-          'Bagaimana kearifan lokal para Wali Songo dalam mengemas dakwah lewat media kesenian wayang kulit dapat menjadi inspirasi metode komunikasi publik yang santun di media sosial masa kini?',
-          'Pangeran Sabrang Lor dari Demak dan Sultan Hasanuddin dari Makassar gigih melawan monopoli dagang asing. Apa makna kedaulatan ekonomi bagi generasi muda Indonesia di era perdagangan bebas saat ini?'
+        "meaningfulUnderstanding": "Peradaban Hindu-Buddha di Nusantara membuktikan kemampuan bangsa Indonesia dalam menyerap kebudayaan dunia tanpa kehilangan jati diri aslinya (akulturasi). Semangat persatuan maritim Sriwijaya dan Majapahit menjadi inspirasi historis bagi kedaulatan NKRI saat ini.",
+        "essentialQuestions": [
+          "Mengapa Teori Arus Balik dianggap paling menempatkan bangsa Indonesia sebagai subjek aktif dalam penyebaran kebudayaan Hindu-Buddha?",
+          "Bagaimana konsep Bhinneka Tunggal Ika yang tertulis dalam Kitab Sutasoma karya Mpu Tantular pada masa Majapahit menjadi perekat keberagaman bangsa Indonesia hingga kini?"
         ]
-      }
-    ]
-  },
+      },
+      "subtopics": [
+        {
+          "heading": "1. Teori Masuknya Hindu-Buddha & Akulturasi Budaya",
+          "content": "Masuknya kebudayaan Hindu-Buddha dari India ke kepulauan Indonesia melahirkan perdebatan ilmiah yang dirangkum dalam lima teori utama:\n\n1. **Teori Brahmana (J.C. van Leur)**: Menyatakan kaum pendeta Brahmana yang menyebarkan agama karena hanya mereka yang menguasai bahasa Sanskerta dan huruf Pallawa pada kitab suci Weda. Kaum Brahmana diundang oleh para kepala suku lokal untuk memimpin ritual upacara penobatan raja (*Vratyastoma*).\n2. **Teori Ksatria (C.C. Berg & F.D.K. Bosch)**: Menyatakan kaum prajurit atau bangsawan India yang kalah perang melarikan diri ke Nusantara dan mendirikan koloni kerajaan baru. (Kelemahan: Tidak ditemukan bukti prasasti kolonisasi militer India).\n3. **Teori Waisya (N.J. Krom)**: Menyatakan kaum pedagang (Waisya) yang berlayar dan menetap berbulan-bulan di pelabuhan Nusantara mengikuti arah angin muson, lalu menyebarkan kebudayaan melalui pernikahan dan perniagaan.\n4. **Teori Sudra (van Faber)**: Menyatakan kaum kasta terendah (budak/pekerja kasar) bermigrasi ke Nusantara untuk mencari kehidupan yang lebih layak dan bebas dari diskriminasi kasta.\n5. **Teori Arus Balik (*Counter-Current Theory* - F.D.K. Bosch - Paling Masuk Akal)**:\nMenyatakan bahwa bangsa Indonesia berperan **aktif**. Para pemuda dan cendekiawan lokal berlayar langsung ke pusat-pusat pembelajaran di India (seperti Universitas Nalanda) untuk mendalami agama, filsafat, dan teknologi, kemudian kembali ke tanah air untuk mengajarkan dan mendirikan kerajaan mandiri."
+        },
+        {
+          "heading": "2. Kerajaan Hindu-Buddha Awal: Kutai & Tarumanegara",
+          "content": "Masuknya pengaruh kebudayaan India menandai berakhirnya masa praaksara di Indonesia karena dimulainya tradisi pencatatan tertulis:\n\n### 1. Kerajaan Kutai Martapura (Kalimantan Timur, ± Abad ke-4 M)\n- Merupakan kerajaan tertua di Indonesia yang terletak di hulu Sungai Mahakam.\n- **Bukti Sejarah**: 7 buah tiang batu bertulis yang disebut **Prasasti Yupa** menggunakan huruf Pallawa dan bahasa Sanskerta.\n- **Raja Terkenal**: Raja Mulawarman (cucu dari pendiri kerajaan, Kudungga). Disebutkan bahwa Raja Mulawarman adalah raja yang dermawan dan bijaksana karena mempersembahkan kurban 20.000 ekor sapi kepada kaum Brahmana di tempat suci bernama *Waprakeswara*.\n\n### 2. Kerajaan Tarumanegara (Jawa Barat, ± Abad ke-5 M)\n- Kerajaan tertua di Pulau Jawa yang berpusat di sekitar Bogor, Jakarta, dan Bekasi.\n- **Raja Terkenal**: Raja Purnawarman, penganut agama Hindu beraliran Waisnawa (pemuja Dewa Wisnu).\n- **Prasasti Peninggalan**:\n  * *Prasasti Ciaruteun*: Memuat ukiran sepasang telapak kaki Raja Purnawarman yang diibaratkan seperti telapak kaki Dewa Wisnu.\n  * *Prasasti Tugu (Cilincing, Jakarta)*: Menceritakan proyek rekayasa hidrolika canggih berupa penggalian Saluran Gomati sepanjang 6.112 tombak (±11 km) dan Saluran Candrabhaga untuk mencegah banjir dan mengairi persawahan rakyat.\n  * Prasasti Kebon Kopi, Jambu, Muara Cianten, Pasir Awi, dan Cidanghiang."
+        },
+        {
+          "heading": "3. Kemaharajaan Bahari Sriwijaya: Episentrum Selat Malaka",
+          "content": "Kerajaan Sriwijaya (abad ke-7 hingga ke-13 M) yang berpusat di Palembang, Sumatra Selatan, berkembang menjadi adidaya maritim terbesar di Asia Tenggara:\n\n• **Faktor Pendorong Kejayaan**:\n1. *Letak Geografis Strategis*: Menguasai dua selat vital perdagangan dunia, yaitu **Selat Malaka** dan **Selat Sunda**.\n2. *Armada Angkatan Laut Tangguh*: Menjamin keamanan kapal-kapal dagang internasional dari ancaman bajak laut (*lanun*).\n3. *Komoditas Bernilai Tinggi*: Mengekspor kapur barus, gaharu, gading, emas, dan rempah-rempah.\n\n• **Pusat Pembelajaran Agama Buddha Internasional**:\nBiksu musafir dari Tiongkok, **I-Tsing** (abad ke-7 M), mencatat bahwa di Sriwijaya terdapat lebih dari 1.000 biksu Buddha yang tekun belajar. I-Tsing menganjurkan para pendeta Tiongkok yang ingin belajar ke India agar singgah terlebih dahulu selama 1–2 tahun di Sriwijaya untuk mendalami tata bahasa Sanskerta di bawah bimbingan guru agung **Sakyakirti**.\n\n• **Raja Termasyhur**: **Balaputradewa** (abad ke-9 M). Ia menjalin diplomasi internasional dengan Kerajaan Chola dan mendirikan asrama khusus bagi pelajar Sriwijaya di Universitas Nalanda, India (tercatat dalam *Prasasti Nalanda*)."
+        },
+        {
+          "heading": "4. Dinasti Sanjaya-Syailendra, Kediri, & Singasari",
+          "content": "Perkembangan kerajaan di Jawa mencerminkan harmoni toleransi dan dinamika politik dinasti:\n\n### 1. Kerajaan Mataram Kuno (Abad ke-8 – ke-10 M)\n- Diperintah oleh dua dinasti yang hidup berdampingan secara damai: **Dinasti Sanjaya** (beragama Hindu Siwa) dan **Dinasti Syailendra** (beragama Buddha Mahayana).\n- **Puncak Toleransi Arsitektur**: Pembangunan **Candi Borobudur** (oleh Samaratungga dari Syailendra) dan mahakarya kompleks **Candi Prambanan** (oleh Rakai Pikatan dari Sanjaya).\n- Akibat letusan dahsyat Gunung Merapi dan ancaman perang, Mpu Sindok memindahkan pusat kerajaan ke Jawa Timur dan mendirikan Dinasti Isyana.\n\n### 2. Kerajaan Kediri & Singasari (Jawa Timur)\n- *Kediri*: Mengalami masa keemasan di bawah **Prabu Jayabaya** dengan ramalannya (*Jangka Jayabaya*) dan karya sastra monumental *Kakawin Bharatayuddha* oleh Mpu Sedah dan Mpu Panuluh.\n- *Singasari*: Didirikan oleh **Ken Arok** (1222 M). Mencapai puncak kejayaan di bawah **Raja Kertanegara** yang memiliki visi memperluas pengaruh politik nusantara untuk membendung serbuan bangsa Mongol (Kubilai Khan) melalui ekspedisi maritim diplomatik **Pamalayu** (1275 M)."
+        },
+        {
+          "heading": "5. Kemaharajaan Majapahit & Falsafah Bhinneka Tunggal Ika",
+          "content": "Didirikan oleh **Raden Wijaya** pada tahun 1293 M setelah mengalahkan pasukan Tartar Mongol, Majapahit berkembang menjadi imperium terbesar yang mempersatukan Nusantara:\n\n• **Masa Kejayaan**: Berlangsung di bawah kepemimpinan **Raja Hayam Wuruk** (bergelar *Sri Rajasanagara*) didampingi oleh Mahapatih Amangkubhumi **Gajah Mada**.\n\n• **Sumpah Palapa (1336 M)**:\nIkrar sakral Gajah Mada di hadapan para menteri Majapahit:\n> *\"Lamun huwus kalah nusantara isun amukti palapa, lamun kalah ring Gurun, ring Seran, Tañjungpura, ring Haru, ring Pahang, Dompo, ring Bali, Sunda, Palembang, Tumasik, samana isun amukti palapa.\"*\n(Jika telah tunduk seluruh Nusantara, barulah saya akan beristirahat dan menikmati kesenangan duniawi).\n\n• **Kekuatan Armada Maritim**: Di bawah laksamana laut **Mpu Nala**, Majapahit membangun kapal-kapal perang jung raksasa bercadik ganda yang menjaga keamanan perairan kepulauan.\n\n• **Warisan Falsafah Luhur**:\nDalam kitab **Kakawin Sutasoma** yang digubah oleh pujangga istana **Mpu Tantular**, tertulis bait monumental:\n> *\"Rwaneka dhatu winuwus Buddha Wiswa, bhinneki rakwa ring apan kena parwanosen, mangka ng Jinatwa kalawan Siwatatwa tunggal, **Bhinneka Tunggal Ika tan hana dharma mangrwa**.\"*\n(Meskipun berbeda-beda agama Buddha dan Siwa, pada hakikatnya adalah satu; Berbeda-beda tetapi tetap satu jua, tidak ada kebenaran yang mendua). Falsafah ini menjadi semboyan resmi negara Republik Indonesia."
+        },
+        {
+          "heading": "6. Warisan Kebudayaan Hindu-Buddha bagi Bangsa Indonesia",
+          "content": "Pengaruh peradaban Hindu-Buddha selama seribu tahun meninggalkan jejak mendalam pada struktur kebudayaan Indonesia modern:\n1. **Seni Bangunan & Arsitektur**: Candi-candi di Indonesia tidak meniru mentah-mentah gaya India, melainkan mengalami akulturasi dengan struktur megalitikum asli lokal (*punden berundak*). Candi di Indonesia juga berfungsi sebagai tempat pemujaan dan pemakaman abu jenazah raja, bukan sekadar kuil dewa.\n2. **Kesusastraan & Bahasa**: Masuknya epos besar *Mahabharata* dan *Ramayana* yang diadaptasi menjadi seni pertunjukan wayang purwa dengan tokoh-tokoh lokal punakawan (Semar, Gareng, Petruk, Bagong). Sekitar 40% perbendaharaan kata bahasa Indonesia berakar dari bahasa Sanskerta.\n3. **Sistem Sosial & Tata Negara**: Konsep kepemimpinan raja sebagai titisan dewa (*Dewa Raja*) dan keteraturan birokrasi pemerintahan."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Prasasti Yupa",
+          "def": "Tiang batu peninggalan Kerajaan Kutai bertuliskan huruf Pallawa yang berfungsi sebagai prasasti kurban persembahan."
+        },
+        {
+          "term": "Vratyastoma",
+          "def": "Upacara keagamaan Hindu untuk menyucikan seseorang agar dapat masuk ke dalam kasta Hindu."
+        },
+        {
+          "term": "Teori Arus Balik",
+          "def": "Teori yang menyatakan kaum terpelajar Nusantara aktif belajar agama ke India lalu kembali menyebarkannya di tanah air."
+        },
+        {
+          "term": "Dewa Raja",
+          "def": "Konsep kepemimpinan Hindu kuno yang memandang raja sebagai reinkarnasi atau penjelmaan dewa pelindung dunia di bumi."
+        },
+        {
+          "term": "Sumpah Palapa",
+          "def": "Ikrar Mahapatih Gajah Mada pada tahun 1336 M untuk mempersatukan wilayah kepulauan Nusantara di bawah naungan Majapahit."
+        },
+        {
+          "term": "Kakawin Sutasoma",
+          "def": "Kitab karya sastra Mpu Tantular pada zaman Majapahit yang memuat kalimat semboyan Bhinneka Tunggal Ika."
+        },
+        {
+          "term": "Akulturasi",
+          "def": "Perpaduan dua kebudayaan atau lebih yang saling bertemu tanpa menghilangkan unsur kebudayaan aslinya."
+        },
+        {
+          "term": "Ekspedisi Pamalayu",
+          "def": "Kebijakan diplomasi politik maritim Raja Kertanegara dari Singasari untuk membendung hegemoni bangsa Mongol di Asia Tenggara."
+        }
+      ],
+      "reflectionQuestions": [
+        "Bagaimana sikap toleransi antara pemeluk Hindu dan Buddha pada masa Mataram Kuno (tercermin pada Candi Prambanan dan Borobudur) menjadi teladan bagi kerukunan umat beragama di Indonesia masa kini?",
+        "Mengapa semangat Sumpah Palapa Gajah Mada dalam menyatukan kepulauan Nusantara sangat relevan dijiwai oleh generasi muda SMK dalam menjaga keutuhan NKRI di era globalisasi?"
+      ]
+    },
+    {
+      "id": "smk-x-5",
+      "title": "BAB 5: Kerajaan Islam",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "🕌",
+      "period": "Abad ke-7 M / Abad ke-13 M – Abad ke-18 M",
+      "cpSummary": "Menganalisis teori masuknya Islam ke Nusantara, saluran islamisasi damai, peran Wali Songo, dinamika kesultanan-kesultanan maritim dan agraris (Samudera Pasai, Aceh, Demak, Banten, Mataram Islam, Gowa-Tallo, Ternate-Tidore), serta akulturasi budaya Islam Nusantara.",
+      "syllabus": {
+        "atp": [
+          "10.5.1 Membandingkan 4 teori masuknya Islam ke Indonesia (Gujarat, Makkah, Persia, dan Tiongkok) beserta bukti-bukti sejarah pendukungnya.",
+          "10.5.2 Menguraikan saluran islamisasi secara damai (perdagangan, perkawinan, pendidikan pesantren, tasawuf, dan kesenian dakwah Wali Songo).",
+          "10.5.3 Menganalisis peranan strategis kesultanan-kesultanan maritim dalam perdagangan antarpulau dan pertahanan melawan kolonialisme awal.",
+          "10.5.4 Mengevaluasi akulturasi budaya Islam dengan tradisi lokal (arsitektur masjid atap tumpang, aksara Pegon, perayaan Sekaten) dan nilai toleransi kebangsaan."
+        ],
+        "meaningfulUnderstanding": "Penyebaran Islam di Nusantara berlangsung secara damai melalui pendekatan persuasif, kebudayaan, dan perniagaan. Fleksibilitas kultural para ulama dan Wali Songo melahirkan tradisi Islam Nusantara yang menjunjung tinggi keharmonisan dan toleransi.",
+        "essentialQuestions": [
+          "Mengapa proses islamisasi di kepulauan Nusantara dapat diterima luas oleh masyarakat tanpa melalui penaklukan militer besar-besaran?",
+          "Bagaimana strategi dakwah Wali Songo yang mengadopsi kesenian wayang kulit dan tembang dolanan mencerminkan kearifan lokal yang relevan bagi komunikasi publik saat ini?"
+        ]
+      },
+      "subtopics": [
+        {
+          "heading": "1. Teori Masuknya Islam & Saluran Islamisasi Damai",
+          "content": "Penyebaran Islam di Nusantara berlangsung secara bertahap dan damai (*penetration pacifique*). Terdapat empat teori utama:\n\n1. **Teori Gujarat / India (Snouck Hurgronje & Moquette)**:\n- Menyatakan Islam masuk pada abad ke-13 M dibawa oleh para pedagang muslim dari Cambay/Gujarat, India.\n- *Bukti*: Kesamaan bentuk nisan Sultan Malik al-Saleh (Samudera Pasai, 1297 M) dan nisan Maulana Malik Ibrahim di Gresik dengan nisan di Gujarat.\n\n2. **Teori Makkah / Arab (Buya Hamka & T.W. Arnold - Didukung Bukti Kuat)**:\n- Menyatakan Islam masuk sejak abad ke-7 M (abad ke-1 Hijriah) langsung dari Jazirah Arab.\n- *Bukti*: Catatan Dinasti Tang mengenai adanya perkampungan saudagar Arab muslim (*Ta-shih*) di pesisir barat Sumatra (Barus) pada tahun 674 M, serta gelar *Malik* yang digunakan raja-raja Pasai mengikuti tradisi Timur Tengah.\n\n3. **Teori Persia (Hoesein Djajadiningrat)**:\n- Menyatakan Islam masuk dari Persia (Iran) pada abad ke-13 M.\n- *Bukti*: Kesamaan tradisi peringatan 10 Muharram (*Asyura*) atas wafatnya Hasan dan Husain dalam tradisi *Tabuik* di Pariaman Sumatra Barat dan Bengkulu, serta ejaan fonetik tanda baca Arab dalam pengajaran Al-Qur'an.\n\n4. **Teori Tiongkok (Slamet Muljana & Denys Lombard)**:\n- Menyatakan pedagang dan musafir Tiongkok muslim (seperti Laksamana Cheng Ho) turut menyebarkan Islam di kota-kota pelabuhan pesisir utara Jawa.\n\n### Saluran Islamisasi di Nusantara\n- **Perdagangan**: Saluran tertua yang memanfaatkan jaringan pelayaran pelabuhan niaga.\n- **Perkawinan**: Pernikahan saudagar kaya muslim dengan putri bangsawan dan adipati lokal.\n- **Pendidikan**: Pendirian jaringan pondok pesantren dan meunasah yang mendidik santri dari berbagai pulau.\n- **Tasawuf**: Pendekatan spiritual sufistik yang mudah diterima karena selaras dengan kecenderungan kebatinan masyarakat pra-Islam.\n- **Kesenian**: Gamelan, wayang kulit, seni ukir kaligrafi, dan tembang suluk."
+        },
+        {
+          "heading": "2. Kesultanan Samudera Pasai & Malaka: Poros Maritim Awal",
+          "content": "Kemunculan kesultanan Islam pertama di jalur internasional Selat Malaka:\n\n### 1. Kesultanan Samudera Pasai (Aceh Utara, Abad ke-13 M)\n- Merupakan kesultanan Islam pertama di Indonesia yang didirikan oleh **Meurah Silu** bergelar **Sultan Malik al-Saleh** (wafat 1297 M).\n- **Ekonomi & Moneter**: Pusat ekspor lada dan sutra. Pasai telah mencetak mata uang koin emas murni sendiri yang disebut **Deureuham (Dirham emas)**.\n- **Pusat Pembelajaran**: Dikunjungi oleh musafir terkemuka Venesia (Marco Polo, 1292 M) dan musafir Maroko (**Ibnu Battuta**, 1345 M) yang mengagumi kesalehan dan keterbukaan intelektual sang sultan.\n\n### 2. Kesultanan Malaka (Semenanjung Malaya, Abad ke-15 M)\n- Didirikan oleh pangeran pelarian dari Sriwijaya bernama **Parameswara** yang kemudian masuk Islam bergelar Sultan Iskandar Syah.\n- Berkembang menjadi kota pelabuhan internasional (*emporium*) terbesar di Selat Malaka, tempat bertemunya saudagar Persia, Arab, Gujarat, Tiongkok, dan Jawa, sebelum akhirnya ditaklukkan oleh armada Portugis pimpinan Afonso de Albuquerque pada tahun 1511."
+        },
+        {
+          "heading": "3. Kesultanan Aceh Darussalam: Benteng Pertahanan Selat Malaka",
+          "content": "Pasca jatuhnya Malaka ke tangan Portugis tahun 1511, para pedagang muslim mengalihkan rute pelayarannya menyusuri pesisir barat Sumatra. Kondisi ini mendorong kebangkitan Kesultanan Aceh Darussalam:\n\n• **Pendiri**: Sultan Ali Mughayat Syah (1514–1530) yang berhasil menyatukan wilayah pesisir Sumatra dan mengusir pos-pos Portugis di Pasai dan Pidie.\n• **Puncak Kejayaan**: Di bawah **Sultan Iskandar Muda** (1607–1636):\n- Menguasai jalur rempah lada di Sumatra dan Semenanjung Malaya.\n- Membangun armada angkatan laut tangguh yang diperkuat kapal induk perang raksasa berkapasitas 800 prajurit (*Espelho dos Mares*).\n- Menjalin hubungan diplomatik dan militer dengan **Kekhalifahan Turki Utsmani (Ottoman)**; Turki mengirimkan persenjataan meriam modern dan instruktur militer ke Aceh (dikenal sebagai lada sicupak).\n- Menerapkan hukum Islam yang terangkum dalam kitab tata negara *Adat Makuta Alam*."
+        },
+        {
+          "heading": "4. Kesultanan Islam di Jawa: Demak, Banten, & Mataram Islam",
+          "content": "Penyebaran Islam di Pulau Jawa dimotori oleh peranan **Wali Songo** dan berdirinya kesultanan-kesultanan tangguh:\n\n### 1. Kesultanan Demak (Jawa Tengah)\n- Kesultanan Islam pertama di Jawa yang didirikan oleh **Raden Patah** (putra raja Majapahit terakhir).\n- **Semangat Jihad Anti-Monopoli**: Sultan Trenggono mengutus panglima muda **Pati Unus** (dijuluki *Pangeran Sabrang Lor*) memimpin armada 100 kapal perang menyerbu Portugis di Malaka pada tahun 1513.\n- Pada 22 Juni 1527, panglima Demak **Fatahillah** berhasil mengusir armada Portugis dari Pelabuhan Sunda Kelapa dan mengganti namanya menjadi **Jayakarta** (kemenangan yang gilang-gemilang).\n\n### 2. Kesultanan Banten (Jawa Barat/Banten)\n- Menguasai Selat Sunda sebagai pelabuhan bebas perdagangan lada internasional.\n- Mencapai puncak kemakmuran di bawah **Sultan Ageng Tirtayasa** (1651–1683) yang gigih menentang monopoli dagang VOC Belanda.\n\n### 3. Kesultanan Mataram Islam (Yogyakarta/Solo)\n- Didirikan oleh Panembahan Senopati. Mencapai puncak kejayaan di bawah **Sultan Agung Hanyokrokusumo** (1613–1645):\n- Menyatukan hampir seluruh Pulau Jawa dan Madura.\n- Menyerang markas besar VOC di Batavia sebanyak dua kali (tahun 1628 dan 1629).\n- Memadukan kalender Saka (Hindu) dengan kalender Hijriah (Islam) menjadi **Kalender Jawa**, serta menggubah karya sastra adiluhung *Sastra Gendhing*."
+        },
+        {
+          "heading": "5. Kesultanan di Sulawesi & Kepulauan Rempah Maluku",
+          "content": "Dinamika peradaban Islam di belahan timur Nusantara:\n\n### 1. Kesultanan Gowa-Tallo (Makassar, Sulawesi Selatan)\n- Kesultanan maritim perkasa berbasis pelaut ulung suku Bugis-Makassar yang memegang prinsip laut bebas (*Mare Liberum*).\n- Tokoh Terkenal: **Sultan Hasanuddin** yang dijuluki Belanda sebagai *Ayam Jantan dari Timur (De Haantjes van Het Oosten)* karena keberaniannya menentang monopoli VOC dalam Perang Makassar (1666–1669).\n- Memiliki pedoman pelayaran dan perniagaan laut termasyhur di dunia, yaitu hukum maritim **Ade' Allopiloping Bicaranna Pabalue** karya Amanna Gappa.\n\n### 2. Kesultanan Ternate dan Tidore (Maluku)\n- Episentrum Kepulauan Rempah (*The Spice Islands*) penghasil cengkeh utama dunia.\n- Dipimpin oleh kesultanan kembar: Ternate (Uli Lima) dan Tidore (Uli Siwa).\n- **Sultan Baabullah (Ternate)**: Berhasil mengepung benteng Portugis (Benteng Sao Paulo) dan mengusir penjajah Portugis keluar dari Maluku pada tahun 1575 setelah pembunuhan ayahnya, Sultan Khairun. Baabullah bergelar penguasa 72 pulau."
+        },
+        {
+          "heading": "6. Akulturasi Kebudayaan Islam Nusantara",
+          "content": "Islam tidak memusnahkan kebudayaan lokal pra-Islam yang ada di Nusantara, melainkan membalutnya dengan nilai tauhid:\n\n1. **Arsitektur Masjid**:\n- *Atap Tumpang*: Bentuk atap masjid kuno Nusantara bersusun bertingkat ganjil (tiga atau lima tingkat) yang mengadopsi konsep atap Meru zaman pra-Islam (contoh: Masjid Agung Demak). Puncaknya dihiasi *mustaka*.\n- *Menara Kudus*: Menara azan Masjid Kudus yang dibangun oleh Sunan Kudus berbentuk menyerupai candi langgam Jawa Timur, menunjukkan penghormatan mendalam terhadap umat Hindu.\n2. **Kesenian & Sastra**:\n- *Wayang Kulit*: Dimodifikasi oleh Sunan Kalijaga dengan menyisipkan nilai-nilai moral Islam dan syahadat (*Kalimasada*).\n- *Aksara Pegon*: Huruf Arab gundul yang disesuaikan untuk menuliskan bahasa Jawa, Sunda, dan Madura.\n- *Upacara Sekaten*: Perayaan Maulid Nabi di Keraton Surakarta dan Yogyakarta dengan membunyikan gamelan Kanjeng Kyai Gunturmadu untuk menarik rakyat bersyahadat."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Penetration Pacifique",
+          "def": "Proses masuk dan tersebarnya pengaruh agama dan kebudayaan asing secara damai tanpa paksaan senjata."
+        },
+        {
+          "term": "Deureuham",
+          "def": "Mata uang koin emas murni dengan inskripsi kaligrafi Arab yang diterbitkan oleh Kesultanan Samudera Pasai."
+        },
+        {
+          "term": "Atap Tumpang",
+          "def": "Atap bersusun tingkat ganjil pada arsitektur masjid tradisional Nusantara yang merupakan hasil akulturasi arsitektur lokal."
+        },
+        {
+          "term": "Wali Songo",
+          "def": "Sembilan ulama penyebar agama Islam terkemuka di tanah Jawa yang menggunakan pendekatan dakwah kultural dan kesenian."
+        },
+        {
+          "term": "Aksara Pegon",
+          "def": "Abjad Arab yang dimodifikasi untuk menuliskan bahasa-bahasa daerah di Indonesia (Jawa, Sunda, Madura)."
+        },
+        {
+          "term": "Sekaten",
+          "def": "Upacara perayaan Maulid Nabi Muhammad SAW di keraton Jawa yang menggunakan media gamelan untuk syiar Islam."
+        },
+        {
+          "term": "Mare Liberum",
+          "def": "Prinsip kebebasan berlayar dan berdagang di laut terbuka yang dipegang teguh oleh Kesultanan Gowa-Tallo."
+        },
+        {
+          "term": "Kalender Jawa",
+          "def": "Sistem penanggalan yang dipadukan oleh Sultan Agung dari sistem penanggalan Saka Hindu dan penanggalan Hijriah Islam."
+        }
+      ],
+      "reflectionQuestions": [
+        "Bagaimana kearifan lokal para Wali Songo dalam mengemas dakwah lewat kesenian wayang dapat menginspirasi generasi muda dalam membangun konten kreatif yang mendidik di media sosial?",
+        "Keberanian Sultan Hasanuddin dan Sultan Baabullah menolak monopoli dagang asing mencerminkan kedaulatan maritim. Nilai kemandirian apa yang relevan kita pegang di era pasar bebas dunia saat ini?"
+      ]
+    },
+    {
+      "id": "smk-x-6",
+      "title": "BAB 6: Kedatangan Bangsa Barat",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "⛵",
+      "period": "Abad ke-15 M – Awal Abad ke-20 M",
+      "cpSummary": "Menganalisis latar belakang penjelajahan samudra bangsa Eropa (faktor pendorong & semboyan 3G), rute kedatangan Portugis, Spanyol, Belanda, dan Inggris, pembentukan kongsi dagang VOC beserta hak oktroinya, serta kebijakan kolonial Hindia Belanda (Daendels, Raffles, dan Tanam Paksa).",
+      "syllabus": {
+        "atp": [
+          "10.6.1 Menganalisis faktor pendorong penjelajahan samudra bangsa Eropa (jatuhnya Konstantinopel 1453, semboyan Gold, Glory, Gospel, serta kemajuan sains dan navigasi).",
+          "10.6.2 Melacak rute perjalanan dan pendaratan bangsa Portugis, Spanyol, Belanda, dan Inggris di Nusantara berdasarkan peta historis.",
+          "10.6.3 Mengevaluasi pembentukan, hak-hak oktroi, serta praktik eksploitasi monopoli dagang VOC (Hongitochten, ekstirpasi, devide et impera).",
+          "10.6.4 Menganalisis kebijakan masa transisi kolonial (Daendels dan Raffles) serta sistem Tanam Paksa (Cultuurstelsel) terhadap perubahan sosial-ekonomi rakyat."
+        ],
+        "meaningfulUnderstanding": "Kolonialisme bangsa Barat berawal dari motif perdagangan rempah-rempah yang bermutasi menjadi dominasi politik dan eksploitasi ekonomi. Memahami sejarah ini menumbuhkan kesadaran generasi muda akan pentingnya kemandirian ekonomi dan kedaulatan bangsa.",
+        "essentialQuestions": [
+          "Bagaimana jatuhnya kota Konstantinopel pada tahun 1453 memicu efek domino pelayaran samudra yang mengubah nasib Nusantara?",
+          "Mengapa kongsi dagang VOC disebut sebagai korporasi multinasional pertama di dunia yang memiliki wewenang setara dengan sebuah negara berdaulat?"
+        ]
+      },
+      "subtopics": [
+        {
+          "heading": "1. Latar Belakang & Faktor Pendorong Penjelajahan Samudra",
+          "content": "Kedatangan bangsa-bangsa Eropa ke kawasan timur dunia pada abad ke-15 didorong oleh faktor-faktor krusial:\n\n1. **Jatuhnya Konstantinopel (1453)**:\nIbu kota Kekaisaran Romawi Timur (Bizantium), Konstantinopel, berhasil direbut oleh Kesultanan Turki Utsmani di bawah pimpinan Sultan Muhammad Al-Fatih (Mehmed II). Jalur perdagangan rempah-rempah lewat darat dari Laut Tengah diblokade, sehingga bangsa Eropa terpaksa mencari jalan laut langsung ke negeri asal rempah-rempah (Kepulauan Hindia/Nusantara).\n\n2. **Semboyan 3G (Gold, Glory, Gospel)**:\n- **Gold**: Memburu kekayaan ekonomi berupa logam mulia (emas/perak) dan rempah-rempah yang bernilai tinggi di pasar Eropa.\n- **Glory**: Memburu kejayaan, kehormatan politik, dan memperluas wilayah jajahan.\n- **Gospel**: Menyebarkan ajaran agama Kristen/Katolik ke seluruh penjuru dunia baru (dimotori misionaris seperti Fransiskus Xaverius).\n\n3. **Perkembangan Ilmu Pengetahuan & Teknologi Pelayaran**:\n- Ditemukannya **kompas magnetik**, astrolabe, dan peta navigasi akurat.\n- Diciptakannya jenis kapal penjelajah samudra bertiang layar segitiga yang tangguh (**Karavel**).\n- Pembuktian teori **Heliosentris** Copernicus dan Galileo Galilei yang menyatakan bumi itu bulat, mendorong tekad berlayar ke arah barat untuk kembali ke timur."
+        },
+        {
+          "heading": "2. Rute Kedatangan Bangsa Barat di Kepulauan Nusantara",
+          "content": "Empat kekuatan utama bangsa Barat tiba di Nusantara secara berurutan:\n\n### 1. Bangsa Portugis\n- Dipelopori oleh pelaut **Bartholomeu Dias** (mencapai Tanjung Harapan di Afrika Selatan, 1488) dan **Vasco da Gama** (tiba di Calicut, India, 1498).\n- Di bawah laksamana **Afonso de Albuquerque**, armada Portugis berhasil menaklukkan Malaka pada tahun 1511, dan tiba di Kepulauan Maluku (Ternate) pada tahun 1512 untuk memonopoli perdagangan cengkeh.\n\n### 2. Bangsa Spanyol\n- Dipimpin oleh **Christopher Columbus** (1492, tiba di Benua Amerika) dan dilanjutkan oleh **Ferdinand Magellan** bersama **Juan Sebastian Elcano**.\n- Rute pelayaran mengitari ujung selatan Benua Amerika, melintasi Samudra Pasifik, tiba di Filipina (Magellan gugur di Mactan), lalu mendarat di Tidore, Maluku pada tahun 1521.\n- Persaingan Portugis dan Spanyol di Maluku diakhiri melalui **Perjanjian Saragosa (1529)**: Spanyol harus meninggalkan Maluku dan memusatkan kekuasaan di Filipina, sedangkan Portugis tetap berkuasa di Maluku.\n\n### 3. Bangsa Belanda\n- Ekspedisi pertama dipimpin oleh **Cornelis de Houtman** tiba di Pelabuhan Banten pada tahun 1596 dengan 4 kapal. Awalnya diterima baik, namun diusir karena sikapnya yang kasar dan arogan.\n- Ekspedisi kedua dipimpin oleh **Jacob van Neck** (1598) bersikap ramah dan berhasil memborong rempah-rempah dalam jumlah besar ke Belanda. Keberhasilan ini memicu gelombang kedatangan kapal-kapal dagang Belanda lainnya secara masif.\n\n### 4. Bangsa Inggris\n- Kongsi dagang Inggris bernama **East India Company (EIC)** didirikan tahun 1600 dan mendirikan kantor dagang di Banten, Jayakarta, dan Bengkulu (Benteng Marlborough)."
+        },
+        {
+          "heading": "3. Kongsi Dagang VOC (1602): Hak Istimewa & Monopoli Brutal",
+          "content": "Untuk mencegah persaingan tidak sehat antarpedagang Belanda sendiri serta menghadapi saingan Portugis dan Inggris, pada 20 Maret 1602 didirikan **Vereenigde Oostindische Compagnie (VOC)** atas inisiatif parlemen Belanda Johan van Oldenbarnevelt:\n\n• **Hak Oktroi (Hak Istimewa Luar Biasa VOC)**:\nPemerintah Belanda memberikan wewenang istimewa kepada VOC yang setara dengan kedaulatan negara:\n1. Hak monopoli perdagangan dari Tanjung Harapan hingga Selat Magelhaens.\n2. Hak membentuk angkatan perang sendiri (tentara dan armada laut).\n3. Hak menyatakan perang dan mengadakan perjanjian damai dengan raja-raja pribumi.\n4. Hak merebut dan menduduki benteng/wilayah asing.\n5. Hak mencetak dan mengedarkan mata uang sendiri.\n6. Hak mengangkat pegawai dan pengadilan sendiri.\n\n• **Praktik Penindasan & Monopoli VOC**:\n- *Jan Pieterszoon Coen* (Gubernur Jenderal VOC 1619): Menyerang dan membakar Jayakarta, lalu di atas reruntuhannya mendirikan kota markas besar **Batavia**.\n- *Pembantaian Massal Banda (1621)*: J.P. Coen membantai hampir seluruh penduduk asli Kepulauan Banda demi memonopoli mutlak pohon pala.\n- *Pelayaran Hongi (Hongitochten)*: Patroli perahu kora-kora bersenjata meriam untuk mengawasi perdagangan gelap rempah di Maluku.\n- *Hak Ekstirpasi*: Hak menebang pohon rempah rakyat secara paksa agar jumlah produksi tetap sedikit sehingga harga rempah di Eropa tetap mahal.\n- *Devide et Impera*: Politik memecah belah dan mengadu domba antarkerajaan pribumi atau keluarga istana."
+        },
+        {
+          "heading": "4. Kebijakan Masa Transisi: Daendels dan Raffles",
+          "content": "Pada 31 Desember 1799, VOC resmi dibubarkan akibat kebangkrutan parah yang dipicu oleh korupsi merajalela di kalangan pejabatnya (diplesetkan menjadi *Vergaan Onder Corruptie*), hutang menumpuk, dan biaya perang yang membengkak. Kekuasaan diambil alih langsung oleh Pemerintah Kolonial Hindia Belanda:\n\n### 1. Herman Willem Daendels (1808–1811)\nDiutus oleh Raja Louis Bonaparte dari Kerajaan Belanda (bawahan Napoleon Bonaparte dari Prancis) untuk mempertahankan Pulau Jawa dari serangan Inggris:\n- **Jalan Raya Pos (*Grote Postweg*)**: Membangun jalan raya sepanjang 1.000 km dari Anyer (Banten) hingga Panarukan (Jawa Timur) melalui sistem kerja paksa (**kerja rodi**). Ribuan rakyat pribumi tewas akibat kelaparan, keletihan, dan malaria.\n- Mengubah kedudukan para bupati pribumi dari penguasa tradisional menjadi pegawai pemerintah kolonial yang digaji.\n\n### 2. Thomas Stamford Raffles (1811–1816)\nInggris berhasil merebut Jawa dari Belanda melalui Kapitulasi Tuntang (1811), dan Raffles diangkat menjadi Letnan Gubernur:\n- **Sistem Sewa Tanah (*Landrent System*)**: Menyatakan bahwa semua tanah adalah milik pemerintah kedaulatan, sehingga petani penggarap wajib membayar uang sewa tanah (*landrente*).\n- **Jasa Ilmiah**: Menulis buku monumental *The History of Java*, menemukan kembali kompleks Candi Borobudur yang terpendam abu vulkanik, merintis berdirinya Kebun Raya Bogor, serta menemukan bunga bangkai raksasa *Rafflesia Arnoldii*."
+        },
+        {
+          "heading": "5. Tanam Paksa (Cultuurstelsel) & Liberalisme Ekonomi",
+          "content": "Setelah Inggris mengembalikan Jawa ke Belanda melalui Konvensi London (1814), kas negeri Belanda terkuras habis akibat Perang Jawa (Diponegoro) dan pemisahan diri Belgia:\n\n### 1. Sistem Tanam Paksa (Cultuurstelsel, 1830–1870)\nDigagas oleh Gubernur Jenderal **Johannes van den Bosch**:\n- Rakyat diwajibkan menanami 1/5 tanahnya dengan tanaman ekspor komersial yang laku di pasar Eropa (kopi, tebu, nila/tarum, teh, tembakau).\n- Hasil panen diserahkan kepada pemerintah kolonial dengan harga yang ditentukan sepihak.\n- **Penyimpangan di Lapangan**: Pejabat Belanda dan mandor pribumi diberi bonus (*cultuurprocenten*) jika hasil panen melebihi target. Akibatnya, tanah rakyat diperas melebihi ketentuan, tenaga kerja dikuras tanpa upah, hingga timbul bencana kelaparan hebat di Cirebon dan Grobogan.\n- Belanda meraup keuntungan berlimpah (*Batig Slot*) hingga mampu melunasi seluruh hutang nasional dan membangun rel kereta api di negeri Belanda.\n\n### 2. UU Agraria 1870 (*Agrarische Wet*) & Masuknya Kapitalisme Swasta\nKritik keras kaum humanis Belanda (seperti Eduard Douwes Dekker alias **Multatuli** lewat novel satirnya *Max Havelaar* dan van Deventer) mendorong penghapusan Tanam Paksa. Namun, sistem ini digantikan oleh liberalisasi perkebunan swasta asing. Rakyat pribumi tetap menjadi buruh berupah murah di tanah airnya sendiri."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Gold, Glory, Gospel",
+          "def": "Semboyan bangsa Eropa dalam penjelajahan samudra: memburu kekayaan, kejayaan politik, dan menyebarkan agama."
+        },
+        {
+          "term": "Hak Oktroi",
+          "def": "Hak istimewa luar biasa yang diberikan pemerintah Belanda kepada VOC untuk memonopoli dagang dan bertindak setara negara."
+        },
+        {
+          "term": "Pelayaran Hongi",
+          "def": "Patroli armada perahu kora-kora VOC bersenjata meriam untuk mengawasi perdagangan gelap rempah di Maluku."
+        },
+        {
+          "term": "Hak Ekstirpasi",
+          "def": "Kebijakan VOC menebang pohon rempah rakyat secara sepihak demi membatasi produksi agar harga pasar tetap tinggi."
+        },
+        {
+          "term": "Jalan Raya Pos",
+          "def": "Jalan raya sepanjang 1.000 km Anyer-Panarukan yang dibangun pada masa Daendels melalui sistem kerja rodi."
+        },
+        {
+          "term": "Landrent System",
+          "def": "Sistem sewa tanah yang diperkenalkan oleh Thomas Stamford Raffles dengan anggapan bahwa semua tanah milik pemerintah."
+        },
+        {
+          "term": "Cultuurstelsel",
+          "def": "Sistem Tanam Paksa yang mewajibkan rakyat menanam tanaman komersial untuk diekspor ke Eropa demi kas Belanda."
+        },
+        {
+          "term": "Max Havelaar",
+          "def": "Buku novel karya Multatuli (Eduard Douwes Dekker) yang membongkar kebrutalan penindasan Tanam Paksa di Lebak, Banten."
+        }
+      ],
+      "reflectionQuestions": [
+        "Bagaimana hegemoni dan monopoli VOC menjadi peringatan berharga bagi bangsa Indonesia tentang bahaya ketergantungan ekonomi pada korporasi asing?",
+        "Novel Max Havelaar karya Douwes Dekker membuktikan bahwa pena dan literasi tulisan dapat meruntuhkan ketidakadilan. Bagaimana peserta didik SMK dapat menggunakan literasi digital untuk membela keadilan saat ini?"
+      ]
+    },
+    {
+      "id": "smk-x-7",
+      "title": "BAB 7: Perlawanan Rakyat Terhadap Bangsa Barat",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "⚔️",
+      "period": "Abad ke-16 M – Awal Abad ke-20 M",
+      "cpSummary": "Mengevaluasi karakteristik, strategi, dan kronologi perlawanan rakyat di berbagai pelosok Nusantara terhadap bangsa Barat (Portugis, VOC, dan Hindia Belanda), menganalisis taktik perang gerilya dan benteng stelsel, serta merefleksikan faktor penyebab kegagalan perjuangan sebelum abad ke-20.",
+      "syllabus": {
+        "atp": [
+          "10.7.1 Mengidentifikasi karakteristik umum perlawanan rakyat Indonesia terhadap bangsa Barat sebelum abad ke-20 (bersifat kedaerahan, bergantung pada figur karismatik, fisik bersenjata).",
+          "10.7.2 Menganalisis perlawanan gigih kerajaan-kerajaan Nusantara melawan Portugis dan hegemoni VOC (Demak, Aceh, Mataram, Banten, Gowa).",
+          "10.7.3 Menguraikan jalannya perang-perang besar melawan Pemerintah Hindia Belanda abad ke-19 (Perang Saparua, Perang Paderi, Perang Diponegoro, Perang Banjar, Perang Jagaraga, Perang Aceh).",
+          "10.7.4 Mengevaluasi secara kritis faktor penyebab kegagalan perjuangan kedaerahan dan memetik hikmah pentingnya persatuan nasional bagi generasi penerus bangsa."
+        ],
+        "meaningfulUnderstanding": "Perlawanan sebelum abad ke-20 membuktikan bahwa bangsa Indonesia tidak pernah pasrah dijajah. Kegagalan perlawanan akibat politik adu domba mengajarkan bahwa keberanian tanpa persatuan dan strategi modern akan mudah dipatahkan.",
+        "essentialQuestions": [
+          "Mengapa perlawanan rakyat di berbagai daerah sebelum abad ke-20 hampir selalu dapat dipatahkan oleh pemerintah kolonial Belanda?",
+          "Bagaimana siasat perang gerilya Pangeran Diponegoro dan perlawanan rakyat Aceh memberikan pelajaran berharga tentang kekuatan tekad dan ketahanan mental menghadapi lawan bersenjata canggih?"
+        ]
+      },
+      "subtopics": [
+        {
+          "heading": "1. Karakteristik Perlawanan Rakyat Sebelum Abad ke-20",
+          "content": "Sepanjang abad ke-16 hingga awal abad ke-20, perlawanan rakyat meletus di hampir seluruh kepulauan Nusantara. Namun, perlawanan masa ini memiliki karakteristik khusus yang menjadi kelemahannya:\n\n1. **Bersifat Kedaerahan (*Lokalistik*)**: Perjuangan hanya bertujuan membebaskan wilayah kerajaan atau desanya masing-masing. Belum ada kesadaran persatuan nasional sebagai satu bangsa Indonesia.\n2. **Bergantung pada Pemimpin Karismatik**: Perlawanan digerakkan oleh figur raja, pangeran, bangsawan, atau ulama besar. Apabila pemimpin tersebut tertangkap, tewas, atau diasingkan, gerakan perlawanan seketika lumpuh dan padam.\n3. **Mengandalkan Kekuatan Fisik Bersenjata**: Perjuangan mengandalkan senjata tajam tradisional (keris, tombak, parang, rencong) atau senapan kuno berhadapan dengan meriam dan mesiu modern penjajah.\n4. **Sangat Rentan Diadu Domba (*Devide et Impera*)**: Belanda dengan lihai memanfaatkan konflik internal perebutan tahta di istana atau pertentangan antarkelompok adat untuk mengadu domba sesama pribumi.\n5. **Bersifat Reaktif & Sporadis**: Perlawanan meletus secara spontan saat rakyat diperas pajaknya atau tradisi keagamaannya diinjak-injak, tanpa perencanaan strategi jangka panjang yang matang."
+        },
+        {
+          "heading": "2. Perlawanan Melawan Hegemoni Portugis & Spanyol",
+          "content": "Upaya menentang hegemoni bangsa Portugis di perairan Nusantara:\n\n• **Perlawanan Kesultanan Demak**:\n- Dipimpin oleh **Pati Unus** (Pangeran Sabrang Lor) pada tahun 1513 menyerbu Malaka dengan 100 kapal perang demi membebaskan pelabuhan Islam dari monopoli Portugis.\n- Pada tahun 1527, panglima Demak **Fatahillah** berhasil menggagalkan persekutuan Portugis dengan Kerajaan Pajajaran di Sunda Kelapa dan mendirikan Jayakarta.\n\n• **Perlawanan Rakyat Maluku (Ternate)**:\n- Terjadi akibat monopoli cengkeh yang memeras dan campur tangan Portugis dalam urusan istana Ternate.\n- Puncaknya ketika Sultan Khairun dibunuh secara licik di dalam benteng Portugis (1570). Putranya, **Sultan Baabullah**, memimpin perang total, mengepung Benteng Sao Paulo selama 5 tahun hingga mengusir Portugis keluar dari bumi Maluku pada tahun 1575."
+        },
+        {
+          "heading": "3. Perlawanan Melawan Keserakahan VOC (Abad ke-17 & 18)",
+          "content": "Menentang monopoli perdagangan rempah dan agresi militer VOC:\n\n### 1. Sultan Agung Hanyokrokusumo (Mataram vs VOC di Batavia, 1628 & 1629)\n- Menyadari keberadaan VOC di Batavia mengancam kedaulatan Pulau Jawa.\n- Mataram mengerahkan puluhan ribu prajurit mengepung Batavia. Serangan kedua tahun 1629 berhasil membendung Sungai Ciliwung dan menewaskan Gubernur Jenderal VOC **J.P. Coen**. Namun, serangan gagal karena lumbung-lumbung perbekalan beras Mataram di Karawang dan Tegal dibakar mata-mata VOC.\n\n### 2. Sultan Hasanuddin (Perang Makassar, 1666–1669)\n- Menentang pembatasan pelayaran dagang oleh VOC di perairan Indonesia Timur.\n- VOC bersekutu dengan Raja Bone, **Aru Palakka**. Melalui pertempuran dahsyat di Benteng Somba Opu, Sultan Hasanuddin akhirnya terpaksa menandatangani **Perjanjian Bongaya (1667)** yang sangat merugikan pihak Makassar.\n\n### 3. Sultan Ageng Tirtayasa (Banten, 1680–1683)\n- Gigih mempertahankan kedaulatan Banten sebagai pelabuhan internasional. Sayangnya, ia dikhianati oleh putranya sendiri, **Sultan Haji**, yang berkomplot dengan VOC demi merebut tahta kesultanan."
+        },
+        {
+          "heading": "4. Perang Akbar Melawan Hindia Belanda Abad ke-19",
+          "content": "Setelah kekuasaan beralih ke Pemerintah Kolonial Hindia Belanda, terjadi perang-perang berskala masif:\n\n### 1. Perang Saparua / Maluku (1817)\n- Dipimpin oleh **Thomas Matulessy (Kapitan Pattimura)** bersama pahlawan wanita muda **Christina Martha Tiahahu**.\n- Menolak kembalinya penindasan Belanda, kerja paksa pembuatan perahu, dan penyerahan ikan asin tanpa bayaran. Pasukan Pattimura berhasil merebut **Benteng Duurstede** dan menewaskan Residen Van den Berg. Pattimura akhirnya dikhianati dan gugur di tiang gantung di Benteng Victoria Ambon.\n\n### 2. Perang Paderi (Minangkabau, Sumatra Barat, 1821–1837)\n- Awalnya konflik antara Kaum Paderi (kaum ulama yang ingin membersihkan tradisi judi dan sabung ayam) dengan Kaum Adat.\n- Belanda masuk membantu Kaum Adat. Menyadari bahaya penjajahan, Kaum Adat dan Kaum Paderi bersatu kembali melalui perjanjian *Plakat Puncak Pato*.\n- Dipimpin oleh **Tuanku Imam Bonjol**, perlawanan dengan taktik benteng di Benteng Bonjol berlangsung bertahun-tahun sebelum Imam Bonjol ditangkap secara licik saat perundingan damai.\n\n### 3. Perang Jawa / Perang Diponegoro (1825–1830)\n- Perang terbesar yang dihadapi Belanda di Pulau Jawa. Dipicu oleh pemasangan patok-patok jalan rel melintasi makam leluhur Pangeran Diponegoro di Tegalrejo tanpa izin.\n- Pangeran Diponegoro didampingi oleh panglima perang muda **Sentot Alibasya Prawirodirjo** dan ulama **Kyai Mojo**. Menerapkan strategi perang gerilya semesta yang melumpuhkan pos-pos militer Belanda.\n- Belanda membalas dengan taktik kejam **Benteng Stelsel** (membangun ratusan benteng kecil di setiap kota yang direbut untuk mempersempit ruang gerak gerilya). Perang ini menewaskan 8.000 serdadu Belanda, 200.000 rakyat Jawa, serta menguras kas Belanda sebesar 20 juta gulden."
+        },
+        {
+          "heading": "5. Perang Puputan, Perang Banjar, & Perang Aceh Terpanjang",
+          "content": "Tiga perang gigih yang menunjukkan keuletan luar biasa bangsa Indonesia:\n\n• **Perang Jagaraga Bali (1846–1849)**:\nDipimpin oleh patih perkasa **I Gusti Ketut Jelantik** mempertahankan hak adat **Tawan Karang** (hak raja Bali menyita kapal yang terdampar di pantainya). Rakyat Bali bertempur habis-habisan hingga titik darah penghabisan dalam tradisi **Perang Puputan** (lebih baik gugur dalam kehormatan daripada hidup terhina dijajah).\n\n• **Perang Banjar (Kalimantan Selatan, 1859–1905)**:\nDipimpin oleh **Pangeran Antasari** bersama Pangeran Hidayatullah menolak campur tangan Belanda dalam suksesi tahta dan eksploitasi tambang batu bara. Antasari mengobarkan semboyan legendaris: *\"Haram Manyarah Waja Sampai Kaputing\"* (pantang menyerah sampai tetes darah penghabisan).\n\n• **Perang Aceh (1873–1904) – Perang Terpanjang & Paling Berdarah**:\n- Dipicu oleh Traktat Sumatra 1871 di mana Inggris memberi lampu hijau kepada Belanda untuk menaklukkan Aceh.\n- Jenderal Belanda Johan Harmen Rudolf Kohler tewas ditembak pejuang Aceh tepat di depan Masjid Raya Baiturrahman pada hari pertama agresi militer (1873).\n- Perlawanan dilanjutkan oleh **Teuku Umar**, **Cut Nyak Dien**, dan **Panglima Polem** dengan taktik perang gerilya di hutan belantara.\n- Belanda baru mampu memecah perlawanan setelah menyusupkan penasihat orientalis **Dr. Christiaan Snouck Hurgronje** (menyamar sebagai ulama Abdul Ghaffar) yang menulis buku *De Atjehers*, dan membentuk pasukan komando kejam **Marsose** (*Korps Marechaussee*). Cut Nyak Dien yang telah renta dan buta tetap memimpin perlawanan di hutan sebelum akhirnya ditawan."
+        },
+        {
+          "heading": "6. Evaluasi Kritis: Titik Balik Menuju Kesadaran Nasional",
+          "content": "Menganalisis kegagalan ratusan tahun perlawanan fisik bersenjata memberikan pelajaran berharga bagi para perintis kemerdekaan di awal abad ke-20:\n- Belanda bukanlah bangsa raksasa yang tidak bisa dikalahkan, namun mereka unggul dalam organisasi modern, koordinasi birokrasi, dan kepemilikan data/arsip militer yang rapi.\n- Perlawanan kedaerahan terbukti selalu gagal karena mudah diadudomba dan dipatahkan satu per satu (*divide and conquer*).\n- Menyadari hal tersebut, strategi perjuangan harus diubah total: **dari senjata bedil tradisional menuju senjata organisasi modern, diplomasi politik, pers, dan pendidikan nasional.** Dari sinilah lahir fajar baru Pergerakan Nasional Indonesia."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Devide et Impera",
+          "def": "Politik adu domba dan pecah belah yang digunakan penjajah Belanda untuk melemahkan kerajaan-kerajaan di Nusantara."
+        },
+        {
+          "term": "Perang Saparua",
+          "def": "Perlawanan rakyat Maluku tahun 1817 di bawah pimpinan Kapitan Pattimura yang berhasil merebut Benteng Duurstede."
+        },
+        {
+          "term": "Benteng Stelsel",
+          "def": "Strategi militer Belanda mendirikan benteng-benteng yang saling terhubung untuk mengepung gerilya Pangeran Diponegoro."
+        },
+        {
+          "term": "Perang Paderi",
+          "def": "Perang di Sumatra Barat (1821–1837) dipimpin Tuanku Imam Bonjol yang berujung pada persatuan Kaum Adat dan Kaum Agama."
+        },
+        {
+          "term": "Tawan Karang",
+          "def": "Hak tradisional raja-raja Bali untuk menyita kapal asing yang karam di wilayah perairannya beserta muatannya."
+        },
+        {
+          "term": "Puputan",
+          "def": "Tradisi perang habis-habisan rakyat Bali hingga titik darah penghabisan demi mempertahankan kehormatan tanah air."
+        },
+        {
+          "term": "Marsose",
+          "def": "Pasukan infanteri militer khusus Belanda yang dilatih bergerak lincah dan kejam di hutan belantara dalam Perang Aceh."
+        },
+        {
+          "term": "Perjanjian Bongaya",
+          "def": "Perjanjian damai tahun 1667 antara Sultan Hasanuddin dari Gowa dan VOC Belanda yang merugikan rakyat Makassar."
+        }
+      ],
+      "reflectionQuestions": [
+        "Mengapa taktik adu domba (devide et impera) selalu berhasil memecah belah bangsa kita pada masa lampau? Bagaimana cara kita membentengi diri dari upaya adu domba di media sosial saat ini?",
+        "Semboyan Pangeran Antasari \"Haram Manyarah Waja Sampai Kaputing\" mencerminkan mentalitas pantang menyerah. Bagaimana mentalitas ini relevan Anda terapkan saat menghadapi ujian keahlian dan persaingan kerja di dunia industri?"
+      ]
+    },
+    {
+      "id": "smk-x-8",
+      "title": "BAB 8: Pergerakan Nasional",
+      "phase": "Fase E",
+      "grade": "Kelas X",
+      "icon": "🇮🇩",
+      "period": "1908 – 1942 M",
+      "cpSummary": "Menganalisis faktor pemicu timbulnya pergerakan nasional (Politik Etis dan kaum terpelajar), karakteristik perjuangan modern, perkembangan ideologi organisasi (Budi Utomo, Sarekat Islam, Indische Partij, Perhimpunan Indonesia, PNI), tonggak Sumpah Pemuda 1928, peranan pers dan perempuan, hingga tuntutan Indonesia Berparlemen.",
+      "syllabus": {
+        "atp": [
+          "10.8.1 Menganalisis faktor internal dan eksternal lahirnya kesadaran kebangsaan dan pergerakan nasional Indonesia (Politik Etis dan kebangkitan bangsa Asia).",
+          "10.8.2 Membandingkan karakteristik perjuangan pra-1908 dengan pergerakan modern berbasis organisasi, intelektual, dan persatuan nasional.",
+          "10.8.3 Menguraikan perkembangan haluan strategi organisasi pergerakan (periode awal, periode radikal/non-kooperasi, dan periode moderat/kooperasi).",
+          "10.8.4 Mengevaluasi makna historis Sumpah Pemuda 1928, peranan pers pergerakan, emansipasi perempuan, serta fondasi pembentukan Negara Kesatuan Republik Indonesia."
+        ],
+        "meaningfulUnderstanding": "Lahirnya Indonesia merdeka tidak terwujud dari hadiah penjajah atau kebetulan semata, melainkan buah dari keberanian kaum pemuda terpelajar yang melintasi sekat primordial suku, agama, dan daerah untuk mengikrarkan satu tanah air, satu bangsa, dan satu bahasa persatuan.",
+        "essentialQuestions": [
+          "Bagaimana kebijakan Politik Etis yang awalnya dirancang untuk kepentingan administrasi kolonial justru menjadi bumerang yang melahirkan kaum terpelajar perintis kemerdekaan?",
+          "Mengapa ikrar Sumpah Pemuda 28 Oktober 1928 dipandang sebagai tonggak paling menentukan dalam pembentukan identitas nasional bangsa Indonesia?"
+        ]
+      },
+      "subtopics": [
+        {
+          "heading": "1. Latar Belakang & Faktor Pemicu Pergerakan Nasional",
+          "content": "Lahirnya kesadaran nasional pada awal abad ke-20 dipicu oleh kombinasi faktor internal dan eksternal:\n\n### A. Faktor Internal\n1. **Penderitaan Rakyat & Kenangan Kejayaan Masa Lampau**: Kenangan akan kebesaran imperium Sriwijaya dan Majapahit membuktikan bahwa bangsa Indonesia memiliki potensi menjadi bangsa adidaya yang mandiri.\n2. **Politik Etis (Trilogi Van Deventer - 1901)**:\nDidesakkan oleh kaum etis Belanda (seperti C.Th. van Deventer dan Pieter Brooshooft) sebagai hutang kehormatan (*Een Eereschuld*) atas kekayaan yang telah dikeruk dari tanah jajahan. Trilogi Politik Etis mencakup:\n- *Irigasi*: Membangun bendungan pengairan (faktanya lebih mengairi perkebunan tebu milik Belanda).\n- *Emigrasi*: Memindahkan penduduk Jawa ke Sumatra (faktanya menjadi penyedia buruh murah di perkebunan Deli).\n- *Edukasi*: Membuka sekolah-sekolah untuk mendidik kaum pribumi menjadi juru tulis dan tenaga administrasi rendahan yang murah.\n**Efek Tak Terduga**: Dari sekolah-sekolah ini (seperti STOVIA, OSVIA, NIAS, THS Bandung) lahirlah generasi baru yang berpikiran merdeka, kritis, dan berwawasan luas: **Kaum Terpelajar / Intelektual Modern**.\n\n### B. Faktor Eksternal\n1. **Kemenangan Jepang atas Rusia (1905)**: Untuk pertama kalinya dalam sejarah modern, kekuatan militer bangsa Asia berkulit kuning berhasil mengalahkan kekuatan imperium adidaya bangsa Eropa berkulit putih. Peristiwa ini melenyapkan mitos bahwa bangsa Barat tak terkalahkan.\n2. **Gerakan Nasionalisme di Asia Lainnya**:\n- *Revolusi Nasional Tiongkok (1911)* dipimpin Dr. Sun Yat Sen meruntuhkan dinasti feodal Manchu dengan ajaran *San Min Chu I* (Nasionalisme, Demokrasi, Kesejahteraan).\n- Perjuangan kemerdekaan Filipina menentang Spanyol dipelopori Jose Rizal.\n- Gerakan perlawanan tanpa kekerasan (*Ahimsa*, *Satyagraha*, *Swadeshi*) di India oleh Mahatma Gandhi."
+        },
+        {
+          "heading": "2. Karakteristik Baru Perjuangan Abad ke-20",
+          "content": "Pergerakan nasional pasca-1908 membawa transformasi radikal dalam taktik perjuangan bangsa:\n\n| Aspek Pembeda | Perjuangan Sebelum Abad ke-20 | Pergerakan Nasional Abad ke-20 |\n| :--- | :--- | :--- |\n| **Sifat Gerakan** | Kedaerahan (*lokalistik* sempit) | Nasional (mencakup seluruh wilayah Hindia/Indonesia) |\n| **Bentuk Perjuangan** | Fisik bersenjata konvensional | Menggunakan organisasi modern, pers, diplomasi, dan pendidikan |\n| **Pemimpin Gerakan** | Raja, pangeran, bangsawan, tokoh kharismatik | Kaum terpelajar, aktivis, cendekiawan intelektual |\n| **Visi & Tujuan** | Mempertahankan kekuasaan kerajaan atau daerah | Mencapai kemerdekaan dan kedaulatan negara berparlemen |\n| **Ketahanan Gerakan** | Padam jika pemimpin ditangkap | Terus berlanjut karena memiliki struktur AD/ART dan kaderisasi |"
+        },
+        {
+          "heading": "3. Tahapan & Organisasi Pelopor Pergerakan Nasional",
+          "content": "Dinamika organisasi pergerakan terbagi dalam beberapa fase historis:\n\n### 1. Budi Utomo (Didirikan 20 Mei 1908)\n- Dipelopori oleh gagasan **dr. Wahidin Soedirohoesodo** tentang dana pendidikan (*Studiefonds*), lalu didirikan oleh **dr. Soetomo** bersama mahasiswa kedokteran STOVIA (Gunawan Mangunkusumo, Soeraji).\n- Bersifat sosio-kultural dan pendidikan (fokus memajukan pendidikan bagi priyayi Jawa dan Madura).\n- Menjadi pelopor lahirnya kesadaran berorganisasi modern, sehingga tanggal pendiriannya (20 Mei) ditetapkan sebagai **Hari Kebangkitan Nasional**.\n\n### 2. Sarekat Islam (SI, 1911/1912)\n- Berawal dari **Sarekat Dagang Islam (SDI)** di Solo yang didirikan oleh **H. Samanhudi** pada 1911 untuk melindungi pedagang batik pribumi muslim dari monopoli pedagang Tionghoa.\n- Di bawah kepemimpinan karismatik **H.O.S. Tjokroaminoto** (*De Ongekroonde van Java* / Raja Jawa Tanpa Mahkota), organisasi diubah menjadi **Sarekat Islam (SI)** agar terbuka bagi seluruh lapisan rakyat jelata. Berkembang menjadi organisasi massa politik pertama dengan ratusan ribu anggota.\n\n### 3. Indische Partij (IP, 1912)\n- Merupakan **partai politik pertama** di Indonesia yang secara terang-terangan menuntut kemerdekaan dari Belanda dengan semboyan *\"Indie voor Indiers\"* (Hindia untuk orang Hindia).\n- Didirikan oleh **Tiga Serangkai**: E.F.E. Douwes Dekker (Danudirja Setiabudi), dr. Tjipto Mangoenkoesoemo, dan Suwardi Suryaningrat (Ki Hadjar Dewantara).\n- Suwardi menulis artikel pamflet satiris pedas: *\"Als ik eens Nederlander was\"* (Seandainya Aku Seorang Belanda), mengkritik Belanda yang meminta sumbangan rakyat jajahan untuk merayakan 100 tahun kemerdekaan Belanda dari Prancis. Akibatnya, Tiga Serangkai diasingkan ke negeri Belanda."
+        },
+        {
+          "heading": "4. Periode Radikal (Non-Kooperasi) Menentang Kolonialisme",
+          "content": "Pada dekade 1920-an, muncul organisasi yang menolak bekerja sama dalam dewan kolonial (*Volksraad*) dan menuntut kemerdekaan mutlak:\n\n### 1. Perhimpunan Indonesia (PI)\n- Organisasi mahasiswa Indonesia di Belanda yang dipimpin oleh **Mohammad Hatta**, Ahmad Subardjo, Ali Sastroamidjojo, dan Iwa Kusumasumantri.\n- Memperkenalkan istilah **\"Indonesia\"** di kancah politik internasional untuk menggantikan istilah *Nederlandsch-Indie*.\n- **Manifesto Politik 1925**: Menegaskan empat asas perjuangan: Kesatuan nasional, Solidaritas, Non-kooperasi, dan Kemandirian (*Self-Reliance*).\n\n### 2. Partai Nasional Indonesia (PNI, 1927)\n- Didirikan di Bandung pada 4 Juli 1927 oleh **Ir. Soekarno**, didampingi tokoh-tokoh eks-Perhimpunan Indonesia (Mr. Sartono, Mr. Iskaq Tjokrohadisurjo).\n- Berhaluan nasionalisme radikal dengan ideologi **Marhaenisme** (membela kaum marhaen/rakyat kecil pemegang alat produksi sendiri namun miskin akibat sistem kolonial).\n- Akibat pidato Bung Karno yang menggelorakan rakyat, ia ditangkap Belanda dan diadili di Pengadilan Bandung (Landraad). Di hadapan hakim kolonial, Bung Karno membacakan pledoi monumental yang membakar sejarah: **\"Indonesia Menggugat\"** (1930)."
+        },
+        {
+          "heading": "5. Tonggak Sejarah Sumpah Pemuda (28 Oktober 1928)",
+          "content": "Puncak penyatuan identitas kebangsaan Indonesia dimotori oleh kaum muda lintas pulau dan suku:\n\n• **Latar Belakang**:\nBerawal dari organisasi-organisasi pemuda berbasis daerah: Jong Java, Jong Sumatranen Bond, Jong Ambon, Jong Batak, Jong Celebes, Sekar Rukun, serta Perhimpunan Pelajar-Pelajar Indonesia (PPPI).\n\n• **Kongres Pemuda II (27–28 Oktober 1928)**:\nDiselenggarakan di Gedung Indonesische Clubgebouw (Jalan Kramat Raya 106, Jakarta) dipimpin oleh Soegondo Djojopoespito (PPPI) dan Djoko Marsaid.\n\n• **Tiga Butir Ikrar Sakral Sumpah Pemuda**:\n1. *Pertama: Kami putra dan putri Indonesia, mengaku bertumpah darah yang satu, tanah air Indonesia.*\n2. *Kedua: Kami putra dan putri Indonesia, mengaku berbangsa yang satu, bangsa Indonesia.*\n3. *Ketiga: Kami putra dan putri Indonesia, menjunjung bahasa persatuan, bahasa Indonesia.*\n\n• **Momentum Monumental**:\n- Pada malam penutupan kongres, lagu kebangsaan **\"Indonesia Raya\"** ciptaan **Wage Rudolf Soepratman** untuk pertama kalinya diperdengarkan kepada publik melalui alunan biola tanpa syair untuk menghindari sensor polisi kolonial.\n- Bendera Merah Putih dikibarkan dan ditetapkan sebagai bendera kebangsaan. Sejak saat itu, cita-cita persatuan Indonesia tidak dapat dibendung lagi oleh pemerintah kolonial."
+        },
+        {
+          "heading": "6. Periode Bertahan (Kooperasi), Emansipasi, & Peranan Pers",
+          "content": "Menghadapi tindakan represif Gubernur Jenderal De Jonge pada era 1930-an, strategi perjuangan beralih ke jalur moderat:\n\n### 1. Periode Moderat & Tuntutan Indonesia Berparlemen\n- Didirikan **Parindra** (Partai Indonesia Raya oleh dr. Soetomo) dan **Gerindo** (Gerakan Rakyat Indonesia oleh Amir Sjarifuddin dan Moh. Yamin).\n- **Petisi Soetardjo (1936)**: Mengusulkan kepada Ratu Belanda agar diadakan konferensi mengenai otonomi Indonesia dalam waktu 10 tahun (namun ditolak Belanda).\n- **GAPI (Gabungan Politik Indonesia, 1939)**: Dipimpin Moh. Husni Thamrin menuntut semboyan tegas: *\"Indonesia Berparlemen\"* (membentuk parlemen sejati yang dipilih langsung oleh rakyat).\n\n### 2. Gerakan Emansipasi Perempuan\n- Dipelopori oleh **R.A. Kartini** di Jepara lewat korespondensi surat-suratnya yang dibukukan oleh J.H. Abendanon menjadi *Door Duisternis tot Licht* (Habis Gelap Terbitlah Terang).\n- **Dewi Sartika** mendirikan *Sakola Istri* di Bandung (1904) untuk mendidik keterampilan perempuan pribumi.\n- Puncaknya pada **Kongres Perempuan Indonesia I** di Yogyakarta (22–25 Desember 1928) yang membahas hak-hak pendidikan, perkawinan, dan kesejahteraan perempuan. Tanggal 22 Desember kemudian diabadikan sebagai **Hari Ibu Nasional**.\n\n### 3. Peranan Pers & Pendidikan Nasional\n- **Pers Pergerakan**: Dipelopori oleh **R.M. Tirto Adhi Soerjo** melalui surat kabar *Medan Prijaji* (1907) yang diakui sebagai Bapak Pers Nasional. Pers menjadi corong penyadar hak politik rakyat.\n- **Taman Siswa (1922)**: Didirikan oleh **Ki Hadjar Dewantara** dengan semboyan legendaris: *Ing Ngarso Sung Tulodo* (di depan memberi teladan), *Ing Madyo Mangun Karso* (di tengah membangkitkan semangat), *Tut Wuri Handayani* (di belakang memberi dorongan), meletakkan dasar sistem pendidikan nasional Indonesia."
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Politik Etis",
+          "def": "Kebijakan balas budi pemerintah kolonial Belanda (1901) meliputi irigasi, emigrasi, dan edukasi yang melahirkan kaum terpelajar."
+        },
+        {
+          "term": "Budi Utomo",
+          "def": "Organisasi modern pertama di Indonesia didirikan 20 Mei 1908 yang menandai lahirnya Hari Kebangkitan Nasional."
+        },
+        {
+          "term": "Tiga Serangkai",
+          "def": "Tiga tokoh pendiri Indische Partij: E.F.E Douwes Dekker, Tjipto Mangoenkoesoemo, dan Ki Hadjar Dewantara."
+        },
+        {
+          "term": "Non-Kooperasi",
+          "def": "Sikap politik radikal yang menolak segala bentuk kerja sama dengan pemerintah kolonial Belanda dalam dewan perwakilan."
+        },
+        {
+          "term": "Marhaenisme",
+          "def": "Ideologi perjuangan sosial yang dirumuskan Ir. Soekarno untuk membela kaum tertindas yang memiliki alat produksi sendiri namun miskin."
+        },
+        {
+          "term": "Indonesia Menggugat",
+          "def": "Pidato pembelaan monumental Ir. Soekarno di hadapan pengadilan kolonial Bandung tahun 1930 yang membongkar kejahatan imperialisme."
+        },
+        {
+          "term": "Sumpah Pemuda",
+          "def": "Ikrar kebulatan tekad pemuda Indonesia pada 28 Oktober 1928 untuk bersatu dalam satu tanah air, satu bangsa, dan satu bahasa."
+        },
+        {
+          "term": "Taman Siswa",
+          "def": "Lembaga pendidikan nasional kerakyatan yang didirikan Ki Hadjar Dewantara untuk menanamkan jiwa kemerdekaan dan kebudayaan bangsa."
+        }
+      ],
+      "reflectionQuestions": [
+        "Kongres Pemuda 1928 menyatukan pemuda dari berbagai suku dan latar belakang agama tanpa konflik primordial. Bagaimana semangat ini dapat Anda terapkan dalam menjaga toleransi dan keharmonisan di lingkungan sekolah dan tempat magang industri?",
+        "Ki Hadjar Dewantara mengajarkan bahwa pendidikan sejati adalah memerdekakan jiwa dan akal budi manusia. Bagaimana Anda memaknai kemerdekaan belajar dalam mengembangkan keahlian kejuruan Anda di era sekarang?"
+      ]
+    }
+  ]
+},
   'kelas-xi': {
     grade: 'Kelas XI SMK',
     phase: 'Fase F',

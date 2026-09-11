@@ -32,6 +32,7 @@ export class CurriculumController {
         if (result && result.data) {
           this.curriculumData = result.data;
           this.firebaseSource = result.source;
+          this.renderTabs();
           this.renderGradeModules();
         }
       });
@@ -46,6 +47,7 @@ export class CurriculumController {
       if (result && result.data) {
         this.curriculumData = result.data;
         this.firebaseSource = result.source;
+        this.renderTabs();
         this.renderGradeModules();
       }
     } catch (err) {
@@ -55,16 +57,18 @@ export class CurriculumController {
 
   renderTabs() {
     if (!this.tabsContainer) return;
+    const countX = this.curriculumData['kelas-x']?.modules?.length || 8;
+    const countXI = this.curriculumData['kelas-xi']?.modules?.length || 6;
     this.tabsContainer.innerHTML = `
       <button class="curriculum-tab-btn ${this.currentGrade === 'kelas-x' ? 'active' : ''}" data-grade="kelas-x">
         <span class="grade-letter-icon">X</span>
         <span>Kelas X (Fase E)</span>
-        <span class="tab-badge">4 Modul CP</span>
+        <span class="tab-badge">${countX} Bab CP</span>
       </button>
       <button class="curriculum-tab-btn ${this.currentGrade === 'kelas-xi' ? 'active' : ''}" data-grade="kelas-xi">
         <span class="grade-letter-icon">XI</span>
         <span>Kelas XI (Fase F)</span>
-        <span class="tab-badge">6 Modul CP</span>
+        <span class="tab-badge">${countXI} Bab CP</span>
       </button>
     `;
 
