@@ -278,7 +278,7 @@
   backdrop-filter: blur(8px);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius-full);
-  color: var(--gold-400);
+  color: #ffffff;
   font-family: var(--font-display);
   font-size: 0.78rem;
   font-weight: 600;
@@ -750,9 +750,9 @@
 }
 
 .archive-video-title {
-  font-size: 0.92rem;
-  color: var(--gold-400);
-  font-weight: 600;
+  font-size: 0.94rem;
+  color: var(--text-gold);
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 0.45rem;
@@ -1174,9 +1174,10 @@
 }
 
 .curriculum-card-summary {
-  font-size: 0.92rem;
-  color: var(--text-muted);
-  line-height: 1.55;
+  font-size: 0.94rem;
+  color: var(--text-secondary);
+  font-weight: 450;
+  line-height: 1.6;
   margin: 0;
 }
 
@@ -1320,10 +1321,10 @@
   font-family: var(--font-display);
   font-size: 1.15rem;
   font-weight: 700;
-  color: var(--gold-400);
+  color: var(--text-gold);
   margin: 1.75rem 0 0.85rem 0;
   padding-left: 0.75rem;
-  border-left: 3px solid var(--gold-500);
+  border-left: 3px solid var(--text-gold);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -1347,8 +1348,8 @@
 }
 
 .subtopic-table th {
-  background: rgba(0, 169, 184, 0.12);
-  color: var(--gold-400);
+  background: rgba(2, 106, 162, 0.08);
+  color: var(--text-gold);
   font-family: var(--font-display);
   font-weight: 700;
   padding: 0.85rem 1rem;
@@ -1403,11 +1404,10 @@
 }
 
 .subtopic-list li::marker {
-  color: var(--gold-400);
+  color: var(--text-gold);
 }
 
 .vocational-hero-card {
-
   background: linear-gradient(145deg, rgba(6, 95, 70, 0.2) 0%, rgba(15, 23, 42, 0.95) 100%);
   border: 1px solid var(--emerald-500);
   border-radius: var(--radius-lg);
@@ -1447,15 +1447,16 @@
 .glossary-term-badge {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--gold-400);
+  font-size: 0.98rem;
+  color: var(--text-gold);
   margin-bottom: 0.4rem;
 }
 
 .glossary-term-def {
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  line-height: 1.5;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  font-weight: 450;
+  line-height: 1.55;
   text-align: justify;
 }
 

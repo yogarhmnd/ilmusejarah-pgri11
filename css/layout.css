@@ -236,7 +236,7 @@
 }
 
 [data-theme="light"] .hero-section {
-  background: linear-gradient(180deg, #ebf5fe 0%, #dff0fc 50%, #d2ebfc 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f4f8fc 60%, #e8f2fa 100%);
 }
 
 [data-theme="dark"] .hero-section {
@@ -433,9 +433,10 @@
 }
 
 .hero-center-desc {
-  font-size: 0.96rem;
-  line-height: 1.62;
-  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.68;
+  color: var(--text-secondary);
+  font-weight: 450;
   margin-bottom: 1.2rem;
   max-width: 820px;
   text-align: justify;

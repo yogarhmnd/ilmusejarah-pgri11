@@ -45,7 +45,7 @@ body::before {
   background-repeat: repeat;
   background-size: 500px auto;
   background-position: center top;
-  opacity: 0.14;
+  opacity: 0.05; /* Halus dan tidak menutupi atau mengaburkan teks */
   pointer-events: none;
   z-index: 0;
   transition: opacity var(--transition-normal), background-image var(--transition-normal);
