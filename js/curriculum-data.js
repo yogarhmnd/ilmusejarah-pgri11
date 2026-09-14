@@ -696,7 +696,7 @@ export const CURRICULUM_DATA = {
                   {
 
         "id": "smk-xi-1",
-        "title": "BAB 1: Pendudukan Militer Jepang di Indonesia (1942–1945)",
+        "title": "Pendudukan Jepang di Indonesia (1942–1945)",
         "phase": "Fase F",
         "grade": "Kelas XI",
         "icon": "⚔️",
