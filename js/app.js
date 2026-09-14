@@ -10,7 +10,8 @@ import { HistoryQuiz } from './quiz.js';
 import { CurriculumController } from './curriculum.js';
 import { DocumentsController } from './documents.js';
 import { soundManager } from './audio.js';
-
+import { adminService } from './admin-service.js';
+import { AdminUI } from './admin-ui.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Initialise Submodules
@@ -21,6 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
   
   window.curriculumInstance = curriculum;
   window.documentsInstance = documents;
+
+  // 1b. Initialise Administrator Controller
+  window.adminService = adminService;
+  window.adminUI = new AdminUI(curriculum);
 
 
 

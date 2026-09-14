@@ -7,6 +7,7 @@ import { CURRICULUM_DATA } from './curriculum-data.js';
 import { soundManager } from './audio.js';
 import { firebaseService } from './firebase-service.js';
 import { isFirebaseConfigured } from './firebase-config.js';
+import { adminService } from './admin-service.js';
 
 export class CurriculumController {
   constructor(containerSelector, tabsContainerSelector, headerSelector) {
@@ -222,10 +223,22 @@ export class CurriculumController {
         </div>
 
         <div class="curriculum-card-footer">
-          <button class="btn btn-primary btn-open-curriculum" data-id="${mod.id}" style="width: 100%;">
-            <span>📖 Buka Modul Ajar Digital</span>
-            <span>→</span>
-          </button>
+          ${adminService.isAuthenticated ? `
+            <div class="admin-card-actions">
+              <button class="btn btn-primary btn-open-curriculum" data-id="${mod.id}" style="flex: 1;">
+                <span>📖 Buka Modul</span>
+                <span>→</span>
+              </button>
+              <button class="btn-admin-edit-card" data-id="${mod.id}" data-grade="${this.currentGrade}" title="Edit materi modul ini sebagai Admin">
+                <span>✏️ Edit</span>
+              </button>
+            </div>
+          ` : `
+            <button class="btn btn-primary btn-open-curriculum" data-id="${mod.id}" style="width: 100%;">
+              <span>📖 Buka Modul Ajar Digital</span>
+              <span>→</span>
+            </button>
+          `}
         </div>
       </div>
     `).join('');
@@ -239,6 +252,19 @@ export class CurriculumController {
         const moduleObj = currentData.modules.find(m => m.id === modId);
         if (moduleObj) {
           this.openModuleReader(moduleObj);
+        }
+      });
+    });
+
+    // Attach Admin Edit click listener on cards
+    this.container.querySelectorAll('.btn-admin-edit-card').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        soundManager.playClick();
+        const modId = btn.dataset.id;
+        const grade = btn.dataset.grade || this.currentGrade;
+        if (window.adminUI) {
+          window.adminUI.openEditorModal(grade, modId);
         }
       });
     });
@@ -261,6 +287,11 @@ export class CurriculumController {
             <button class="reader-tab-btn ${this.activeReaderTab === 'glosarium' ? 'active' : ''}" data-tab="glosarium">
               <span>📝</span> Glosarium & Refleksi
             </button>
+            ${adminService.isAuthenticated ? `
+              <button class="btn-tool-sm btn-reader-edit-admin" data-id="${mod.id}" title="Edit modul ini langsung di Cloud" style="margin-left: auto; background: rgba(229, 169, 60, 0.15); color: var(--gold-400); border-color: var(--border-gold);">
+                <span>✏️ Edit Materi Ini</span>
+              </button>
+            ` : ''}
           </div>
 
           <!-- Tab Content Mount -->
@@ -297,6 +328,18 @@ export class CurriculumController {
         }
       });
     });
+
+    // Admin Edit Button Event inside Reader
+    const editBtn = document.querySelector('.btn-reader-edit-admin');
+    if (editBtn) {
+      editBtn.addEventListener('click', () => {
+        soundManager.playClick();
+        window.closeDetailModal();
+        if (window.adminUI) {
+          window.adminUI.openEditorModal(this.currentGrade, mod.id);
+        }
+      });
+    }
   }
 
   getTabContent(mod, tabName) {
