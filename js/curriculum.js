@@ -439,8 +439,9 @@ export class CurriculumController {
       return `___CODE_BLOCK_${idx}___`;
     });
 
-    // 2. Format tebal dan miring
+    // 2. Format tebal, miring, dan tautan
     text = text
+      .replace(/\[(.*?)\]\((https?:\/\/.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color: var(--gold-400); text-decoration: underline; font-weight: 500;">$1 ↗</a>')
       .replace(/\*\*(.*?)\*\*/g, '<strong style="color: var(--text-main); font-weight: 700;">$1</strong>')
       .replace(/\*(.*?)\*/g, '<em style="color: var(--gold-400); font-style: italic;">$1</em>');
 

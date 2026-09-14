@@ -693,232 +693,462 @@ export const CURRICULUM_DATA = {
     phase: 'Fase F',
     cpHeader: 'Capaian Pembelajaran (CP) Fase F: Peserta didik mampu memahami pendudukan Jepang, proklamasi kemerdekaan Indonesia, mempertahankan kemerdekaan Indonesia, pemerintahan Sukarno, pemerintahan Suharto, dan reformasi menggunakan konsep dasar ilmu sejarah.',
     modules: [
-      {
-        id: 'smk-xi-1',
-        title: 'Pendudukan Militer Jepang di Indonesia (1942–1945)',
-        phase: 'Fase F',
-        grade: 'Kelas XI',
-        icon: '⚔️',
-        period: '1942 - 1945',
-        cpSummary: 'Menganalisis geopolitik Perang Pasifik, invasi kilat dan Perjanjian Kalijati, sistem birokrasi Gunsei & Tonarigumi, ekonomi autarki, tragedi Romusha, respon pergerakan kooperatif/klandestin/bersenjata, militerisasi PETA, sidang BPUPK-PPKI, hingga komparasi kolonialisme dan warisan struktural bagi Indonesia modern.',
-        syllabus: {
-          atp: [
-            '11.1.1 Menganalisis geopolitik Perang Pasifik, modernisasi Restorasi Meiji, embargo minyak koalisi ABCD, doktrin Hakko Ichi-u, propaganda Gerakan Tiga A, serta kapitulasi Perjanjian Kalijati 1942.',
-            '11.1.2 Mengevaluasi struktur birokrasi pemerintahan militer (Gunsei), pembagian tiga mandala administrasi pertahanan, dan sistem pengawasan sosial teritorial Tonarigumi (cikal bakal RT/RW).',
-            '11.1.3 Menguraikan dampak sistem ekonomi autarki regional, perampasan beras via Kumiai, penanaman paksa pohon jarak, tragedi kerja paksa Romusha lintas benua, serta bencana kelaparan dan perbudakan seksual Jugun Ianfu.',
-            '11.1.4 Menganalisis spektrum respons pergerakan kebangsaan melalui jalur kooperatif resmi (Poetra, Jawa Hokokai), jalur klandestin bawah tanah (Sutan Sjahrir, Amir Sjarifuddin, Menteng 31), dan perlawanan bersenjata rakyat (Cot Plieng, Singaparna, PETA Blitar).',
-            '11.1.5 Mengevaluasi proses militerisasi pemuda melalui organisasi Heiho dan PETA, Janji Koiso 1944, serta dinamika perumusan dasar negara Pancasila dan konstitusi dalam sidang BPUPK dan PPKI.',
-            '11.1.6 Melakukan analisis komparatif kritis antara kolonialisme Hindia Belanda versus pendudukan militer Jepang serta mengevaluasi warisan strukturalnya bagi Indonesia modern.'
-          ],
-          meaningfulUnderstanding: 'Masa pendudukan fasisme militer Jepang selama 3,5 tahun merupakan babak paling paradoksal dalam sejarah Indonesia: di satu sisi melahirkan bencana kemanusiaan dan penindasan ekonomi luar biasa, namun di sisi lain berhasil meruntuhkan mitos superioritas kulit putih bangsa Barat, mematangkan bahasa Indonesia sebagai bahasa resmi pemersatu bangsa, serta menggembleng fisik dan taktik tempur pemuda bumiputera yang melahirkan cikal bakal Tentara Nasional Indonesia (TNI).',
-          essentialQuestions: [
-            'Mengapa embargo minyak bumi oleh koalisi ABCD menjadi pemicu utama serbuan kilat militer Jepang ke kepulauan Indonesia?',
-            'Bagaimana para tokoh pergerakan nasional secara cerdik memanfaatkan organisasi resmi bentukan Jepang untuk mengonsolidasikan kekuatan pergerakan kebangsaan?',
-            'Apa saja warisan struktural dari masa pendudukan militer Jepang yang masih bertahan dan menjadi pilar penting tata kelola Indonesia modern hingga hari ini?'
-          ]
+                  {
+
+        "id": "smk-xi-1",
+        "title": "BAB 1: Pendudukan Militer Jepang di Indonesia (1942–1945)",
+        "phase": "Fase F",
+        "grade": "Kelas XI",
+        "icon": "⚔️",
+        "period": "1942 - 1945",
+        "cpSummary": "Menjelaskan hubungan ekspansi Jepang dengan Perang Dunia II, proses masuknya Jepang dan Kapitulasi Kalijati, sistem pemerintahan militer & birokrasi lokal, eksploitasi ekonomi perang & Romusha, spektrum strategi perjuangan bangsa, persiapan kemerdekaan BPUPK/PPKI, hingga penilaian kritis sumber sejarah.",
+        "syllabus": {
+                "atp": [
+                        "Menjelaskan hubungan ekspansi Jepang dengan Perang Dunia II dan pendudukan Indonesia.",
+                        "Menguraikan proses masuknya Jepang hingga menyerahnya pemerintah Hindia Belanda.",
+                        "Menganalisis tujuan dan pelaksanaan kebijakan Jepang dalam berbagai bidang.",
+                        "Membandingkan propaganda Jepang dengan kenyataan kehidupan masyarakat.",
+                        "Menjelaskan beragam strategi perjuangan bangsa Indonesia.",
+                        "Menganalisis hubungan pendudukan Jepang dengan proses menuju kemerdekaan.",
+                        "Menggunakan sumber sejarah secara kritis dan menghargai pengalaman para korban."
+                ],
+                "meaningfulUnderstanding": "Pendudukan Jepang (1942–1945) merupakan masa ketika wilayah Indonesia berada di bawah kekuasaan militer Jepang selama Perang Dunia II. Periode ini berlangsung relatif singkat (sekitar tiga setengah tahun), tetapi membawa perubahan besar terhadap pemerintahan, perekonomian, pendidikan, kehidupan sosial, dan perjuangan kemerdekaan Indonesia. Rakyat menghadapi bentuk penjajahan baru sekaligus memanfaatkan keadaan untuk memperjuangkan kemerdekaan.",
+                "essentialQuestions": [
+                        "Mengapa perkembangan industri dan ambisi militer mendorong Jepang menguasai Indonesia?",
+                        "Bagaimana cara membandingkan pesan propaganda Jepang dengan kenyataan kehidupan masyarakat sehari-hari?",
+                        "Bagaimana bangsa Indonesia mengembangkan beragam strategi (kooperasi, bawah tanah, dan perlawanan terbuka) dalam menghadapi pendudukan Jepang?",
+                        "Mengapa Proklamasi 17 Agustus 1945 merupakan tindakan mandiri bangsa Indonesia meskipun persiapannya bersinggungan dengan lembaga bentukan Jepang?"
+                ]
         },
-        subtopics: [
-          {
-            heading: "1. PENDAHULUAN",
-            content: "Pendudukan Jepang di Indonesia merupakan salah satu periode penting dalam sejarah Indonesia karena berlangsung dalam situasi **Perang Dunia II** dan secara langsung memengaruhi perjalanan bangsa Indonesia menuju kemerdekaan.\n\nJepang menduduki Indonesia setelah berhasil mengalahkan kekuatan Belanda pada tahun 1942. Kedatangan Jepang pada awalnya disambut oleh sebagian masyarakat karena Jepang membawa propaganda sebagai **\"saudara tua\" bangsa-bangsa Asia** yang akan membebaskan Asia dari penjajahan Barat.\n\nNamun, harapan tersebut segera berubah. Pemerintahan Jepang menerapkan sistem pendudukan militer yang sangat ketat. Rakyat diarahkan untuk mendukung kepentingan perang Jepang. Berbagai sumber daya alam dieksploitasi, tenaga rakyat dimobilisasi, dan kebebasan politik dibatasi.\n\nSalah satu bentuk eksploitasi yang paling dikenal adalah **romusha**, yaitu pengerahan tenaga kerja untuk berbagai proyek yang mendukung kepentingan Jepang. Di sisi lain, Jepang juga membentuk berbagai organisasi sosial, pemuda, dan militer seperti **Seinendan, Keibodan, Heiho, dan PETA**.\n\nMenariknya, pendudukan Jepang memiliki sebuah paradoks sejarah. Di satu sisi, Jepang menyebabkan penderitaan besar bagi masyarakat Indonesia. Namun di sisi lain, masa pendudukan memberikan pengalaman organisasi, politik, bahasa, dan militer kepada sebagian masyarakat Indonesia yang kemudian menjadi modal penting dalam perjuangan mempertahankan kemerdekaan.\n\nOleh karena itu, pendudukan Jepang tidak cukup dipahami hanya sebagai cerita mengenai penjajahan. Periode ini perlu dikaji sebagai **proses sejarah yang kompleks**, ketika bangsa Indonesia menghadapi penindasan sekaligus mencari berbagai strategi untuk mempertahankan kepentingannya dan memanfaatkan ruang yang tersedia untuk mempersiapkan masa depan."
-          },
-          {
-            heading: "2. JEPANG SEBELUM MENDUDUKI INDONESIA",
-            content: "## 1. Restorasi Meiji dan Modernisasi Jepang\n\nUntuk memahami mengapa Jepang mampu menduduki Indonesia, terlebih dahulu perlu melihat perubahan Jepang sejak abad ke-19.\n\nPada tahun 1868 terjadi **Restorasi Meiji**. Restorasi ini menandai perubahan besar dalam kehidupan politik, ekonomi, militer, dan sosial Jepang.\n\nSebelumnya, Jepang berada dalam sistem pemerintahan feodal yang dipimpin oleh shogun. Setelah Restorasi Meiji, kekuasaan politik dikonsolidasikan di bawah Kaisar.\n\nPemerintah Jepang kemudian melakukan modernisasi dalam berbagai bidang.\n\n### Bidang pendidikan\n\nJepang mengembangkan sistem pendidikan modern untuk menghasilkan masyarakat yang terdidik dan mendukung pembangunan negara.\n\n### Bidang ekonomi\n\nJepang mengembangkan:\n\n* industri,\n* perdagangan,\n* perbankan,\n* transportasi,\n* pertambangan,\n* teknologi.\n\n### Bidang militer\n\nJepang membangun angkatan bersenjata modern dengan mempelajari teknologi dan sistem militer negara-negara Barat.\n\nModernisasi tersebut menjadikan Jepang berbeda dari banyak negara Asia lainnya yang saat itu sedang berada di bawah kolonialisme Barat."
-          },
-          {
-            heading: "3. MUNCULNYA IMPERIALISME JEPANG",
-            content: "Modernisasi membuat Jepang menjadi negara kuat. Namun, perkembangan industri membutuhkan bahan mentah, pasar, dan sumber energi.\n\nKarena itu, Jepang mulai melakukan ekspansi wilayah.\n\n### Beberapa peristiwa penting:\n\n**Perang Jepang–Tiongkok (1894–1895)**\nJepang berhasil mengalahkan Tiongkok dan memperkuat kedudukannya di Asia Timur.\n\n**Perang Jepang–Rusia (1904–1905)**\nJepang kembali menunjukkan kekuatannya dengan mengalahkan Rusia.\n\nKemenangan tersebut sangat penting karena Jepang menjadi salah satu negara Asia pertama yang berhasil mengalahkan kekuatan besar Eropa dalam perang modern.\n\nSelanjutnya Jepang memperluas pengaruhnya ke:\n\n* Korea,\n* Manchuria,\n* Tiongkok,\n* dan wilayah Asia lainnya.\n\nDengan demikian, Jepang secara bertahap berubah dari negara yang melakukan modernisasi menjadi **kekuatan imperialisme baru di Asia**."
-          },
-          {
-            heading: "4. JEPANG DAN PERANG DUNIA II",
-            content: "## 1. Ekspansi Jepang\n\nPada awal abad ke-20, Jepang semakin aktif memperluas wilayahnya.\n\nSalah satu faktor pendorongnya adalah kebutuhan terhadap:\n\n* bahan baku industri,\n* minyak bumi,\n* karet,\n* mineral,\n* pangan,\n* wilayah strategis,\n* pasar.\n\nKetika Perang Dunia II berkembang, Jepang melihat Asia Tenggara sebagai wilayah yang sangat penting.\n\n---\n\n## 2. Konflik Jepang dengan Amerika Serikat\n\nAmerika Serikat dan negara-negara Barat berusaha membatasi ekspansi Jepang.\n\nSalah satu tekanan terpenting adalah pembatasan pasokan bahan bakar dan sumber daya strategis kepada Jepang.\n\nJepang kemudian mengambil keputusan untuk melakukan serangan terhadap pangkalan Amerika Serikat di **Pearl Harbor, Hawaii, pada 7 Desember 1941**.\n\nSerangan tersebut menyebabkan Amerika Serikat masuk secara langsung ke dalam Perang Dunia II.\n\nPerang kemudian berkembang menjadi konflik besar di kawasan Asia-Pasifik."
-          },
-          {
-            heading: "5. MENGAPA JEPANG MENDUDUKI INDONESIA?",
-            content: "Indonesia merupakan wilayah yang sangat penting bagi Jepang.\n\nAda beberapa alasan utama.\n\n## 1. Minyak bumi\n\nMinyak merupakan sumber energi yang sangat penting bagi mesin perang.\n\nIndonesia memiliki sumber minyak yang penting, antara lain di:\n\n* Sumatra,\n* Kalimantan,\n* Jawa.\n\nPenguasaan minyak Indonesia dapat membantu Jepang memenuhi kebutuhan militernya.\n\n---\n\n## 2. Kekayaan alam\n\nSelain minyak, Indonesia memiliki:\n\n* karet,\n* timah,\n* batu bara,\n* hasil perkebunan,\n* hasil pertanian,\n* berbagai bahan tambang.\n\nSumber daya tersebut diperlukan untuk mendukung industri dan peperangan Jepang.\n\n---\n\n## 3. Letak geografis\n\nIndonesia berada pada posisi strategis di antara:\n\n**Asia Timur — Asia Tenggara — Samudra Hindia — Australia**\n\nDengan menguasai Indonesia, Jepang dapat memperkuat pertahanannya dan memperluas jangkauan militernya.\n\n---\n\n## 4. Kepentingan pangan\n\nPerang membutuhkan persediaan makanan dalam jumlah besar.\n\nIndonesia merupakan wilayah agraris dengan produksi:\n\n* beras,\n* jagung,\n* hasil perkebunan,\n* dan berbagai komoditas lainnya.\n\nKarena itu, Jepang berusaha mengendalikan produksi pertanian Indonesia."
-          },
-          {
-            heading: "6. MASUKNYA JEPANG KE INDONESIA",
-            content: "Setelah melakukan serangan di berbagai wilayah Asia Tenggara, Jepang bergerak menuju Indonesia.\n\nPasukan Jepang memasuki wilayah Indonesia melalui beberapa daerah.\n\n### Kalimantan\n\nJepang menguasai wilayah penghasil minyak dan sumber daya lainnya.\n\n### Sumatra\n\nJepang menguasai wilayah strategis dan sumber daya ekonomi.\n\n### Sulawesi\n\nJepang menguasai sejumlah wilayah penting untuk kepentingan militer.\n\n### Jawa\n\nJawa merupakan pusat pemerintahan Hindia Belanda sehingga menjadi target penting."
-          },
-          {
-            heading: "7. JATUHNYA KEKUASAAN BELANDA",
-            content: "Belanda dan Sekutu berusaha mempertahankan Hindia Belanda.\n\nNamun, kekuatan Jepang berkembang sangat cepat.\n\nPasukan Belanda mengalami kekalahan di berbagai wilayah.\n\nPuncaknya terjadi pada:\n\n## Kapitulasi Kalijati — 8 Maret 1942\n\nDi **Kalijati, Subang, Jawa Barat**, Belanda menyerahkan kekuasaannya kepada Jepang.\n\nPeristiwa tersebut menandai:\n\n> **berakhirnya kekuasaan kolonial Belanda di Indonesia dan dimulainya pendudukan Jepang.**\n\nPerubahan tersebut berlangsung sangat cepat. Pemerintahan kolonial Belanda yang telah berlangsung selama berabad-abad runtuh dalam waktu relatif singkat."
-          },
-          {
-            heading: "8. RESPONS AWAL MASYARAKAT INDONESIA",
-            content: "Kedatangan Jepang pada awalnya tidak selalu mendapatkan penolakan.\n\nSebagian masyarakat bahkan menyambut Jepang.\n\nMengapa?\n\nKarena masyarakat telah mengalami penjajahan Belanda dalam waktu lama.\n\nJepang kemudian melakukan propaganda bahwa mereka adalah:\n\n> **saudara tua bangsa Indonesia.**\n\nJepang juga menyebarkan slogan:\n\n* Jepang Pemimpin Asia.\n* Jepang Pelindung Asia.\n* Jepang Cahaya Asia.\n\nPropaganda tersebut menciptakan harapan bahwa Jepang akan membebaskan Indonesia dari kolonialisme Barat.\n\nNamun, kenyataan segera berbeda."
-          },
-          {
-            heading: "9. PEMERINTAHAN MILITER JEPANG DI INDONESIA",
-            content: "Jepang tidak menjadikan Indonesia sebagai negara merdeka. Indonesia berada di bawah **pemerintahan militer Jepang**.\n\nWilayah Indonesia dibagi menjadi beberapa daerah pemerintahan militer.\n\nSecara umum terdapat:\n\n### 1. Jawa dan Madura\n\nDikuasai oleh Angkatan Darat Jepang.\n\n### 2. Sumatra\n\nDikuasai oleh Angkatan Darat Jepang.\n\n### 3. Indonesia bagian timur\n\nDikuasai oleh Angkatan Laut Jepang.\n\nPembagian tersebut menunjukkan bahwa Indonesia memiliki arti strategis yang sangat besar bagi Jepang."
-          },
-          {
-            heading: "10. KARAKTER PEMERINTAHAN JEPANG",
-            content: "Pemerintahan Jepang memiliki beberapa karakteristik.\n\n## 1. Militeristik\n\nKekuasaan utama berada di tangan militer.\n\n## 2. Otoriter\n\nKebebasan masyarakat sangat dibatasi.\n\n## 3. Mobilisasi\n\nMasyarakat diarahkan untuk mendukung kepentingan perang Jepang.\n\n## 4. Eksploitatif\n\nSumber daya alam dan tenaga manusia dimanfaatkan untuk kepentingan Jepang.\n\n## 5. Propaganda\n\nJepang menggunakan propaganda untuk mendapatkan dukungan masyarakat."
-          },
-          {
-            heading: "11. PROPAGANDA JEPANG",
-            content: "Propaganda merupakan alat penting dalam pemerintahan pendudukan.\n\nJepang berusaha menciptakan citra bahwa mereka datang untuk membangun Asia.\n\nKonsep tersebut dikenal dengan:\n\n## Kemakmuran Bersama Asia Timur Raya\n\nSecara propaganda, Jepang menyatakan bahwa bangsa-bangsa Asia akan bekerja sama dan hidup sejahtera tanpa dominasi Barat.\n\nNamun kenyataannya, Jepang tetap menempatkan dirinya sebagai kekuatan utama.\n\nDengan kata lain:\n\n> **Propaganda mengenai persatuan Asia tidak sama dengan praktik pemerintahan Jepang di wilayah pendudukannya.**\n\nHal ini menjadi contoh penting bahwa dalam sejarah, **narasi resmi pemerintah perlu dibandingkan dengan pengalaman masyarakat dan sumber sejarah lainnya.**"
-          },
-          {
-            heading: "12. KEBIJAKAN POLITIK JEPANG",
-            content: "Pada awal pendudukan, Jepang berusaha menghapus pengaruh Belanda.\n\nBeberapa organisasi politik dibubarkan.\n\nAktivitas politik diawasi dengan ketat.\n\nPers juga berada di bawah pengawasan pemerintah Jepang.\n\nTokoh-tokoh Indonesia yang dianggap berbahaya dapat ditangkap atau diawasi.\n\nJepang juga membatasi:\n\n* kebebasan berbicara,\n* kebebasan berkumpul,\n* kebebasan pers,\n* aktivitas politik.\n\nNamun, Jepang menyadari bahwa tokoh nasional Indonesia memiliki pengaruh besar terhadap masyarakat.\n\nKarena itu, Jepang kemudian memanfaatkan sejumlah tokoh Indonesia untuk membantu mobilisasi rakyat.\n\nDi sinilah muncul strategi **kooperasi** dari beberapa tokoh Indonesia."
-          },
-          {
-            heading: "13. KEBIJAKAN EKONOMI JEPANG",
-            content: "## 1. Ekonomi perang\n\nPerekonomian Indonesia diubah untuk mendukung kebutuhan perang Jepang.\n\nProduksi diarahkan pada komoditas yang dibutuhkan Jepang.\n\nTujuan utamanya bukan meningkatkan kesejahteraan masyarakat Indonesia, melainkan:\n\n> **memenuhi kebutuhan militer dan ekonomi Jepang.**\n\n---\n\n## 2. Penguasaan sumber daya alam\n\nJepang mengambil alih berbagai perusahaan dan fasilitas ekonomi peninggalan Belanda.\n\nSumber daya seperti:\n\n* minyak,\n* batu bara,\n* hasil perkebunan,\n* bahan tambang,\n\ndiarahkan untuk kepentingan Jepang.\n\n---\n\n## 3. Pengendalian produksi pertanian\n\nPetani diwajibkan memenuhi kebutuhan tertentu yang ditetapkan pemerintah.\n\nAkibatnya, sebagian hasil pertanian tidak dapat sepenuhnya dinikmati oleh masyarakat.\n\nHal ini berkontribusi terhadap:\n\n* kekurangan pangan,\n* kemiskinan,\n* kelaparan,\n* menurunnya kesejahteraan."
-          },
-          {
-            heading: "14. ROMUSHA",
-            content: "## 1. Pengertian Romusha\n\n**Romusha** merupakan istilah yang digunakan untuk menyebut tenaga kerja yang dikerahkan Jepang untuk berbagai pekerjaan yang mendukung kepentingan perang.\n\nMereka digunakan untuk:\n\n* membangun jalan,\n* membangun rel,\n* membangun lapangan terbang,\n* membangun benteng,\n* mengangkut material,\n* pekerjaan konstruksi lainnya.\n\n---\n\n## 2. Perekrutan Romusha\n\nPada awalnya, Jepang menggunakan propaganda bahwa pekerjaan tersebut merupakan bentuk pengabdian kepada bangsa dan negara.\n\nNamun, dalam praktiknya pengerahan tenaga kerja semakin bersifat memaksa.\n\nBanyak rakyat dari desa-desa direkrut.\n\n---\n\n## 3. Kondisi Romusha\n\nPara pekerja sering menghadapi:\n\n* makanan yang tidak mencukupi,\n* kondisi kerja berat,\n* tempat tinggal yang buruk,\n* penyakit,\n* kurangnya perawatan,\n* jauh dari keluarga.\n\nSebagian tenaga kerja bahkan dikirim keluar wilayah tempat tinggal mereka.\n\n---\n\n## 4. Dampak Romusha\n\nRomusha menimbulkan dampak besar:\n\n### Dampak ekonomi\n\nKeluarga kehilangan anggota yang menjadi sumber penghasilan.\n\n### Dampak sosial\n\nBanyak keluarga mengalami perubahan struktur dan kehilangan anggota keluarga.\n\n### Dampak demografis\n\nTerjadi perpindahan tenaga kerja ke berbagai wilayah.\n\n### Dampak psikologis\n\nMuncul ketakutan dan trauma terhadap pemerintah Jepang.\n\n### Dampak politik\n\nKepercayaan masyarakat terhadap propaganda Jepang semakin menurun."
-          },
-          {
-            heading: "15. KEBIJAKAN SOSIAL",
-            content: "Jepang melakukan pengawasan terhadap kehidupan masyarakat sampai tingkat lokal.\n\nSalah satunya melalui pembentukan **tonarigumi**, yaitu kelompok masyarakat dalam lingkungan tempat tinggal yang bertujuan membantu pengawasan dan mobilisasi.\n\nMasyarakat diarahkan untuk:\n\n* menghemat,\n* memenuhi kewajiban tertentu,\n* mengikuti kegiatan pemerintah,\n* membantu kebutuhan perang.\n\nDengan demikian, kehidupan masyarakat menjadi sangat terkontrol."
-          },
-          {
-            heading: "16. KEHIDUPAN MASYARAKAT",
-            content: "Kehidupan sehari-hari mengalami perubahan besar.\n\nMasyarakat menghadapi:\n\n* kelangkaan barang,\n* kekurangan makanan,\n* kenaikan tekanan ekonomi,\n* keterbatasan pakaian,\n* pengawasan pemerintah,\n* kewajiban kerja,\n* mobilisasi pemuda.\n\nSituasi tersebut menunjukkan bahwa perang tidak hanya terjadi di medan pertempuran.\n\n> **Perang juga mengubah kehidupan masyarakat biasa.**"
-          },
-          {
-            heading: "17. KEBIJAKAN PENDIDIKAN",
-            content: "Jepang mengurangi pengaruh Belanda dalam sistem pendidikan.\n\nBahasa Belanda tidak lagi memiliki kedudukan seperti sebelumnya.\n\nBahasa Indonesia justru memperoleh ruang yang lebih luas sebagai bahasa komunikasi dan pengantar.\n\nBahasa Jepang juga diajarkan.\n\nPendidikan diarahkan untuk:\n\n* menanamkan loyalitas kepada Jepang,\n* membentuk disiplin,\n* mendukung kepentingan perang,\n* menyebarkan propaganda."
-          },
-          {
-            heading: "18. DAMPAK PENDIDIKAN JEPANG",
-            content: "Dampaknya bersifat kompleks.\n\n### Dampak negatif\n\n* pendidikan dikontrol pemerintah,\n* materi pelajaran digunakan untuk propaganda,\n* kebebasan akademik terbatas,\n* fasilitas pendidikan mengalami berbagai keterbatasan.\n\n### Dampak yang kemudian memiliki arti penting bagi Indonesia\n\n* penggunaan bahasa Indonesia semakin luas,\n* pengalaman organisasi meningkat,\n* hubungan antardaerah semakin berkembang,\n* sebagian pemuda memperoleh pengalaman kepemimpinan dan kedisiplinan.\n\nIni merupakan contoh **paradoks sejarah**.\n\nSebuah kebijakan yang dibuat untuk kepentingan penjajah dapat menghasilkan konsekuensi yang kemudian dimanfaatkan oleh bangsa yang dijajah."
-          },
-          {
-            heading: "19. ORGANISASI BENTUKAN JEPANG",
-            content: "Jepang membentuk berbagai organisasi untuk mengendalikan dan memobilisasi masyarakat.\n\n---\n\n## 1. Gerakan Tiga A\n\nGerakan ini menggunakan slogan yang menampilkan Jepang sebagai pemimpin, pelindung, dan cahaya Asia.\n\nNamun, organisasi tersebut tidak mendapatkan dukungan masyarakat seperti yang diharapkan Jepang.\n\nAkibatnya, Gerakan Tiga A akhirnya dibubarkan."
-          },
-          {
-            heading: "20. PUTERA",
-            content: "Pada tahun 1943 Jepang membentuk **Pusat Tenaga Rakyat (Putera)**.\n\nTokoh utama yang memimpin Putera dikenal sebagai **Empat Serangkai**:\n\n* Soekarno,\n* Mohammad Hatta,\n* Ki Hadjar Dewantara,\n* K.H. Mas Mansyur.\n\nTujuan Jepang adalah menggunakan pengaruh tokoh tersebut untuk menggerakkan rakyat mendukung perang.\n\nNamun, tokoh Indonesia melihat organisasi tersebut sebagai kesempatan untuk:\n\n* membangun kesadaran nasional,\n* berkomunikasi dengan masyarakat,\n* mengembangkan jaringan,\n* memperkuat persatuan.\n\nDengan demikian terdapat perbedaan kepentingan:\n\n**Jepang:** memobilisasi rakyat untuk perang.\n\n**Tokoh Indonesia:** memanfaatkan ruang tersebut untuk kepentingan bangsa."
-          },
-          {
-            heading: "21. JAWA HOKOKAI",
-            content: "Karena Putera dianggap kurang efektif bagi kepentingan perang Jepang, Jepang kemudian membentuk **Jawa Hokokai**.\n\nOrganisasi ini lebih langsung berada di bawah kontrol Jepang.\n\nTujuannya adalah mengerahkan masyarakat untuk:\n\n* bekerja,\n* mengumpulkan hasil produksi,\n* menghemat,\n* menyumbang,\n* mendukung perang."
-          },
-          {
-            heading: "22. ORGANISASI PEMUDA",
-            content: "Jepang juga membentuk organisasi pemuda.\n\n## 1. Seinendan\n\nSeinendan merupakan organisasi pemuda yang diberikan latihan kedisiplinan dan dasar-dasar kemiliteran.\n\nTujuannya adalah mempersiapkan pemuda untuk membantu pertahanan Jepang.\n\nNamun, pengalaman tersebut kemudian memberikan sebagian pemuda Indonesia keterampilan:\n\n* disiplin,\n* organisasi,\n* kepemimpinan,\n* dasar kemiliteran.\n\n---\n\n## 2. Keibodan\n\nKeibodan merupakan organisasi pembantu polisi.\n\nAnggotanya diberi tugas membantu menjaga:\n\n* keamanan,\n* ketertiban,\n* pengawasan masyarakat."
-          },
-          {
-            heading: "23. HEIHO",
-            content: "**Heiho** merupakan pasukan pembantu yang direkrut dari penduduk Indonesia untuk membantu tentara Jepang.\n\nAnggotanya mendapatkan pelatihan militer dan digunakan dalam kepentingan perang Jepang.\n\nPengalaman tersebut menjadi salah satu bentuk pengalaman militer yang diperoleh sebagian pemuda Indonesia selama pendudukan."
-          },
-          {
-            heading: "24. PEMBENTUKAN PETA",
-            content: "## Pembela Tanah Air\n\n**PETA** dibentuk pada tahun 1943.\n\nBerbeda dengan Heiho yang lebih langsung menjadi pembantu tentara Jepang, PETA dibentuk untuk membantu pertahanan wilayah Indonesia dari ancaman Sekutu.\n\nPETA memberikan pengalaman militer kepada pemuda Indonesia.\n\nDari pengalaman tersebut kemudian muncul sejumlah tokoh militer Indonesia yang memiliki peranan setelah kemerdekaan."
-          },
-          {
-            heading: "25. PEMBERONTAKAN PETA BLITAR",
-            content: "Salah satu perlawanan penting terjadi di Blitar pada Februari 1945.\n\nDipimpin oleh **Supriyadi**, sejumlah anggota PETA melakukan pemberontakan terhadap Jepang.\n\nFaktor pendorongnya antara lain:\n\n* penderitaan rakyat,\n* eksploitasi,\n* perlakuan terhadap rakyat,\n* ketidakpuasan terhadap Jepang.\n\nPemberontakan tersebut menunjukkan bahwa bahkan organisasi yang dibentuk Jepang untuk kepentingan pertahanan mereka dapat menjadi tempat tumbuhnya perlawanan terhadap Jepang."
-          },
-          {
-            heading: "26. PERLAWANAN RAKYAT TERHADAP JEPANG",
-            content: "Perlawanan terhadap Jepang terjadi di berbagai daerah.\n\n## 1. Perlawanan di Aceh\n\nMasyarakat Aceh melakukan perlawanan terhadap kebijakan Jepang dan tekanan terhadap kehidupan masyarakat.\n\n## 2. Perlawanan di Singaparna\n\nPerlawanan dipimpin oleh **K.H. Zainal Mustafa**.\n\nSalah satu faktor pentingnya adalah penolakan terhadap kebijakan Jepang yang bertentangan dengan keyakinan dan kehidupan masyarakat.\n\n## 3. Perlawanan di Indramayu\n\nPenderitaan ekonomi dan kebijakan penyerahan hasil pertanian menjadi salah satu faktor munculnya perlawanan.\n\n## 4. Pemberontakan PETA Blitar\n\nPerlawanan dari kalangan militer lokal menunjukkan bahwa ketidakpuasan terhadap Jepang juga muncul di kalangan pemuda yang telah mendapatkan pelatihan militer."
-          },
-          {
-            heading: "27. GERAKAN BAWAH TANAH",
-            content: "Tidak semua perjuangan dilakukan melalui pemberontakan terbuka.\n\nSebagian tokoh menggunakan gerakan bawah tanah.\n\nStrategi tersebut dilakukan karena pemerintahan Jepang sangat ketat dalam mengawasi aktivitas politik.\n\nGerakan bawah tanah bertujuan antara lain:\n\n* menyebarkan informasi,\n* membangun jaringan,\n* menjaga semangat nasionalisme,\n* memantau perkembangan perang,\n* mempersiapkan kemerdekaan.\n\nSalah satu tokoh penting adalah **Sutan Sjahrir**."
-          },
-          {
-            heading: "28. STRATEGI KOOPERASI DAN NONKOOPERASI",
-            content: "Pada masa pendudukan Jepang terdapat berbagai strategi perjuangan.\n\n### Kooperasi\n\nTokoh Indonesia bekerja dalam organisasi yang dibentuk Jepang.\n\nTujuannya dapat berupa:\n\n* memperoleh ruang bergerak,\n* memanfaatkan organisasi,\n* membangun jaringan,\n* memengaruhi masyarakat.\n\n### Nonkooperasi\n\nSebagian tokoh menolak bekerja sama dengan pemerintah Jepang dan memilih bergerak secara rahasia.\n\n### Perlawanan terbuka\n\nSebagian masyarakat melakukan pemberontakan bersenjata.\n\nDengan demikian, bangsa Indonesia tidak menggunakan satu strategi saja."
-          },
-          {
-            heading: "29. MENGAPA TOKOH INDONESIA MAU BEKERJA SAMA DENGAN JEPANG?",
-            content: "Ini merupakan salah satu bagian penting untuk membangun kemampuan berpikir kritis.\n\nJika seorang tokoh Indonesia bekerja sama dengan Jepang, belum tentu berarti tokoh tersebut mendukung penjajahan Jepang.\n\nDalam kondisi pendudukan, kerja sama dapat digunakan sebagai **strategi politik**.\n\nMisalnya:\n\n**Jepang memberikan ruang organisasi**\n↓\nTokoh Indonesia masuk ke organisasi\n↓\nTokoh mendapatkan akses kepada masyarakat\n↓\nTokoh membangun jaringan dan kesadaran nasional\n↓\nPengalaman tersebut dapat dimanfaatkan untuk kepentingan Indonesia.\n\nNamun, strategi tersebut tetap memiliki risiko.\n\nTokoh yang bekerja sama dengan Jepang harus menghadapi dilema:\n\n> **Apakah mereka sedang membantu penjajah atau sedang memanfaatkan penjajah untuk kepentingan bangsa?**\n\nJawabannya harus dilihat berdasarkan konteks, tindakan, tujuan, dan bukti sejarah."
-          },
-          {
-            heading: "30. KEHIDUPAN TOKOH NASIONAL PADA MASA JEPANG",
-            content: "## Soekarno\n\nSoekarno menggunakan organisasi bentukan Jepang sebagai ruang untuk berkomunikasi dengan rakyat dan membangun kesadaran nasional.\n\n## Mohammad Hatta\n\nHatta terlibat dalam aktivitas politik dan organisasi pada masa Jepang sambil mempertahankan tujuan nasional Indonesia.\n\n## Sutan Sjahrir\n\nSjahrir memilih jalur gerakan bawah tanah dan menolak kerja sama dengan Jepang.\n\n## Ki Hadjar Dewantara\n\nTerlibat dalam Putera dan aktivitas pendidikan serta pergerakan nasional.\n\n## K.H. Mas Mansyur\n\nTerlibat dalam Putera dan menjadi salah satu tokoh yang memanfaatkan ruang organisasi pada masa Jepang."
-          },
-          {
-            heading: "31. AKHIR KEKUASAAN JEPANG",
-            content: "Pada tahun 1944–1945, posisi Jepang dalam Perang Dunia II semakin melemah.\n\nSekutu berhasil merebut banyak wilayah yang sebelumnya dikuasai Jepang.\n\nJepang semakin terdesak.\n\nKondisi tersebut membuat pemerintah Jepang berusaha mendapatkan dukungan penduduk Indonesia."
-          },
-          {
-            heading: "32. JANJI KEMERDEKAAN",
-            content: "Pada tahun 1944, Perdana Menteri Jepang **Kuniaki Koiso** menyampaikan janji mengenai kemerdekaan bagi Indonesia pada masa depan.\n\nJanji tersebut merupakan bagian dari strategi politik Jepang untuk mempertahankan dukungan masyarakat Indonesia ketika posisi Jepang semakin terdesak.\n\nNamun, janji tersebut tidak langsung berarti Indonesia merdeka."
-          },
-          {
-            heading: "33. BPUPKI",
-            content: "Jepang kemudian membentuk **Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia (BPUPKI)**.\n\nPembentukan BPUPKI menjadi perkembangan politik yang sangat penting.\n\nWalaupun dibentuk dalam konteks kepentingan Jepang, badan ini menjadi ruang bagi tokoh Indonesia untuk membahas:\n\n* dasar negara,\n* bentuk negara,\n* wilayah negara,\n* konstitusi,\n* pemerintahan Indonesia."
-          },
-          {
-            heading: "34. SIDANG PERTAMA BPUPKI",
-            content: "Sidang pertama BPUPKI membahas dasar negara.\n\nDalam sidang tersebut muncul berbagai gagasan dari tokoh-tokoh Indonesia.\n\nSalah satu pidato yang sangat penting disampaikan oleh **Soekarno pada 1 Juni 1945**.\n\nDalam pidato tersebut Soekarno menyampaikan gagasan mengenai dasar negara yang kemudian dikenal sebagai **Pancasila**."
-          },
-          {
-            heading: "35. SIDANG KEDUA BPUPKI",
-            content: "Sidang kedua membahas berbagai hal berkaitan dengan persiapan negara Indonesia.\n\nPembahasan meliputi:\n\n* rancangan Undang-Undang Dasar,\n* wilayah negara,\n* kewarganegaraan,\n* pemerintahan,\n* perekonomian,\n* pertahanan.\n\nPerkembangan ini menunjukkan bahwa perjuangan menuju kemerdekaan semakin memasuki tahap yang konkret."
-          },
-          {
-            heading: "36. PPKI",
-            content: "Setelah BPUPKI dibubarkan, Jepang membentuk **Panitia Persiapan Kemerdekaan Indonesia (PPKI)**.\n\nPPKI memiliki tugas yang berkaitan dengan persiapan pembentukan negara Indonesia.\n\nNamun, perkembangan Perang Dunia II mengubah situasi secara drastis."
-          },
-          {
-            heading: "37. JEPANG MENYERAH",
-            content: "Pada Agustus 1945, Jepang mengalami kehancuran besar akibat serangan bom atom di:\n\n* Hiroshima — 6 Agustus 1945.\n* Nagasaki — 9 Agustus 1945.\n\nUni Soviet juga menyatakan perang terhadap Jepang dan menyerang wilayah pendudukan Jepang di Asia.\n\nAkhirnya Jepang menyerah kepada Sekutu pada **15 Agustus 1945**.\n\nBerita tersebut menjadi titik penting bagi perjuangan kemerdekaan Indonesia."
-          },
-          {
-            heading: "38. KEKOSONGAN KEKUASAAN",
-            content: "Ketika Jepang menyerah, terjadi situasi yang sering disebut sebagai **kekosongan kekuasaan (vacuum of power)** dalam konteks politik Indonesia.\n\nJepang masih berada di Indonesia, tetapi mereka telah menyerah dan diperintahkan mempertahankan status quo sampai kedatangan Sekutu.\n\nDi sisi lain, bangsa Indonesia melihat kesempatan untuk segera memproklamasikan kemerdekaan.\n\nTerjadi perbedaan pandangan antara golongan muda dan golongan tua."
-          },
-          {
-            heading: "39. PERISTIWA RENGASDENGKLOK",
-            content: "Golongan muda mendesak Soekarno dan Hatta agar segera memproklamasikan kemerdekaan tanpa menunggu keputusan Jepang.\n\nPerbedaan pandangan tersebut kemudian menyebabkan terjadinya **Peristiwa Rengasdengklok pada 16 Agustus 1945**.\n\nPeristiwa tersebut menjadi salah satu rangkaian penting menuju Proklamasi."
-          },
-          {
-            heading: "40. PROKLAMASI KEMERDEKAAN",
-            content: "Pada tanggal:\n\n## **17 AGUSTUS 1945**\n\nIndonesia memproklamasikan kemerdekaannya.\n\nProklamasi menjadi titik balik sejarah Indonesia.\n\nNamun, penting dipahami:\n\n> **Pendudukan Jepang bukanlah penyebab tunggal lahirnya kemerdekaan Indonesia.**\n\nKemerdekaan merupakan hasil dari proses panjang:\n\n* pergerakan nasional,\n* pengalaman kolonialisme,\n* perjuangan tokoh,\n* organisasi,\n* pendidikan,\n* perkembangan internasional,\n* pengalaman selama pendudukan Jepang,\n* serta keputusan bangsa Indonesia sendiri untuk memproklamasikan kemerdekaan."
-          },
-          {
-            heading: "41. DAMPAK PENDUDUKAN JEPANG",
-            content: "## 1. Dampak politik\n\n* Berakhirnya kekuasaan Belanda.\n* Pengalaman politik tokoh Indonesia.\n* Berkembangnya organisasi.\n* Terbentuknya BPUPKI dan PPKI.\n* Meningkatnya aktivitas politik menjelang kemerdekaan.\n\n---\n\n## 2. Dampak ekonomi\n\nSebagian besar bersifat negatif:\n\n* eksploitasi sumber daya,\n* kekurangan pangan,\n* kemiskinan,\n* inflasi,\n* kerusakan ekonomi,\n* pengerahan tenaga kerja.\n\n---\n\n## 3. Dampak sosial\n\n* Perubahan struktur masyarakat.\n* Mobilisasi masyarakat.\n* Penderitaan rakyat.\n* Perpindahan tenaga kerja.\n* Meningkatnya kontrol pemerintah terhadap kehidupan masyarakat.\n\n---\n\n## 4. Dampak pendidikan\n\n* Berkurangnya pengaruh Belanda.\n* Bahasa Indonesia semakin luas.\n* Bahasa Jepang diperkenalkan.\n* Pendidikan diarahkan untuk kepentingan Jepang.\n* Muncul pengalaman organisasi dan kepemimpinan.\n\n---\n\n## 5. Dampak militer\n\nIni merupakan salah satu dampak jangka panjang yang penting.\n\nPemuda Indonesia memperoleh pengalaman:\n\n* disiplin,\n* strategi dasar,\n* organisasi,\n* kepemimpinan,\n* penggunaan senjata,\n* latihan militer.\n\nPengalaman tersebut kemudian berguna dalam perjuangan mempertahankan kemerdekaan."
-          },
-          {
-            heading: "42. PARADOKS PENDUDUKAN JEPANG",
-            content: "Pendudukan Jepang memberikan dua wajah yang perlu dipahami secara bersamaan.\n\n### Sisi pertama: penderitaan\n\nRakyat mengalami:\n\n* romusha,\n* kekurangan pangan,\n* eksploitasi,\n* kekerasan,\n* pembatasan kebebasan.\n\n### Sisi kedua: munculnya pengalaman baru\n\nSebagian masyarakat memperoleh:\n\n* pengalaman organisasi,\n* pengalaman politik,\n* pengalaman militer,\n* penggunaan bahasa Indonesia yang semakin luas,\n* jaringan antardaerah,\n* pengalaman pemerintahan.\n\nOleh karena itu, kesimpulan yang terlalu sederhana seperti:\n\n> \"Pendudukan Jepang hanya membawa penderitaan\"\n\natau:\n\n> \"Jepang membantu Indonesia merdeka\"\n\nkeduanya kurang tepat.\n\nSejarah harus melihat **kompleksitas dan hubungan sebab-akibat**."
-          },
-          {
-            heading: "43. KESIMPULAN MATERI",
-            content: "Pendudukan Jepang di Indonesia berlangsung antara **1942–1945** dalam konteks Perang Dunia II.\n\nJepang menduduki Indonesia karena memiliki kepentingan strategis dan ekonomi, terutama terhadap sumber daya alam, minyak bumi, pangan, tenaga kerja, dan posisi geografis Indonesia.\n\nSetelah mengalahkan Belanda pada 1942, Jepang membangun pemerintahan militer dan menerapkan berbagai kebijakan untuk mendukung kepentingan perang.\n\nRakyat mengalami penderitaan akibat:\n\n* eksploitasi ekonomi,\n* romusha,\n* kekurangan pangan,\n* pembatasan kebebasan,\n* mobilisasi,\n* serta kontrol politik.\n\nNamun bangsa Indonesia tidak hanya menjadi korban pasif. Mereka menggunakan berbagai strategi:\n\n**bekerja sama → memanfaatkan organisasi → membangun jaringan → bergerak di bawah tanah → melakukan perlawanan.**\n\nJepang kemudian semakin terdesak dalam Perang Dunia II. Untuk mempertahankan dukungan rakyat Indonesia, Jepang memberikan ruang politik yang akhirnya menghasilkan BPUPKI dan PPKI.\n\nKetika Jepang menyerah pada Agustus 1945, bangsa Indonesia memanfaatkan situasi tersebut untuk mempercepat proses kemerdekaan.\n\nAkhirnya, pada **17 Agustus 1945**, Indonesia memproklamasikan kemerdekaannya.\n\nDengan demikian, pendudukan Jepang merupakan periode yang penuh paradoks: **sangat menindas dalam kehidupan rakyat, tetapi pada saat yang sama memberikan sejumlah pengalaman politik, organisasi, dan militer yang kemudian menjadi bagian dari modal perjuangan Indonesia.**"
-          },
-          {
-            heading: "44. INTI PEMAHAMAN PESERTA DIDIK",
-            content: "Setelah menyelesaikan bab ini, peserta didik idealnya tidak hanya mampu menjawab:\n\n> **\"Kapan Jepang datang ke Indonesia?\"**\n\ntetapi mampu menjelaskan:\n\n> **\"Mengapa Jepang datang?\"**\n\n> **\"Bagaimana Jepang mempertahankan kekuasaannya?\"**\n\n> **\"Mengapa rakyat Indonesia akhirnya menolak Jepang?\"**\n\n> **\"Mengapa sebagian tokoh memilih bekerja sama?\"**\n\n> **\"Bagaimana rakyat melakukan perlawanan?\"**\n\n> **\"Mengapa pengalaman masa Jepang penting bagi Indonesia setelah 1945?\"**\n\nDan pertanyaan paling penting:\n\n> ### **\"Sejauh mana pendudukan Jepang berpengaruh terhadap lahirnya Indonesia merdeka?\"**\n\nPertanyaan terakhir dapat menjadi **benang merah pembelajaran** sekaligus dasar untuk asesmen HOTS karena siswa harus menghubungkan **sebab, proses, strategi, dampak, dan perubahan sejarah**, bukan sekadar menghafalkan tanggal dan nama tokoh."
-          }
+        "subtopics": [
+                {
+                        "heading": "1. TUJUAN PEMBELAJARAN",
+                        "content": "Pendudukan Jepang merupakan masa ketika wilayah Indonesia berada di bawah kekuasaan militer Jepang selama Perang Dunia II. Periode ini berlangsung relatif singkat, sekitar tiga setengah tahun, tetapi membawa perubahan besar terhadap pemerintahan, perekonomian, pendidikan, kehidupan sosial, dan perjuangan kemerdekaan Indonesia.\n\nUntuk memahami masa ini, siswa perlu melihat hubungan antara kepentingan perang Jepang, kebijakan yang diterapkan, pengalaman rakyat, dan tindakan para pejuang Indonesia. Pergantian kekuasaan dari Belanda kepada Jepang tidak membuat Indonesia langsung merdeka. Rakyat menghadapi bentuk penjajahan baru, sekaligus berusaha memanfaatkan keadaan untuk memperjuangkan kemerdekaan.\n\nMateri berikut disusun dengan bahasa yang dapat dipahami siswa SMA/SMK. Pembahasannya menekankan kronologi, sebab-akibat, perubahan dan keberlanjutan, serta penilaian kritis terhadap sumber sejarah.\n\n## Tujuan Pembelajaran\nSetelah mempelajari materi ini, siswa diharapkan mampu:\n* Menjelaskan hubungan ekspansi Jepang dengan Perang Dunia II dan pendudukan Indonesia.\n* Menguraikan proses masuknya Jepang hingga menyerahnya pemerintah Hindia Belanda.\n* Menganalisis tujuan dan pelaksanaan kebijakan Jepang dalam berbagai bidang.\n* Membandingkan propaganda Jepang dengan kenyataan kehidupan masyarakat.\n* Menjelaskan beragam strategi perjuangan bangsa Indonesia.\n* Menganalisis hubungan pendudukan Jepang dengan proses menuju kemerdekaan.\n* Menggunakan sumber sejarah secara kritis dan menghargai pengalaman para korban."
+                },
+                {
+                        "heading": "2. LATAR BELAKANG: JEPANG MENJADI NEGARA INDUSTRI DAN KEKUATAN IMPERIALIS",
+                        "content": "## a. Modernisasi sejak Restorasi Meiji\nRestorasi Meiji yang dimulai pada 1868 menjadi titik penting dalam perubahan Jepang. Pemerintah memperkuat kekuasaan pusat serta mengembangkan pendidikan, industri, transportasi, dan angkatan perang. Jepang mempelajari ilmu pengetahuan dan teknologi dari negara-negara Barat untuk meningkatkan kekuatannya.\n\nPerkembangan industri meningkatkan kebutuhan akan bahan mentah, bahan bakar, dan pasar. Industri dan militer memerlukan minyak bumi, batu bara, besi, serta berbagai sumber daya lainnya. Kebutuhan ini ikut mendorong perluasan pengaruh Jepang ke luar negeri.\n\nNamun, kebutuhan ekonomi saja tidak menjelaskan imperialisme Jepang. Ambisi kekuasaan, persaingan antarnegara, serta besarnya pengaruh militer dalam pemerintahan juga berperan penting.\n\n## b. Imperialisme dan militerisme Jepang\nImperialisme adalah usaha suatu negara untuk menguasai wilayah atau kehidupan bangsa lain demi kepentingannya sendiri. Militerisme merupakan keadaan ketika nilai, kepentingan, dan pengaruh militer sangat dominan dalam kehidupan negara.\n\nJepang memperluas kekuasaannya melalui beberapa tahapan. Kemenangan dalam perang melawan Tiongkok pada 1894–1895 dan Rusia pada 1904–1905 memperkuat kedudukannya. Jepang kemudian menganeksasi Korea pada 1910, menduduki Manchuria pada 1931, dan memperluas perang di Tiongkok sejak 1937.\n\nPerkembangan ini menunjukkan bahwa sebelum datang ke Indonesia, Jepang telah menjalankan ekspansi di Asia. Citra Jepang sebagai bangsa Asia yang maju berjalan bersamaan dengan praktik penjajahan terhadap bangsa-bangsa lain.\n\n## c. Gagasan Asia Timur Raya\nJepang menawarkan gagasan “Kemakmuran Bersama Asia Timur Raya”. Melalui gagasan tersebut, Jepang mengaku ingin membebaskan bangsa-bangsa Asia dari penjajahan Barat dan membangun kemakmuran bersama.\n\nKenyataannya, Jepang menempatkan dirinya sebagai pemimpin dan pengendali. Sumber daya wilayah yang diduduki diarahkan untuk mendukung kepentingan Jepang.\n\nDalam propaganda Jepang juga dikenal istilah **Hakko Ichiu**, yang digunakan untuk membenarkan gagasan penyatuan dunia di bawah kepemimpinan kekaisaran Jepang. Dalam pembelajaran sejarah, gagasan ini perlu dipahami sebagai bagian dari pembenaran ideologis terhadap ekspansi."
+                },
+                {
+                        "heading": "3. HUBUNGAN PERANG DUNIA II DENGAN KEDATANGAN JEPANG",
+                        "content": "## a. Perang di Asia dan Pasifik\nPerang Dunia II di Eropa dimulai pada 1939. Sementara itu, perang Jepang di Tiongkok telah berlangsung sebelumnya. Konflik-konflik tersebut kemudian terhubung menjadi perang yang melibatkan banyak wilayah dunia.\n\nPada 7 Desember 1941 waktu Hawaii, atau 8 Desember di sebagian wilayah Asia, Jepang menyerang pangkalan Amerika Serikat di Pearl Harbor. Jepang juga melancarkan serangan ke berbagai wilayah Asia Tenggara dan Pasifik.\n\nJepang berusaha melumpuhkan kekuatan lawan agar dapat menguasai wilayah yang memiliki sumber daya penting. Indonesia, yang saat itu bernama Hindia Belanda, menjadi salah satu sasaran utama.\n\n## b. Mengapa Indonesia menjadi sasaran?\nIndonesia memiliki beberapa nilai penting bagi Jepang:\n\n* **Pertama, sumber minyak bumi**: Indonesia menghasilkan minyak bumi, terutama dari wilayah seperti Tarakan, Balikpapan, dan Palembang. Minyak sangat dibutuhkan untuk menggerakkan kapal, pesawat, kendaraan, dan industri perang.\n* **Kedua, bahan mentah dan hasil pertanian**: Indonesia memiliki bahan mentah seperti karet, timah, serta bahan pangan. Semua itu diperlukan untuk mempertahankan kegiatan ekonomi dan militer.\n* **Ketiga, letak geografis strategis**: Indonesia mempunyai letak strategis di antara Samudra Hindia dan Samudra Pasifik serta dekat dengan jalur menuju Australia.\n* **Keempat, potensi penduduk**: Penduduk Indonesia yang besar dipandang sebagai sumber tenaga kerja dan tenaga pendukung militer.\n\nDengan demikian, kedatangan Jepang berkaitan erat dengan upaya menguasai sumber daya dan memenangkan perang."
+                },
+                {
+                        "heading": "4. PROSES MASUK DAN BERKEMBANGNYA KEKUASAAN JEPANG",
+                        "content": "## a. Serangan ke wilayah penghasil sumber daya\nPada Januari 1942, Jepang mulai menyerang wilayah Hindia Belanda. Pendaratan di Tarakan pada 11 Januari 1942 merupakan salah satu langkah awal yang penting. Tarakan menjadi sasaran karena memiliki fasilitas minyak bumi.\n\nPasukan Jepang kemudian bergerak menguasai berbagai daerah di Kalimantan, Sulawesi, Maluku, dan Sumatra. Palembang menjadi sasaran penting karena memiliki lapangan minyak dan kilang.\n\nUrutan serangan tersebut memperlihatkan bahwa Jepang memperhitungkan nilai ekonomi dan militer setiap wilayah.\n\n## b. Lemahnya pertahanan Hindia Belanda\nBelanda menghadapi situasi sulit karena wilayah negaranya di Eropa telah diduduki Jerman sejak 1940. Di Asia Tenggara, pasukan Sekutu berusaha mengoordinasikan pertahanan melalui komando gabungan yang dikenal sebagai **ABDACOM**, melibatkan Amerika Serikat, Inggris, Belanda, dan Australia.\n\nNamun, koordinasi yang terbatas, keunggulan operasi Jepang, dan kekalahan di sejumlah pertempuran membuat pertahanan Sekutu melemah. Kekalahan dalam Pertempuran Laut Jawa pada akhir Februari 1942 membuka jalan bagi pendaratan Jepang di Jawa.\n\n## c. Pendaratan di Pulau Jawa\nPada 1 Maret 1942, tentara Jepang mendarat di beberapa tempat di Jawa, termasuk Teluk Banten, Eretan Wetan di wilayah Indramayu, dan Kragan di wilayah Rembang.\n\nPendaratan dari beberapa arah mempersulit pertahanan Belanda. Jepang kemudian bergerak menuju pusat pemerintahan, jalur transportasi, dan kedudukan militer penting.\n\n## d. Kapitulasi Kalijati\nPada 8 Maret 1942 berlangsung penyerahan tanpa syarat pihak militer Hindia Belanda kepada Jepang di Kalijati, Subang, Jawa Barat. Tokoh penting dalam penyerahan tersebut adalah Letnan Jenderal H. ter Poorten dari pihak Hindia Belanda dan Letnan Jenderal Hitoshi Imamura dari pihak Jepang.\n\nPeristiwa ini biasa disebut **Kapitulasi Kalijati**. Peristiwa tersebut menjadi penanda utama runtuhnya kekuasaan Hindia Belanda dan dimulainya pendudukan Jepang, meskipun penguasaan serta perlawanan di berbagai wilayah tidak berlangsung serentak. [Sumber: Balai Pelestarian Cagar Budaya Sumatera Barat](https://kebudayaan.kemdikbud.go.id/bpcbsumbar/bangunan-pertahanan-jepang-di-sumatera-barat/).\n\nIstilah kapitulasi berarti penyerahan. Bagi masyarakat Indonesia, peristiwa ini merupakan pergantian penguasa kolonial, bukan penyerahan kemerdekaan."
+                },
+                {
+                        "heading": "5. SAMBUTAN MASYARAKAT DAN PROPAGANDA JEPANG",
+                        "content": "## a. Mengapa sebagian masyarakat menyambut Jepang?\nSebagian masyarakat pada awalnya berharap Jepang dapat mengakhiri penjajahan Belanda. Harapan tersebut dipengaruhi oleh penderitaan pada masa kolonial, keberhasilan Jepang mengalahkan kekuatan Barat, serta propaganda bahwa Jepang merupakan “saudara tua” bangsa Indonesia.\n\nJepang juga mendekati tokoh-tokoh nasionalis dan memanfaatkan simbol serta bahasa yang dapat menarik simpati rakyat.\n\nNamun, sambutan masyarakat tidak seragam. Ada yang berharap, ada yang berhati-hati, dan ada pula yang menentang. Pengalaman masyarakat dipengaruhi oleh keadaan daerah, informasi yang diterima, dan tindakan tentara pendudukan.\n\n## b. Cara kerja propaganda\nPropaganda merupakan penyampaian pesan secara terencana untuk memengaruhi pandangan dan tindakan masyarakat. Pesan propaganda dapat menyembunyikan fakta, memilih informasi tertentu, atau membentuk citra penguasa.\n\nJepang menyebarkan propaganda melalui radio, surat kabar, poster, film, pertunjukan, sekolah, dan pidato tokoh masyarakat. Jepang digambarkan sebagai pembebas dan pelindung Asia, sementara perang Jepang ditampilkan sebagai perjuangan bersama bangsa-bangsa Asia.\n\nSiswa dapat menilai propaganda dengan bertanya:\n* Siapa yang membuat pesan?\n* Apa tujuan pembuatnya?\n* Fakta apa yang ditampilkan, dan pengalaman siapa yang tidak diceritakan?\n\n## c. Gerakan Tiga A\nGerakan Tiga A dibentuk pada 1942 dengan tiga semboyan:\n* **Nippon Cahaya Asia**\n* **Nippon Pelindung Asia**\n* **Nippon Pemimpin Asia**\n\nTokoh Indonesia yang dikaitkan dengan kepemimpinannya adalah **Mr. Syamsuddin**.\n\nGerakan ini bertujuan membangun dukungan masyarakat kepada Jepang. Pengaruhnya terbatas karena terlalu menonjolkan kepentingan Jepang dan tidak mampu menjawab kebutuhan rakyat. Jepang kemudian mengembangkan bentuk mobilisasi lain yang melibatkan tokoh nasional lebih luas."
+                },
+                {
+                        "heading": "6. PEMERINTAHAN MILITER DAN PENGENDALIAN POLITIK",
+                        "content": "## a. Pembagian wilayah pemerintahan\nPemerintahan Jepang di Indonesia bersifat militer. Wilayah bekas Hindia Belanda tidak dikelola sebagai satu pemerintahan sipil yang seragam.\n\n| Wilayah Utama | Penguasa Militer | Pusat Pemerintahan / Kedudukan Penting |\n| --- | --- | --- |\n| Jawa dan Madura | Angkatan Darat, Tentara ke-16 | Jakarta |\n| Sumatra | Angkatan Darat, Tentara ke-25 | Pada awalnya terhubung dengan komando di Singapura; kemudian berpusat di Bukittinggi |\n| Kalimantan dan sebagian besar kawasan timur (Sulawesi, Nusa Tenggara, Maluku, Papua) | Angkatan Laut Jepang (Kaigun) | Makassar menjadi pusat administrasi penting |\n\nPembagian ini merupakan gambaran umum. Susunan komando dan cakupan penguasaan mengalami perkembangan selama perang. Pemindahan markas Tentara ke-25 ke Bukittinggi pada 1943 berkaitan dengan penataan pemerintahan Sumatra dan kebutuhan pertahanan Jepang. [Sumber: kajian BPCB tentang pemerintahan dan pertahanan Jepang di Sumatra](https://kebudayaan.kemdikbud.go.id/bpcbsumbar/bangunan-pertahanan-jepang-di-sumatera-barat/).\n\nPerbedaan penguasa militer tersebut menyebabkan kebijakan dan pengalaman pendudukan tidak selalu sama. Organisasi yang berkembang di Jawa, misalnya, tidak dapat dianggap otomatis berlaku dengan bentuk yang sama di seluruh Indonesia.\n\n## b. Pemanfaatan birokrasi lokal\nJepang mempertahankan sebagian pegawai dan perangkat pemerintahan lokal agar administrasi tetap berjalan. Bupati, pejabat daerah, dan kepala desa menjadi penghubung antara penguasa militer dan masyarakat.\n\nDi Jawa, digunakan istilah administratif:\n* **Syu** untuk karesidenan\n* **Ken** untuk kabupaten\n* **Gun** untuk kewedanaan\n* **Son** untuk kecamatan\n* **Ku** untuk desa\n\nSebagian orang Indonesia memperoleh tanggung jawab administratif yang lebih luas setelah banyak pejabat Belanda disingkirkan. Akan tetapi, keputusan utama tetap berada di tangan Jepang.\n\n## c. Pembatasan kegiatan politik\nJepang membatasi atau membubarkan banyak organisasi politik yang telah ada. Perkumpulan, pertemuan, dan penyebaran informasi diawasi. Kegiatan yang dianggap mengancam kekuasaan Jepang dapat ditindak.\n\nKarena itu, adanya tokoh Indonesia dalam organisasi resmi tidak berarti masyarakat telah memperoleh kebebasan politik.\n\n## d. Kempeitai\nKempeitai merupakan polisi militer Jepang yang berperan dalam pengawasan dan penindakan. Keberadaannya menciptakan suasana takut karena masyarakat dapat dicurigai melakukan kegiatan anti-Jepang.\n\nPengawasan semacam ini membuat perjuangan terbuka sangat berisiko dan mendorong sebagian aktivis bergerak secara rahasia.\n\n## e. Tonarigumi\nJepang membentuk kelompok lingkungan yang dikenal sebagai **tonarigumi**. Kelompok ini menjadi sarana penyampaian perintah, pengawasan penduduk, pengumpulan kebutuhan perang, dan pengerahan tenaga.\n\nTonarigumi sering dikaitkan dengan sejarah perkembangan rukun tetangga. Namun, fungsi dan konteksnya berbeda: pada masa Jepang, pengorganisasian lingkungan sangat terkait dengan pengendalian masyarakat untuk kepentingan perang."
+                },
+                {
+                        "heading": "7. ORGANISASI PROPAGANDA, SOSIAL, DAN KEAGAMAAN",
+                        "content": "## a. Pusat Tenaga Rakyat atau Putera\nPutera dibentuk pada 1943 dan dipimpin oleh Empat Serangkai:\n* **Ir. Sukarno**\n* **Drs. Mohammad Hatta**\n* **Ki Hajar Dewantara**\n* **K.H. Mas Mansur**\n\nJepang berharap pengaruh keempat tokoh tersebut dapat menggerakkan rakyat untuk membantu perang. Para pemimpin Indonesia berusaha memanfaatkan ruang yang tersedia untuk membangun kesadaran kebangsaan dan memperluas hubungan dengan masyarakat.\n\nDi sinilah terlihat perbedaan kepentingan. Jepang menginginkan dukungan terhadap pendudukan, sedangkan tokoh nasionalis berusaha membuka peluang bagi perjuangan Indonesia.\n\nPutera kemudian dibubarkan. Jepang menilai organisasi ini tidak cukup efektif untuk mengerahkan masyarakat sesuai kebutuhannya.\n\n## b. Jawa Hokokai\nJawa Hokokai atau Himpunan Kebaktian Jawa dibentuk pada 1944. Pengawasannya lebih langsung berada di tangan pemerintah militer Jepang.\n\nOrganisasi ini mengerahkan masyarakat untuk menyumbangkan tenaga, bahan pangan, uang, dan barang bagi kepentingan perang. Jaringannya menjangkau pemerintahan daerah hingga lingkungan masyarakat.\n\nPerubahan dari Putera menuju Jawa Hokokai menunjukkan meningkatnya kebutuhan Jepang untuk mengendalikan mobilisasi rakyat ketika posisi militernya semakin sulit.\n\n## c. Chuo Sangi In\nChuo Sangi In merupakan badan pertimbangan pusat yang dibentuk pada 1943 di Jawa. Sukarno menjadi ketuanya.\n\nBadan ini memberi pertimbangan atau jawaban atas persoalan yang diajukan pemerintah militer. Kewenangannya terbatas dan tidak dapat disamakan dengan parlemen dalam negara merdeka.\n\n## d. MIAI dan Masyumi\nMajelis Islam A’la Indonesia atau MIAI telah berdiri sebelum pendudukan Jepang. Pada awal pendudukan, organisasi ini masih diizinkan menjalankan kegiatan tertentu.\n\nJepang menyadari bahwa ulama dan organisasi Islam memiliki pengaruh kuat. Karena itu, Jepang berusaha mendekati sekaligus mengendalikan kegiatan umat Islam.\n\nPada 1943, MIAI dibubarkan dan digantikan oleh **Majelis Syuro Muslimin Indonesia (Masyumi)**. Organisasi ini menjadi wadah penting yang melibatkan unsur organisasi Islam, termasuk Nahdlatul Ulama dan Muhammadiyah.\n\nMasyumi masa pendudukan Jepang perlu dibedakan dari Partai Masyumi yang dibentuk setelah kemerdekaan pada November 1945. Ada hubungan tokoh dan jaringan, tetapi konteks pembentukan dan kedudukannya berbeda.\n\n## e. Fujinkai\nFujinkai merupakan organisasi perempuan bentukan Jepang. Kegiatannya mencakup pengumpulan bantuan, kegiatan sosial, kesehatan, produksi kebutuhan tertentu, dan dukungan terhadap kepentingan perang.\n\nOrganisasi ini memberi sebagian perempuan pengalaman berorganisasi, tetapi tetap berada dalam pengawasan pendudukan. Pengalaman perempuan pada masa Jepang juga jauh lebih luas daripada kegiatan organisasi resmi: banyak yang harus menjaga keluarga dan mencari nafkah di tengah kelangkaan."
+                },
+                {
+                        "heading": "8. ORGANISASI SEMIMILITER DAN MILITER",
+                        "content": "Ketika perang berlanjut, Jepang membutuhkan semakin banyak tenaga. Pemuda dan masyarakat dilatih melalui berbagai organisasi.\n\n## a. Organisasi semimiliter\nOrganisasi semimiliter memberikan latihan kedisiplinan dan keterampilan dasar untuk mendukung pertahanan serta mobilisasi, tetapi kedudukannya tidak sama dengan kesatuan tentara reguler.\n\n| Organisasi | Fungsi Utama |\n| --- | --- |\n| Seinendan | Melatih dan mengorganisasi pemuda agar dapat membantu kepentingan pertahanan Jepang |\n| Keibodan | Membantu tugas kepolisian, seperti penjagaan dan ketertiban |\n| Suishintai (Barisan Pelopor) | Menggerakkan masyarakat dan memperkuat kesiapan serta dukungan terhadap mobilisasi perang |\n| Hizbullah | Memberikan latihan kepada pemuda Islam; berkembang menjelang akhir pendudukan |\n\nBentuk kegiatan dan jangkauan masing-masing organisasi dipengaruhi oleh wilayah serta waktu pembentukannya.\n\n## b. Heiho\nHeiho dibentuk pada 1943 sebagai pasukan pembantu yang menjadi bagian dari struktur militer Jepang. Anggotanya direkrut dari penduduk Indonesia.\n\nTugasnya meliputi penjagaan, pekerjaan pendukung militer, dan keterlibatan dalam operasi perang. Sebagian anggota dikirim ke luar Indonesia.\n\nKedudukan anggota Indonesia tidak setara dengan tentara Jepang. Mereka menghadapi diskriminasi dan risiko besar dalam tugas.\n\n## c. Pembela Tanah Air atau PETA\nPETA dibentuk pada 3 Oktober 1943 di Jawa berdasarkan peraturan pemerintah militer Jepang. Kesatuan pertahanan lokal juga dibentuk di Bali dalam lingkungan kekuasaan yang berbeda.\n\nTujuan Jepang adalah menyiapkan pasukan untuk membantu menghadapi kemungkinan serangan Sekutu. PETA memberi kesempatan kepada orang Indonesia untuk mengikuti pendidikan militer dan mengisi jabatan komando tertentu, meskipun tetap berada di bawah pengawasan Jepang.\n\nDi Sumatra berkembang kesatuan sukarela yang dikenal sebagai **Giyugun**. Organisasi ini memiliki kesamaan fungsi pertahanan lokal, tetapi tidak berada dalam struktur PETA Jawa.\n\n## d. Perbedaan Heiho dan PETA\n\n| Aspek | Heiho | PETA |\n| --- | --- | --- |\n| Kedudukan | Melekat pada struktur kesatuan militer Jepang | Kesatuan pertahanan lokal di bawah pengawasan Jepang |\n| Tugas | Membantu kegiatan dan operasi militer Jepang | Terutama dipersiapkan untuk pertahanan wilayah |\n| Kepemimpinan orang Indonesia | Kesempatan sangat terbatas | Terdapat jabatan komando bagi orang Indonesia |\n| Penempatan | Dapat dikirim ke luar Indonesia | Umumnya terkait wilayah pertahanan setempat |\n\nPengalaman militer pada masa Jepang kemudian dimanfaatkan sebagian pemuda dalam perjuangan kemerdekaan. Namun, PETA bukan TNI yang sudah berdiri sebelum proklamasi. Pembentukan angkatan bersenjata Indonesia setelah kemerdekaan melibatkan mantan PETA, Heiho, KNIL, laskar, dan unsur masyarakat lainnya."
+                },
+                {
+                        "heading": "9. KEBIJAKAN EKONOMI: SELURUH KEGIATAN DIARAHKAN UNTUK PERANG",
+                        "content": "## a. Ekonomi perang\nEkonomi perang berarti kegiatan produksi, distribusi, dan penggunaan sumber daya diarahkan terutama untuk memenuhi kebutuhan militer.\n\nJepang mengambil alih perusahaan dan aset penting, mengendalikan perdagangan, serta menentukan prioritas produksi. Sumber daya yang tersedia tidak terutama digunakan untuk meningkatkan kesejahteraan masyarakat Indonesia.\n\nPerang juga merusak jaringan pengangkutan dan perdagangan. Karena itu, kesulitan ekonomi muncul dari gabungan eksploitasi pemerintah pendudukan, gangguan distribusi, dan kerusakan akibat perang.\n\n## b. Sistem autarki\nAutarki adalah usaha memenuhi kebutuhan sendiri. Dalam konteks pendudukan Jepang, daerah didorong atau diwajibkan memenuhi kebutuhan lokal dan menopang kebutuhan tentara.\n\nPelaksanaannya menimbulkan masalah karena kemampuan setiap daerah berbeda. Ketika hubungan perdagangan antardaerah terganggu, wilayah yang kekurangan pangan sulit memperoleh pasokan.\n\n## c. Penyerahan wajib hasil pertanian\nPetani diwajibkan menyerahkan sebagian hasil panen melalui mekanisme yang dikendalikan pemerintah. Pengumpulan dilakukan dengan melibatkan aparat hingga tingkat desa.\n\nKebijakan ini dapat mengurangi persediaan pangan keluarga petani. Tekanan semakin berat ketika hasil panen menurun, harga tidak menguntungkan, atau target penyerahan terlalu tinggi.\n\nBesarnya beban dan cara pelaksanaan berbeda menurut daerah serta periode. Oleh karena itu, satu angka penyerahan hasil panen tidak sebaiknya dianggap berlaku seragam di seluruh Indonesia.\n\n## d. Penanaman tanaman untuk perang\nJepang mendorong penanaman tanaman tertentu, termasuk pohon jarak, yang minyaknya dimanfaatkan bagi kebutuhan teknis pelumas mesin dan industri perang.\n\nPerubahan penggunaan lahan serta pengerahan tenaga dapat mengganggu kegiatan pertanian yang sebelumnya menopang kehidupan masyarakat.\n\n## e. Kelangkaan barang dan inflasi\nBahan makanan, pakaian, obat-obatan, dan berbagai kebutuhan menjadi sulit diperoleh. Peredaran uang yang tidak seimbang dengan ketersediaan barang turut memperburuk kenaikan harga (inflasi).\n\nSebagian masyarakat menggunakan bahan pengganti untuk pakaian (seperti karung goni atau kulit kayu) dan kebutuhan sehari-hari. Pasar gelap berkembang ketika distribusi resmi tidak mampu memenuhi kebutuhan.\n\nUntuk memahami keadaan ini, bayangkan sebuah wilayah pertanian yang hasil panennya harus diserahkan, tenaga kerjanya berkurang karena pengerahan, dan jalur pengirimannya terganggu perang. Meskipun menghasilkan pangan, penduduknya tetap dapat mengalami kekurangan makanan."
+                },
+                {
+                        "heading": "10. ROMUSHA DAN KEHIDUPAN SOSIAL MASYARAKAT",
+                        "content": "## a. Pengertian romusha\nSecara harfiah, romusha berarti pekerja atau buruh. Dalam sejarah pendudukan Jepang di Indonesia, istilah ini terutama merujuk pada pengerahan tenaga kerja yang sering berlangsung melalui tekanan dan paksaan.\n\nPada sebagian tahap perekrutan, masyarakat dibujuk dengan janji upah, makanan, atau penghidupan yang lebih baik. Dalam pelaksanaannya, banyak pekerja kehilangan kebebasan untuk menolak atau meninggalkan pekerjaan.\n\nKarena itu, romusha tidak tepat dipahami sebagai pekerjaan sukarela biasa.\n\n## b. Pekerjaan dan penempatan\nPara pekerja dikerahkan untuk membangun atau memelihara jalan, rel kereta api, lapangan udara, pertambangan, gudang, terowongan, serta fasilitas pertahanan.\n\nPengerahan berlangsung di dalam Indonesia maupun ke luar negeri (seperti ke Burma, Siam/Thailand, Malaya, dan Vietnam). Di Sumatra, pembangunan fasilitas pertahanan Jepang juga berkaitan dengan kebutuhan tenaga kerja penduduk. [Sumber: BPCB Sumatera Barat, bangunan pertahanan Jepang](https://kebudayaan.kemdikbud.go.id/bpcbsumbar/bangunan-pertahanan-jepang-di-sumatera-barat/).\n\n## c. Dampak terhadap pekerja dan keluarga\nBanyak pekerja mengalami kekurangan makanan, penyakit, kelelahan, dan terbatasnya perawatan kesehatan. Banyak yang meninggal atau tidak kembali kepada keluarganya.\n\nDi desa, pengerahan tenaga mengurangi jumlah orang yang mengolah lahan. Keluarga kehilangan pencari nafkah dan harus menghadapi ketidakpastian mengenai nasib anggota keluarganya.\n\nPerempuan, anak-anak, dan orang lanjut usia sering menanggung tambahan pekerjaan. Dengan demikian, dampak romusha meluas ke kehidupan ekonomi dan sosial seluruh keluarga.\n\nJumlah korban perlu dibahas dengan hati-hati karena catatan tidak lengkap dan perkiraan sejarawan dapat berbeda. Ketidakpastian angka tidak mengurangi kenyataan bahwa pengerahan tenaga ini menimbulkan penderitaan luas.\n\n## d. Perempuan sebagai korban pendudukan\nSebagian perempuan menjadi korban pemaksaan dan perbudakan seksual oleh militer Jepang. Dalam sejumlah sumber, mereka disebut jugun ianfu, istilah yang dapat menutupi kenyataan kekerasan dan hilangnya kebebasan korban.\n\nPembahasan sejarah perlu menggunakan bahasa yang menghormati korban, tidak menyalahkan mereka, serta menempatkan pengalaman mereka sebagai bagian penting dari sejarah pendudukan.\n\n## e. Kelompok masyarakat mengalami pendudukan secara berbeda\n* **Petani**: Menghadapi tuntutan penyerahan hasil panen dan kekurangan pangan.\n* **Pekerja**: Menghadapi pengerahan tenaga kerja paksa dan kondisi kerja berat.\n* **Pedagang**: Menghadapi kelangkaan pasokan barang dan pengawasan ketat.\n* **Pelajar**: Menghadapi perubahan sistem pendidikan dan latihan kemiliteran.\n* **Warga Eropa**: Banyak mengalami penahanan di kamp interniran.\n* **Masyarakat Tionghoa**: Di sejumlah wilayah menghadapi tekanan dan kekerasan yang juga berkaitan dengan perang Jepang di Tiongkok.\n\nPerbedaan pengalaman tersebut menunjukkan bahwa sejarah pendudukan tidak hanya berisi tindakan pemerintah dan tokoh besar. Kehidupan masyarakat biasa merupakan bagian utama dari sejarahnya."
+                },
+                {
+                        "heading": "11. PENDIDIKAN, BAHASA, KEBUDAYAAN, DAN AGAMA",
+                        "content": "## a. Perubahan pendidikan\nJepang mengurangi pengaruh Belanda dalam pendidikan. Bahasa Belanda disingkirkan, sedangkan bahasa Indonesia semakin digunakan. Bahasa Jepang juga diajarkan.\n\nSebagian pemisahan sekolah berdasarkan golongan sosial-rasial pada masa Belanda diubah. Namun, perubahan susunan sekolah tidak berarti pendidikan otomatis membaik. Perang, kemiskinan, kekurangan guru, dan keterbatasan sarana menghambat kegiatan belajar.\n\n## b. Pendidikan untuk kepentingan pendudukan\nSiswa mengikuti latihan fisik, kedisiplinan, kerja bakti (kinrohoshi), serta kegiatan yang menanamkan kepatuhan kepada Jepang. Pendidikan diarahkan untuk membentuk tenaga yang berguna bagi perang.\n\nHal ini memperlihatkan bahwa sekolah dapat digunakan oleh penguasa sebagai sarana membentuk pandangan dan perilaku masyarakat.\n\n## c. Perkembangan bahasa Indonesia\nBerkurangnya penggunaan bahasa Belanda memperluas ruang bagi bahasa Indonesia dalam pendidikan, administrasi birokrasi, dan komunikasi antarwarga.\n\nPerkembangan bahasa Indonesia telah berlangsung sebelum Jepang datang, termasuk melalui pergerakan nasional dan Sumpah Pemuda 1928. Pendudukan Jepang memperkuat sebagian proses tersebut, bukan memulainya dari nol.\n\n## d. Pengawasan kebudayaan\nJepang mengawasi surat kabar, karya sastra, film, musik, dan pertunjukan rakyat. Seniman diarahkan menghasilkan karya yang mendukung semangat perang.\n\n**Keimin Bunka Shidosho** merupakan lembaga pusat kebudayaan bentukan Jepang yang berkaitan dengan pengarahan kegiatan kebudayaan pada masa pendudukan. Di tengah pengawasan ketat itu, sebagian seniman berusaha mempertahankan gagasan kemanusiaan dan kebangsaan.\n\n## e. Seikerei dan persoalan keagamaan\nSeikerei merupakan penghormatan dengan membungkukkan badan ke arah istana kaisar Jepang. Dalam pemerintahan militer, praktik ini menjadi bagian dari penanaman kesetiaan kepada kaisar.\n\nSebagian umat Islam menolaknya karena memandang praktik tersebut bertentangan dengan keyakinan agama (tauhid). Persoalan ini menunjukkan bagaimana tuntutan politik pendudukan dapat berbenturan dengan kebebasan beragama.\n\nJepang juga mendekati ulama dan mengelola urusan agama melalui lembaga seperti **Shumubu** (Kantor Urusan Agama). Pendekatan ini tetap berkaitan dengan kebutuhan memperoleh dukungan masyarakat."
+                },
+                {
+                        "heading": "12. STRATEGI PERJUANGAN BANGSA INDONESIA",
+                        "content": "Respons bangsa Indonesia tidak tunggal. Tokoh nasional, ulama, pemuda, petani, dan kelompok lainnya mengambil langkah berbeda sesuai keadaan.\n\n## a. Perjuangan melalui organisasi resmi\nTokoh seperti Sukarno dan Mohammad Hatta bekerja melalui sebagian lembaga yang diizinkan Jepang. Mereka berusaha menggunakan kesempatan berpidato, berorganisasi, dan berhubungan dengan masyarakat untuk memperkuat kesadaran nasional.\n\nStrategi ini sering disebut **kooperatif** atau taktik bekerja sama. Tujuannya perlu dilihat melalui tindakan konkret dan konteks keterbatasan yang dihadapi.\n\nStrategi tersebut juga mengandung dilema. Keterlibatan tokoh nasional dalam kegiatan mobilisasi Jepang, termasuk propaganda pengerahan tenaga kerja, perlu dikaji secara kritis. Siswa dapat memahami tujuan perjuangan mereka sekaligus menilai dampak tindakan terhadap rakyat.\n\n## b. Gerakan bawah tanah\nGerakan bawah tanah dilakukan secara rahasia karena kegiatan anti-Jepang dilarang keras. Kegiatannya mencakup diskusi politik, pengumpulan informasi perang (melalui siaran radio luar negeri), pemeliharaan jaringan, dan persiapan menghadapi perubahan keadaan.\n\n**Sutan Sjahrir** dikenal menolak fasisme Jepang dan membangun hubungan dengan kelompok pemuda. **Amir Sjarifuddin** juga berkaitan dengan kegiatan jaringan anti-Jepang.\n\nKelompok-kelompok tersebut tidak selalu berada dalam satu organisasi tunggal. Hubungan mereka dengan tokoh yang bergerak melalui lembaga resmi juga tidak dapat disederhanakan sebagai pertentangan mutlak.\n\n## c. Perlawanan terbuka\nPerlawanan terbuka muncul akibat penderitaan, penindasan, pemaksaan keyakinan, pengerahan tenaga, dan penyerahan hasil bumi.\n\n| Peristiwa | Waktu | Tokoh atau Kelompok | Latar Belakang Utama |\n| --- | --- | --- | --- |\n| Perlawanan Cot Plieng, Aceh | 1942 | Tengku Abdul Jalil dan pengikutnya | Penolakan terhadap kekuasaan dan tindakan sewenang-wenang Jepang |\n| Perlawanan Sukamanah, Tasikmalaya | Februari 1944 | K.H. Zainal Mustafa, santri, dan masyarakat | Penolakan terhadap penindasan dan tuntutan Seikerei yang bertentangan dengan keyakinan |\n| Perlawanan di Indramayu | 1944 | Petani dan tokoh setempat | Tekanan penyerahan padi dan kebijakan pendudukan |\n| Perlawanan PETA di Blitar | 14 Februari 1945 | Supriyadi dan sejumlah anggota PETA | Penderitaan rakyat, terutama romusha, serta perlakuan Jepang |\n\nPerlawanan Sukamanah memperlihatkan hubungan antara pembelaan keyakinan, kepemimpinan pesantren, dan penolakan terhadap pendudukan. Sumber sejarah mengenai peristiwa ini memiliki perbedaan dalam beberapa rincian tanggal, sehingga perlu dibandingkan dengan cermat. [Sumber: pembahasan sejarah Sukamanah oleh NU Jawa Barat](https://jabar.nu.or.id/sejarah/kementrian-agama-sukamanah-dan-nu-aigrK).\n\n## d. Perlawanan PETA di Blitar\nPada 14 Februari 1945, sejumlah anggota PETA di Blitar melawan Jepang. **Supriyadi** menjadi tokoh utama yang dikaitkan dengan perlawanan tersebut.\n\nPenderitaan romusha dan tindakan Jepang terhadap rakyat menjadi pendorong penting. Perlawanan ini tidak berhasil menjatuhkan kekuasaan Jepang, dan banyak peserta ditangkap serta diadili.\n\nNasib Supriyadi setelah peristiwa tersebut tidak diketahui secara pasti. Karena itu, dugaan tentang keberadaannya tidak boleh diperlakukan sebagai fakta yang telah terbukti. [Sumber: Ensiklopedia Sejarah Indonesia, “Supriyadi”](https://esi.kemenbud.go.id/wiki/Supriyadi).\n\nMakna peristiwa ini adalah bahwa organisasi bentukan Jepang tidak menjamin kesetiaan seluruh anggotanya. Pengalaman menyaksikan penindasan dapat mendorong anggota organisasi berbalik melawan penguasa.\n\n## e. Kekerasan dan perlawanan di luar Jawa\nPendudukan Jepang juga menimbulkan penindasan dan perlawanan di berbagai wilayah lain. **Peristiwa Mandor** di Kalimantan Barat pada 1943–1944 berkaitan dengan penangkapan dan pembunuhan massal oleh Jepang terhadap berbagai unsur masyarakat (kaum terpelajar, bangsawan, tokoh pergerakan).\n\nPeristiwa ini tidak tepat hanya dipahami sebagai pertempuran bersenjata. Banyak korban merupakan warga dan tokoh masyarakat yang menjadi sasaran kecurigaan serta penindasan pemerintah pendudukan.\n\nMempelajari pengalaman luar Jawa membantu siswa memahami bahwa pendudukan Jepang merupakan sejarah berbagai daerah dengan kondisi yang berbeda."
+                },
+                {
+                        "heading": "13. JEPANG TERDESAK DAN MUNCULNYA JANJI KEMERDEKAAN",
+                        "content": "## a. Perubahan keadaan perang\nSejak 1942, Jepang menghadapi perlawanan Sekutu yang semakin kuat. Pertempuran Midway menjadi salah satu titik penting yang melemahkan kekuatan laut Jepang.\n\nPada tahun-tahun berikutnya, Sekutu merebut wilayah strategis, menyerang jalur pengiriman logistik, dan mendekati pusat pertahanan Jepang. Kekurangan kapal, bahan bakar, serta logistik semakin menyulitkan posisi Jepang.\n\nDi Indonesia, keadaan tersebut mendorong pengerahan sumber daya dan tenaga yang lebih besar. Jepang juga semakin membutuhkan dukungan politik rakyat.\n\n## b. Janji Koiso\nPada 7 September 1944, Perdana Menteri **Kuniaki Koiso** mengumumkan janji bahwa Hindia Timur akan diberi kemerdekaan pada kemudian hari.\n\nJanji ini tidak menetapkan tanggal pasti. Tujuan politiknya adalah mempertahankan dukungan masyarakat ketika posisi Jepang memburuk di medan perang.\n\nBagi pemimpin Indonesia, janji tersebut membuka ruang untuk menuntut langkah yang lebih konkret. Jadi, kepentingan Jepang dan kepentingan perjuangan Indonesia tetap perlu dibedakan."
+                },
+                {
+                        "heading": "14. BPUPK/BPUPKI DAN PERSIAPAN NEGARA MERDEKA",
+                        "content": "## a. Pembentukan badan penyelidik\nJepang mengumumkan rencana pembentukan badan penyelidik persiapan kemerdekaan pada 1 Maret 1945. Proses pembentukan dan penetapan keanggotaannya berlangsung setelah pengumuman tersebut, dan pelantikan dilaksanakan pada 28 Mei 1945.\n\nDalam buku pelajaran, badan ini umum disebut **BPUPKI**, kependekan dari *Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan Indonesia*. Dalam kajian arsip juga digunakan nama **BPUPK** (*Dokuritsu Junbi Cosakai*).\n\nBadan ini diketuai oleh **Dr. Radjiman Wedyodiningrat**. Perlu diperhatikan bahwa badan yang lazim dibahas dalam sejarah perumusan dasar negara dibentuk dalam lingkungan pemerintahan militer Jepang di Jawa; prosesnya tidak boleh dianggap seragam sejak awal di semua wilayah pendudukan.\n\n## b. Sidang pertama (29 Mei–1 Juni 1945)\nSidang pertama berlangsung pada 29 Mei–1 Juni 1945. Pembahasan utamanya berkaitan dengan dasar negara.\n\nPada 1 Juni 1945, Sukarno menyampaikan pidato yang memperkenalkan nama **Pancasila**. Gagasan dasar negara berkembang melalui pembahasan dan kontribusi berbagai anggota sidang (seperti Mohammad Yamin dan Soepomo).\n\n## c. Panitia Sembilan dan Piagam Jakarta\nDi antara dua masa sidang, Panitia Sembilan merumuskan kesepakatan yang dikenal sebagai **Piagam Jakarta** pada 22 Juni 1945. Naskah ini menjadi bagian penting dari proses perumusan Pembukaan UUD 1945.\n\n## d. Sidang kedua (10–17 Juli 1945)\nSidang kedua berlangsung pada 10–17 Juli 1945 dan membahas rancangan undang-undang dasar, bentuk negara, wilayah negara, serta persoalan ketatanegaraan.\n\nProses tersebut menunjukkan bahwa para pemimpin Indonesia menggunakan ruang yang tersedia untuk menyiapkan dasar kehidupan negara. Risalah dan arsip persidangan menjadi sumber penting untuk mempelajari kontribusi para tokoh secara lebih teliti. [Sumber: pameran arsip ANRI tentang lahirnya Pancasila](https://anri.go.id/download/pameran-arsip-virtual-lahirnya-pancasila-1590913496).\n\n## e. Pembentukan PPKI\nPada 7 Agustus 1945 dibentuk **Panitia Persiapan Kemerdekaan Indonesia (PPKI)** atau *Dokuritsu Junbi Inkai*. Sukarno menjadi ketua dan Mohammad Hatta menjadi wakil ketua. Keanggotaan awal berjumlah 21 orang dengan latar wilayah yang lebih beragam.\n\nPPKI dipersiapkan untuk melanjutkan langkah menuju pembentukan negara. Setelah proklamasi, para pemimpin Indonesia menggunakannya untuk mengambil keputusan atas kepentingan bangsa sendiri."
+                },
+                {
+                        "heading": "15. KEKALAHAN JEPANG DAN BERAKHIRNYA PENDUDUKAN",
+                        "content": "## a. Peristiwa penting pada Agustus 1945\n* **6 Agustus 1945**: Amerika Serikat menjatuhkan bom atom di Hiroshima.\n* **8 Agustus 1945**: Uni Soviet menyatakan perang terhadap Jepang, disusul operasi militer di Manchuria.\n* **9 Agustus 1945**: Bom atom kedua dijatuhkan di Nagasaki.\n\nKeputusan Jepang menyerah berkaitan dengan gabungan tekanan militer, kerusakan akibat perang, blokade, serangan bom atom, dan masuknya Uni Soviet ke dalam perang melawan Jepang. Sejarawan masih memperdebatkan bobot masing-masing faktor.\n\n## b. Tanggal penyerahan Jepang\nPada 15 Agustus 1945, Kaisar Hirohito mengumumkan penerimaan penyerahan melalui siaran radio. Dokumen penyerahan resmi ditandatangani pada 2 September 1945 di atas kapal *USS Missouri*. Kedua tanggal tersebut menandai tahapan yang berbeda dalam proses penyerahan. [Sumber: Arsip Nasional Amerika Serikat, “Surrender of Japan”](https://www.archives.gov/milestone-documents/surrender-of-japan).\n\n## c. Keadaan di Indonesia\nKekalahan Jepang membuka kesempatan bagi bangsa Indonesia untuk bertindak. Namun, istilah “kekosongan kekuasaan” (*vacuum of power*) perlu digunakan dengan hati-hati.\n\nTentara Jepang masih berada di Indonesia, masih bersenjata, dan diperintahkan menjaga keadaan (*status quo*) sambil menunggu Sekutu. Artinya, Jepang kehilangan arah dan legitimasi politiknya, tetapi aparat kekuasaannya tidak langsung menghilang.\n\nSituasi inilah yang membuat keputusan memproklamasikan kemerdekaan mengandung risiko dan membutuhkan keberanian besar.\n\n## d. Perbedaan sikap golongan muda dan golongan tua\nGolongan muda mendesak agar kemerdekaan segera diproklamasikan tanpa menunggu mekanisme yang dikaitkan dengan Jepang. Sukarno dan Hatta mempertimbangkan keadaan keamanan serta langkah politik yang perlu dilakukan.\n\nPerbedaan itu berujung pada **Peristiwa Rengasdengklok** tanggal 16 Agustus 1945. Setelah tercapai kesepahaman, persiapan proklamasi dilanjutkan di Jakarta.\n\nPada **17 Agustus 1945**, Sukarno didampingi Mohammad Hatta memproklamasikan kemerdekaan Indonesia.\n\n> Kemerdekaan Indonesia merupakan hasil perjuangan bangsa Indonesia. Kekalahan Jepang menyediakan kesempatan, sedangkan keputusan dan tindakan untuk memproklamasikannya dilakukan oleh bangsa Indonesia."
+                },
+                {
+                        "heading": "16. DAMPAK PENDUDUKAN JEPANG",
+                        "content": "Dampak pendudukan perlu dinilai dengan membedakan penderitaan yang ditimbulkan dari pengalaman yang kemudian dimanfaatkan oleh bangsa Indonesia.\n\n| Bidang | Dampak pada Masa Pendudukan | Pengaruh terhadap Masa Berikutnya |\n| --- | --- | --- |\n| Politik | Kebebasan dibatasi dan masyarakat diawasi ketat | Sebagian tokoh memperoleh ruang untuk memperluas jaringan serta menyiapkan negara |\n| Ekonomi | Eksploitasi, kelangkaan, gangguan perdagangan, dan inflasi | Negara merdeka menghadapi beban pemulihan ekonomi yang berat |\n| Sosial | Pengerahan tenaga, kehilangan anggota keluarga, penyakit, dan kekerasan | Meninggalkan trauma serta persoalan kesejahteraan yang mendalam |\n| Pendidikan | Sarana dan kesempatan belajar terganggu; pendidikan diarahkan untuk perang | Penggunaan bahasa Indonesia semakin meluas sebagai bahasa pengantar nasional |\n| Militer | Pemuda dilatih untuk mendukung pertahanan Jepang | Sebagian pengalaman dimanfaatkan dalam perjuangan mempertahankan kemerdekaan |\n| Kebudayaan | Sensor dan propaganda yang ketat | Bahasa serta sebagian jaringan kebudayaan nasional berkembang dalam ruang yang terbatas |\n| Pemerintahan | Pengendalian militer hingga tingkat lokal | Sebagian orang Indonesia memperoleh pengalaman tata kelola administrasi |\n\nPengalaman berorganisasi atau keterampilan militer yang kemudian bermanfaat tidak membenarkan penjajahan. Hal itu menunjukkan kemampuan bangsa Indonesia menggunakan pengalaman yang diperoleh dalam keadaan penuh tekanan."
+                },
+                {
+                        "heading": "17. CARA MENELAAH SUMBER SEJARAH PENDUDUKAN JEPANG",
+                        "content": "Sumber sejarah dapat berupa peraturan pemerintah, surat kabar, poster propaganda, foto, surat pribadi, kesaksian penyintas, bangunan pertahanan, dan risalah sidang.\n\nSetiap sumber perlu diperiksa dengan beberapa pertanyaan kritis:\n* **Siapa pembuatnya?** Pemerintah pendudukan, penduduk, wartawan, atau penulis setelah peristiwa?\n* **Kapan dibuat?** Saat kejadian berlangsung atau bertahun-tahun kemudian?\n* **Apa tujuannya?** Memberi laporan resmi, membujuk rakyat, mengenang pengalaman, atau membela tindakan?\n* **Apa keterbatasannya?** Apakah terkena sensor militer, hanya melihat satu wilayah tertentu, atau bergantung pada daya ingat?\n* **Apakah sesuai dengan sumber lain?** Selalu bandingkan informasi (verifikasi silang) sebelum menarik kesimpulan.\n\nMisalnya, poster yang menggambarkan pekerja romusha sebagai sosok bahagia dapat menunjukkan citra yang ingin dibangun Jepang. Poster tersebut tidak cukup untuk membuktikan bahwa kehidupan pekerja benar-benar sejahtera. Kesaksian pekerja dan catatan lain dibutuhkan untuk menilai kenyataannya."
+                },
+                {
+                        "heading": "18. KRONOLOGI INTI",
+                        "content": "Garis waktu kronologi peristiwa penting pendudukan Jepang di Indonesia:\n\n| Waktu | Peristiwa |\n| --- | --- |\n| 1868 | Restorasi Meiji dimulai |\n| 1931 | Jepang menduduki Manchuria |\n| 1937 | Perang Jepang–Tiongkok meluas |\n| 7 Desember 1941 waktu Hawaii | Serangan Pearl Harbor |\n| Januari 1942 | Serangan Jepang ke Hindia Belanda berkembang, termasuk Tarakan |\n| 1 Maret 1942 | Pendaratan Jepang di sejumlah tempat di Jawa |\n| 8 Maret 1942 | Kapitulasi Kalijati |\n| 1942 | Gerakan Tiga A dan perlawanan Cot Plieng |\n| 1943 | Pembentukan Putera, Heiho, dan sejumlah organisasi mobilisasi |\n| 3 Oktober 1943 | Pembentukan PETA di Jawa |\n| 1944 | Jawa Hokokai; perlawanan Sukamanah dan Indramayu |\n| 7 September 1944 | Janji Koiso |\n| 14 Februari 1945 | Perlawanan PETA di Blitar |\n| 1 Maret 1945 | Pengumuman rencana pembentukan BPUPK/BPUPKI |\n| 28 Mei 1945 | Pelantikan BPUPK/BPUPKI |\n| 29 Mei–1 Juni 1945 | Sidang pertama |\n| 22 Juni 1945 | Piagam Jakarta |\n| 10–17 Juli 1945 | Sidang kedua |\n| 7 Agustus 1945 | Pembentukan PPKI |\n| 15 Agustus 1945 | Pengumuman penyerahan Jepang |\n| 16 Agustus 1945 | Peristiwa Rengasdengklok |\n| 17 Agustus 1945 | Proklamasi Kemerdekaan Indonesia |\n| 2 September 1945 | Penandatanganan resmi penyerahan Jepang |"
+                },
+                {
+                        "heading": "19. LATIHAN PEMAHAMAN DAN ANALISIS",
+                        "content": "Jawablah dengan menjelaskan hubungan sebab-akibat dan menggunakan contoh peristiwa:\n\n1. Mengapa perkembangan industri dan ambisi militer mendorong Jepang menguasai Indonesia?\n2. Jelaskan hubungan Perang Pasifik, serangan terhadap wilayah penghasil minyak, dan jatuhnya Hindia Belanda.\n3. Mengapa sebagian masyarakat Indonesia awalnya menyambut Jepang, lalu kemudian menentangnya?\n4. Bagaimana pemerintahan militer, Kempeitai, dan tonarigumi membantu Jepang mengendalikan masyarakat?\n5. Bandingkan tujuan Jepang membentuk Putera dengan tujuan tokoh Indonesia yang terlibat di dalamnya.\n6. Jelaskan hubungan penyerahan wajib hasil panen, romusha, dan kesulitan pangan masyarakat.\n7. Apa perbedaan Heiho dan PETA, serta bagaimana pengalaman anggotanya berpengaruh setelah kemerdekaan?\n8. Bandingkan perjuangan melalui organisasi resmi, gerakan bawah tanah, dan perlawanan terbuka.\n9. Mengapa janji kemerdekaan Jepang perlu dipahami dalam hubungannya dengan keadaan perang?\n10. Jelaskan mengapa Proklamasi 17 Agustus 1945 merupakan tindakan bangsa Indonesia, meskipun persiapannya berkaitan dengan lembaga yang dibentuk pada masa Jepang."
+                }
         ],
-        glossary: [
-          { term: 'Koalisi ABCD', def: 'Aliansi Amerika, British (Inggris), China, dan Dutch (Belanda) yang memberlakukan embargo minyak dan bahan mentah total terhadap Jepang pada Juli 1941.' },
-          { term: 'Hakko Ichi-u', def: 'Doktrin religius Shinto yang bermakna delapan penjuru dunia di bawah satu atap, dijadikan legitimasi imperialisme Jepang di Asia.' },
-          { term: 'Nanshin-ron', def: 'Doktrin geopolitik Kekaisaran Jepang untuk berekspansi ke arah selatan guna menguasai sumber daya alam dan minyak bumi di Asia Tenggara.' },
-          { term: 'Kapitulasi Kalijati', def: 'Perjanjian penyerahan kekuasaan tanpa syarat dari Hindia Belanda kepada tentara Jepang pada 8 Maret 1942 di Lanud Kalijati, Subang, Jawa Barat.' },
-          { term: 'Gunsei', def: 'Sistem pemerintahan pendudukan militer darurat perang yang diberlakukan tentara Jepang di Indonesia.' },
-          { term: 'Tonarigumi', def: 'Organisasi rukun tetangga yang beranggotakan 10–20 kepala keluarga yang dibentuk Jepang untuk pengawasan sosial dan distribusi beras, cikal bakal RT/RW.' },
-          { term: 'Seikerei', def: 'Kewajiban membungkukkan tubuh 90 derajat menghadap arah Istana Kaisar di Tokyo (Tenno Heika) sebagai lambang pemuliaan keturunan Dewa Matahari.' },
-          { term: 'Autarki Regional', def: 'Sistem ekonomi tertutup di mana setiap daerah karesidenan diwajibkan memenuhi kebutuhan pangan dan perangnya sendiri tanpa pasokan luar.' },
-          { term: 'Romusha', def: 'Pengerahan jutaan tenaga kerja paksa rakyat bumiputera yang dibingkai sebagai "Prajurit Ekonomi" untuk membangun instalasi militer dan jalur kereta api maut.' },
-          { term: 'Jugun Ianfu', def: 'Praktik perbudakan seksual terorganisir di mana ribuan perempuan muda dipaksa melayani serdadu militer Jepang di rumah bordil militer (Ianjo).' },
-          { term: 'Poetra', def: 'Poesat Tenaga Rakjat, wadah persatuan rakyat bentukan militer Jepang yang dipimpin Empat Serangkai (Sukarno, Hatta, Ki Hajar Dewantara, Mas Mansyur).' },
-          { term: 'Jawa Hokokai', def: 'Himpunan Kebaktian Jawa yang dibentuk pada 1944 dan dipimpin langsung oleh Gunseikan untuk memperketat mobilisasi beras dan Romusha.' },
-          { term: 'PETA', def: 'Tentara Sukarela Pembela Tanah Air, militer teritorial pribumi bentukan Jepang (1943) yang melahirkan korps perwira pendiri TNI seperti Soedirman dan Yani.' },
-          { term: 'Janji Koiso', def: 'Pernyataan resmi PM Kuniaki Koiso pada 7 September 1944 yang menjanjikan kemerdekaan bagi Hindia Timur (Indonesia) di kelak kemudian hari.' },
-          { term: 'BPUPK & PPKI', def: 'Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan dan Panitia Persiapan Kemerdekaan Indonesia yang merumuskan Pancasila dan UUD 1945.' },
-          { term: 'Sishankamrata', def: 'Sistem Pertahanan Keamanan Rakyat Semesta yang berakar dari pengalaman perang rakyat semesta pada masa PETA dan Revolusi Kemerdekaan.' }
+        "glossary": [
+                {
+                        "term": "ABDACOM",
+                        "def": "Komando gabungan Amerika Serikat, Inggris, Belanda, dan Australia yang dibentuk untuk menghadapi serangan Jepang di kawasan Asia Tenggara pada awal 1942."
+                },
+                {
+                        "term": "Angkatan Darat Jepang / Rikugun",
+                        "def": "Cabang militer darat Jepang yang menguasai wilayah seperti Jawa, Madura, dan Sumatra melalui komando yang berbeda."
+                },
+                {
+                        "term": "Angkatan Laut Jepang / Kaigun",
+                        "def": "Cabang militer laut Jepang yang menguasai Kalimantan dan sebagian besar kawasan timur Indonesia."
+                },
+                {
+                        "term": "Autarki",
+                        "def": "Kebijakan mengusahakan pemenuhan kebutuhan sendiri. Pada masa pendudukan, daerah diarahkan memenuhi kebutuhan setempat sekaligus menopang kepentingan Jepang."
+                },
+                {
+                        "term": "Barisan Pelopor",
+                        "def": "Sebutan Indonesia untuk Suishintai, organisasi yang membantu menggerakkan masyarakat dalam mobilisasi perang Jepang."
+                },
+                {
+                        "term": "Birokrasi",
+                        "def": "Susunan lembaga dan pegawai yang menjalankan administrasi serta kebijakan pemerintahan."
+                },
+                {
+                        "term": "Blokade",
+                        "def": "Tindakan menghalangi jalur pengangkutan atau perdagangan untuk melemahkan pihak lawan."
+                },
+                {
+                        "term": "BPUPK / BPUPKI",
+                        "def": "Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan, umum disebut BPUPKI dalam buku pelajaran; membahas dasar negara dan rancangan ketatanegaraan menjelang kemerdekaan."
+                },
+                {
+                        "term": "Chuo Sangi In",
+                        "def": "Badan pertimbangan pusat yang dibentuk Jepang di Jawa pada 1943 untuk memberi masukan atas persoalan yang diajukan pemerintah militer."
+                },
+                {
+                        "term": "Ekonomi perang",
+                        "def": "Pengaturan kegiatan ekonomi dengan mengutamakan kebutuhan militer dan keberlangsungan perang."
+                },
+                {
+                        "term": "Ekspansi",
+                        "def": "Perluasan wilayah kekuasaan atau pengaruh suatu negara."
+                },
+                {
+                        "term": "Eksploitasi",
+                        "def": "Pemanfaatan sumber daya alam atau tenaga manusia secara tidak adil untuk keuntungan pihak yang berkuasa."
+                },
+                {
+                        "term": "Empat Serangkai",
+                        "def": "Sebutan bagi Sukarno, Mohammad Hatta, Ki Hajar Dewantara, dan K.H. Mas Mansur sebagai pemimpin Putera."
+                },
+                {
+                        "term": "Fasisme",
+                        "def": "Paham politik otoriter yang menekankan nasionalisme ekstrem, kepatuhan kepada pemimpin, serta penindasan terhadap kebebasan dan oposisi."
+                },
+                {
+                        "term": "Fujinkai",
+                        "def": "Organisasi perempuan bentukan Jepang yang menjalankan kegiatan sosial dan pengerahan bantuan bagi kebutuhan perang."
+                },
+                {
+                        "term": "Gerakan bawah tanah",
+                        "def": "Kegiatan perjuangan yang dilakukan secara rahasia untuk menghindari pengawasan dan penindakan penguasa."
+                },
+                {
+                        "term": "Gerakan Tiga A",
+                        "def": "Organisasi propaganda dengan semboyan Nippon Cahaya Asia, Nippon Pelindung Asia, dan Nippon Pemimpin Asia."
+                },
+                {
+                        "term": "Giyugun",
+                        "def": "Kesatuan tentara sukarela bentukan Jepang yang berkembang di Sumatra untuk kepentingan pertahanan."
+                },
+                {
+                        "term": "Golongan muda",
+                        "def": "Sebutan bagi kelompok pemuda yang, menjelang proklamasi, mendesak kemerdekaan segera dinyatakan tanpa menunggu mekanisme yang dikaitkan dengan Jepang."
+                },
+                {
+                        "term": "Golongan tua",
+                        "def": "Sebutan dalam konteks menjelang proklamasi bagi pemimpin senior, terutama Sukarno dan Hatta, yang mempertimbangkan langkah politik serta keamanan dalam pelaksanaan kemerdekaan."
+                },
+                {
+                        "term": "Gun",
+                        "def": "Satuan administratif pada masa Jepang di Jawa yang kurang lebih setingkat kewedanaan."
+                },
+                {
+                        "term": "Hakko Ichiu",
+                        "def": "Gagasan yang digunakan Jepang untuk membenarkan penyatuan dunia di bawah kepemimpinan kekaisaran Jepang."
+                },
+                {
+                        "term": "Heiho",
+                        "def": "Pasukan pembantu dari penduduk Indonesia yang menjadi bagian dari struktur kesatuan militer Jepang."
+                },
+                {
+                        "term": "Hindia Belanda",
+                        "def": "Nama wilayah kolonial yang dikuasai Belanda sebelum pendudukan Jepang, mencakup sebagian besar wilayah Indonesia sekarang."
+                },
+                {
+                        "term": "Hizbullah",
+                        "def": "Organisasi latihan pemuda Islam yang berkembang menjelang akhir pendudukan Jepang dan kemudian berperan dalam perjuangan kemerdekaan."
+                },
+                {
+                        "term": "Imperialisme",
+                        "def": "Usaha suatu negara memperluas dan mempertahankan penguasaan atas wilayah atau kehidupan bangsa lain."
+                },
+                {
+                        "term": "Inflasi",
+                        "def": "Kenaikan harga barang dan jasa secara umum yang menyebabkan daya beli uang menurun."
+                },
+                {
+                        "term": "Interniran",
+                        "def": "Orang yang ditempatkan dalam penahanan khusus, terutama pada masa perang, berdasarkan kebijakan penguasa terhadap kelompok tertentu."
+                },
+                {
+                        "term": "Janji Koiso",
+                        "def": "Pernyataan Perdana Menteri Kuniaki Koiso pada 7 September 1944 bahwa Hindia Timur akan memperoleh kemerdekaan pada kemudian hari."
+                },
+                {
+                        "term": "Jawa Hokokai",
+                        "def": "Himpunan Kebaktian Jawa, organisasi yang dibentuk pada 1944 untuk mengerahkan pengabdian dan sumber daya masyarakat bagi Jepang."
+                },
+                {
+                        "term": "Jugun ianfu",
+                        "def": "Istilah yang digunakan dalam sejumlah sumber bagi perempuan dalam sistem eksploitasi seksual militer Jepang; pembahasannya harus mengakui pemaksaan dan menghormati korban."
+                },
+                {
+                        "term": "Kapitulasi",
+                        "def": "Penyerahan pihak yang kalah kepada pihak lawan, terutama dalam konteks peperangan."
+                },
+                {
+                        "term": "Kapitulasi Kalijati",
+                        "def": "Penyerahan tanpa syarat pihak militer Hindia Belanda kepada Jepang pada 8 Maret 1942 di Kalijati, Subang."
+                },
+                {
+                        "term": "Keibodan",
+                        "def": "Organisasi pembantu kepolisian bentukan Jepang yang menjalankan tugas seperti penjagaan dan ketertiban."
+                },
+                {
+                        "term": "Keimin Bunka Shidosho",
+                        "def": "Lembaga yang dibentuk Jepang untuk membina sekaligus mengarahkan kegiatan kebudayaan sesuai kepentingan pendudukan."
+                },
+                {
+                        "term": "Kemakmuran Bersama Asia Timur Raya",
+                        "def": "Gagasan propaganda Jepang mengenai kerja sama dan kemakmuran Asia yang dalam pelaksanaannya menempatkan Jepang sebagai pengendali."
+                },
+                {
+                        "term": "Kempeitai",
+                        "def": "Polisi militer Jepang yang menjalankan pengawasan, pemeriksaan, dan penindakan terhadap pihak yang dianggap mengancam kekuasaan Jepang."
+                },
+                {
+                        "term": "Ken",
+                        "def": "Satuan administratif pada masa Jepang di Jawa yang kurang lebih setingkat kabupaten."
+                },
+                {
+                        "term": "KNIL",
+                        "def": "Tentara kolonial Hindia Belanda. Sebagian mantan anggotanya kemudian bergabung dalam pembentukan kekuatan militer Indonesia setelah kemerdekaan."
+                },
+                {
+                        "term": "Kolonialisme",
+                        "def": "Penguasaan suatu wilayah dan penduduknya oleh negara lain untuk kepentingan negara penjajah."
+                },
+                {
+                        "term": "Kooperatif",
+                        "def": "Sikap atau taktik bekerja melalui lembaga yang diizinkan penguasa untuk mencapai tujuan tertentu; dalam perjuangan Indonesia dapat digunakan untuk membuka ruang gerak politik."
+                },
+                {
+                        "term": "Kronologi",
+                        "def": "Urutan peristiwa berdasarkan waktu terjadinya."
+                },
+                {
+                        "term": "Ku",
+                        "def": "Satuan administratif pada masa Jepang di Jawa yang kurang lebih setingkat desa."
+                },
+                {
+                        "term": "Laskar",
+                        "def": "Kelompok perjuangan bersenjata yang dibentuk oleh unsur masyarakat, terutama dalam masa revolusi kemerdekaan."
+                },
+                {
+                        "term": "Logistik",
+                        "def": "Persediaan, pengangkutan, dan pengelolaan kebutuhan seperti makanan, bahan bakar, obat, serta perlengkapan."
+                },
+                {
+                        "term": "Masyumi",
+                        "def": "Majelis Syuro Muslimin Indonesia, organisasi Islam yang dibentuk pada masa pendudukan Jepang pada 1943; berbeda konteks kelembagaannya dari Partai Masyumi setelah kemerdekaan."
+                },
+                {
+                        "term": "MIAI",
+                        "def": "Majelis Islam A’la Indonesia, wadah kerja sama organisasi Islam yang telah berdiri sebelum pendudukan Jepang."
+                },
+                {
+                        "term": "Militerisme",
+                        "def": "Dominannya pengaruh, kepentingan, dan nilai-nilai militer dalam pemerintahan serta kehidupan masyarakat."
+                },
+                {
+                        "term": "Mobilisasi",
+                        "def": "Pengerahan manusia, barang, dana, atau sumber daya untuk mencapai tujuan tertentu, terutama kebutuhan perang."
+                },
+                {
+                        "term": "Nasionalisme",
+                        "def": "Kesadaran sebagai bagian dari suatu bangsa yang disertai kehendak memperjuangkan kepentingan dan kebebasan bangsa tersebut."
+                },
+                {
+                        "term": "Nippon",
+                        "def": "Sebutan untuk Jepang dalam bahasa Jepang."
+                },
+                {
+                        "term": "Panitia Sembilan",
+                        "def": "Panitia beranggotakan sembilan tokoh yang merumuskan Piagam Jakarta pada 22 Juni 1945."
+                },
+                {
+                        "term": "Pasar gelap",
+                        "def": "Kegiatan jual beli di luar aturan atau saluran resmi, yang sering berkembang ketika barang langka dan distribusi dibatasi."
+                },
+                {
+                        "term": "Pearl Harbor",
+                        "def": "Pangkalan Amerika Serikat di Hawaii yang diserang Jepang pada 7 Desember 1941 waktu setempat."
+                },
+                {
+                        "term": "Pemerintahan militer",
+                        "def": "Pemerintahan yang kekuasaan utamanya dijalankan oleh pihak militer."
+                },
+                {
+                        "term": "Pendudukan",
+                        "def": "Penguasaan suatu wilayah oleh kekuatan militer asing."
+                },
+                {
+                        "term": "Penyerahan wajib hasil panen",
+                        "def": "Kewajiban menyerahkan sebagian hasil pertanian kepada pemerintah pendudukan melalui mekanisme yang ditetapkan penguasa."
+                },
+                {
+                        "term": "Perang Dunia II",
+                        "def": "Perang global pada 1939–1945 yang melibatkan banyak negara; perang Jepang di Asia telah berkembang sebelum 1939."
+                },
+                {
+                        "term": "Perang Pasifik",
+                        "def": "Bagian dari Perang Dunia II yang mempertemukan Jepang dengan Sekutu di kawasan Asia dan Samudra Pasifik."
+                },
+                {
+                        "term": "Peristiwa Mandor",
+                        "def": "Rangkaian penangkapan dan pembunuhan oleh Jepang terhadap berbagai unsur masyarakat di Kalimantan Barat pada masa pendudukan."
+                },
+                {
+                        "term": "Peristiwa Rengasdengklok",
+                        "def": "Peristiwa dibawanya Sukarno dan Hatta ke Rengasdengklok pada 16 Agustus 1945 dalam konteks desakan pemuda agar proklamasi segera dilaksanakan."
+                },
+                {
+                        "term": "PETA",
+                        "def": "Pembela Tanah Air, kesatuan pertahanan lokal bentukan Jepang yang memberikan pendidikan militer kepada orang Indonesia."
+                },
+                {
+                        "term": "Piagam Jakarta",
+                        "def": "Naskah hasil perumusan Panitia Sembilan pada 22 Juni 1945 yang menjadi bagian penting dalam proses penyusunan Pembukaan UUD 1945."
+                },
+                {
+                        "term": "PPKI",
+                        "def": "Panitia Persiapan Kemerdekaan Indonesia, dibentuk pada 7 Agustus 1945 dan kemudian mengambil keputusan penting bagi pembentukan negara setelah proklamasi."
+                },
+                {
+                        "term": "Proklamasi",
+                        "def": "Pernyataan resmi kepada masyarakat luas; Proklamasi 17 Agustus 1945 menyatakan kemerdekaan Indonesia."
+                },
+                {
+                        "term": "Propaganda",
+                        "def": "Penyampaian pesan secara terencana untuk memengaruhi pandangan dan tindakan masyarakat sesuai tujuan pembuatnya."
+                },
+                {
+                        "term": "Putera",
+                        "def": "Pusat Tenaga Rakyat, organisasi bentukan Jepang pada 1943 yang dipimpin oleh Empat Serangkai."
+                },
+                {
+                        "term": "Restorasi Meiji",
+                        "def": "Perubahan politik sejak 1868 yang mengawali pembaruan besar pemerintahan, pendidikan, industri, dan militer Jepang."
+                },
+                {
+                        "term": "Risalah sidang",
+                        "def": "Catatan mengenai pembicaraan, jalannya pembahasan, dan keputusan dalam suatu persidangan."
+                },
+                {
+                        "term": "Romusha",
+                        "def": "Secara harfiah berarti pekerja; dalam konteks pendudukan Jepang di Indonesia terutama merujuk pada tenaga kerja yang dikerahkan dengan tekanan atau paksaan."
+                },
+                {
+                        "term": "Seikerei",
+                        "def": "Penghormatan dengan membungkukkan badan ke arah istana kaisar Jepang, yang menjadi bagian dari penanaman kesetiaan kepada kaisar."
+                },
+                {
+                        "term": "Seinendan",
+                        "def": "Organisasi pemuda bentukan Jepang yang memberikan latihan kedisiplinan dan keterampilan dasar untuk mendukung pertahanan."
+                },
+                {
+                        "term": "Sekutu",
+                        "def": "Persekutuan negara-negara yang melawan blok Poros dalam Perang Dunia II, termasuk Amerika Serikat, Inggris, dan Uni Soviet."
+                },
+                {
+                        "term": "Semimiliter",
+                        "def": "Sifat organisasi yang menjalankan sebagian latihan dan tata kedisiplinan militer, tetapi tidak berkedudukan sama dengan tentara reguler."
+                },
+                {
+                        "term": "Sensor",
+                        "def": "Pemeriksaan dan pembatasan informasi atau karya sebelum disebarkan kepada masyarakat."
+                },
+                {
+                        "term": "Shumubu",
+                        "def": "Kantor urusan agama dalam pemerintahan pendudukan Jepang di Jawa."
+                },
+                {
+                        "term": "Son",
+                        "def": "Satuan administratif pada masa Jepang di Jawa yang kurang lebih setingkat kecamatan."
+                },
+                {
+                        "term": "Status quo",
+                        "def": "Keadaan yang sedang berlaku dan dipertahankan; setelah Jepang menyerah, tentaranya diperintahkan menjaga keadaan sambil menunggu Sekutu."
+                },
+                {
+                        "term": "Suishintai",
+                        "def": "Nama Jepang untuk Barisan Pelopor, organisasi penggerak masyarakat dalam mobilisasi masa pendudukan."
+                },
+                {
+                        "term": "Sumber sejarah",
+                        "def": "Jejak atau keterangan mengenai masa lalu yang digunakan untuk menyusun pengetahuan sejarah."
+                },
+                {
+                        "term": "Sumber primer",
+                        "def": "Sumber yang berasal dari masa atau pelaku yang berkaitan langsung dengan peristiwa yang diteliti, seperti arsip, surat, foto, dan kesaksian tertentu."
+                },
+                {
+                        "term": "Sumber sekunder",
+                        "def": "Karya yang membahas atau menafsirkan peristiwa berdasarkan sumber lain, seperti buku kajian sejarah."
+                },
+                {
+                        "term": "Syu",
+                        "def": "Satuan administratif pada masa Jepang di Jawa yang kurang lebih setingkat karesidenan."
+                },
+                {
+                        "term": "Tonarigumi",
+                        "def": "Kelompok lingkungan bentukan Jepang untuk membantu pengawasan, penyampaian perintah, dan mobilisasi masyarakat."
+                }
         ],
-        reflectionQuestions: [
-          'Bagaimana pelajaran kepemimpinan taktis para tokoh Empat Serangkai yang secara cerdik memanfaatkan mimbar Poetra dan radio resmi Jepang untuk mengonsolidasikan nasionalisme rakyat tanpa memicu kecurigaan fasis militer?',
-          'Penolakan K.H. Zaenal Mustafa dan Teungku Abdul Djalil terhadap upacara Seikerei membuktikan keteguhan memegang prinsip tauhid di atas ancaman kekerasan. Bagaimana keteguhan integritas moral serupa diterapkan dalam menolak korupsi dan ketidakjujuran di dunia kerja modern?',
-          'Krisis embargo minyak bumi oleh koalisi ABCD menjadi pemicu Perang Pasifik. Apa pelajaran krusial bagi generasi muda Indonesia dalam membangun ketahanan energi mandiri berbasis energi terbarukan di era transisi hijau saat ini?'
+        "reflectionQuestions": [
+                "Mengapa perkembangan industri dan ambisi militer mendorong Jepang menguasai Indonesia?",
+                "Jelaskan hubungan Perang Pasifik, serangan terhadap wilayah penghasil minyak, dan jatuhnya Hindia Belanda.",
+                "Mengapa sebagian masyarakat Indonesia awalnya menyambut Jepang, lalu kemudian menentangnya?",
+                "Bagaimana pemerintahan militer, Kempeitai, dan tonarigumi membantu Jepang mengendalikan masyarakat?",
+                "Bandingkan tujuan Jepang membentuk Putera dengan tujuan tokoh Indonesia yang terlibat di dalamnya.",
+                "Jelaskan hubungan penyerahan wajib hasil panen, romusha, dan kesulitan pangan masyarakat.",
+                "Apa perbedaan Heiho dan PETA, serta bagaimana pengalaman anggotanya berpengaruh setelah kemerdekaan?",
+                "Bandingkan perjuangan melalui organisasi resmi, gerakan bawah tanah, dan perlawanan terbuka.",
+                "Mengapa janji kemerdekaan Jepang perlu dipahami dalam hubungannya dengan keadaan perang?",
+                "Jelaskan mengapa Proklamasi 17 Agustus 1945 merupakan tindakan bangsa Indonesia, meskipun persiapannya berkaitan dengan lembaga yang dibentuk pada masa Jepang."
         ]
-      },
+},
       {
         id: 'smk-xi-2',
         title: 'Proklamasi Kemerdekaan Republik Indonesia',
